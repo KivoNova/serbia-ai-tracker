@@ -311,9 +311,10 @@
         let stats = { Positive: 0, Negative: 0, Neutral: 0 };
         let parsedCount = 0;
         
-        // 【新增防重复判定机制】跟踪已经流入展示的特定新闻
-        let shownItems = new Set();
+        // 【历史阅览记忆机制】使用 localStorage 持久化记录该设备见过的老新闻
+        let seenNewsCache = JSON.parse(localStorage.getItem('serbia_seen_news') || '[]');
         let feedInterval = null;
+        let pendingUnseenPool = []; // 队列：用来存放还没播过的新增新闻
 
         // 【第二阶段更新/核心过滤引擎】计算对应分类池
         function getFilteredPool() {
@@ -341,20 +342,46 @@
             document.getElementById('feed-container').innerHTML = '';
             stats = { Positive: 0, Negative: 0, Neutral: 0 };
             parsedCount = 0;
-            shownItems.clear(); // 当切换赛道时，重置“已展出数据记录”，以便能重新看见
             
-            if (feedInterval) clearInterval(feedInterval);
+            if (feedInterval) {
+                clearInterval(feedInterval);
+                feedInterval = null;
+            }
             
             const pool = getFilteredPool();
             
             if (pool.length > 0) {
-                // 不再瞬间全部填充，而是采取渐进式流水线的推入，初始只压入第1条
-                pushUniqueNewsItem(pool);
+                // 将数据分为两组：“存量老新闻” 和 “增量新新闻”
+                const seenItems = [];
+                pendingUnseenPool = [];
                 
-                // 再按节拍推送剩下的
-                feedInterval = setInterval(() => {
-                    pushUniqueNewsItem(pool);
-                }, 3000);
+                pool.forEach(item => {
+                    // 使用原文字符串前20个字符及其长度作为独一无二的新闻防重指纹
+                    const fingerprint = item.original.substring(0, 20) + "_" + item.original.length;
+                    if (seenNewsCache.includes(fingerprint)) {
+                        seenItems.push(item);
+                    } else {
+                        item._fingerprint = fingerprint; 
+                        pendingUnseenPool.push(item);
+                    }
+                });
+
+                // 1. 无需等待，瞬间渲染所有【已读老新闻】，保留浏览状态
+                seenItems.forEach(item => {
+                    injectNewsToDOM(item, false); // false 代表静默加载（无动画）
+                });
+
+                // 2. 将【未读新新闻】按时间节拍一条条播报出来
+                if (pendingUnseenPool.length > 0) {
+                    popAndInjectNewNews();
+                    feedInterval = setInterval(() => {
+                        popAndInjectNewNews();
+                    }, 3000);
+                }
+                
+                renderStats();
+                updateTrend();
+
             } else {
                 document.getElementById('feed-container').innerHTML = '<div class="text-center p-8 text-slate-500 text-sm">此赛道当前时间段暂无解析数据</div>';
                 renderStats();
@@ -362,30 +389,46 @@
             }
         }
 
-        // 挑选并推送“从未展示过的”独特新闻记录
-        function pushUniqueNewsItem(pool) {
-            const availableItems = pool.filter(item => !shownItems.has(item));
-            
-            if(availableItems.length === 0) {
-                // 如果目前池子里没有新闻了，不再重复填补，自动停止定时发牌器
+        function popAndInjectNewNews() {
+            if (pendingUnseenPool.length === 0) {
                 if (feedInterval) clearInterval(feedInterval);
                 return;
             }
             
-            // 任意或按序拿出一个全新的
-            const newEvent = availableItems[Math.floor(Math.random() * availableItems.length)];
-            shownItems.add(newEvent); // 录入“已曝光黑名单”
+            // 随机抽出一条全新新闻呈现
+            const randomIndex = Math.floor(Math.random() * pendingUnseenPool.length);
+            const newEvent = pendingUnseenPool.splice(randomIndex, 1)[0];
             
-            stats[newEvent.sentiment]++;
+            // 记录到已读缓存中并保存到本地硬盘
+            seenNewsCache.push(newEvent._fingerprint);
+            
+            // 为避免 localStorage 撑爆浏览器，限制只存最近 500 条记录
+            if (seenNewsCache.length > 500) {
+                seenNewsCache = seenNewsCache.slice(seenNewsCache.length - 500);
+            }
+            localStorage.setItem('serbia_seen_news', JSON.stringify(seenNewsCache));
+            
+            injectNewsToDOM(newEvent, true);
+        }
+
+        // 核心装载器
+        function injectNewsToDOM(item, useAnimation) {
+            stats[item.sentiment]++;
             parsedCount++;
             
             const container = document.getElementById('feed-container');
-            const el = createFeedItem(newEvent);
+            const el = createFeedItem(item);
             
-            // 动画插入瀑布流头部
+            if (!useAnimation) {
+                // 如果是历史静默加载，直接去掉带有延时的掉落动画 class
+                el.classList.remove('feed-item'); 
+            }
+            
+            // 插入瀑布流头部
             container.prepend(el);
             
-            if (container.children.length > 20) {
+            // 控制最大条数
+            if (container.children.length > 50) {
                 container.lastElementChild.remove();
             }
 
