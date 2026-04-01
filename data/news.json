@@ -27,7 +27,7 @@
         "lang": "塞尔维亚语",
         "targetLang": "sr",
         "original": "TOALET OD 23 MILIONA! NASA otkrila detalje o putu ka Mesecu: Šta astronauti nose, šta će da jedu i kako će da PREŽIVE MISIJU DUGU 10 DANA. Šta će astronauti misije “Artemis II” nositi u svemir, kako će se hraniti tokom 10-dnevnog putovanja – i kako će ići u toalet? Iako četvoro astronauta u kapsuli smeštenoj u džinovskoj raketi neće sleteti na površinu Zemljinog satelita, oni će napraviti značajan korak ka tom cilju, a njihovo istorijsko putovanje - tokom kojeg će uživo videti daleku stranu Meseca - prati još mnogo zanimljivih detalja.",
-        "zhSummary": "2300万个厕所！ NASA 透露了登月之旅的细节：宇航员穿什么、吃什么以及如何在 10 天的任务中生存下来。阿耳忒弥斯二号宇航员将携带什么进入太空，在这 10 天的旅程中他们将如何饮食，以及他们将如何上厕所？尽管乘坐巨型火箭的太空舱中的四名宇航员不会降落在地球卫星表面，但他们将朝着这一目标迈出重要一步，而他们的历史性旅程 - 在此期间他们将看到月球的背面 - 伴随着许多更有趣的细节。",
+        "zhSummary": "2300万个厕所！ NASA 透露了登月之旅的细节：宇航员穿什么、吃什么以及如何在 10 天的任务中生存下来。阿耳忒弥斯二号宇航员将携带什么进入太空，在这 10 天的旅程中他们将如何饮食，以及如何上厕所？尽管乘坐巨型火箭的太空舱中的四名宇航员不会降落在地球卫星表面，但他们将朝着这一目标迈出重要一步，而他们的历史性旅程 - 在此期间他们将看到月球的背面 - 伴随着许多更有趣的细节。",
         "sentiment": "Positive",
         "category": "Tech",
         "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '23 MILLION TOILET! NASA revealed the details of the journey to the moon: What th...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
@@ -238,8 +238,8 @@
         "original": "Pametni telefoni u Kini imaju ogromne baterije, mi u Evropi o takvim baterijama možemo samo da sanjamo. Baterija pametnog telefona, njen kapacitet i brzina punjenja spadaju među najvažnije faktore pri izboru novog uređaja. Međutim, u Evropi smo po tom pitanju prilično ograničeni – u Kini telefoni imaju ogromne baterije o kojima možemo samo da sanjamo. Razlog za to nije očigledan.",
         "zhSummary": "中国的智能手机拥有巨大的电池，我们欧洲人只能梦想这样的电池。智能手机电池、容量和充电速度是选择新设备时最重要的因素之一。然而，在欧洲，我们在这方面相当有限——在中国，手机拥有我们只能梦想的大电池。其原因尚不清楚。",
         "sentiment": "Positive",
-        "category": "Finance",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Smartphones in China have huge batteries, we in Europe can only dream of such ba...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Finance 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "category": "Energy",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Smartphones in China have huge batteries, we in Europe can only dream of such ba...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Energy 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Tech",
@@ -260,7 +260,7 @@
         "original": "Ovo je laptop koji ima dva ekrana: Evo kako radi futuristički Zenbook Duo. Godinama je klasičan laptop bio dovoljan za većinu nas. Ako nam je bio potreban veći radni prostor, mogli smo da povežemo dodatni monitor. Međutim, u vremenu kada su mobilnost i sloboda rada sa maksimalnom produktivnošću sa bilo kog mesta ključni, takav model više nije dovoljan. Novi ASUS Zenbook Duo odgovara potrebama korisnika koji ne žele da „veliki radni prostor“ automatski znači vezanost za jedno mesto.",
         "zhSummary": "这是一台有两个屏幕的笔记本电脑：以下是未来派 Zenbook Duo 的工作原理。多年来，一台经典的笔记本电脑对我们大多数人来说就足够了。如果我们需要更大的工作空间，我们可以连接额外的显示器。然而，当移动性和随时随地以最大生产力工作的自由成为关键时，这种模式已不再足够。新款华硕 Zenbook Duo 满足了那些不希望“大工作空间”自动意味着被束缚在一个地方的用户的需求。",
         "sentiment": "Positive",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'This is a laptop that has two screens: Here's how the futuristic Zenbook Duo wor...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 All 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "category": "Energy",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'This is a laptop that has two screens: Here's how the futuristic Zenbook Duo wor...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Energy 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     }
 ]
