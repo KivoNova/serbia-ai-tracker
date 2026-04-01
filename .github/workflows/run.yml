@@ -1,0 +1,35 @@
+name: AI Scraper Cron (API-Free)
+
+on:
+  schedule:
+    - cron: '30 */4 * * *' # 每 4 小时在云端机房挂靠执行一次
+  workflow_dispatch: # 该指令允许你在 GitHub 的 Actions 网页界面上手动无限次点击运行起步测试！
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 获取个人源码库
+      uses: actions/checkout@v3
+
+    - name: 挂靠组装轻量微型 Python 沙箱算力
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: 极限白嫖开源模块依赖 (离线深译接口 + VADER硬打分)
+      run: |
+        pip install requests beautifulsoup4 feedparser deep-translator vaderSentiment
+        
+    - name: 👉 启动核心跨语言金融清洗流引擎
+      run: |
+        python report.py # 注意：由于没有 API Key，这可能需要几十秒的免费网页防刷缓冲运转
+        
+    - name: 重混最终数据流并自动提交（反哺 Cloudflare）
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add data/news.json public/feed_data.js
+        git commit -m "chore(auto): 引擎定时清洗结束提取新热点" || exit 0
+        git push

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>塞尔维亚金融情绪预测系统 (预测分析控制台)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        darkBg: '#020617',
+                        glass: 'rgba(30, 41, 59, 0.65)',
+                        glassBorder: 'rgba(255, 255, 255, 0.08)',
+                        brandUp: '#10b981',
+                        brandDown: '#ef4444',
+                        brandNeutral: '#f59e0b',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: linear-gradient(135deg, #020617 0%, #0f172a 100%);
+            color: #e2e8f0;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        /* 玻璃拟物化面板 */
+        .glass-panel {
+            background: var(--glass, rgba(30, 41, 59, 0.65));
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--glassBorder, rgba(255, 255, 255, 0.08));
+            border-radius: 1.25rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: all 0.3s ease;
+        }
+
+        .glass-panel:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        /* 自定义滚动条 */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        /* 动画 */
+        @keyframes pulse-glow {
+            0%, 100% { opacity: 1; text-shadow: 0 0 10px currentColor; }
+            50% { opacity: 0.6; text-shadow: none; }
+        }
+        .animate-glow {
+            animation: pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+
+        @keyframes feed-in {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .feed-item {
+            animation: feed-in 0.5s ease forwards;
+        }
+
+        /* 状态标识 */
+        .tag-up { background-color: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+        .tag-down { background-color: rgba(239, 68, 68, 0.15); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3); }
+        .tag-neutral { background-color: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
+    </style>
+    <script src="feed_data.js"></script>
+</head>
+<body class="p-4 md:p-8">
+
+    <!-- 顶部导航条 -->
+    <header class="flex flex-col md:flex-row justify-between items-center mb-6 glass-panel py-4 px-6">
+        <div class="flex items-center gap-4">
+            <div class="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center font-bold text-xl shadow-[0_0_15px_rgba(37,99,235,0.5)]">
+                S
+            </div>
+            <div>
+                <h1 class="text-xl font-bold tracking-wide text-white">塞尔维亚商业趋势预测大脑</h1>
+                <p class="text-xs text-slate-400">公开数据抓取多语言节点 (Demo v3)</p>
+            </div>
+        </div>
+        <div class="flex items-center gap-4 mt-4 md:mt-0">
+            <div class="flex items-center gap-2">
+                <span class="relative flex h-3 w-3">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
+                </span>
+                <span class="text-sm text-slate-300">系统在线 · 数据独播解耦中</span>
+            </div>
+            <div class="text-sm font-mono bg-slate-800 px-3 py-1 rounded border border-slate-700" id="clock">
+                --:--:--
+            </div>
+        </div>
+    </header>
+
+    <!-- 行业赛道过滤器 -->
+    <div class="mb-6 flex gap-3 overflow-x-auto pb-2 scrollbar-hide" id="category-filters">
+        <button class="px-5 py-2 rounded-full bg-blue-600 text-white text-sm font-medium shadow-[0_0_10px_rgba(37,99,235,0.4)] transition-all whitespace-nowrap" onclick="filterCategory('All', this)">全盘商业大盘综合</button>
+        <button class="px-5 py-2 rounded-full bg-slate-800 text-slate-300 text-sm font-medium hover:bg-slate-700 transition-all border border-slate-700 whitespace-nowrap" onclick="filterCategory('Energy', this)">⚡ 能源危机追踪</button>
+        <button class="px-5 py-2 rounded-full bg-slate-800 text-slate-300 text-sm font-medium hover:bg-slate-700 transition-all border border-slate-700 whitespace-nowrap" onclick="filterCategory('Tech', this)">💻 科技产业/裁员潮</button>
+        <button class="px-5 py-2 rounded-full bg-slate-800 text-slate-300 text-sm font-medium hover:bg-slate-700 transition-all border border-slate-700 whitespace-nowrap" onclick="filterCategory('Finance', this)">🏦 银行/通胀博弈</button>
+    </div>
+
+    <!-- 顶层核心指标 -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        
+        <!-- 综合市场趋势 -->
+        <div class="glass-panel p-6 flex flex-col justify-between relative overflow-hidden group">
+            <div class="absolute -right-6 -top-6 w-32 h-32 bg-brandUp rounded-full opacity-5 blur-2xl group-hover:opacity-10 transition-opacity" id="trend-bg-glow"></div>
+            <h2 class="text-sm text-slate-400 font-medium mb-1">AI 动态重组市场趋势</h2>
+            <div class="flex items-baseline gap-3">
+                <span class="text-4xl font-black text-brandUp animate-glow" id="market-trend">UP</span>
+                <span class="text-sm text-slate-300" id="trend-desc">基于最新新闻情绪看多</span>
+            </div>
+            <div class="mt-4 flex gap-2">
+                <span class="text-xs px-2 py-1 rounded bg-slate-800 border border-slate-700 text-slate-300" id="current-track-tag">当前赛道: 全部</span>
+                <span class="text-xs px-2 py-1 rounded bg-slate-800 border border-slate-700 text-slate-300">置信聚合: 94%</span>
+            </div>
+        </div>
+
+        <!-- BELEX15 Index -->
+        <div class="glass-panel p-6 flex flex-col justify-between">
+            <div class="flex justify-between items-start">
+                <h2 class="text-sm text-slate-400 font-medium mb-1">贝尔格莱德交易所 (BELEX15)</h2>
+                <span class="text-xs text-brandDown flex items-center">▼ 0.42%</span>
+            </div>
+            <div class="text-3xl font-bold font-mono">1,134.20 <span class="text-sm text-slate-500">RSD</span></div>
+            <div class="mt-4 text-xs text-slate-400">公开 API 数据拉取延迟: 15ms</div>
+        </div>
+
+        <!-- EUR/RSD Exchange -->
+        <div class="glass-panel p-6 flex flex-col justify-between">
+            <div class="flex justify-between items-start">
+                <h2 class="text-sm text-slate-400 font-medium mb-1">欧元/第纳尔 (EUR/RSD) - 央行(NBS)</h2>
+                <span class="text-xs text-brandUp flex items-center">▲ 0.05%</span>
+            </div>
+            <div class="text-3xl font-bold font-mono">117.15 <span class="text-sm text-slate-500">中准汇率</span></div>
+            <div class="mt-4 text-xs text-slate-400">通胀提示: 处于稳定区间</div>
+        </div>
+
+    </div>
+
+    <!-- 主数据区域 -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        
+        <!-- 左侧：多语言数据抓取与实时解析流 -->
+        <div class="lg:col-span-2 glass-panel p-6">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-lg font-bold text-white flex items-center gap-2">
+                    <svg class="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                    实时分析流 <span class="text-xs font-normal text-slate-400 ml-2">(完全无重复注入，点击详情溯源)</span>
+                </h2>
+                <div class="flex gap-2">
+                    <span class="text-xs bg-slate-800 border border-slate-700 px-2 py-1 rounded text-slate-300">当前筛选池总量: <span id="total-parsed" class="text-white font-bold">0</span> 变迁</span>
+                </div>
+            </div>
+
+            <!-- 数据流容器 -->
+            <div id="feed-container" class="space-y-4 max-h-[600px] overflow-y-auto pr-2">
+                <!-- Javascript将在这里插入动态数据 -->
+            </div>
+            
+        </div>
+
+        <!-- 右侧：AI 情绪趋势分析板 -->
+        <div class="space-y-6">
+            <div class="glass-panel p-6">
+                <h2 class="text-lg font-bold text-white mb-6" id="stat-panel-title">AI 新闻情绪分布模型</h2>
+                
+                <div class="space-y-4">
+                    <!-- Positive -->
+                    <div>
+                        <div class="flex justify-between text-sm mb-1">
+                            <span class="text-slate-300">利好 (Positive)</span>
+                            <span class="font-mono text-brandUp" id="stat-pos">0</span>
+                        </div>
+                        <div class="w-full bg-slate-800 rounded-full h-2">
+                            <div class="bg-brandUp h-2 rounded-full transition-all duration-500 shadow-[0_0_10px_rgba(16,185,129,0.5)]" id="bar-pos" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Neutral -->
+                    <div>
+                        <div class="flex justify-between text-sm mb-1">
+                            <span class="text-slate-300">中性/横盘 (Neutral)</span>
+                            <span class="font-mono text-brandNeutral" id="stat-neu">0</span>
+                        </div>
+                        <div class="w-full bg-slate-800 rounded-full h-2">
+                            <div class="bg-brandNeutral h-2 rounded-full transition-all duration-500" id="bar-neu" style="width: 0%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Negative -->
+                    <div>
+                        <div class="flex justify-between text-sm mb-1">
+                            <span class="text-slate-300">利空 (Negative)</span>
+                            <span class="font-mono text-brandDown" id="stat-neg">0</span>
+                        </div>
+                        <div class="w-full bg-slate-800 rounded-full h-2">
+                            <div class="bg-brandDown h-2 rounded-full transition-all duration-500 shadow-[0_0_10px_rgba(239,68,68,0.5)]" id="bar-neg" style="width: 0%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8 p-4 bg-slate-800/50 rounded-lg border border-slate-700/50">
+                    <h3 class="text-sm font-semibold text-white mb-2">预测逻辑引擎策略</h3>
+                    <ul class="text-xs text-slate-400 space-y-2">
+                        <li>• 正在计算: <span class="text-blue-400" id="str-active-cat">全部领域</span> 的相关舆论。</li>
+                        <li>• 当 Pos > Neg → 输出 <span class="text-brandUp font-bold">UP (看多)</span></li>
+                        <li>• 当 Neg > Pos → 输出 <span class="text-brandDown font-bold">DOWN (看空)</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- AI Reasoning Trace Modal -->
+    <div id="reasoning-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4">
+        <div class="absolute inset-0 bg-slate-900/80 backdrop-blur-md" onclick="closeModal()"></div>
+        <div class="glass-panel relative z-10 w-full max-w-2xl p-6 md:p-8 overflow-hidden shadow-2xl border border-slate-600">
+            <!-- 顶部氛围渐变条 -->
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-emerald-500"></div>
+            
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white transition-colors">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+            
+            <h3 class="text-xl font-bold text-white mb-2 flex items-center gap-2">
+                <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                大模型透明化溯源 (Reasoning Trace)
+            </h3>
+            <p class="text-[10px] md:text-xs font-mono text-slate-400 mb-6 bg-slate-900/50 px-3 py-2 rounded border border-slate-800 flex justify-between" id="modal-source">
+                <span>来源...</span>
+                <span id="modal-category">分类: Tech</span>
+            </p>
+            
+            <div class="space-y-4">
+                <div class="border-l-2 border-slate-600 pl-4 py-1">
+                    <h4 class="text-[10px] text-slate-500 font-bold mb-1 uppercase tracking-wider">Original Context (原语料抓取)</h4>
+                    <p class="text-sm text-slate-300 italic font-serif" id="modal-original">...</p>
+                </div>
+                
+                <div class="bg-slate-800/80 p-5 rounded-xl border border-slate-700 shadow-inner">
+                    <h4 class="text-sm text-blue-400 font-bold mb-3 flex items-center gap-2">
+                        <span class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
+                        AI 自我研判思考过程 (Thought Process)
+                    </h4>
+                    <div class="text-sm text-slate-200 whitespace-pre-wrap leading-relaxed font-mono" id="modal-reasoning">
+                        ...
+                    </div>
+                </div>
+                
+                <div class="pt-4 flex justify-between items-center">
+                    <span class="text-xs text-slate-500">系统完全公开判决逻辑</span>
+                    <span class="text-xs px-3 py-1 rounded-full font-bold border" id="modal-sentiment-tag">结论</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        // 时钟
+        setInterval(() => {
+            document.getElementById('clock').innerText = new Date().toLocaleTimeString('zh-CN', { hour12: false });
+        }, 1000);
+
+        // 挂载加载真实抓取的代理新闻数据池
+        const mockNewsPool = typeof realNewsData !== 'undefined' ? realNewsData : [];
+
+        let currentCategory = 'All';
+        let stats = { Positive: 0, Negative: 0, Neutral: 0 };
+        let parsedCount = 0;
+        
+        // 【新增防重复判定机制】跟踪已经流入展示的特定新闻
+        let shownItems = new Set();
+        let feedInterval = null;
+
+        // 【第二阶段更新/核心过滤引擎】计算对应分类池
+        function getFilteredPool() {
+            return currentCategory === 'All' 
+                ? mockNewsPool 
+                : mockNewsPool.filter(n => n.category === currentCategory);
+        }
+
+        // 分类切换事件
+        function filterCategory(cat, btn) {
+            currentCategory = cat;
+            
+            // 样式重置
+            const buttons = document.querySelectorAll('#category-filters button');
+            buttons.forEach(b => {
+                b.className = "px-5 py-2 rounded-full bg-slate-800 text-slate-300 text-sm font-medium hover:bg-slate-700 transition-all border border-slate-700 whitespace-nowrap";
+            });
+            btn.className = "px-5 py-2 rounded-full bg-blue-600 text-white text-sm font-medium shadow-[0_0_10px_rgba(37,99,235,0.4)] transition-all whitespace-nowrap";
+            
+            // UI文本更新
+            document.getElementById('current-track-tag').innerText = "当前赛道: " + cat;
+            document.getElementById('str-active-cat').innerText = cat === 'All' ? '全部领域' : `${cat} 赛道`;
+            
+            // 清理原有数据池并重新打桩
+            document.getElementById('feed-container').innerHTML = '';
+            stats = { Positive: 0, Negative: 0, Neutral: 0 };
+            parsedCount = 0;
+            shownItems.clear(); // 当切换赛道时，重置“已展出数据记录”，以便能重新看见
+            
+            if (feedInterval) clearInterval(feedInterval);
+            
+            const pool = getFilteredPool();
+            
+            if (pool.length > 0) {
+                // 不再瞬间全部填充，而是采取渐进式流水线的推入，初始只压入第1条
+                pushUniqueNewsItem(pool);
+                
+                // 再按节拍推送剩下的
+                feedInterval = setInterval(() => {
+                    pushUniqueNewsItem(pool);
+                }, 3000);
+            } else {
+                document.getElementById('feed-container').innerHTML = '<div class="text-center p-8 text-slate-500 text-sm">此赛道当前时间段暂无解析数据</div>';
+                renderStats();
+                updateTrend();
+            }
+        }
+
+        // 挑选并推送“从未展示过的”独特新闻记录
+        function pushUniqueNewsItem(pool) {
+            const availableItems = pool.filter(item => !shownItems.has(item));
+            
+            if(availableItems.length === 0) {
+                // 如果目前池子里没有新闻了，不再重复填补，自动停止定时发牌器
+                if (feedInterval) clearInterval(feedInterval);
+                return;
+            }
+            
+            // 任意或按序拿出一个全新的
+            const newEvent = availableItems[Math.floor(Math.random() * availableItems.length)];
+            shownItems.add(newEvent); // 录入“已曝光黑名单”
+            
+            stats[newEvent.sentiment]++;
+            parsedCount++;
+            
+            const container = document.getElementById('feed-container');
+            const el = createFeedItem(newEvent);
+            
+            // 动画插入瀑布流头部
+            container.prepend(el);
+            
+            if (container.children.length > 20) {
+                container.lastElementChild.remove();
+            }
+
+            renderStats();
+            updateTrend();
+        }
+
+        // 推理面板模态框系统 (Reasoning Modal)
+        function openModal(index) {
+            const data = mockNewsPool[index];
+            if(!data) return;
+
+            let sourceHtml = `<span>来源: ${data.source}</span>`;
+            if (data.url) {
+                sourceHtml = `<span>来源: <a href="${data.url}" target="_blank" class="text-blue-400 hover:text-blue-300 underline underline-offset-2 flex items-center inline-flex gap-1" title="阅读塞尔维亚语原文" onclick="event.stopPropagation()">${data.source} <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg></a></span>`;
+            }
+            document.getElementById('modal-source').innerHTML = `${sourceHtml} <span class="bg-slate-800 px-2 rounded">赛道: ${data.category || '综合宏观'}</span>`;
+            document.getElementById('modal-original').innerText = `"${data.original}"`;
+            document.getElementById('modal-reasoning').innerText = data.reasoning || "【系统提示】该数据节点无显式思维链回传...";
+            
+            const tag = document.getElementById('modal-sentiment-tag');
+            if (data.sentiment === 'Positive') {
+                tag.className = 'text-xs px-4 py-1.5 rounded-full font-bold border border-green-500/50 bg-green-500/10 text-brandUp';
+                tag.innerText = '结论: Positive (看多)';
+            } else if (data.sentiment === 'Negative') {
+                tag.className = 'text-xs px-4 py-1.5 rounded-full font-bold border border-red-500/50 bg-red-500/10 text-brandDown';
+                tag.innerText = '结论: Negative (看空)';
+            } else {
+                tag.className = 'text-xs px-4 py-1.5 rounded-full font-bold border border-yellow-500/50 bg-yellow-500/10 text-brandNeutral';
+                tag.innerText = '结论: Neutral (横盘)';
+            }
+
+            document.getElementById('reasoning-modal').classList.remove('hidden');
+            document.getElementById('reasoning-modal').classList.add('flex');
+        }
+
+        function closeModal() {
+            document.getElementById('reasoning-modal').classList.add('hidden');
+            document.getElementById('reasoning-modal').classList.remove('flex');
+        }
+
+
+        // 渲染重排算法与趋势指示图
+        function updateTrend() {
+            const trendEl = document.getElementById('market-trend');
+            const descEl = document.getElementById('trend-desc');
+            const glowEl = document.getElementById('trend-bg-glow');
+
+            let trend = 'SIDEWAYS';
+            let color = 'text-brandNeutral';
+            let bgClass = 'bg-brandNeutral';
+
+            if (stats.Positive > stats.Negative) {
+                trend = 'UP';
+                color = 'text-brandUp';
+                bgClass = 'bg-brandUp';
+                descEl.innerText = `${currentCategory} 赛道多模态利好居多，预测看多`;
+            } else if (stats.Negative > stats.Positive) {
+                trend = 'DOWN';
+                color = 'text-brandDown';
+                bgClass = 'bg-brandDown';
+                descEl.innerText = `${currentCategory} 赛道空头消息频发，预测看空`;
+            } else {
+                trend = 'SIDEWAYS';
+                color = 'text-brandNeutral';
+                bgClass = 'bg-brandNeutral';
+                descEl.innerText = `多空交织，缺乏明确方向`;
+            }
+
+            trendEl.className = `text-4xl font-black animate-glow ${color}`;
+            trendEl.innerText = trend;
+            glowEl.className = `absolute -right-6 -top-6 w-32 h-32 rounded-full opacity-5 blur-2xl group-hover:opacity-10 transition-opacity ${bgClass}`;
+        }
+
+        function renderStats() {
+            const total = stats.Positive + stats.Negative + stats.Neutral || 1;
+            
+            ['pos', 'neu', 'neg'].forEach(type => {
+                const key = type === 'pos' ? 'Positive' : type === 'neu' ? 'Neutral' : 'Negative';
+                const elStat = document.getElementById(`stat-${type}`);
+                const elBar = document.getElementById(`bar-${type}`);
+                
+                elStat.innerText = stats[key];
+                elBar.style.width = `${(stats[key]/total)*100}%`;
+            });
+            
+            document.getElementById('total-parsed').innerText = parsedCount;
+        }
+
+        function createFeedItem(data) {
+            const poolIndex = mockNewsPool.indexOf(data);
+            const tagClass = data.sentiment === 'Positive' ? 'tag-up' : data.sentiment === 'Negative' ? 'tag-down' : 'tag-neutral';
+            let sentIcon = data.sentiment === 'Positive' ? '▲ 利好' : data.sentiment === 'Negative' ? '▼ 利空' : '■ 中性';
+
+            const html = `
+                <div class="bg-slate-800/40 rounded-xl p-4 border border-slate-700/60 feed-item relative overflow-hidden cursor-pointer hover:bg-slate-800 transition-colors group" onclick="openModal(${poolIndex})">
+                    <div class="absolute top-0 left-0 w-1 h-full ${
+                        data.sentiment === 'Positive' ? 'bg-brandUp' : 
+                        data.sentiment === 'Negative' ? 'bg-brandDown' : 'bg-brandNeutral'
+                    }"></div>
+                    
+                    <div class="mb-3">
+                        <div class="flex justify-between items-center mb-1">
+                            <span class="text-[10px] md:text-xs font-mono text-slate-400 bg-slate-900 px-2 py-0.5 rounded border border-slate-800 flex items-center gap-1">
+                                <span class="w-1.5 h-1.5 rounded-full ${data.sentiment === 'Positive' ? 'bg-green-500' : 'bg-red-500'}"></span>
+                                ${data.url ? `<a href="${data.url}" onclick="event.stopPropagation()" target="_blank" class="hover:text-blue-400 flex items-center gap-1" title="在新标签页中打开原文">抓取: ${data.source} <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg></a>` : `抓取: ${data.source}`}
+                                <span class="ml-1 text-slate-500">(${data.lang})</span>
+                            </span>
+                            <span class="text-[9px] text-slate-500 hover:text-blue-400 group-hover:underline">点击查看追踪溯源 >></span>
+                        </div>
+                        <p class="text-[11px] md:text-sm text-slate-300 italic font-serif">"${data.original}"</p>
+                    </div>
+
+                    <div class="w-full h-px bg-slate-700/50 my-3"></div>
+
+                    <div class="pl-2 border-l-2 border-slate-600/50 group-hover:border-blue-500/50 transition-colors">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <span class="text-[10px] md:text-xs font-bold text-blue-400 flex items-center gap-1 mb-1">
+                                    <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a8 8 0 100 16 8 8 0 000-16zM9 5h2v6H9V5zm0 8h2v2H9v-2z"></path></svg>
+                                    AI 中文语义解析结果
+                                </span>
+                                <p class="text-sm font-medium text-white group-hover:text-blue-50 transition-colors">${data.zhSummary}</p>
+                            </div>
+                            <span class="text-xs ml-4 whitespace-nowrap px-2 py-1 rounded-full ${tagClass}">
+                                ${sentIcon}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            `;
+            const div = document.createElement('div');
+            div.innerHTML = html;
+            return div.firstElementChild;
+        }
+
+        // 起步引导
+        setTimeout(() => {
+            if(document.querySelectorAll('#category-filters button').length > 0){
+                document.querySelectorAll('#category-filters button')[0].click();
+            }
+        }, 100);
+
+    </script>
+</body>
+</html>
