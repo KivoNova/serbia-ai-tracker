@@ -4,7 +4,7 @@ def classify_news(text_en):
     # 以英文长文本进行多重逻辑打标分流拦截
     if any(word in text_lower for word in ['tech', 'software', 'it ', 'oracle', 'google', 'digital', 'ai', 'computer', 'app', 'code', 'microsoft']):
         return 'Tech'
-    elif any(word in text_lower for word in ['energy', 'fuel', 'oil', 'gas', 'price', 'barrel', 'electricity', 'power', 'solar', 'coal', 'lithium', 'rio tinto']):
+    elif any(word in text_lower for word in ['energy', 'fuel', 'oil', 'gas', 'price', 'barrel', 'electricity', 'power', 'solar', 'coal', 'lithium', 'rio tinto', 'car', 'auto', 'vehicle', 'engine', 'battery', 'eps', 'nis', 'green']):
         return 'Energy'
     elif any(word in text_lower for word in ['bank', 'inflation', 'finance', 'interest', 'nbs', 'money', 'economy', 'tax', 'debt', 'salary', 'gdp', 'market', 'stock', 'investment', 'fund', 'euro', 'dinar', 'rsd']):
         return 'Finance'
