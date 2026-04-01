@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>塞尔维亚金融情绪预测系统 (预测分析控制台)</title>
+    <title>塞尔维亚金融情绪预测系统 - Serbia AI Tracker 实时大盘</title>
+    <meta name="description" content="Serbia AI Tracker 是一款免费开源的金融情报数据看板。系统自动抓取塞尔维亚(Serbia)当地经济、科技、能源前沿资讯，通过 VADER 算法及人工智能运算对新闻事件进行积极/消极的多空情绪研判，呈现可视化投资趋势预测。">
+    <meta name="keywords" content="塞尔维亚, Serbia, 金融预测, AI 数据情绪分析, 自动化爬虫, BELEX15, 趋势推演, 开源架构">
+    <meta name="author" content="Serbia AI Intelligence">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="塞尔维亚商业趋势预测大脑 - AI 实时多空指标">
+    <meta property="og:description" content="通过跨语言语料提取和金融模型自动生成的免维护智能大盘。">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -117,6 +123,9 @@
             </div>
         </div>
     </header>
+
+    <!-- 语义化主体内容区开始 -->
+    <main>
 
     <!-- 行业赛道过滤器 -->
     <div class="mb-6 flex gap-3 overflow-x-auto pb-2 scrollbar-hide" id="category-filters">
@@ -238,6 +247,9 @@
             </div>
         </div>
     </div>
+
+    </main>
+    <!-- 语义化主体内容区结束 -->
 
     <!-- AI Reasoning Trace Modal -->
     <div id="reasoning-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4">
