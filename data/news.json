@@ -1,6 +1,72 @@
 [
     {
         "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/svet/iran-vesti-teheran-zapretio-balkanskoj-drzavi-tramp-preti-izlaskom-sad-iz-nato/1qyevn6",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "PROCURILO PISMO IRANA AMERIČKOM NARODU! Izrael priznao da trpi dosad najjače napade, Tramp preti izlaskom SAD iz NATO: \"Gade mi se!\" (FOTO, VIDEO). Rat između Irana, Amerike i Izraela ušao je u 33. dan. Predsednik SAD Donald Tramp rekao je da će se Amerika \"povući iz Irana\" za dve ili tri nedelje, nakon čega će \"cene nafte pasti\".",
+        "zhSummary": "伊朗致美国人民的信泄露！以色列承认遭遇迄今为止最强烈​​袭击，特朗普威胁美国退出北约：“我很恶心！” （照片、视频）。伊朗、美国和以色列之间的战争已进入第33天。美国总统特朗普表示，美国将在两三周内“从伊朗撤军”，之后“油价将会下跌”。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'LETTER FROM IRAN TO THE AMERICAN PEOPLE LEAKED! Israel admitted to suffering the...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/sok-priznanje-nase-pevacice-o-bajagi-bila-sam-zaljubljena-u-njega-sad-priznajem/k0jwdxq",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"BILA SAM ZALJUBLJENA U BAJAGU\" Šok priznanje Marine Visković: \"Mnogo mi se sviđao, sad priznajem\". U najnovijoj, spektakularnoj epizodi emisije \"Ceca show\", poznata pevačica Marina Visković iznenadila je i voditeljku Svetlanu Cecu Ražnatović i višemilionski auditorijum potpuno neočekivanim priznanjem iz svog privatnog života. Iako važi za nekoga ko ljubomorno čuva svoju intimu, Marina je rešila da otvori dušu i prizna ko joj je bila najveća ljubav iz detinjstva.",
+        "zhSummary": "“我爱上了 BAJAGA” 玛丽娜·维斯科维奇 (Marina Visković) 震惊地坦白：“我非常喜欢他，我现在承认了”。在节目“Ceca show”的最新一集中，著名歌手玛丽娜·维斯科维奇 (Marina Visković) 坦白了自己的私生活，令主持人斯韦特兰娜·塞卡·拉兹纳托维奇 (Svetlana Ceca Ražnatović) 和数百万观众感到惊讶。尽管被认为是一个嫉妒地守护着她的亲密生活的人，玛丽娜还是决定敞开自己的灵魂，承认谁是她儿时最爱的人。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"I WAS IN LOVE WITH BAJAGA\" Shock confession of Marina Visković: \"I liked him a ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/politika/savet-bezbednosti-9-aprila-o-sestomesecnom-izvestaju-o-radu-unmik-a-na-kim/wfhw19w",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Savet bezbednosti 9. aprila o šestomesečnom izveštaju o radu UNMIK-a na KiM. Sednica Saveta bezbednosti Ujedinjenih nacija na kojoj će biti razmatran šestomesečni izveštaj o radu Misije UN na Kosovu (UNMIK) biće održana 9. aprila, objavljeno je na sajtu Ujedinjenih nacija.",
+        "zhSummary": "安理会于 4 月 9 日审议了科索沃特派团在科索沃和梅托希亚工作的六个月报告。联合国网站宣布，联合国安理会会议将于4月9日举行，会议将讨论联合国科索沃特派团（科索沃特派团）六个月的工作报告。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Security Council on April 9 on the six-month report on the work of UNMIK in Koso...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/svet/biblijski-potop-u-grckoj-nevreme-paralisalo-poznata-letovalista-video/c78f9d1",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "(VIDEO) BIBLIJSKI POTOP U GRČKOJ! \"Erminio\" paralisao Atinu, poznata letovališta pod vodom, tornado prevrtao kamione. Grčku je pogodio talas lošeg vremena nazvan Erminio, donoseći kišu, grmljavinu, snažne vetrove i izlivanje reka. Situaciju dodatno komplikuje prenos saharske prašine, koji je najviše pogodio Krit i Kiklade, gde su škole zatvorene. U Atini je na snazi upozorenje građanima da ograniče kretanje, dok vatrogasci beleže brojne intervencije. Potop na Porosu i u Spati, ulice pretvorene u divlje vodopade, saobraćaj u potpunom prekidu.",
+        "zhSummary": "（视频）希腊发生圣经中的洪水！ “埃尔米尼奥”使雅典瘫痪，著名度假胜地被水淹没，龙卷风掀翻卡车。希腊遭受了一股名为“埃尔米尼奥”的恶劣天气的袭击，带来了降雨、雷电、强风和河流泛滥。撒哈拉沙尘的转移使情况变得更加复杂，克里特岛和基克拉泽斯群岛受沙尘影响最严重，那里的学校都关闭了。在雅典，公民被警告限制行动，而消防队员则记录了多次干预行动。波罗斯和斯巴达遭遇洪水，街道变成了狂野的瀑布，交通完全瘫痪。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(VIDEO) BIBLICAL FLOOD IN GREECE! \"Erminio\" paralyzed Athens, famous resorts und...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/biznis/vesti/sjaj-za-usne-sa-ukusom-bureka-prvi-april-inspirisao-kompanije-ovo-su-najkreativnije/2q8xdxw",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Sjaj za usne sa ukusom bureka i pašteta od 15kg: Prvi april inspirisao kompanije, ovo su najkreativnije šale. Zamislite svet u kom se vaši omiljeni balkanski ukusi ne nalaze na tanjiru, već u vašem neseseru. Ne, ne govorimo o još jednom foodie trendu sa društvenih mreža, već o beauty kolekciji koja briše granice između nostalgije i savremenog sjaja. Ili… bar tako deluje na prvi pogled.",
+        "zhSummary": "Burek和肉酱味唇彩15公斤：受愚人节启发的公司，这些是最有创意的恶作剧。想象一下这样一个世界：您最喜欢的巴尔干风味不在您的盘子上，而是在您的食品储藏室中。不，我们不是在谈论来自社交网络的另一种美食趋势，而是一个模糊怀旧与当代浮华之间界限的美容系列。或者说……至少乍一看是这样。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Burek and pate-flavored lip gloss 15 kg: April Fool's Day inspired companies, th...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/dzejla-sva-u-belom-na-koncertu-jakova-jozinovica-publika-u-transu-moja-najdraza/cqgejbp",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "DŽEJLA SVA U BELOM NA KONCERTU JAKOVA JOZINOVIĆA Publika u transu, on prekinuo koncert: \"Moja najdraža\" (VIDEO). Mlada muzička zvezda, Jakov Jozinović, večeras je nastupao pred punim Sava Centrom u Beogradu. Na njegovom četvrtom koncertu, od ukupno osam zakazanih, gost je bila pevačica Džejla Ramović.",
+        "zhSummary": "JAKOV JOZINOVIĆ 的音乐会全都穿着监狱 观众处于恍惚状态，他打断了音乐会：“我最亲爱的”（视频）。年轻的音乐明星雅科夫·乔齐诺维奇今晚在贝尔格莱德萨瓦中心前表演。在他的第四场音乐会中，共安排了八场音乐会，嘉宾是歌手杰拉·拉莫维奇 (Džejla Ramovic)。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'JAKOV JOZINOVIĆ'S CONCERT ALL WEARING JAIL The audience was in a trance, he inte...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
         "url": "https://www.blic.rs/zabava/ispovest-vesne-djogani-o-majci-socijalna-sluzba-me-je-odvela-neko-je-bio-prijavio/5ch9ts3",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
@@ -64,72 +130,6 @@
         "sentiment": "Positive",
         "category": "Tech",
         "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Processor sales continue to decline. Data from stores leave no doubt - it means ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/teodora-prevarila-bebicu-sa-filipom-sad-se-oglasila-njegova-majka-bas-cudno/1pqfd3h",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Teodora prevarila Bebicu sa Filipom Đukićem, sad se oglasila njegova majka: \"Baš čudno! To je njegov izbor\". Kao bomba je odjeknula vest u Beloj kući da su Filip Đukić i Teodora Delić u ranim jutarnjim satima ponovo završili zajedno i razmenjivali nežnosti u kući Odabranih dok je samo par minuta pre toga njen dečko Nenad Macanović Bebica ispratio u krevet.",
-        "zhSummary": "特奥多拉（Teodora）与菲利普·杜基奇（Filip Đukić）欺骗了贝比卡（Bebica），现在他的母亲开口了：“这很奇怪！这是他的选择”。就在她的男友内纳德·马卡诺维奇送贝比卡上床睡觉前几分钟，菲利普·杜基奇和特奥多拉·德利奇在凌晨再次聚在一起并在选民之家互赠爱意的消息像炸弹一样在白宫回响。",
-        "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Teodora cheated on Bebica with Filip Đukić, now his mother spoke up: \"It's stran...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/od-wc-a-od-23-miliona-dolara-do-hrane-ovo-su-detalji-zivota-astronauta-tokom-leta-ka/qfrhfc1",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "TOALET OD 23 MILIONA! NASA otkrila detalje o putu ka Mesecu: Šta astronauti nose, šta će da jedu i kako će da PREŽIVE MISIJU DUGU 10 DANA. Šta će astronauti misije “Artemis II” nositi u svemir, kako će se hraniti tokom 10-dnevnog putovanja – i kako će ići u toalet? Iako četvoro astronauta u kapsuli smeštenoj u džinovskoj raketi neće sleteti na površinu Zemljinog satelita, oni će napraviti značajan korak ka tom cilju, a njihovo istorijsko putovanje - tokom kojeg će uživo videti daleku stranu Meseca - prati još mnogo zanimljivih detalja.",
-        "zhSummary": "2300万个厕所！ NASA 透露了登月之旅的细节：宇航员穿什么、吃什么以及如何在 10 天的任务中生存下来。阿耳忒弥斯二号宇航员将携带什么进入太空，在这 10 天的旅程中他们将如何饮食，以及如何上厕所？尽管乘坐巨型火箭的太空舱中的四名宇航员不会降落在地球卫星表面，但他们将朝着这一目标迈出重要一步，而他们的历史性旅程 - 在此期间他们将看到月球的背面 - 伴随着许多更有趣的细节。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '23 MILLION TOILET! NASA revealed the details of the journey to the moon: What th...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/moj-novac/kandidat-odbijen-posle-tri-intervjua-i-9-sati-rada-pa-resio-da-naplati-svoj-trud-i/9pnf7mx",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Kandidat odbijen posle TRI intervjua i 9 SATI RADA, pa rešio da naplati svoj trud i rad: Poslao firmi račun! Evo koliko novca traži. Kandidat za posao koji je nakon devet sati rada na projektnom zadatku odbijen, postao je prava tema na internetu jer je kompaniji odlučio da pošalje račun za svoj rad. Njegova priča, podeljena na Reditu, otvorila je raspravu o neplaćenom radu tokom selekcionih procesa.",
-        "zhSummary": "该候选人在经过三轮面试和 9 个小时的工作后被拒绝，因此他决定为自己的努力和工作付出代价：他给公司寄了一张发票！这是他要多少钱。一位求职者在完成一项项目任务九个小时后被拒绝，这成为了互联网上的一个热门话题，因为他决定向公司发送一份工作发票。他的故事在 Reddit 上分享，引发了一场关于选拔过程中无偿工作的争论。",
-        "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'The candidate was rejected after THREE interviews and 9 HOURS OF WORK, so he dec...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/slobodno-vreme/ne-otvarajte-prozore-pre-22-sata-mnogi-prave-istu-gresku-koja-steti-zdravlju/grtcb67",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Stiglo upozorenje: Ne otvarajte prozore pre 22 sata, mnogi prave istu grešku koja ŠTETI zdravlju. Sa dolaskom proleća i viših temperatura, mnogi jedva čekaju da širom otvore prozore i puste svež vazduh u dom. Međutim, stručnjaci upozoravaju da to nije uvek dobra ideja – posebno tokom dana.",
-        "zhSummary": "警告来了：晚上10点前不要开窗，很多人都会犯同样的错误，危害健康。随着春天的到来，气温逐渐回暖，许多人迫不及待地打开窗户，让新鲜空气进入家中。然而，专家警告说，这并不总是一个好主意——尤其是在白天。",
-        "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'A warning has arrived: Do not open the windows before 10 p.m., many make the sam...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/jakov-jozinovic-prekinuo-beogradski-koncert-1-aprila-moramo-da-otkazemo/x5m704z",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "JAKOV JOZINOVIĆ PREKINUO BEOGRADSKI KONCERT, METEŽ U PUBLICI \"Ne, ne... Moramo da OTKAŽEMO\", prisutni sve vreme čekali da im OVO KAŽE (VIDEO). Mladi pevač Jakov Jozinović održao je večeras četvrti od osam uzastopnih koncerata u beogradskom Sava Centru. Publika je euforično pevala sa njim svaku pesmu koju je izvodio, dok je gost na koncertu bio Matija Cvek, a u jednom momentu Jakov je prekinuo koncert.",
-        "zhSummary": "雅科夫·乔齐诺维奇打断了贝尔格莱德音乐会，观众的交流“不，不……我们必须取消”，与会者一直在等待他说这句话（视频）。年轻歌手雅科夫·乔齐诺维奇今晚在贝尔格莱德萨瓦中心举办了连续八场音乐会中的第四场。观众兴高采烈地和他一起唱他表演的每一首歌，而音乐会的嘉宾是马蒂亚·茨维克(Matija Cvek)，雅科夫一度中断了音乐会。",
-        "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'JAKOV JOZINOVIĆ INTERRUPTED THE BELGRADE CONCERT, COMMUNICATION IN THE AUDIENCE ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/drustvo/stanje-na-putevima-put-pec-kula-rozaje-ponovo-blokiran-za-kamione-zbog-snega/ce8ejnl",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "SNEG PONOVO OKOVAO REGION, KOLAPS NA PUTEVIMA! Kamioni stoje na deonici Peć-Kula-Rožaje, ostala vozila mogu da prođu samo pod JEDNIM USLOVOM. Put Peć - Kula - Rožaje ponovo je blokiran zbog snega i neprohodan je za teretna vozila.",
-        "zhSummary": "大雪再次席卷该地区，道路塌陷！卡车停在 Peć-Kula-Rožaje 路段，其他车辆只能在一种条件下通过。佩奇 - 库拉 - 罗扎耶道路因雪再次封锁，卡车无法通行。",
-        "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'SNOW AGAIN SHOCKED THE REGION, COLLAPSING ON THE ROADS! Trucks are standing on t...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Tech",
