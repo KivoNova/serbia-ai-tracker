@@ -4,8 +4,10 @@ import re
 def fetch_rss_news():
     # 截取具有公信力的财经订阅源
     feeds = [
-        {"url": "https://www.blic.rs/rss/Biznis", "source": "Blic Biznis"},
-        {"url": "https://www.blic.rs/rss/IT", "source": "Blic ITTech"}
+        {"url": "https://www.blic.rs/rss/Biznis/Vesti", "source": "Blic Biznis"},
+        {"url": "https://www.blic.rs/rss/IT", "source": "Blic Tech"},
+        {"url": "https://www.blic.rs/rss/Slobodno-vreme/Auto", "source": "Blic EV/Energy"},
+        {"url": "https://www.b92.net/info/rss/biz.xml", "source": "B92 Economy"}
     ]
     articles = []
     
@@ -15,8 +17,8 @@ def fetch_rss_news():
             if not parsed.entries:
                 continue
                 
-            # 我们每次只取头条的5个热点去重跑，免得算太久
-            for entry in parsed.entries[:5]: 
+            # 我们每次只取头条的热点去重跑（放宽到 12 条以满足各个赛道的填充）
+            for entry in parsed.entries[:12]: 
                 title = entry.get("title", "")
                 summary_raw = entry.get("summary", "")
                 # 清理掉网页中的图片和HTML等杂质
