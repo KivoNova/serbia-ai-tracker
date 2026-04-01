@@ -1,0 +1,113 @@
+// GitHub Actions Auto Generated Data
+const realNewsData = [
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/svet/iran-vesti-teheran-zapretio-balkanskoj-drzavi-tramp-preti-izlaskom-sad-iz-nato/1qyevn6",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "IRAN ZAPRETIO BALKANSKOJ DRŽAVI! Izrael priznao: \"Izveli su najjači napad od početka rata!\" Tramp preti izlaskom SAD iz NATO: \"Papirni tigrovi, GADE MI SE!\" (FOTO, VIDEO). Rat između Irana, Amerike i Izraela ušao je u 33. dan. Predsednik SAD Donald Tramp rekao je da će se Amerika \"povući iz Irana\" za dve ili tri nedelje, nakon čega će \"cene nafte pasti\".",
+        "zhSummary": "伊朗威胁巴尔干国家！以色列承认：“他们进行了开战以来最强烈的攻击！”特朗普威胁美国退出北约：“纸老虎，我厌恶他们！” （照片、视频）。伊朗、美国和以色列之间的战争已进入第33天。美国总统特朗普表示，美国将在两三周内“从伊朗撤军”，之后“油价将会下跌”。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'IRAN THREATENED A BALKAN COUNTRY! Israel admitted: \"They carried out the stronge...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/svet/iranski-predsednik-poslao-pismo-narodu-u-sad-ne-mrzimo-obicne-amerikance/pnrnn7k",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"NE MRZIMO AMERIKU, EVROPU I OSTALE SUSEDNE NARODE\" Iranski predsednik uputio otvoreno pismo građanima SAD: \"Ovo je PRINCIP, a ne POLITIČKI STAV\". Iranski predsednik Masud Pezeškijan uputio je otvoreno pismo američkom narodu u kojem je naveo da njegova zemlja ne gaji neprijateljstvo prema običnim Amerikancima, prenela je stanica \"Pres TV\".",
+        "zhSummary": "“我们不仇恨美国、欧洲和其他邻国” 伊朗总统向美国公民发出公开信：“这是一项原则，而不是政治立场”。据“新闻电视台”报道，伊朗总统马苏德·佩泽什基安向美国人民发出公开信，他在信中表示，伊朗对普通美国人不怀有敌意。",
+        "sentiment": "Positive",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"WE DO NOT HATE AMERICA, EUROPE AND OTHER NEIGHBORING NATIONS\" The Iranian presi...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 All 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/politika/umro-predrag-djikanvoic-ivica-dacic-se-oprostio-od-saradnika/fz89y3g",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Umro Predrag Peđa Đikanović: Ivica Dačić se oprostio od saradnika. Ministar unutrašnjih poslova Ivica Dačić saopštio je putem Instagrama da je preminuo njegov dugogodišnji politički saradnik Predrag Peđa Đikanović.",
+        "zhSummary": "普雷德拉格·佩贾·季卡诺维奇去世：伊维卡·达契奇向他的同事们告别。内政部长伊维察·达契奇 (Ivica Dacic) 通过 Instagram 宣布，他的长期政治伙伴普雷德拉格·佩贾·吉卡诺维奇 (Predrag Peđa Dici) 去世。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Predrag Peđa Đikanović died: Ivica Dačić said goodbye to his associates. Interio...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/kristina-spalevic-prijavila-kristijana-policiji-hitno-se-oglasila-dobijam-pretnje/x35be5x",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "KRISTINA SPALEVIĆ PRIJAVILA KRISTIJANA POLICIJI Hitno se oglasila: \"Dobijam pretnje i ucene\" (VIDEO). Kristijan Golubović je u intervjuu za \"Blic\" izneo niz šokantnih tvrdnji na račun bivše partnerke Kristine Spalević. Ona se sada oglasila na svom Instagram profilu gde je objavila snimak i otkrila da je Golubovića prijavila policiji.",
+        "zhSummary": "克里斯蒂娜·斯帕莱维 (KRISTINA SPALEVIĆ) 向警方举报克里斯蒂安 她紧急宣布：“我收到威胁和勒索”（视频）。在接受《Blic》采访时，克里斯蒂安·戈卢博维奇对他的前搭档克里斯蒂娜·斯帕莱维奇提出了一系列令人震惊的指控。她现在在自己的 Instagram 个人资料上宣布了自己的身份，发布了这段视频，并透露她已向警方举报了戈卢博维奇。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'KRISTINA SPALEVIĆ REPORTED KRISTIJAN TO THE POLICE She urgently announced: \"I am...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/hronika/haos-u-obrenovcu-napao-mladica-u-autobusu-pa-mu-slao-pretece-poruke-dobices-metak/c7tf8ct",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"DOBIĆEŠ METAK, NE IZLAZI IZ KUĆE\" Haos u Obrenovcu: Napao mladića u autobusu, pa mu slao preteće poruke: Policija oduzela oružje iz porodične kuće napadača. Pripadnici Policijske stanice u Obrenovcu, u saradnji sa Osnovnim javnim tužilaštvom, podneli su krivičnu prijavu protiv Petra N. (20) zbog osnovane sumnje da je izvršio krivično delo ugrožavanje sigurnosti.",
+        "zhSummary": "“你会得到子弹，不要离开家” 奥布伦诺瓦茨混乱：在公共汽车上袭击了一名年轻人，然后向他发送了威胁信息：警方从袭击者的家中没收了武器。奥布伦诺瓦茨警察局成员与基本检察官办公室合作，对 Petar N.（20 岁）提起刑事诉讼，理由是他有充分理由怀疑他犯有危害安全罪。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"YOU WILL GET A BULLET, DON'T LEAVE THE HOUSE\" Chaos in Obrenovac: Attacked a yo...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic ITTech",
+        "url": "https://www.blic.rs/it/otkriven-virus-koji-krade-podatke-i-ismeva-svoje-zrtve/ehy0v8c",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Otkriven virus koji krade podatke i ismeva svoje žrtve: Napada i kriptovalute. Novi trojanac za daljinski pristup (RAT) sposoban je ne samo da krade informacije i u potpunosti špijunira svoje žrtve, već i da im se ruga.",
+        "zhSummary": "一种嘲笑受害者的数据窃取病毒被发现：它还攻击加密货币。新的远程访问木马 (RAT) 不仅能够窃取信息并全面监视受害者，还能够嘲笑他们。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'A data-stealing virus that mocks its victims has been discovered: It also attack...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic ITTech",
+        "url": "https://www.blic.rs/it/za-sta-sve-sluzi-dugme-za-pojacavanje-tona-na-telefonu/k00ylww",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Za šta sve služi dugme za pojačavanje tona na telefonu: Funkcije koje većina korisnika ne zne. Dugme za pojačavanje tona na telefonu na prvi pogled ima jednostavnu funkciju – da pojača ili smanji zvuk. Međutim, moderni pametni telefoni nude mnogo više od toga, a ovo naizgled obično dugme krije niz korisnih opcija koje mogu olakšati svakodnevnu upotrebu uređaja.",
+        "zhSummary": "手机上的音量增大按钮有什么用：大多数用户不知道的功能。手机上的音量增大按钮乍一看有一个简单的功能——增大或减小音量。然而，现代智能手机提供的功能远不止这些，这个看似普通的按钮隐藏着许多有用的选项，可以方便设备的日常使用。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'What is the volume up button on the phone for: Functions that most users do not ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic ITTech",
+        "url": "https://www.blic.rs/it/telefon-prikazuje-strelice-sta-znaci-kada-su-bele-ili-sive/f90xk5w",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Vidite li DVE STRELICE pored Wi-Fi ikonice? Svi ih ignorišu, evo šta vam zapravo poručuju. Na ekranima pametnih telefona, pored poznatih ikona za Wi-Fi i mobilnu mrežu, sve češće se pojavljuju male strelice. Mnogi korisnici se pitaju šta tačno znače ovi simboli i koju informaciju pružaju o radu telefona. Ove sitne oznake imaju značajnu ulogu u svakodnevnom korišćenju uređaja. One ukazuju na stabilnost internet veze i na to da li se u datom trenutku prenose podaci.",
+        "zhSummary": "您看到 Wi-Fi 图标旁边有两个箭头吗？每个人都会忽略他们，这就是他们实际上告诉你的内容。在智能手机的屏幕上，除了熟悉的Wi-Fi和移动网络图标外，小箭头也越来越频繁地出现。许多用户想知道这些符号到底意味着什么以及它们提供了有关手机操作的哪些信息。这些小标记在设备的日常使用中发挥着重要作用。它们指示互联网连接的稳定性以及在给定时刻是否正在传输数据。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Do you see TWO ARROWS next to the Wi-Fi icon? Everyone ignores them, here's what...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic ITTech",
+        "url": "https://www.blic.rs/it/blic-test-samsung-galaxy-a57-5g-prvi-utisci-review/6x5bd9t",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Stigao je novi kralj srednje klase: Prvi utisci o Samsung Galaxy A57 5G. Srednja klasa pametnih telefona upravo je postala mnogo zanimljivija, jer je Samsung nedavno zvanično predstavio svoj novi Galaxy A57 5G. Imali smo priliku da ga odmah isprobamo i ovo su naši prvi utisci.",
+        "zhSummary": "中端机的新王者已经到来：三星 Galaxy A57 5G 的第一印象。随着三星最近正式推出新款 Galaxy A57 5G，中端智能手机变得更加有趣。我们有机会立即尝试一下，这是我们的第一印象。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'The new king of the mid-range has arrived: First impressions of the Samsung Gala...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic ITTech",
+        "url": "https://www.blic.rs/it/apple-danas-slavi-50-godina-ovo-j/yjh74ww",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Apple danas slavi 50 godina: Od garaže do tehnološkog giganta koji je promenio, ali i podelio svet. Pola veka nakon osnivanja, Apple ostaje jedna od najuticajnijih kompanija u istoriji moderne tehnologije. Od skromnih početaka do globalnog lidera, priča o Apple istovremeno je priča o inovacijama, ali i o kontroverzama koje ga prate.",
+        "zhSummary": "Apple 今天庆祝成立 50 周年：从一个车库到一个改变并分裂世界的科技巨头。苹果公司成立半个世纪后，仍然是现代科技史上最有影响力的公司之一。从默默无闻到全球领导者，苹果公司的故事既是一个创新的故事，也充满了争议。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Apple celebrates 50 years today: From a garage to a technology giant that change...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    }
+];
