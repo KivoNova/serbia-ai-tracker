@@ -2,135 +2,135 @@
 const realNewsData = [
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/moj-novac/tesko-cete-dobiti-otkaz-ovo-su-poslovi-koje-nece-zameniti-vestacka-inteligencija/t8p46w2",
+        "url": "https://www.blic.rs/vesti/drustvo/rat-na-bliskom-istoku-poremetio-i-rode-ugrozen-im-povratak-u-novi-sad/qty4brv",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "Teško ćete dobiti otkaz! Ovo su poslovi koje neće zameniti veštačka inteligencija. Svet rada se menja: Nikada ranije tehnološke inovacije nisu izazivale toliko previranja kao sada. Blagajnike u prodavnicama, na primer, sve više bi mogle zameniti samouslužne kase, ili bi posao lektora mogli preuzeti alati veštačke inteligencije. Radnici se suočavaju sa teškom odlukom: Gde bi trebalo da razvijaju svoju karijeru? Šta predstavlja posao otporan na recesiju? I ko će biti potreban u budućnosti?",
-        "zhSummary": "你几乎不会被解雇！这些工作不会被人工智能取代。工作世界正在发生变化：技术创新从未像现在这样引起如此多的混乱。例如，商店的收银员可能会越来越多地被自助结账所取代，或者校对员的工作可能会被人工智能工具取代。工人们面临着一个艰难的决定：他们应该在哪里发展自己的职业生涯？什么是抗衰退企业？未来又需要谁？",
+        "original": "Rat na Bliskom istoku poremetio i rode: Ugrožen im povratak u najveću koloniju u ovom delu Evrope - u Novi Sad, preti im čitav NIZ OPASNOSTI (FOTO, VIDEO). U novosadskom naselju Klisa na jednom nezavršenom građevinskom objektu već godinama se pojavljuje najveća kolonija belih roda u ovom delu Evrope, a ornitolozi pomno prate njihov dolazak. Iako se stručnjaci ove godine nadaju istorijskom rekordu po broju gnezda, nad ovim radosnim događajem nadvila se tamna senka - ratna situacija na Bliskom istoku mogla bi ozbiljno da ugrozi povratak ovih omiljenih ptica jer ih je već sada u Novi Sad pristiglo mnogo manje nego prošle godine.",
+        "zhSummary": "中东战争也让鹳鸟感到不安：它们返回欧洲这一地区最大的栖息地——诺维萨德受到威胁，它们受到一系列危险的威胁（照片、视频）。在诺维萨德的克利萨定居点，欧洲这一地区最大的白鹳群多年来一直出现在一个未完工的建筑工地上，鸟类学家正在密切关注它们的到来。尽管专家们希望今年的鸟巢数量能创下历史新高，但这一欢乐事件却笼罩着一个阴影——中东的战争局势可能会严重威胁这些最受欢迎的鸟类的回归，因为抵达诺维萨德的鸟类数量已经比去年少了很多。",
         "sentiment": "Negative",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'You will hardly get fired! These are jobs that will not be replaced by artificia...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'The war in the Middle East also disturbed the storks: their return to the larges...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/covecanstvo-veceras-probija-granicu-nemoguceg-astronauti-ce-videti-mesec-iz-novog/qfzv6tr",
+        "url": "https://www.blic.rs/vesti/svet/amerikanci-strahuju-od-gradjanskog-rata-sprema-se-super-oluja-zbog-trampa/2ss0mfd",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "ISTORIJSKI TRENUTAK Oboren rekord posle više od pola veka: Posada NASA otišla najdalje od Zemlje IKADA: Stigla prva fotografija TAMNE STRANE MESECA (FOTO, VIDEO). Ljudi ovde nisu bili od 1972. Po prvi put za više od pola veka, čovečanstvo \"krstari\" lunarnim prostorom.",
-        "zhSummary": "历史性时刻 半个多世纪后打破的记录：美国宇航局宇航员到达距地球最远的距离：第一张月球背面的照片已经到达（照片、视频）。自1972年以来，人类就没有来到过这里。半个多世纪以来，人类第一次在月球空间“巡航”。",
+        "original": "AMERIKANCI STRAHUJU OD GRAĐANSKOG RATA! Sprema se \"super oluja\": Svi besni zbog Trampovih poteza, uništio je čak i svoje uporište. Rat u Iranu traje već više od mesec dana, a kraj mu se ne vidi. Svetski mir visi negde između objava američkog predsednika Donalda Trampa da se očekuje dogovor sa Iranom i pretnji da će “dići celu zemlju u vazduh” ako do toga ne dođe. U međuvremenu, u Sjedinjenim Američkim Državama se dešava pravi potres.",
+        "zhSummary": "美国人害怕内战！一场“超级风暴”正在酝酿：所有人都对特朗普的举动感到愤怒，甚至摧毁了他的据点。伊朗战争已经持续一个多月了，而且还没有结束的迹象。美国总统唐纳德·特朗普宣布预计将与伊朗达成协议，但如果不达成协议，他将“炸毁整个国家”，这之间的世界和平悬而未决。与此同时，一场真正的地震正在美国发生。",
         "sentiment": "Negative",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'HISTORICAL MOMENT A record broken after more than half a century: The NASA crew ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'AMERICANS ARE AFRAID OF CIVIL WAR! A \"super storm\" is brewing: Everyone is furio...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/maja-berovic-u-minijaturnoj-suknji-i-halterima-na-koncertu-magla-benda/zrx2f85",
+        "url": "https://www.blic.rs/vesti/hronika/nastavak-sudjenja-roditeljima-decaka-ubice-iz-niske-banje-svi-se-pitaju-samo-jedno/221q0j3",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "(VIDEO) MAJA BEROVIĆ U HALTERIMA Suknja jedva prekrila obline: Pevač je dočekao na bini na koncertu, a tek kad vidite reakciju publike. Pevačica Maja Berović sinoć je bila specijalni gost na koncertu Magla benda u Sava centru i svojim nastupom podigla atmosferu do usijanja. Publika ju je dočekala ovacijama, a njen izlazak na binu bio je propraćen gromoglasnim aplauzom. Frontmen benda, Vladan Savić, srdačno ju je pozdravio, dok je Maja svojim rečima i pesmama dodatno osvojila srca prisutnih.",
-        "zhSummary": "（视频）MAJA BEROVIĆ 穿着吊带裙子几乎遮盖了她的曲线：这位歌手在音乐会的舞台上受到了欢迎，只有当你看到观众的反应时。昨晚，歌手玛雅·贝罗维奇 (Maja Berović) 作为特邀嘉宾出席了萨瓦中心 Magla Band 音乐会，她的表演将现场气氛推向了高潮。观众起立鼓掌欢迎她，她的出现也伴随着雷鸣般的掌声。乐队主唱 Vladan Savić 热情地向她打招呼，而 Maja 也用她的歌词和歌曲赢得了在场人们的心。",
+        "original": "NEGIRALI KRIVICU, PA SE BRANE ĆUTANJEM Nastavak suđenja roditeljima dečaka ubice iz Niške Banje: Svi se pitaju SAMO JEDNO!. Pred Višim sudom u Nišu danas će biti nastavljeno suđenje M.M. i M.M.M., roditeljima krivično neodgovornog dečaka ubice M.M. koji je 5.oktobra 2023.godine brutalno nožem usmrtio školskog druga Andreja Simića (13) u porodičnoj kući u Niškoj Banji.  Oni su optuženi da su počinili teško delo protiv opšte sigurnosti u saizvršilaštvu i po jedno krivično delo zapuštanje i zlostavljanje maloletnog lica. Suđenje se odvija iza zatvorenih vrata jer je sudsko veće donelo odluku da se sa pretresa isključi javnost \"zbog zaštite interesa maloletnika\".",
+        "zhSummary": "他们否认有罪，所以他们以沉默辩护对尼什卡矿泉村杀手男孩父母的审判仍在继续：每个人都想知道只有一件事！今天，M.M. 的审判将在尼什高等法院继续审理。和 M.M.M.，不负责任的男孩杀人犯 M.M. 的父母。 2023 年 10 月 5 日，他在 Niška Banja 的家中用刀残忍杀害了学校好友 Andrej Simić（13 岁）。  他们被指控共同犯有严重危害公共安全罪和一项忽视和虐待未成年人的刑事罪。审判是闭门进行的，因为法庭小组决定“为了保护未成年人的利益”，不让公众参与审判。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THEY DENIED THE GUILTY, SO THEY DEFENDED BY SILENCE The continuation of the tria...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/drustvo/bizaran-slucaj-prevare-u-novom-sadu-gazdarica-se-pravila-luda-da-bi-zadrzala-depozit/mlfenxg",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"Upadala mi je u stan, kadila ga i čistila od 'muške energije'\": Novosađanka preživela pakao sa gazdaricom, pa otkrila da iza njenog \"ludila\" stoji PREVARA SA DEPOZITOM. Iznajmljivanje nekretnine u velikim gradovima poput Novog Sada i Beograda odavno je prestalo da bude samo ekonomsko pitanje i postalo je bezbednosni izazov. Nedavna ispovest mlade Novosađanke, koja je na društvenim mrežama detaljno opisala neprimereno ponašanje stanodavke, otvorila je niz pitanja: od nepovredivosti stana do uloge agencija u zaštiti zakupaca.",
+        "zhSummary": "“她闯入我的公寓，抽烟并清除其中的‘男性能量’”：一位来自诺维萨德的妇女与她的女房东一起经历了地狱般的生活，然后发现她的“疯狂”背后是存款骗局。在诺维萨德和贝尔格莱德等大城市租赁房地产早已不再只是一个经济问题，而是一个安全挑战。一位来自诺维萨德的年轻女子最近在社交网络上详细描述了房东的不当行为，她的坦白引发了一系列问题：从公寓的不可侵犯性到机构在保护租户方面的作用。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"She broke into my apartment, smoked it and cleaned it of 'male energy'\": A woma...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/drustvo/nikola-21-iz-leskovca-sam-ozelenjava-svoje-naselje-a-njegova-ljubavna-prica-je-tek/mjg0yew",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "(FOTO) \"Ja sadim drveće, a komšinica me gađa šerpom sa terase\": Nikola (21) je odlučio da OZELENI svoj kraj, a njegova ljubavna priča je tek inspirativna. Nikola Stanković (21) iz Leskovca ima jednu ne samo zelenu, već i humanu misiju. Mnogi bi rekli - entuzijasta. Ali ono što on radi nije samo plemenito, već i korisno. Ovaj mladić već godinama sadi drveće u stambenom naselju Dubočica u kojem je odrastao. Gledajući oca, želeo je i on da ostavi neki trag, da uradi nešto za budućnost svog mesta. Od svoje misije ne odustaje, a kaže da će tu svoju ljubav i hobi preneti i na ćerkicu kad poraste.",
+        "zhSummary": "（照片）“我种树，我的邻居从露台上向我扔平底锅”：尼古拉（21 岁）决定绿化他的社区，他的爱情故事简直鼓舞人心。来自莱斯科瓦茨的尼古拉·斯坦科维奇 (Nikola Stanković，21 岁) 的使命不仅是绿色，而且是人性化的。很多人会说——爱好者。但他所做的不仅是高尚的，而且是有用的。这位年轻人多年来一直在他长大的杜博西卡住宅区植树。看着自己的父亲，他也想留下一些印记，为自己这里的未来做点事情。他并没有放弃自己的使命，并表示等女儿长大后，他会把自己的爱和爱好传递给女儿。",
         "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(VIDEO) MAJA BEROVIĆ IN HALTERS The skirt barely covered her curves: The singer ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/drustvo/sneg-ce-nas-okovati-na-uskrs-nebo-se-otvara-nad-srbijom-tacno-ovog-dana/2ft06k7",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "NEBO SE OTVARA NAD SRBIJOM TAČNO OVOG DANA! Stiže ZVER sa Jadrana: Sneg od 40 cm će OKOVATI našu zemlju baš za Uskrs, jedna stvar je i dalje neizvesna. Jesenji dani krajem marta, planine okovane snegom, pa zatim skok temperatura na preko 20 stepeni Celzijusa - sve je to obeležilo dolazak proleća. I iznenađenjima tu nije kraj - ubrzo sledi još jedan hladni front, novo zahlađenje koje donosi drastičan pad temperature, red kiše, mraza, ponegde i udare olujnog vetra, pa čak i snega, i to uoči Uskrsa. Donosimo vam detaljnu vremensku prognozu za uskršnje praznike - \"dan po dan\".",
-        "zhSummary": "就在这一天，塞尔维亚上空的天空正在绽放！来自亚得里亚海的野兽即将来临：复活节前夕，40 厘米的降雪将震惊我们的国家，但有一件事仍不确定。三月底的秋日，山上白雪皑皑，气温骤升至20多摄氏度，这一切标志着春天的到来。惊喜还不止于此——另一场冷锋很快随之而来，一场新的降温带来了气温的急剧下降、降雨、霜冻，在一些地方还有狂风甚至降雪，而那是在复活节前夕。我们为您带来复活节假期的详细天气预报 - “每日”。",
-        "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THE SKY IS OPENING OVER SERBIA EXACTLY ON THIS DAY! The BEAST from the Adriatic ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/vesti/stizu-novi-neradni-dani-evo-koliko-cemo-odmarati-za-vaskrs/6ggrkyt",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Stižu novi neradni dani! Evo koliko ćemo odmarati za Vaskrs: Ovako možete da ih spojite i napravite pravi mini odmor. Građani Srbije neće dugo čekati na nove neradne dane, predstojeći vaskršnji i prvomajski praznici pružaju idealnu priliku za produženi odmor i kratka putovanja. Mnogi će maksimalno iskoristiti slobodne dane, bilo za porodične aktivnosti, putovanja ili predah između poslovnih obaveza i pripreme za letnju sezonu.",
-        "zhSummary": "新的非工作日即将到来！以下是我们在复活节期间休息的时间：以下是您如何将它们结合起来并度过一个真正的迷你假期。塞尔维亚公民不必为新的非工作日等待太久，即将到来的复活节和五一假期为延长假期和短途旅行提供了理想的机会。许多人会充分利用假期，无论是家庭活动、旅行还是在处理业务和为夏季做准备之间的休息时间。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'New non-working days are coming! Here's how much we'll be resting for Easter: He...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/hronika/tesko-povredjen-pesak-u-novom-sadu-semafor-se-srusio-i-pao-na-njega/6bzb2mq",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "(FOTO) STRAVIČNA NESREĆA U NOVOM SADU! Sudarila se dva automobila: Od siline udarca SEMAFOR se SRUŠIO I PAO na prolaznika. Teška saobraćajna nezgoda na uglu Bulevara oslobođenja i Bulevara cara Lazara u Novom Sadu.",
-        "zhSummary": "（照片）诺维萨德发生可怕事故！两辆车相撞：由于冲击力，交通灯倒塌并砸到一名路人身上。诺维萨德奥斯洛博登贾大道和沙皇拉扎尔大道拐角处发生严重交通事故。",
-        "sentiment": "Negative",
         "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(PHOTO) TERRIBLE ACCIDENT IN NOVI SAD! Two cars collided: Due to the force of th...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(PHOTO) \"I plant trees, and my neighbor throws a pan at me from the terrace\": Ni...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Energy 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/marko-djedovic-se-oglasio-o-zdravstvenom-stanju-stigli-rezultati-biopsije/0gmrgqf",
+        "url": "https://www.blic.rs/vremenska-prognoza/rhmz-najava-nevreme-sa-jadrana-stize-u-srbiju-za-uskrs-40-centimetara-snega/bbh27rd",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "\"STIGLI SU REZULTATI BIOPSIJE\" Marko Đedović se oglasio povodom zdravstvenog stanja: Danima je čekao na tačne informacije. Poznati novinar Marko Đedović nedavno se podvrgao hirurškoj intervenciji na želucu, a nakon višednevnog čekanja na rezultate biopsije, konačno se oglasio i podelio najnovije informacije o svom zdravlju.",
-        "zhSummary": "“活检结果已经到来”马尔科·杰多维奇谈到了他的健康状况：他等待了好几天才能得到准确的信息。知名记者Marko Đedović最近接受了胃部手术，在等待活检结果几天后，他终于发声分享了自己健康的最新信息。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"BIOPSY RESULTS HAVE ARRIVED\" Marko Đedović spoke about his health condition: He...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/republika-srpska/preminuo-bivsi-visoki-predstavnik-u-bih-kristijan-svarc-siling/z6w58r7",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Preminuo bivši visoki predstavnik u BiH Kristijan Švarc-Šiling. Bivši visoki predstavnik u BiH Kristijan Švarc-Šiling preminuo je u 95. godini, javili su danas mediji BiH.",
-        "zhSummary": "波斯尼亚和黑塞哥维那前高级代表克里斯蒂安·施瓦茨-席林去世。据波黑媒体今天报道，波斯尼亚和黑塞哥维那前高级代表克里斯蒂安·施瓦茨-席林去世，享年 95 岁。",
-        "sentiment": "Negative",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'The former high representative in Bosnia and Herzegovina Kristijan Schwartz-Schi...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/naseg-pevaca-zene-skinule-na-biniostao-samo-u-donjem-vesu-pred-punom-salom/txkxmbm",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "PEVAČA ŽENE SKINULE NA BINI, OSTAO SAMO U DONJEM VEŠU  Šok scena na koncertu Magla Benda: Supruga sve posmatrala iz prvog reda (Video). Grupa Magla bend večeras održava koncert u Sava centru,a frontmen Vladan Savić priredio je nezaboravnu žurku prisutnima, ali i scenu koju će svi pamtiti. U jednom trenutku je na bini došlo do vrelih scena.",
-        "zhSummary": "歌手的妻子在舞台上脱下，只穿着内衣 Magla 乐队音乐会上令人震惊的一幕：妻子在前排观看了一切（视频）。 Magla Band今晚将在萨瓦中心举办音乐会，主唱Vladan Savić为在场的人们准备了一场难忘的派对，以及一个让所有人都铭记在心的场景。一时间，舞台上出现了激烈的场面。",
-        "sentiment": "Positive",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THE SINGER'S WIFE TOOK OFF ON STAGE, LEFT ONLY IN UNDERWEAR Shocking scene at th...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 All 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/rat-iran-najnovije-vesti-blizi-se-trenutak-apokalipse-tramp-preti-brisanjem-sa-mape/7eqh197",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "\"PO NJEGA SAM POSLAO 155 AVIONA!\" Tramp otkrio šokantne detalje o operaciji u Iranu, Teheran najavio: \"Pokrećemo akciju 'VELIKI UDAR'\" (FOTO, VIDEO). Rat između Irana, Amerike i Izraela ušao je u 38. dan. Predsednik SAD Donald Tramp poručio je Iranu da ima rok do utorka u 20 časova da prihvati dogovor o primirju i otvori Ormuski moreuz ili će, u suprotnom, \"da digne celu zemlju u vazduh\".",
-        "zhSummary": "“我为他派出了 155 架飞机！”特朗普透露了有关伊朗行动的令人震惊的细节，德黑兰宣布：“我们将发起‘大罢工’行动”（照片、视频）。伊朗、美国和以色列之间的战争已进入第38天。美国总统唐纳德·特朗普 (Donald Trump) 告诉伊朗，直到周二晚上 8:00 为止。接受停火协议并开放霍尔木兹海峡，否则“他将炸毁整个国家”。",
+        "original": "PAKAO SA JADRANA STIŽE U SRBIJU! U ovim delovima zemlje pašće čak 40 CENTIMETARA SNEGA, i to za USKRS: Očekuju nas i OLUJE, PLJUSKOVI, MRAZ.... Republički hidrometeorološki zavod najavio je za period od 9. do 11. aprila širom Srbije jutarnje prizemne mrazeve.",
+        "zhSummary": "亚得里亚海的地狱即将来到塞尔维亚！该国这些地区的降雪量将达到 40 厘米，复活节期间：暴风雨、阵雨、霜冻等待着我们……共和国水文气象研究所已宣布，4 月 9 日至 11 日期间，塞尔维亚全境出现早晨地面霜冻。",
         "sentiment": "Negative",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"I SENT 155 PLANES FOR HIM!\" Trump revealed shocking details about the operation...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'HELL FROM THE ADRIATIC IS COMING TO SERBIA! As much as 40 CENTIMETERS OF SNOW wi...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/vesti/eu-uvodi-nova-pravila-za-vozace-prevoznici-ce-imati-vece-troskove-evo-o-cemu-se-radi/rltft92",
+        "url": "https://www.blic.rs/vesti/svet/misija-artemis-ii-astronauti-u-letelici-orion-otisli-najdalje-od-zemlje-ikada/qfzv6tr",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "EU uvodi nova pravila za vozače! Jedna vrsta vozila moraće da ugradi nove uređaje: Prevoznici će imati veće troškove. Uvode se nova, stroža pravila u međunarodnom prevozu tereta kombijima, kojima je obavezna ugradnja tahografa. Cilj ove mere je sprečavanje zamora u vožnji i time povećanje bezbednosti na putevima. Za prevoznike to znači nove obaveze i troškove, dok za domaći prevoz sve ostaje kao i ranije.",
-        "zhSummary": "欧盟出台司机新规！一种类型的车辆将不得不安装新设备：运营商将承担更高的成本。国际货车运输引入了更严格的新规定，货车必须配备行车记录仪。该措施的目的是防止驾驶疲劳，从而提高道路安全。对于承运人来说，这意味着新的义务和成本，而对于国内运输来说，一切都保持不变。",
-        "sentiment": "Positive",
+        "original": "ISPISANA ISTORIJA! Astronauti misije \"Artemis II\" otišli najdalje od Zemlje IKADA! Bili nedostupni za bilo koga na planeti na 40 minuta, a po povratku signala imali su samo JEDNU PORUKU (FOTO, VIDEO). Ljudi ovde nisu bili od 1972. Prvi put za više od pola veka, čovečanstvo \"krstari\" lunarnim prostorom.",
+        "zhSummary": "有文字记载的历史！ “阿耳忒弥斯二号”任务的宇航员到达了有史以来距离地球最远的地方！在 40 分钟内，地球上的任何人都无法联系到他们，当信号返回时，他们只有一条消息（照片、视频）。自1972年以来，人类就没有来到过这里。半个多世纪以来，人类第一次在月球空间“巡航”。",
+        "sentiment": "Neutral",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'EU introduces new rules for drivers! One type of vehicle will have to install ne...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'WRITTEN HISTORY! Astronauts of the \"Artemis II\" mission went the farthest from E...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/iran-akcija-spasavanja-americkog-pilota-paravan-za-zaplenu-obogacenog-uranijuma/ymwk70q",
+        "url": "https://www.blic.rs/vesti/svet/pronasli-ljudske-ostatke-ispod-zemlje-dok-su-bili-u-lovu-na-uskrsnja-jaja/87g06p4",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "(VIDEO) MISTERIJA AMERIČKE MISIJE U IRANU Spasavanje pilota bilo je samo MASKA, 200 američkih specijalaca ULETELO u zemlju, isplivala MRAČNA TAJNA cele akcije. Nedavne američke vojne operacije unutar Irana možda su služile kao paravan za zaplenu obogaćenog uranijuma u toj zemlji, izjavio je portparol nakon niza sukoba povezanih sa pokušajima spasavanja oborenog američkog osoblja.",
-        "zhSummary": "（视频）美国驻伊朗任务之谜 营救飞行员只是一个面具，200名美国特种部队飞入该国，整个行动的黑暗秘密浮出水面。一名发言人表示，美国最近在伊朗境内的军事行动可能是夺取该国浓缩铀的前线，此前发生了一系列与营救被击落的美国人员有关的冲突。",
+        "original": "(VIDEO) HOROR NA USKRS Porodica tražila šarena jaja, a onda su ugledali nešto JEZIVO, sledili su se od STRAHA. Tokom porodične potrage za uskršnjim jajima u kalifornijskom parku DeForest, porodica je naišli na ljudske ostatke. Policija Long Biča odmah je izašla na teren i započela zvaničnu istragu o ovom slučaju.",
+        "zhSummary": "（视频）复活节恐怖 一家人正在寻找彩色鸡蛋，然后他们看到了一些令人毛骨悚然的东西，他们出于恐惧而跟随。一家人在加州德福雷斯特公园寻找复活节彩蛋时，发现了人类遗骸。长滩警方立即赶赴现场，开始正式调查此案。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(VIDEO) EASTER HORROR A family was looking for colorful eggs, and then they saw ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/print/naslovna-strana-za-74/jny1pk6",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Naslovna strana za 7.4.. Naslovna strana za 7.4.",
+        "zhSummary": "7.4 的首页。7.4 的首页。",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Front page for 7.4.. Front page for 7.4....'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/biznis/uvoz-novih-putnickih-automobila-u-rusiju-porastao-za-40-odsto-medjugodisnje/3hfj765",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Uvoz novih putničkih automobila u Rusiju porastao za 40 odsto međugodišnje. Uvoz novih putničkih automobila u Rusiju porastao je za 40 odsto u odnosu na isti period prošle godine u martu, na 33.300 vozila, objavila je danas agencija Autostat.",
+        "zhSummary": "俄罗斯新乘用车进口同比增长40%。 Autostat机构今天宣布，3月份俄罗斯新乘用车进口量与去年同期相比增加了40%，达到33,300辆。",
+        "sentiment": "Positive",
+        "category": "Energy",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'The import of new passenger cars to Russia increased by 40 percent year-on-year....'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Energy 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/svet/putnica-rodila-bebu-na-letu-jamajka-njujork-pilot-predlozio-ime-deteta/jgzk7f4",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "(VIDEO) DRAMA NA LETU ZA NJUJORK  Krenula na put, pa se porodila u vazduhu, kontrolor se oglasio sa URNEBESNIM PREDLOGOM za ime deteta. Caribbean Airlines je potvrdio da se jedna putnica porodila tokom međunarodnog leta od Jamajke do Njujorka u subotu, 4. aprila. Let BW005, u avionu Boeing 737 Max 8, krenuo je sa Međunarodnog aerodroma Norman Menli u Port Rojalu na Jamajci, a trebalo je da sleti na Međunarodni aerodrom Džon F. Kenedi u Njujorku nakon otprilike četiri sata leta.",
+        "zhSummary": "（视频）飞往纽约的航班上的戏剧起飞，然后在空中分娩，管制员为孩子的名字提出了一个搞笑的建议。加勒比航空确认，4 月 4 日星期六，一名乘客在从牙买加飞往纽约的国际航班上分娩。BW005 航班是一架波音 737 Max 8，从牙买加皇家港诺曼·曼利国际机场起飞，预计在飞行约四个小时后降落在纽约约翰·肯尼迪国际机场。",
         "sentiment": "Positive",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(VIDEO) THE MYSTERY OF THE AMERICAN MISSION IN IRAN The rescue of the pilot was ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(VIDEO) DRAMA ON A FLIGHT TO NEW YORK Set off, then gave birth in the air, the c...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/slobodno-vreme/jedna-emocija-posebno-muci-visoko-inteligentne-ljude-a-vecina-je-uopste-ne-prepoznaje/8rkn5lx",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Jedna emocija posebno muči visoko inteligentne ljude, a većina je uopšte ne prepoznaje. Biti veoma inteligentan ne znači nužno imati lakši život. Naprotiv, iza visokog koeficijenta inteligencije često se kriju unutrašnji konflikti koje drugi ljudi teško primećuju, a još teže razumeju. Jedan od njih je i snažan osećaj srama - emocija koja kod ovih ljudi može biti dublja i upornija nego kod većine.",
+        "zhSummary": "有一种情绪尤其困扰着高智商的人，但大多数人根本意识不到它。高智商并不一定意味着生活更轻松。相反，高智商往往隐藏着别人很难注意到、更难以理解的内心冲突。其中之一是强烈的羞耻感——这种情绪在这些人身上比大多数人更深刻、更持久。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'One emotion in particular plagues highly intelligent people, and most do not rec...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Tech",
@@ -149,10 +149,10 @@ const realNewsData = [
         "lang": "塞尔维亚语",
         "targetLang": "sr",
         "original": "Novi update za Windows stiže svima: Microsoft ne daje izbor - menja se glavni pretraživač,  milijarda korisnika se suočava sa ovim. Ponovo krećemo. Najnovije ažuriranje Windows od strane Microsoft izgleda ponovo ima nameru da korisnike Chrome pogura ka Edge. Ovo najnovije ažuriranje automatski otvara Microsoft pregledač svaki put kada se računar pokrene. Ako odlučite da to ne želite, morate to ručno isključiti, u suprotnom će uvek biti uključeno.",
-        "zhSummary": "Windows的新更新即将到来：微软没有给出选择——主要浏览器正在改变，十亿用户面临着这一点。又来了。微软最新的 Windows 更新似乎有意将 Chrome 用户再次推向 Edge。每次计算机启动时，此最新更新都会自动打开 Microsoft 浏览器。如果您决定不需要它，则必须手动将其关闭，否则它将始终打开。",
+        "zhSummary": "Windows 的新更新即将到来：微软没有提供选择 - 主要浏览器正在发生变化，十亿用户面临着这一点。又来了。微软最新的 Windows 更新似乎有意将 Chrome 用户再次推向 Edge。每次计算机启动时，此最新更新都会自动打开 Microsoft 浏览器。如果您决定不需要它，则必须手动将其关闭，否则它将始终打开。",
         "sentiment": "Neutral",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'A new update for Windows is coming to everyone: Microsoft does not give a choice...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'A new update for Windows is coming to everyone: Microsoft doesn't give a choice ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Tech",
