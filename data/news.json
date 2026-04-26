@@ -1,6 +1,105 @@
 [
     {
         "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/beograd/kazne-za-rostiljanje-do-25000-samo-2-lokacije-u-beogradu-imaju-namensko-mesto-za/vc2tb8z",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "AKO ROŠTILJATE TAMO GDE TO NE SME - KAZNA DO 25.000 DINARA Brojne su popularne lokacije za uranak, ali samo 2 su namenski pravljene za to. Predstojeći tradicionalni prvomajski uranak prilika je da brojni građani odu na izlet i provedu vreme u prirodi, naravno, uz neizostavno spremanje roštilja. Pritom treba voditi računa da se vatra pali isključivo na mestima gde je to dozvoljeno. U suprotnom, pljuštaće novčane kazne, koje i nisu baš tako male, ali možete da napravite i ogromnu štetu prirodi.",
+        "zhSummary": "如果您在不允许的地方烧烤 - 最高可罚款 25,000 第纳尔 乌拉纳克 (uranak) 的热门地点有很多，但只有 2 个是专门为其建造的。即将到来的传统五一假期，对于很多市民来说是一个出去旅游、亲近大自然的机会，当然少不了烧烤的准备。同时，应注意仅在允许的地方生火。否则，罚款会如雨点般落下，虽然数额不小，但也会对自然造成巨大的破坏。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'IF YOU BARBE WHERE IT IS NOT ALLOWED - A FINE OF UP TO 25,000 DINARS There are m...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/mustafa-durdzic-javno-zapretio-siti-ahmic-objavicu-sve-sto-znam/b2n9pmv",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "MUSTAFA DURDŽIĆ JAVNO PRETI SITI AHMIĆ Zapenio od besa: \"Objaviću sve što znam o tvom bratu, dužna si Asminu pare\". Otac aktuelnog rijaliti učesnika Asmina Durdžića, Mustafa Durdžić, oglasio se ponovo na svom Fejsbuk profilu gde je u poslednje vreme veoma aktivan. Sada se javno obratio rođenoj sestri Aneli Ahmić, Siti.",
+        "zhSummary": "穆斯塔法·杜尔齐 (MUSTAFA DurdŽiĆ) 公开威胁西塔·阿米 (SITA AHMIE) 怒不可遏：“我将公布我所知道的关于你兄弟的一切，你欠阿斯米娜钱”。现任真人秀选手阿斯明·杜尔季奇的父亲穆斯塔法·杜尔季奇在他的Facebook个人资料中再次宣布自己的身份，最近他的个人资料非常活跃。现在，他公开称呼自己的妹妹阿内拉·阿赫米奇（Siti）。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'MUSTAFA DURDŽIĆ PUBLICLY THREATENS SITA AHMIĆ Foaming with anger: \"I will publis...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/biznis/moj-novcanik/novi-zakon-o-trgovini-i-zastiti-potrosaca-u-srbiji-sve-izmene-na-jednom-mestu/0s1krrb",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Osnovci više neće smeti da kupuju e-cigarete! NOVA PRAVILA ZA TRGOVINU U SRBIJI: Zabranjuju ovaj proizvod za maloletnike, uvode se i \"crne liste\" za prodavce. Srbija je dobila novi set trgovinskih zakona i pravila za zaštitu potrošača, sa ciljem da se uvede više reda na tržište i ojača položaj kupaca. Od zabrane prodaje elektronskih cigareta maloletnicima do jasnijeg isticanja cena i strožih pravila za online trgovinu, zakon donosi niz novina koje bi trebalo da utiču na svakodnevnu kupovinu.",
+        "zhSummary": "小学生将不再允许购买电子烟！塞尔维亚贸易新规则：该产品禁止未成年人使用，并且正在为卖家引入“黑名单”。塞尔维亚颁布了一套新的消费者保护贸易法和规则，旨在为市场带来更多秩序并加强买家的地位。从禁止向未成年人销售电子烟，到更清晰的价格显示和更严格的在线交易规则，该法律引入了一些应该会影响日常购物的新内容。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Elementary school students will no longer be allowed to buy e-cigarettes! NEW RU...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/svet/40-godina-od-kataklizme-nuklearne-elektrane-cernobilj-sokantne-istine-radijacija-i/9d1pche",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "NAJVEĆA NUKLEARNA KATASTROFA Černobilj - 40 godina kasnije: Šokantne istine, zločin, zataškavanje i život u senci RADIJACIJE. Pre 40 godina, prvih sati 26. aprila 1986. u sovjetskoj atomskoj elektrani u Černobilju eksplodirao je četvrti reaktor i izazvao najtežu mirnodopsku nuklearnu katastrofu, posle koje su hiljade ljudi umrle od posledica zračenja, a radioaktivni oblak prekrio je znatan deo Evrope, sa nesagledivim posledicama, najtežim na prostoru juga Belorusije i severa Ukrajine.",
+        "zhSummary": "切尔诺贝利最严重的核灾难 - 40 年后：令人震惊的真相、犯罪、掩盖和辐射阴影下的生活。 40年前，1986年4月26日凌晨，苏联切尔诺贝利核电站第四号反应堆爆炸，造成和平时期最严重的核灾难，造成数千人因辐射死亡，放射性云覆盖了欧洲大部分地区，造成了难以估量的后果，其中白俄罗斯南部和乌克兰北部地区最为严重。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THE GREATEST NUCLEAR DISASTER Chernobyl - 40 years later: Shocking truths, crime...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/svet/rat-u-iranu-57-dan-tramp-odustao-od-primirja-s-iranom-izaslanika-i-zeta-poslao-kuci/shytydt",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "NOVI PREOKRET NA BLISKOM ISTOKU Tramp odustao od primirja s Iranom, glavnog izaslanika i svog zeta poslao kući: \"Ma ne isplati se da putuju 18 sati...\" (FOTO, VIDEO). Rat između Amerike, Irana i Izraela ušao je u 57. dan. Predstavnici vlade SAD i Irana trebalo bi danas da se sastanu u Pakistanu kako bi nastavili pregovore o rešavanju krize na Bliskom istoku, ali još nije stigla zvanična potvrda.",
+        "zhSummary": "中东的新局面特朗普放弃了与伊朗的休战协议，将首席特使和女婿送回国：“对他们来说，18个小时的旅行不值得……”（照片、视频）。美国、伊朗和以色列之间的战争已进入第57天。美国和伊朗政府代表定于今天在巴基斯坦会晤，继续就解决中东危机进行谈判，但尚未得到官方确认。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'A NEW TURN IN THE MIDDLE EAST Trump abandoned the truce with Iran, sent the chie...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/bosanac-udario-na-viki-miljkovic-po-ovome-se-vidi-koliko-si-zla/5kjdlle",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"PO OVOME SE VIDI KOLIKO SI ZLA\" Bosanac udario na Viki Miljković, sve se orilo: \"Nemoj više to da radiš!\". U takmičenju \"Pinkove Zvezde\", nakon nastupa Miodraga Miodrag Đokića, došlo je do sukoba između Viki Miljković i Dragana Stojkovića Bosanca. Inače, Miodrag je njen kandidat i predstavio se pesmom Darka Lazića \"Čemu ovo sve\".",
+        "zhSummary": "“这表明你有多邪恶”波斯尼亚人殴打了维基·米利科维奇，每个人都尖叫着：“不要再这样做了！”。在“Pink Stars”比赛中，Miodrag Miodrag Đokić 表演后，Viki Miljković 和 Dragan Stojković Bosanca 之间发生了冲突。顺便说一句，Miodrag 是她的候选人，并用 Darko Lazić 的歌曲“Chemu ovo sve”介绍了自己。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"THIS SHOWS HOW EVIL YOU ARE\" The Bosnian hit Viki Miljkovic, everyone screamed:...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/hronika/oglasila-se-policija-evo-u-kakvom-je-stanju-decak-6-koji-je-nestao-u-nisu/3pfffdr",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "DRAMA TRAJALA DVA I PO SATA Oglasila se policija o dečaku (6) koji je nestao u Nišu: Evo u kakvom je stanju mališan. Pripadnici Ministarstva unutrašnjih poslova u Nišu, u saradnji sa pripadnicima Odreda Žandarmerije u Nišu, nakon intenzivne potrage, pronašli su večeras oko 23 časa šestogodišnjeg dečaka iz ovog grada čiji je nestanak prijavljen oko 20.30 časova.",
+        "zhSummary": "过去两个半小时的闹剧 警方宣布了在尼什失踪的男孩（6 岁）的情况：这就是小男孩的情况。尼什内政部人员与尼什宪兵分队人员合作，经过密集搜寻，发现了一名来自该市的六岁男孩，据报道，他于今晚 8 点 30 分左右失踪，今晚 11 点左右。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THE DRAMA LAST TWO AND A HALF HOURS The police announced about the boy (6) who d...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/marija-serifovic-pokazala-sta-joj-sin-radi-dok-putuju-mali-smeker/wgpvvfd",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "MALI ŠMEKER Mariji Šerifović puno srce zbog sina Marija: Pokazala ŠTA ON RADI DOK PUTUJU, ne veruje svojim očima (FOTO). Čuvena pevačica Marija Šerifović nedavno je obavestila javnost da sa najbližima ide na Bali, a svakodnevno se oglašava sa dalekih lokacija i iznenađuje fanove privatnim momentima. Sad je podelila lep momenat sa sinom Marijom, sa kojim je putovala, pa ga je fotografisala u neodoljivoj situaciji.",
+        "zhSummary": "马里·施梅克 Marija Šerifović 的心充满了她的儿子 Marija：她展示了儿子在旅行时所做的事情，她简直不敢相信自己的眼睛（照片）。著名歌手Marija Šerifović最近向公众透露，她将与心爱的人一起去巴厘岛，每天她都在遥远的地方为自己做广告，并用私人时刻给歌迷带来惊喜。现在，她与一起旅行的儿子玛丽亚分享了美好的时刻，因此她以一种不可抗拒的方式拍摄了他。",
+        "sentiment": "Positive",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'MALI SCHMEKER Marija Šerifović's heart is full for her son Marija: She showed WH...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 All 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/hronika/kraj-drame-u-nisu-pronadjen-decak-6-koji-je-nestao-nakon-sto-se-igrao-s-bratom/vexqnx5",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "KRAJ DRAME U NIŠU Pronađen dečak (6) koji je nestao nakon što se igrao s bratom blizancem u dvorištu. Dečak (6), koji je nestao večeras u Nišu, pronađen je.",
+        "zhSummary": "NIS 戏剧的结局 一名男孩（6 岁）在院子里与双胞胎兄弟玩耍后失踪，后来被发现。今晚在尼斯失踪的男孩（6 岁）已被找到。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THE END OF THE DRAMA IN NIS A boy (6) who disappeared after playing with his twi...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
         "url": "https://www.blic.rs/zabava/trese-se-studio-u-pinkovim-zvezdama-bojana-i-desingerica-u-zestokom-klincu/xr43rld",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
@@ -15,11 +114,11 @@
         "url": "https://www.blic.rs/vesti/hronika/prvi-snimak-potrage-za-decakom-u-nisu-nestao-nakon-sto-se-igrao-s-bratom-u-dvoristu/deb522g",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "PRVI SNIMAK POTRAGE ZA DEČAKOM (7) Opsadno stanje u Nišu: Mališan nestao nakon što se igrao s bratom blizancem, na ulicama grada veliki broj policajaca (VIDEO). Dečak (7) nestao je večeras u Ulici Babičkih odreda u Nišu nakon što se, navodno, u dvorištu igrao sa bratom blizancem.",
-        "zhSummary": "寻找男孩的第一部电影（7）尼什的围困情况：一个小男孩在与他的双胞胎兄弟、大量警察在城市街道上玩耍后失踪（视频）。一名 7 岁男孩今晚在尼什的 Ulica Babički odreda 失踪，据称他与双胞胎兄弟在院子里玩耍。",
+        "original": "PRVI SNIMAK POTRAGE ZA DEČAKOM (6) Opsadno stanje u Nišu: Mališan nestao nakon što se igrao s bratom blizancem, na ulicama grada veliki broj policajaca (VIDEO). Dečak (6) nestao je večeras u Ulici Babičkih odreda u Nišu nakon što se, navodno, u dvorištu igrao sa bratom blizancem.",
+        "zhSummary": "寻找男孩的第一部电影（6）尼什的围困情况：一个小男孩在与他的双胞胎兄弟、城市街道上的大量警察玩耍后失踪（视频）。一名 6 岁男孩今晚在尼什的 Ulica Babički odreda 失踪，据称他与双胞胎兄弟在院子里玩耍。",
         "sentiment": "Neutral",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'FIRST FILM OF THE SEARCH FOR THE BOY (7) Siege situation in Niš: A little boy di...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'FIRST FILM OF THE SEARCH FOR A BOY (6) Siege situation in Niš: A little boy disa...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
@@ -31,105 +130,6 @@
         "sentiment": "Neutral",
         "category": "Tech",
         "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'DO YOU CLEAN YOUR MATTRESS REGULARLY? It can affect your sleep - these are trick...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/hronika/nestao-decak-u-nisu-izasao-iz-dvorista-u-pidzami-i-rekao-da-mu-se-spava/xmrvt0e",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "DEČAK (7) NESTAO U NIŠU Izašao iz dvorišta u pidžami i rekao da mu se spava: Porodica moli za pomoć. Dečak (7) nestalo je u ulici Babičkih odreda u Nišu. Prema nezvaničnim informacijama, dete se igralo u dvorištu sa svojim bratom blizancem.",
-        "zhSummary": "国家情报院失踪男孩（7 岁）穿着睡衣离开院子，说他很困：家人正在寻求帮助。一名男孩（7 岁）在尼什 Babicki odreda 街上失踪。据非官方消息，孩子当时正在院子里和他的双胞胎兄弟玩耍。",
-        "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'BOY (7) MISSING IN NIS Left the yard in his pajamas and said he was sleepy: The ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/bukti-rat-izmedju-stanije-i-anite-u-eliti-hitno-se-oglasila-tamara-radoman/sk45rjl",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "(VIDEO) BUKTI RAT IZMEĐU STANIJE I ANITE Pale žestoke reči, pa se hitno oglasila Tamara Radoman: \"Ovo joj NIJE TREBALO, loše je po nju\". U \"Eliti\" je došlo do zahlađivanja odnosa između Stanije Dobrojević i Anite Stanojlović, koje su sinoć, tokom \"Pitanja novinara\", započele svoju raspravu oko Anđela Rankovića. Sve je kulminiralo danas, kada su pale žestoke, teške reči, što je iznenadilo sve.",
-        "zhSummary": "（视频）斯坦尼娅和安妮塔之间爆发战争激烈的言语引发了冲突，塔玛拉·拉多曼紧急说道：“她不需要这个，这对她不利”。在《Elita》中，Stanija Dobrojević 和 Anita Stanojlović 之间的关系降温，两人在昨晚的“记者提问”中开始讨论 Anđel Ranković。今天一切都达到了高潮，激烈、强硬的话语落下，让所有人都大吃一惊。",
-        "sentiment": "Negative",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(VIDEO) A WAR BREAKS OUT BETWEEN STANIA AND ANITA Fierce words ignited, so Tamar...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/odmah-ga-bacite-poznati-ajvar-se-hitno-povlaci-iz-prodavnica/dhw22bg",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Poznati ajvar se hitno povlači iz prodavnica, kompanija upozorava: \"Bacite ga!\". Kompanija Eurospin Eko je zbog mogućeg prisustva stranih tela u proizvodu, iz prodaje povukla ajvar premium blagi 290 g proizvođača Il Braciere.",
-        "zhSummary": "该公司警告说，著名的 ajvar 正紧急从商店下架：“把它扔掉！”。由于产品中可能存在异物，Eurospin Eko 公司已停止销售 Il Braciere 生产的 ajvar premium mil 290 g。",
-        "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'The well-known ajvar is urgently being withdrawn from stores, the company warns:...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/moj-novac/izletista-u-srbiji-za-prvi-maj-skriveni-biseri-mir-ili-avantura-cekaju-na-turiste/tcp8kbc",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Ovo je top 7 izletišta u Srbiji za Prvi maj: Skriveni prirodni biseri, mir ili avantura čekaju na turiste. Prvi maj tradicionalno je rezervisan za izlete, roštiljanje i uživanje u prirodi, ali najpopularnija mesta često budu prenatrpana.",
-        "zhSummary": "以下是塞尔维亚五一节最热门的 7 个野餐地点：隐藏的天然珍珠、宁静或冒险等待着游客。传统上，五一节是野餐、烧烤和享受大自然的日子，但最受欢迎的地方往往人满为患。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'These are the top 7 picnic spots in Serbia for May Day: Hidden natural pearls, p...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/sudbine/umrla-cerka-pesnika-nevena-milakovica-milena-preminula-u-32-godini/fql7xnt",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "UMRLA ĆERKA POZNATOG PESNIKA Iznenada preminula u 32. godini. Ćerka crnogorskog pesnika Nevena Milakovića, autora pesme \"Vila sa Košara\", Milana Nevena Milaković, iznenada je umrla u 32. godini.",
-        "zhSummary": "著名诗人的女儿突然去世，享年32岁。歌曲《Vila sa Košara》的作者、黑山诗人内文·米拉科维奇的女儿米拉娜·内文娜·米拉科维奇突然去世，享年32岁。",
-        "sentiment": "Negative",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'FAMOUS POET'S DAUGHTER DIED Suddenly passed away at the age of 32. The daughter ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/veljko-raznatovic-pobedio-jurija-kasinskog-u-moksvi-ceca-se-oglasila-prvak/79yrjff",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "POBEDIO LJUTOG RIVALA NAKON ŠEST RUNDI OPAKE BORBE Veljko Ražnatović ostvario 19. trijumf u karijeri, Ceca se odmah oglasila: \"PRVAK!\" (FOTO). Mladi bokser Veljko Ražnatović došao je do još jedne pobede u profesionalnoj karijeri. On je u Moskvi u \"Bupas džimu\" pobedio ljutog rivala Jurija Kašinskog (22-5-0), nakon šest rundi ljute borbe.",
-        "zhSummary": "经过六轮恶战后击败愤怒的对手，维利科·拉兹纳托维奇取得职业生涯第19场胜利，塞卡立即宣布：“冠军！” （照片）。年轻拳击手维利科·拉兹纳托维奇 (Veljko Ražnatović) 取得了职业生涯的又一次胜利。他在莫斯科的“Bupas Gym”中，经过六轮激烈的战斗，击败了劲敌尤里·卡辛斯基（22-5-0）。",
-        "sentiment": "Negative",
-        "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'DEFEATED AN ANGRY RIVAL AFTER SIX ROUNDS OF Vicious FIGHT Veljko Ražnatović achi...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/zbog-poteza-clanova-lexington-benda-mreze-gore/gprh8fg",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "ZBOG POTEZA ČLANOVA LEXINGTON BENDA GORE MREŽE Na scenu pozvali popularnu pevačicom, o snimku koji su objavili svi bruje. Pravi muzički bum dogodio se u jednom klubu u Skoplju, kada su momci iz Lexington Bend tokom nastupa priredili iznenađenje koje je u rekordnom roku obišlo mreže.",
-        "zhSummary": "由于列克星敦乐队成员的搬迁，他们邀请了一位流行歌手登台，讲述了大家都在谈论的录音。斯科普里的一个俱乐部发生了一场真正的音乐热潮，列克星敦乐队的成员们在他们的表演中带来了惊喜，并在创纪录的时间内迅速走红。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'DUE TO THE MOVE OF THE MEMBERS OF THE LEXINGTON BAND UP THE NETWORK, they invite...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/portparolka-bele-kuce-najavila-da-odlazi-na-porodiljsko-odsustvo/y34s7je",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Portparolka Bele kuće odlazi na odsustvo: \"Spremam se da se porodim svakog trenutka\" (FOTO). Portparolka Bele kuće Kerolajn Livit najavila je da odlazi na porodiljsko odsustvo, navodeći da očekuje rođenje svog drugog deteta \"svakog trenutka\".",
-        "zhSummary": "白宫女发言人即将休假：“我随时准备分娩”（图）。白宫发言人卡罗琳·莱维特宣布她将休产假，并表示她“随时”期待着第二个孩子的出生。",
-        "sentiment": "Positive",
-        "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'The spokeswoman of the White House is going on leave: \"I'm getting ready to give...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Energy 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/moj-novcanik/nemacka-sprema-veliku-penzionu-reformu-drzavna-penzija-nece-biti-dovoljna/dmlts8c",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Sprema se velika promena u Nemačkoj: Penzije neće biti dovoljne za održavanje standarda! Važno i za Srbe koji tamo rade. Nemačka priprema temeljnu reformu penzionog sistema koja bi mogla značajno promeniti način na koji građani planiraju finansijsku sigurnost u starosti. Kancelar Friedrich Merz poručio je da će državno penziono osiguranje ubuduće predstavljati samo osnovni nivo zaštite.",
-        "zhSummary": "德国即将发生重大变化：养老金不足以维持标准！对于在那里工作的塞尔维亚人来说也很重要。德国正在准备对养老金制度进行根本性改革，这可能会显着改变公民老年财务保障的计划方式。德国总理弗里德里希·梅尔茨表示，国家养老保险未来仅代表基本保障水平。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'A big change is coming in Germany: Pensions will not be enough to maintain stand...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Tech",
