@@ -2,135 +2,135 @@
 const realNewsData = [
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/evo-u-koliko-sati-pocinje-evrovizija-i-gde-mozete-gledati-prvo-polufinale/wr8c4wk",
+        "url": "https://www.blic.rs/vesti/svet/iran-vesti-britanija-salje-brodove-dronove-i-avione-u-ormuski-moreuz/eqrd172",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "SVE SPREMNO ZA SPEKTAKL U BEČU Evo u koliko sati počinje Evrovizija i gde možete gledati prvo polufinale. Jubilarno 70. izdanje takmičenja \"Evrovizija 2026\" zvanično počinje večeras prvim polufinalom, koje se održava u glavnom gradu Austrije, Beču. Austrija je domaćin zahvaljujući pobedi ostvarenoj prošle godine, a muzički spektakl će se održati u dvorani „Wiener Stadthalle” sa početkom u 21 čas.",
-        "zhSummary": "维也纳演出一切准备就绪 以下是欧洲歌唱大赛开始的时间以及您可以观看第一场半决赛的地方。第 70 届“欧洲电视网 2026”比赛今晚正式拉开帷幕，第一场半决赛在奥地利首都维也纳举行。奥地利凭借去年取得的胜利成为东道主，音乐盛会将于晚上 9 点在“Wiener Stadthalle”大厅举行。",
-        "sentiment": "Positive",
-        "category": "Finance",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'EVERYTHING READY FOR THE SHOW IN VIENNA Here's what time Eurovision starts and w...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Finance 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "original": "\"TAJFUN\" I \"ZMAJ\" STIŽU NA BLISKI ISTOK! Britanija šalje avione, dronove i brodove u Ormuski moreuz, počinje ODBRAMBENA MISIJA: \"Mere su snažne i jasne!\". Rat između Irana i Sjedinjenih Američkih Država ušao je u 74. dan, a nade za brzo okončanje sukoba sve su manje nakon što su mirovni pregovori zapali u duboku krizu. Dok je ceo svet iščekivao diplomatski proboj, jučerašnji dan doneo je dramatičan preokret. Američki predsednik Donald Tramp ekspresno je odbacio dugoočekivani mirovni predlog Teherana, nazvavši ga neprihvatljivim, čime je prekid vatre doveden na ivicu propasti.",
+        "zhSummary": "“台风”和“龙”抵达中东！英国向霍尔木兹海峡派遣飞机、无人机和舰艇，防御任务开始：“措施强有力且明确！”。伊朗和美国之间的战争已进入第74天，在和谈陷入深度危机后，迅速结束冲突的希望越来越渺茫。当全世界都在等待外交突破时，昨天发生了戏剧性的转折。美国总统唐纳德·特朗普明确拒绝了德黑兰期待已久的和平提议，称其不可接受，使停火协议濒临崩溃。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"TYPHOON\" AND \"DRAGON\" ARRIVE IN THE MIDDLE EAST! Britain sends planes, drones a...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/beograd/najvece-svetinje-svete-gore-stizu-u-beograd/5cftgeh",
+        "url": "https://www.blic.rs/zabava/darko-lazic-sa-knedlom-u-grlu-o-pogibiji-brata-dragana-drugar-ga-je-drzao/df9dvqe",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "NAJVEĆE SVETINJE SA SVETE GORE STIŽU U BEOGRAD! Dočekuje ih patrijarh, za jednu se veruje da ima isceliteljsku moć. Povodom izložbe posvećene 850 godišnjici od rođenja Svetog Save, u Beograd sutra stižu najznačajnije srpske svetinje iz Carske lavre manastira Hilandar na Svetoj Gori Atonskoj, koje su vezane za život prvog srpskog arhiepiskopa, zahvaljujući angažovanju patrijarha Srpske pravoslavne crkve Porfiriju i ugledu koji SPC ima u prijateljskoj Grčkoj i njenim najvažnijim ustanovama, saopšteno je danas iz SPC.",
-        "zhSummary": "圣山最伟大的圣人抵达贝尔格莱德！他们受到一位族长的欢迎，其中一位族长被认为具有治愈能力。在纪念圣萨瓦诞辰 850 周年的展览之际，得益于塞尔维亚东正教宗主教波菲里的参与，以及塞尔维亚东正教在友好的希腊及其最重要机构——塞尔维亚东正教协会中的声誉，来自阿索斯山希兰达尔修道院皇家修道院的最重要的塞尔维亚圣物将于明天抵达贝尔格莱德，这些圣物与第一位塞尔维亚大主教的一生有关。 SPC今天宣布。",
-        "sentiment": "Positive",
+        "original": "\"DRUGAR GA JE DRŽAO, SAMO JE REKAO DA NE MOŽE DA DIŠE\" Darko Lazić sa knedlom u grlu o pogibiji brata Dragana: \"Seo je na motor i posle 15 minuta je poginuo\". Folk pevač Darko Lazić 11. marta ove godine izgubio je rođenog brata Dragana, koji je poginuo u saobraćajki. Darko je sad, u emisiji kod Ognjena Amidžića, progovorio o porodičnoj tragediji i na samom početku je otkrio kako se oseća.",
+        "zhSummary": "“一个朋友抱着他，他只是说他无法呼吸”达科·拉齐奇 (Darko Lazić) 对于弟弟德拉甘 (Dragan) 的死亡感到喉咙哽咽：“他坐在摩托车上，15 分钟后就去世了”。今年3月11日，民谣歌手达科·拉齐奇(Darko Lazić)在一场交通事故中失去了自己的弟弟德拉甘(Dragan)。现在，在与奥格延·阿米季奇 (Ognjen Amidžić) 的节目中，达科谈到了家庭悲剧，并在一开始就透露了自己的感受。",
+        "sentiment": "Negative",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THE BIGGEST SAINTS FROM THE HOLY MOUNTAIN ARRIVE IN BELGRADE! They are greeted b...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"A FRIEND WAS HOLDING HIM, HE JUST SAID HE COULDN'T BREATHE\" Darko Lazić with a ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/it/whatsapp-ukida-nepopularnu-funkciju-avatari-postaju-proslost/gmb0ylz",
+        "url": "https://www.blic.rs/zabava/nastup-srbije-u-prvom-polufinalu-evrovizije-2026-lavina-izvela-kraj-mene/l8dm7l7",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "WhatsApp ukida nepopularnu funkciju. WhatsApp više nije samo aplikacija za dopisivanje, već potpuno razvijena društvena mreža koja omogućava korisnicima da se izraze na različite načine. Jedan od tih načina bili su avatari, ali izgleda da će uskoro nestati iz aplikacije.",
-        "zhSummary": "WhatsApp 正在终止一项不受欢迎的功能。 WhatsApp 不再只是一个消息应用程序，而是一个成熟的社交网络，允许用户以不同的方式表达自己。其中一种方式是头像，但看起来它们很快就会从应用程序中消失。",
+        "original": "SRBIJA ODUVALA U POLUFINALU EVROVIZIJE Pogledajte nastup: Momci iz Lavine uspeli da NAJEŽE SVE! Publika u transu, ovacije za Nišlije (VIDEO). Predstavnici Srbije, grupa \"Lavina\", nastupila je u polufinalu \"Evrovizije\" 15. po redu. Momci su ostavili srce na bini, te ih je publika nagradila ogromnim aplauzom, pa su na kraju prošli u finalno veče.",
+        "zhSummary": "塞尔维亚队在欧洲电视网半决赛中大获全胜 观看表演：来自拉维纳的男孩们让所有人都感到不寒而栗！观众在恍惚中，为 Nišlije 鼓掌（视频）。塞尔维亚代表队“拉维娜”连续第15次闯入“欧洲电视网”半决赛。男孩们在舞台上留下了自己的心，观众报以热烈的掌声，最终他们走向了决赛之夜。",
         "sentiment": "Positive",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'WhatsApp is ending an unpopular feature. WhatsApp is no longer just a messaging ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'SERBIA WAS BLOWN AWAY IN THE SEMI-FINALS OF EUROVISION Watch the performance: Th...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/ove-zemlje-su-prosle-u-finale-evrovizije-2026-pored-srbije/r5qlhjs",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "ONI ĆE SE BORITI ZA PRVO MESTO Ove zemlje su prošle u finale Evrovizije 2026 pored Srbije. Prvo polufinale Pesme Evrovizije 2026. godine održalo se večeras! Srbija je prošla u veliko finale koje se održava u subotu, 16. maja, a voditelji su otkrili i koje sve zemlje su prošle dalje.",
+        "zhSummary": "他们将为第一名而战 这些国家与塞尔维亚一起进入了 2026 年欧洲歌唱大赛的决赛。 2026年欧洲歌唱大赛第一场半决赛今晚举行！塞尔维亚队进入了 5 月 16 日星期六举行的总决赛，主持人还透露了哪些国家进一步晋级。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THEY WILL FIGHT FOR THE FIRST PLACE These countries made it to the finals of Eur...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/hronika/krvavi-obracun-migranata-u-obrenovcu-jedna-osoba-ubijena/7167ed6",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "JEDNA OSOBA UBIJENA, DRUGOJ SE BORE ZA ŽIVOT! Krvavi obračun migranata u Obrenovcu: Na snazi akcija \"Vihor 3\". U obračunu dve grupe migranata kod Obrenovca jedna osoba je izgubila život, dok se lekari bore za život drugog teško povređenog muškarca.",
+        "zhSummary": "一个人被杀，另一个人正在为生命而战！奥布伦诺瓦茨移民的血腥对决：行动“Vihor 3”生效。在奥布伦诺瓦茨附近两群移民之间的对峙中，一人丧生，而医生正在努力挽救另一名重伤男子的生命。",
+        "sentiment": "Negative",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'ONE PERSON KILLED, ANOTHER IS FIGHTING FOR LIFE! Bloody showdown of migrants in ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
         "url": "https://www.blic.rs/zabava/evrovizija-2026-prvo-polufinale-evo-pod-kojim-rednim-brojem-nastupa-srbija/nm0rprr",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "POČINJE EVROVIZIJA Hitna evakuacija pred polufinale! Evo pod kojim brojem večeras nastupa Srbija, takmiči se i ČUVENA SVETSKA ZVEZDA: Ovo su pravila glasova. Večeras počinje prvo polufinale ovogidišnje \"Evrovizije\" u Beču. Grupa \"Lavina\", predstavnici Srbije, nastupaju pod rednim brojem 15, a oni zatvaraju takmičarski deo ovog polufinala, iz kog dalje prolazi 10 država.",
-        "zhSummary": "欧洲电视网开始半决赛前紧急疏散！这是塞尔维亚今晚表演的号码，著名的世界明星也参加比赛：以下是投票规则。今年“欧洲电视网”第一场半决赛今晚在维也纳拉开帷幕。代表塞尔维亚的“拉维纳”队身披15号球衣，结束了半决赛的比赛部分，共有10个国家晋级。",
+        "original": "ZAVRŠENO PRVO POLUFINALE EVROVIZIJE Ovacije za Srbiju, Crnogorka ISPALA! Hrvatice pevale: \"Nisu naše majke IZNEDRILE ROBLJE\". Večeras se održalo prvo polufinale ovogodišnje \"Evrovizije\" u Beču. Grupa \"Lavina\", predstavnici Srbije, nastupali su pod rednim brojem 15, a oni su zatvorili takmičarski deo ovog polufinala, iz kog je dalje prošlo 10 država.",
+        "zhSummary": "欧洲电视网半决赛第一场结束 塞尔维亚、黑山失败！克罗地亚妇女唱道：“我们的母亲没有生下奴隶”。今晚，今年“欧洲电视网”的首场半决赛在维也纳举行。代表塞尔维亚队的“拉维纳”队以15号球衣出战，结束了本次半决赛的比赛部分，共有10个国家参赛。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'FIRST SEMI-FINAL OF EUROVISION CONCLUDED Ovations for Serbia, Montenegro FAILED!...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/evrovizija-srbija-prosla-u-finale-a-evo-koje-drzave-su-ispale-iz-polufinala/4c1lh1y",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "SRBIJA JE U FINALU EVROVIZIJE Saopšteni glasovi! Evo koje sve države NISU PROŠLE DALJE: Za komšije se takmičenje završilo. Voditelji \"Evrovizije\" saopštili su večeras, na kraju prvog polufinala, koje zemlje prolaze u finale. Takmičilo se 15 država, od kojih je 10 prošlo dalje, među kojima se našla i Srbija.",
+        "zhSummary": "塞尔维亚进入欧洲电视网决赛 声音宣布！以下是所有未通过进一步考试的国家： 对于邻国来说，竞争已经结束。今晚，“欧洲电视网”的东道主在第一场半决赛结束时宣布了哪些国家将晋级决赛。共有 15 个国家参赛，其中 10 个国家晋级，其中包括塞尔维亚。",
         "sentiment": "Positive",
         "category": "Finance",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'EUROVISION BEGINS Urgent evacuation before the semi-finals! Here is the number u...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Finance 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'SERBIA IS IN THE EUROVISION FINAL Voices announced! Here are all the countries t...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Finance 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/putnike-sa-kruzera-smrti-smestili-tik-do-beba-u-bolnici-pacijenti-u-strahu-od/fl5g10t",
+        "url": "https://www.blic.rs/slobodno-vreme/evo-zasto-ne-bi-trebalo-da-ostavljate-kljuc-u-bravi-tokom-noci-cak-iako-imate-smart/prj6nzv",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "Putnike sa \"kruzera smrti\" SMESTILI TIK DO BEBA na intenzivnoj nezi, dele ih samo zalepljena vrata, pacijenti u strahu: \"ZARAZIĆE MI DETE\". Poslednji putnici napustili su u utorak luksuzni kruzer pogođen izbijanjem epidemije hantavirusa. Oni su vraćeni u svoje matične zemlje i smešteni u izolacije po lokalnim bolnicama, dok među stanovnicaima rastu strahovi od prenosa zaraze.",
-        "zhSummary": "来自“死亡巡洋舰”的乘客被安置在重症监护室的婴儿旁边，仅用胶带门隔开，患者们担心：“我的孩子会被感染”。周二，最后一批乘客离开了受汉坦病毒爆发影响的豪华游轮。他们已被返回祖国并被隔离在当地医院，而居民对感染传播的担忧与日俱增。",
-        "sentiment": "Negative",
-        "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Passengers from the \"cruiser of death\" were PLACED RIGHT NEXT TO THE BABY in int...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "original": "Srbi ovo stalno rade i prave strašnu grešku: Nikako ne OSTAVLJATE KLJUČ u bravi tokom noći, čak iako je smart lock - stručnjak objasnio zašto. Mnogi ljudi imaju naviku da pred spavanje zaključaju vrata i ostave ključ u bravi, verujući da su tako bezbedniji. Međutim, jedan tehničar za bezbednost upozorava da ova navika može imati više mana nego prednosti.",
+        "zhSummary": "塞尔维亚人总是这样做，并犯了一个可怕的错误：晚上永远不要把钥匙留在锁里，即使是智能锁 - 一位专家解释了原因。许多人都有睡觉前锁门并将钥匙留在锁里的习惯，认为这样更安全。然而，一位安全技术人员警告说，这种习惯弊大于利。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Serbs do this all the time and make a terrible mistake: NEVER LEAVE THE KEY in t...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/drama-pred-pocetak-festivala-evrovizija-clanicu-izraela-udarila-kamera/l2gn81d",
+        "url": "https://www.blic.rs/vesti/svet/krvava-svadba-u-micigenu-mladozenja-se-napio-pa-pregazio-vencanog-kuma/6bez7fs",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "Članicu delegacije Izraela UDARILA KAMERA, drama pred početak Evrovizije: \"Lekari su odmah reagovali\". Plesačica Lihi Frojd povređena je u ponedeljak uveče tokom nastupa izraelskog pevača Noama Betana sa pesmom \"Mišel\" na generalskoj probi za žiri Evrovizije 2026. Tim povodom se oglasila njihova delegacija.",
-        "zhSummary": "以色列代表团成员被镜头击中，欧洲歌唱大赛开始前的戏剧：“医生立即做出反应”。周一晚上，在 2026 年欧洲电视网评审团彩排中，以色列歌手诺姆·贝坦 (Noam Betan) 演唱歌曲《米歇尔》(Michelle) 时，舞者莱希·弗洛伊德 (Leahy Freud) 受伤。",
+        "original": "KRVAVA SVADBA Mladoženja se napio, pa UBIO venčanog KUMA: Nakon svađe ga PREGAZIO DŽIPOM. Mladoženja iz Mičigena koji je u svojoj svadbenoj noći terencem udario i usmrtio svog venčanog kuma osuđen je na najmanje 30 godina zatvora.",
+        "zhSummary": "血腥的婚礼 新郎喝醉了，杀死了伴郎：一场争吵后，他开着吉普车跑了过去。密歇根州一名新郎在新婚之夜用一辆SUV撞死了伴郎，被判处至少30年监禁。",
         "sentiment": "Negative",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'A member of the delegation of Israel HIT BY THE CAMERA, drama before the start o...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'BLOODY WEDDING The groom got drunk and KILLED the best man: After an argument, h...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/tragedija-kod-nove-gradiske-sara-umrla-nakon-teske-saobracajne-nesrece-foto/9tdeh26",
+        "url": "https://www.blic.rs/vesti/svet/promenjen-protokol-za-upravljanje-epidemijom-hantavirusa/thtwbyb",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "(FOTO) SARA (18) UMRLA PRED MATURU Stravična nesreća kod Nove Gradiške, drugari se opraštaju od tinejdžerke bolnim rečima: \"Planirali smo letovanje, a sad joj palimo sveću\". Srednja škola Nova Gradiška oprostila se od svoje učenice Sare Vrbanić (18), koja je preminula usled teške saobraćajne nesreće kod Nove Gradiške, dirljivom porukom.",
-        "zhSummary": "（照片）萨拉（18 岁）在毕业前去世 新格拉迪斯卡附近发生了可怕的事故，朋友们用痛苦的话语向一位十几岁的女孩道别：“我们计划了一个假期，现在我们正在为她点燃蜡烛。” Nova Gradiška 高中向在 Nova Gradiška 附近发生严重交通事故的学生 Sara Vrbanić（18 岁）告别，并传达了一条感人的信息。",
+        "original": "HITNO SE OGLASILA KOMISIJA ZA UPRAVLJANJE EPIDEMIJOM! Promenjen protokol karantina za HANTAVIRUS, oglasila se i SZO. Komisija za javno zdravlje Španije ažurirala je protokol za upravljanje epidemijom hantavirusa na kruzeru \"MV Hondius\", pomerivši \"nulti dan\" za početak karantina 14 osoba koje se nalaze u izolaciji u vojnoj bolnici Gomez Ulja u Madridu sa 6. na 10. maj.",
+        "zhSummary": "疫情管理委员会紧急宣布！世界卫生组织也公布了汉坦病毒的检疫方案。西班牙公共卫生委员会更新了MV Hondius号游轮上汉坦病毒爆发的管理方案，将马德里戈麦斯乌利亚军事医院14名隔离人员的隔离期从5月6日推迟至5月10日。",
         "sentiment": "Negative",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(PHOTO) SARA (18) DIED BEFORE GRADUATION Terrible accident near Nova Gradiska, f...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THE COMMISSION FOR THE MANAGEMENT OF THE EPIDEMIC WAS URGENTLY ANNOUNCED! The qu...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/marija-serifovic-se-obratila-grupi-lavina-ulazi-u-finale-evrovizije/4jrqdk0",
+        "url": "https://www.blic.rs/zabava/kladionice-evrovizija-evo-na-kom-je-mestu-srbija-skocili-procenti-za-lavinu/wp00x62",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "Na današnji dan pre 19 godina Marija Šerifović je ODNELA POBEDU na Evroviziji, sad se javno obratila grupi \"Lavina\": \"Srbija lagano ulazi u finale\". Pevačica Marija Šerifović oglasila se na mrežama tik pred početak prvog polufinala Evrovizije. Grupa \"Lavina\" se večeras bori za prolazak u finale, a ona im je sada javno pružila podršku.",
-        "zhSummary": "19年前的今天，玛丽亚·塞里福维奇赢得了欧洲歌唱大赛冠军，现在她公开向“拉维娜”团体致辞：“塞尔维亚轻松进入决赛”。歌手 Marija Šerifović 在欧洲歌唱大赛第一场半决赛开始前在网络上宣布了自己的身份。 “Lavina”组合正在为今晚的决赛而战，她现在公开支持他们。",
+        "original": "OVA ZEMLJA JE UBEDLJIVI FAVORIT U POLUFINALU EVROVIZIJE Evo na kom je mestu Srbija, skočili procenti za grupu \"Lavina\". Ovogodišnja Pesma Evrovizije održava se u Beču, sa večeras se održava prvo polufinalno veče. Drugo polufinale zakazano je za 14. maj, dok je veliko finale planirano za 16. maj. Srbiju na ovom prestižnom muzičkom takmičenju predstavlja grupa \"Lavina\" sa pesmom \"Kraj mene\", a na kladionicama za prolazak u finale skočili su procenti za našu zemlju.",
+        "zhSummary": "这个国家是欧洲电视网半决赛中令人信服的热门。这就是塞尔维亚，“拉维纳”组的百分比跃升。今年的欧洲歌唱大赛在维也纳举行，第一场半决赛将于今晚举行。第二场半决赛定于5月14日举行，总决赛定于5月16日举行。塞尔维亚队“Lavina”乐队代表塞尔维亚参加这场享有盛誉的音乐比赛，他们演唱了歌曲“Kraj mene”，在投注网站上，我们国家进入决赛的比例大幅上升。",
         "sentiment": "Positive",
         "category": "Finance",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'On this day, 19 years ago, Marija Šerifović WON the Eurovision Song Contest, now...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Finance 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THIS COUNTRY IS THE CONVINCING FAVORITE IN THE SEMI-FINALS OF EUROVISION Here's ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Finance 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zdravlje/zdravstvena-stanja/sta-reci-nekome-ko-je-u-depresiji-a-sta-ne-saveti-strucnjaka-za-podrsku/029ns06",
+        "url": "https://www.blic.rs/zabava/ovo-je-tekst-pesme-kraj-mene-grupe-lavina-na-evroviziji/nbbswt9",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "Rečenice koje treba izgovoriti osobi u depresiji: Psihijatri objašnjavaju kako pružiti podršku bez pogrešnih reči. Depresija pogađa svakog trećeg čoveka, a razgovor o njoj često sputava strah od pogrešnih reči. To nije prolazna tuga, već složena bolest koja zahteva konkretne komunikacione alate. Razbijanje tišine gradi mostove ka oporavku, a s obzirom na to stručnjaci otkrivaju najmudrije i najsaosećajnije rečenice za pomoć bliskim osobama.",
-        "zhSummary": "对抑郁症患者说的话：精神科医生解释如何在不说错话的情况下提供支持。三分之一的人患有抑郁症，而谈论抑郁症往往会因为担心使用错误的词语而受到阻碍。这不是一种短暂的悲伤，而是一种需要具体沟通工具的复杂疾病。打破沉默为康复架起桥梁，考虑到这一点，专家们揭示了最明智、最富有同情心的路线来帮助亲人。",
+        "original": "EVO O ČEMU GOVORI PESMA GRUPE \"LAVINA\" Andrija Cvetanović otkriva sve o numeri \"Kraj mene\": \"Treba predstaviti i tu stranu čoveka\". Grupa \"Lavina\" nastupila je večeras pod rednim brojem 15. na muzičkom takmičenju \"Evrovizija\". Momci su ostavili sve bez teksta, a njihov nastup nagrađen je ogromnim aplauzom.",
+        "zhSummary": "以下是关于“LAVINA”歌曲的内容 Andrija Cvetanović 揭示了歌曲“Kraj mene”的一切：“我们需要展现人的那一面。” “Lavina”乐队今晚在“欧洲歌唱大赛”音乐比赛中排名第 15 名。孩子们的表演让大家哑口无言，赢得了热烈的掌声。",
         "sentiment": "Positive",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Sentences to say to a depressed person: Psychiatrists explain how to offer suppo...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/dado-topic-o-takmicenju-evrovizija-i-grupi-lavina-imaju-sanse/vy6bx3q",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "\"BIĆE JEDINI TOG ŽANRA\" Dado Topić otkriva prognozu za prvo polufinale \"Evrovizije\" i seća se svog gorkog iskustva: \"Lavina ima šanse\" (VIDEO). Večeras se u Beču održava prvo polufinalno veče Evrovizije 2026, a tim povodom jedna od najvećih ikona ex-YU rok scene i neosporni rokenrol titan ovih prostora, Dado Topić, prisetio se svog iskustva na ovom prestižnom muzičkom spektaklu, ali i najavio nastup na Banaton Fest 2026, koji će od 29. maja do 1. juna biti održan u Temišvaru.",
-        "zhSummary": "“这将是该类型中唯一的一个”Dado Topić 透露了对“欧洲电视网”第一场半决赛的预测，并回忆起他的痛苦经历：“雪崩有机会”（视频）。今晚，2026 年欧洲歌唱大赛的第一场半决赛之夜将在维也纳举行，值此之际，前 YU 摇滚界的最大偶像之一、该地区无可争议的摇滚巨头 Dado Topić 回顾了他在这场享有盛誉的音乐盛会上的经历，同时还宣布了他将在 2026 年巴纳顿音乐节 (Banaton Fest) 上进行表演，该音乐节将于 5 月 29 日至 6 月 1 日在蒂米什瓦拉举行。",
-        "sentiment": "Neutral",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"IT WILL BE THE ONLY ONE OF THAT GENRE\" Dado Topić reveals the forecast for the ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/privreda/radojka-nikolic-o-pregovorima-za-kupovinu-nis-a/c6e1bbb",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "MOL želi kompaniju, ali sada se preispituju svi dogovori! Nikolić o pregovorima za NIS: \"Naša strana hoće da naglasi naše interese\" (VIDEO). Pregovori o mogućoj prodaji NIS-a ulaze u najosetljiviju fazu, dok se približava rok za odluku američkog OFAK-a, bez čije saglasnosti ceo posao ne može biti završen. Iako je prethodnih nedelja delovalo da Srbija i mađarski MOL uspevaju da pronađu zajednički jezik, poslednje poruke iz vrha države pokazale su da ključna pitanja i dalje nisu rešena. U centru pregovora sada je budućnost pančevačke rafinerije, ali i položaj Srbije na domaćem tržištu nafte i derivata.",
-        "zhSummary": "MOL 想要这家公司，但现在所有交易都在接受审查！尼科利奇谈国家情报院谈判：“我们方面希望强调我们的利益”（视频）。关于出售NIS的谈判正进入最敏感的阶段，而美国OFAK做出决定的最后期限也已临近，没有其同意，整个交易无法完成。尽管在过去的几周里，塞尔维亚和匈牙利的MOL似乎已经找到了共同语言，但来自国家高层的最新消息表明，关键问题仍然没有得到解决。潘切沃炼油厂的未来以及塞尔维亚在国内石油和衍生品市场的立场现在是谈判的核心。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'MOL wants the company, but now all deals are being reviewed! Nikolić on negotiat...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/beograd/majka-i-dete-oboreni-na-pesackom-prelazu-na-banovom-brdu/x49v0ms",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "AUTO POKOSIO MAJKU I DETE NA BANOVOM BRDU! Žena nepomično leži na pešačkom, udario ih dok su prelazili ulicu. U Požeškoj ulici na Banovom brdu došlo je do saobraćajne nesreće u kojoj je, prema prvim nezvaničnim informacijama, automobil udario majku i dete.",
-        "zhSummary": "班尼·布尔多 (Ban’s Brdo) 上一辆汽车撞死了一名母亲和一名儿童！女子一动不动地躺在人行道上，他们在过马路时被撞。巴诺沃布尔多的波热斯卡街发生了一起交通事故，根据第一份非官方信息，一辆汽车撞到了一名母亲和一名儿童。",
-        "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'A CAR MOWED A MOTHER AND A CHILD ON BAN'S BRDO! The woman lies motionless on the...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'HERE'S WHAT THE \"LAVINA\" SONG IS ABOUT Andrija Cvetanović reveals everything abo...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Tech",
@@ -196,7 +196,7 @@ const realNewsData = [
         "zhSummary": "Galaxy S27 Ultra 可以获得更好的相机：它配备 200 MP，但也是这个重要的选项。三星 Galaxy S27 Ultra 距离正式发布还很遥远，但第一批泄密信息已经出现。最近有消息称后置摄像头模块可能会重新设计，现在有内部人士分享了有关手机主摄像头传感器的新细节。",
         "sentiment": "Positive",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Galaxy S27 Ultra could get a BETTER CAMERA EVER: It comes with 200 MP but also t...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'The Galaxy S27 Ultra could get a BETTER CAMERA EVER: It comes with 200 MP but al...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Tech",
