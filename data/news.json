@@ -1,135 +1,146 @@
 [
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/hronika/ispovest-majke-ivane-novakovic-iz-arilja-morala-sam-reci-unukama-da-nemaju-nijednog/9ehpxlz",
+        "url": "https://www.blic.rs/vesti/politika/vucic-najavio-portal-ko-si-bre-ti-za-prijave-bahatosti-i-problema-gradjana/hzv235x",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "\"NAJTEŽE JE BILO REĆI UNUKAMA DA VIŠE NEMAJU NIJEDNOG RODITELJA\" Potresna ispovest majke Ivane Novaković koju je zajedno sa mužem u punom kafiću ubio Branko Pušica: \"Sada svi polako umiremo za njima\". \"Na kraju, kada nije mogao da živi njihov život, on im je život i uzeo\", reči su Gorice Blagojević, majke Ivane Novaković koju je, zajedno sa suprugom Predragom, 31.decembra 2024. godine u kafiću u Arilju ubio Branko Pušica. Viši sud u Užicu je dva puta doneo presudu u ovom slučaju: prvom presudom je osuđen na 18 godina, a drugi put na 20 godina iako mu je zakonom predviđena kazna za ovaj zločin - doživotna robija.",
-        "zhSummary": "“告诉孙子们，他们不再有父母是最困难的事情”，母亲伊万娜·诺瓦科维奇 (Ivana Novaković) 与丈夫一起在拥挤的咖啡馆里被布兰科·普西卡 (Branko Pušica) 杀害，她的令人震惊的忏悔是：“现在我们都在慢慢地为他们而死”。 2024 年 12 月 31 日，伊万娜·诺瓦科维奇 (Ivana Novaković) 与丈夫普雷德拉格 (Predrag) 在阿里列 (Arilje) 的一家咖啡馆被布兰科·普西卡 (Branko Pušica) 杀害。 伊万娜·诺瓦科维奇 (Ivana Novaković) 的母亲戈里察·布拉戈耶维奇 (Gorica Blagojević) 说：“最后，当他无法过上他们的生活时，他结束了他们的生命。”乌日策高等法院两次对此案作出判决：第一次判决判处他 18 年徒刑，第二次判处 20 年徒刑，尽管法律规定对他的这一罪行的处罚是终身监禁。",
+        "original": "Vučić najavio portal \"Ko si bre ti?\": Građani će moći direktno da šalju pritužbe na bahatost i aroganciju. Predsednik Srbije Aleksandar Vučić najavio je da će uskoro biti pokrenut novi portal pod nazivom „Ko si bre ti?“, putem kojeg će građani moći direktno da šalju pritužbe i ukazuju na probleme sa kojima se suočavaju, posebno kada je reč o bahatosti i aroganciji pojedinaca u sistemu.",
+        "zhSummary": "武契奇宣布推出门户网站“你是谁？”：公民将能够直接发送有关傲慢和傲慢的投诉。塞尔维亚总统亚历山大·武契奇宣布推出一个名为“你是谁？”的新门户网站。即将推出，公民可以通过该平台直接投诉并指出他们面临的问题，特别是针对体制内个人的傲慢和傲慢。",
         "sentiment": "Negative",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"TELLING THE GRANDCHILDREN THAT THEY DON'T HAVE A PARENT ANYMORE WAS THE HARDEST...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Vučić announced the portal \"Who are you?\": Citizens will be able to directly sen...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/ema-radujko-i-teodora-na-istom-dogadjaju-beze-jedna-od-druge-dzehva-je-ne-voli/vemkglk",
+        "url": "https://www.blic.rs/zabava/slaven-doslo-o-nocnoj-mori-pred-maraton-begu-na-bali-i-ljubavi/m6tysfd",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "DŽEHVA NE MOŽE DA JE SMISLI Pevačica došla na koncert na kom je BILA I TEODORA: Bežale jedna od druge! Obe provociraju haljinama sa OGROMNIM IZREZOM. Pevačice Teodora Džehverović i Ema Radujko bile su sinoć na jednom prestoničkom koncertu, a obe su za tu priliku ponele jako provokativna izdanja. Haljine sa izrezima privukle su mnogo pažnje, dok je Teodora pred našim kamerama potvrdila da ne želi nikakav kontakt sa koleginicom.",
-        "zhSummary": "JŽEHVA 无法理解她 这位歌手来到了比拉和西奥多拉所在的音乐会：他们互相逃跑了！两者都挑衅带有巨大项链的连衣裙。歌手特奥多拉·杰维洛维奇 (Teodora Džehverović) 和埃玛·拉杜伊科 (Ema Radujko) 昨晚在首都参加了一场音乐会，两人在这个场合都穿着非常挑衅的服装。镂空连衣裙引起了很多关注，而特奥多拉在我们的镜头前证实，她不想与同事有任何接触。",
+        "original": "\"SVE SAM POGREŠNO URADIO!\" Slaven Došlo o noćnoj mori pred maraton, begu na Bali i ljubavi: \"Ljudi su nezadovoljni u vezama iz straha\". Popularni mladi glumac Slaven Došlo uspeo je da u svoj gust raspored, između proslave rođendana, renoviranja stana i planiranja letnjeg odmora, upiše i uspešno istrčanih deset kilometara na beogradskom maratonu. Tim povodom, on je otvoreno govorio o sportskim pehovima, svojoj potrebi da mir pronađe na dalekom Baliju, ali i o važnim životnim lekcijama o ljubavi, strahu i međuljudskim odnosima.",
+        "zhSummary": "“我什么都做错了！” Slaven 讲述了马拉松前的噩梦、逃往巴厘岛和爱情：“人们因为恐惧而在人际关系中不快乐”。当红青年演员斯拉文·多斯洛在繁忙的日程中，在庆祝生日、装修公寓和计划暑假之间，成功地在贝尔格莱德马拉松赛上跑了十公里。在那次场合，他公开谈到了体育方面的厄运，他需要在遥远的巴厘岛寻找平静，但也谈到了关于爱、恐惧和人际关系的重要人生教训。",
         "sentiment": "Positive",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'JŽEHVA CAN'T UNDERSTAND HER The singer came to a concert where BILA AND THEODORA...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 All 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"I DID EVERYTHING WRONG!\" Slaven It came about the nightmare before the marathon...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/hronika/deset-kljucnih-dokaza-u-slucaju-ubistva-aleksandra-nesovica-evo-ko-je-cistio-krv/net5plk",
+        "url": "https://www.blic.rs/biznis/after-hour/nova-pravila-za-sve-firme-u-srbiji-od-2026-svaka-kompanija-morace-da-dokaze-koliko-je/e92p7sr",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "OVO JE SPISAK 10 DOKAZA U SLUČAJU UBISTVA ALEKSANDRA NEŠOVIĆA Evo ko je ČISTIO KRV nakon pucnjave u restoranu na Senjaku (FOTO). Mobilni telefon žrtve bačen u kontejner, snimci sa nadzornih kamera, ruta bekstva, automobil kojim je transportovan telo... Ovo je deo dokaza koji su do sada prikupljeni tokom istrage za ubistvo Aleksandra Nešovića zvanog Baja koji je ubijen 12. maja u restoranu na Senjaku. Iako policija, a od ponedeljka i vojska, intenzivno tragaju za telom žrtve, potraga i dalje nije rezultirala pronalaskom.",
-        "zhSummary": "这是亚历山大·内索维被谋杀案中的 10 个证据 这是在塞尼亚克餐厅枪击事件后清理血迹的人（照片）。受害者被扔进集装箱的手机、监控摄像头的录像、逃生路线、运送尸体的汽车……这是在调查亚历山大·内索维奇（又名巴哈）谋杀案期间迄今为止收集到的部分证据，他于5月12日在塞尼亚克的一家餐馆被杀。尽管警方和军队自周一以来正在加紧搜寻受害者的尸体，但搜查仍然没有找到任何结果。",
+        "original": "Nova pravila za sve firme u Srbiji: Od 2026. svaka kompanija moraće da dokaže koliko je zaista odgovorna. Zamislite da vam veliki poslovni partner postavi pitanje koje niste očekivali: „Koliki je vaš karbonski otisak?“ ili „Kakva je vaša politika prema zaposlenima?“. U kancelariji nastane tišina. Niko ne zna odgovor, ali ne zato što firma ne brine, nego zato što to nikad niko nije ni merio ni zapisao. Upravo ta tišina, u godinama koje dolaze, može da košta mnogo više od novca.",
+        "zhSummary": "针对塞尔维亚所有公司的新规则：从 2026 年起，每家公司都必须证明其真正的责任感。想象一下，一个大的商业伙伴问你一个你意想不到的问题：“你的碳足迹是多少？”或“你们的员工政策是什么？”。办公室里一片寂静。没有人知道答案，但这并不是因为公司不在乎，而是因为没有人测量过或写下来。在未来的岁月里，这种沉默所带来的代价将远远超过金钱。",
         "sentiment": "Negative",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THIS IS A LIST OF 10 EVIDENCE IN THE CASE OF THE MURDER OF ALEKSANDR NEŠOVIĆ Her...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'New rules for all companies in Serbia: From 2026, every company will have to pro...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vremenska-prognoza/srbija-se-zagreva-brze-i-vise-od-ostatka-sveta-posledice-su-katastroficne/lc83v4h",
+        "url": "https://www.blic.rs/bbc/sta-je-sabor-a-sta-sinod-srpske-pravoslavne-crkve/5gltzft",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "SRBIJA SE ZAGREVA VIŠE I BRŽE OD OSTATKA SVETA: A posledice - zastrašujuće! Koliko je samo 1 stepen više katastrofičan najbolje je objasnio naš naučnik. I ovog leta Srbija će biti suočena sa visokim temperaturama iznad proseka, kao i velikim brojem tropskih dana, ali i toplotnim talasima koje su iz godine u godinu sve učestaliji. Prema najavama RHMZ-a, predstojeće leto 2026, računajući od 1. juna do 31. avgusta, doneće srednje temperatura vazduha iznad proseka, sa odstupanjem do 1 stepen Celzijusa, što dokazuje da se Srbija već zagreva brže od globalnog proseka. Prosečna godišnja temperatura već je toplija za više od 1,8 °C u odnosu na predindustrijsko doba, što je samo dokaz kako klimatske promene uzimaju maha. Ali, koje su posledice ako se nastavi trend zagrevanja?",
-        "zhSummary": "塞尔维亚的升温速度比世界其他地区更快：其后果令人恐惧！我们的科学家最好地解释了 1 度的灾难性后果。今年夏天，塞尔维亚也将面临高于平均水平的高温，以及大量的热带天气，而且热浪每年都会变得更加频繁。根据RHMZ的公告，即将到来的2026年夏季，从6月1日到8月31日，平均气温将高于平均气温，偏差高达1摄氏度，这证明塞尔维亚变暖的速度已经快于全球平均水平。年平均气温已经比工业化前时代高出1.8°C以上，这恰恰证明气候变化正在加速。但如果变暖趋势持续下去，会产生什么后果？",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'SERBIA IS WARMING UP MORE AND FASTER THAN THE REST OF THE WORLD: And the consequ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/putinu-blizak-saveznik-okrece-ledja-ova-zemlja-prkosi-kremlju-i-pravi-savez-sa/peev6t2",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "PUTINU BLIZAK SAVEZNIK OKREĆE LEĐA! Nekada pod ruskom šapom, ova zemlja sada PRKOSI KREMLJU: Moskva preti \"ukrajinskim scenarijom\". Jermenija, nekada blizak ruski saveznik, sve više dobija na strateškom značaju, što joj pomaže da se udalji iz sfere uticaja Rusije i produbi veze sa Zapadom. Kako ruski rat u Ukrajini iscrpljuje moć i ugled Moskve, zapadne vlade sve više vide, ne samo Jermeniju, nego i ceo Južni Kavkaz kao strateški koridor za trgovinu, energiju i kritične minerale koji zaobilazi Rusiju i Iran.",
-        "zhSummary": "普京的亲密盟友回头了！这个曾经处于俄罗斯爪牙之下的国家现在正在反抗克里姆林宫：莫斯科威胁要出现“乌克兰情景”。亚美尼亚曾经是俄罗斯的亲密盟友，其战略重要性日益增强，这有助于其摆脱俄罗斯的势力范围并加深与西方的关系。随着俄罗斯在乌克兰的战争削弱了莫斯科的权力和威望，西方政府越来越多地不仅将亚美尼亚，而且将整个南高加索地区视为绕过俄罗斯和伊朗的贸易、能源和关键矿产的战略走廊。",
-        "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'PUTIN'S CLOSE ALLY TURNED BACK! Once under the Russian paw, this country is now ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/cerka-pevaca-prvi-put-u-javnosti-nakon-sto-je-njen-auto-usmrtio-konja-u-minicu/60ek909",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "SVE OČI UPRTE U ĆERKU PEVAČA Mokra kosa, na njoj sve puca u uskom, a minić NIKAD KRAĆI: Prvi put u javnosti nakon što je njen auto usmrtio konja (FOTO). Sofija Šašić, ćerka folk pevača Željka Šašića, pojavila se sinoć na Nućijevom koncertu u Sava Centru i sve oči su bile uprte u nju. Ona se pojavila u crnoj odevnoj kombinaciji, a svi prisutni su komentarisali da izgleda nikad bolje.",
-        "zhSummary": "所有的目光都集中在歌手的女儿身上。湿漉漉的头发，她身上的一切都紧紧地伸出来，迷你车永远不会更短：在她的车撞死一匹马后第一次出现在公共场合（照片）。民谣歌手 Željko Šašić 的女儿 Sofija Šašić 昨晚出现在萨瓦中心 Nući 的音乐会上，所有的目光都集中在她身上。她一身黑衣亮相，在场的所有人都评价她从来没有这么好看过。",
-        "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'ALL EYES ARE ON THE SINGER'S DAUGHTER. Wet hair, everything on her is sticking o...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/drustvo/potresna-zivotna-ispovest-rajka-postao-je-jedan-od-pet-najplemenitijih-decaka-sveta/b2h0dpg",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "(VIDEO) Rajku je detinjstvo prošlo uz gladovanje i sve same muke, a onda je kao jedan od 5 najplemenitijih dečaka na svetu dobio PUT OKO SVETA! Ovo je njegova neverovatna ispovest. Odrastao je brinući o nepokretnoj baki u vrletima Zapadne Srbije. Bez oca i majke, sa kozama i ovcama. Ni u školu nije mogao da ide kao sva druga deca, jer je morao da radi na selu. A onda je u 7. razredu dobio vize za sve zemlje sveta. Ovo je neverovatna priča Rajka Krejovića (70).",
-        "zhSummary": "（视频）拉伊科的童年是在饥饿和艰辛中度过的，然后作为世界上五个最高贵的男孩之一，他得到了环游世界的机会！这是他令人难以置信的坦白。他在塞尔维亚西部的森林里照顾行动不便的祖母。没有父亲和母亲，有山羊和绵羊。他甚至不能像其他孩子一样上学，因为他必须在农村工作。然后在七年级时，他获得了世界所有国家的签证。这是 Rajko Krejović（70 岁）的不可思议的故事。",
-        "sentiment": "Positive",
-        "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(VIDEO) Rajko's childhood was spent with starvation and all the hardships, and t...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Energy 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/kriticna-tacka-se-priblizava-najvece-jezero-na-svetu-nestaje/ss3mdt5",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Kritična tačka se približava: Najveće jezero na svetu NESTAJE. Kaspijsko more, najveće jezero na svetu, suočava se sa dramatičnim padom nivoa vode, a naučnici upozoravaju da bi posledice mogle biti katastrofalne za ekosisteme, ekonomiju i milione ljudi koji žive uz njegove obale.",
-        "zhSummary": "临界点即将到来：世界上最大的湖泊正在消失。世界上最大的湖泊里海正面临水位急剧下降的问题，科学家警告说，其后果可能对生态系统、经济和数百万居住在里海沿岸的人们造成灾难性的后果。",
-        "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'The tipping point is approaching: The largest lake in the world is DISAPPEARING....'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/drustvo/posle-65-godine-voznja-vise-nije-ista-ovo-je-7-znakova-da-treba-da-ostavite-kljuceve/ell545z",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Posle ovog godišta teže do vozačke dozvole i to nije bez razloga: Ovo je 7 ZNAKOVA da treba da odložite ključeve auta. Niko se ne odriče ključeva automobila tek tako. Ipak, godine donose određene biološke promene koje mogu da utiču na sposobnost bezbedne vožnje, naročito nakon 65. godine. Zato i važi pravilo da se posle te godine u Srbiji vozačka dozvola izdaje na pet godina, čak i kraće. Nekada, i pored dobre volje, postoje znaci kad je vreme odustati od vožnje. U ovom tekstu navešćemo 7 znakova koji, ako vam se dese u saobraćaju, treba da vas zabrinu.",
-        "zhSummary": "过了这个年龄，他们就会努力争取驾驶执照，这并非没有道理：以下 7 个迹象表明您应该收起车钥匙。没有人会像这样放弃自己的车钥匙。然而，年龄带来的某些生物变化可能会影响安全驾驶的能力，尤其是在 65 岁之后。这就是为什么塞尔维亚规定 65 岁之后，驾驶执照的有效期为五年，甚至更短。有时，尽管有良好的意愿，但还是有迹象表明该放弃驾驶了。在本文中，我们将列出 7 个标志，如果您在交通中遇到它们，您应该感到担心。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'After this age, they strive for a driver's license and it's not without reason: ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/privreda/bik-jablan-od-skoro-2-tone-zvezda-sajma-poljoprivrede/ntqlwf8",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Bik Jablan od skoro 2 tone zvezda Sajma poljoprivrede! Vlasnik Radenko: \"Ovo je skup sport, nekada smo imali 400 grla, sad 250\" (VIDEO). Dok se na Novosadskom sajmu poljoprivrede ove godine predstavlja više od 1.200 izlagača iz 40 zemalja, najveću pažnju posetilaca privlači jedan stanovnik štale - bik Jablan, težak čak 1.830 kilograma, oko kog se tokom celog dana stvaraju redovi za fotografisanje. Deca ga traže među štandovima, odrasli zastaju da ga vide izbliza, a njegovo ime se najčešće čuje među posetiocima sajma.",
-        "zhSummary": "近2吨重的贾布兰公牛是农博会的明星！老板 Radenko：“这是一项昂贵的运动，我们以前有 400 头，现在有 250 头”（视频）。今年的诺维萨德农业博览会有来自 40 个国家的 1,200 多家参展商参加，但最吸引参观者注意力的是谷仓里的一头公牛——贾布兰公牛，体重达 1,830 公斤，周围全天都排着长队拍照。孩子们在看台上寻找他，成年人停下来近距离观察他，他的名字在展会参观者中最常听到。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'The nearly 2-ton Jablan bull is the star of the Agricultural Fair! Owner Radenko...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/beograd/sutra-ceo-dan-bez-vode-delovi-opstine-savski-venac-pripremite-zalihe/fbqm3jm",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Sutra bez vode delovi opštine Savski venac: Pripremite zalihe. Potrošači opštine Savski venac ostaće bez vode sutra od 8 do 17 sati, saopšteno je iz Javnog komunalnog preduzeća \"Beogradski vodovod i kanalizacija”.",
-        "zhSummary": "Savski venac 市部分地区明天将停水：准备物资。公共事业公司“贝尔格莱德供水和污水处理公司”宣布，萨夫斯基韦纳克市的消费者明天上午 8 点至下午 5 点将停水。",
+        "original": "Šta je Sabor, a šta Sinod Srpske pravoslavne crkve. Tekst je ažuriran 20. maja 2026. odlukama Sabora Srpske pravoslavne crkve",
+        "zhSummary": "什么是议会，什么是塞尔维亚东正教主教会议。该文本于 2026 年 5 月 20 日根据塞尔维亚东正教大会的决定进行了更新",
         "sentiment": "Neutral",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Tomorrow without water in parts of Savski venac municipality: Prepare supplies. ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'What is the Parliament and what is the Synod of the Serbian Orthodox Church. The...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/oglasila-se-aleksandra-kovac-za-njom-i-kristina-pricaju-da-sam-sestromrzac/dwwgwh0",
+        "url": "https://www.blic.rs/zabava/poseban-dan-u-domu-katarine-grujic-stigla-cestitka-od-supruga-gobelje/85g0z8b",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "\"PRIČAJU MI DA SAM SESTROMRZAC, DA SRAMOTIM MRTVE RODITELJE\" Oglasila se Aleksandra Kovač, a za njom i Kristina: \"Dom sada izgleda kao ruševina\". Poznato je da sestre Kristina i Aleksandra Kovač godinama nemaju skladan odnos. Na društvenoj mreži Instagram se prvo oglasila Aleksandra koja tvrdi da za sestru nikada nije rekla ružnu reč. Nekoliko sati kasnije stigao je odgovor od Kristine.",
-        "zhSummary": "“他们告诉我，我是一个姐妹帽子，让死去的父母感到羞耻”，亚历山大·科瓦奇说道，克里斯蒂娜紧随其后：“这个家现在看起来就像一片废墟。”众所周知，克里斯蒂娜·科瓦奇和亚历山大·科瓦奇姐妹多年来关系并不融洽。亚历山德拉第一个在 Instagram 社交网络上发言，声称她从未说过姐姐的坏话。几个小时后，克里斯蒂娜收到了回复。",
+        "original": "DANAS JE POSEBAN DAN U DOMU KATARINE GRUJIĆ Veliki povod za slavlje, Gobelja se javno obratio pevačici - njenoj sreći nema kraja. Pevačica Katarina Grujić danas ima veliki povod za slavlje. Naime, pevačici je danas rođendan. Iako mnogi misle da ima manje od 30 godina, ona je danas napunila 34 godine. Ovim povodom pevačici se javno obratio i njen suprug, fudbaler Marko Gobeljić.",
+        "zhSummary": "今天是卡塔琳娜·格鲁吉 (KATARINA GRUJIĆ) 家中特别的一天，戈贝利亚 (Gobelja) 公开向这位歌手发表讲话——她的幸福永无止境，值得庆祝。歌手卡塔琳娜·格鲁吉奇 (Katarina Grujić) 今天有一个值得庆祝的重要理由。也就是说，今天是歌手的生日。虽然很多人认为她还不到30岁，但今天她已经34岁了。这次，她的丈夫、足球运动员马尔科·戈贝尔季奇 (Marko Gobeljić) 公开向这位歌手发表讲话。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'TODAY IS A SPECIAL DAY IN THE HOME OF KATARINA GRUJIĆ Great cause for celebratio...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/svet/foto-video-propalestinski-aktivisti-se-lancima-vezali-za-prugu-u-hagu/vwq4xsc",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "(FOTO, VIDEO) AKTIVISTI SE U HAGU VEZALI LANCIMA ZA PRUGU Obustavljen saobraćaj, skinuti uz pomoć brusilice: Zahtevali hitnu akciju za Gazu. Najmanje pet propalestinskih aktivista uhapšeno je u Hagu nakon što su se, u znak protesta, sinoć vezali lancima za prugu.",
+        "zhSummary": "（照片、视频）海牙的活动人士将铁链绑在铁路上 交通中断，并在桑德尔的帮助下拆除：他们要求立即对加沙采取行动。昨晚，至少五名亲巴勒斯坦活动人士将自己锁在铁轨上进行抗议，随后在海牙被捕。",
         "sentiment": "Negative",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"THEY TELL ME THAT I'M A SISTER-HATTER, TO SHAME ON DEAD PARENTS\" Aleksandra Kov...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(PHOTO, VIDEO) ACTIVISTS IN THE HAGUE TIED THEIR CHAINS TO THE RAILWAY Stopped t...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/politika/vucic-u-palati-srbija-danas-posle-podne-bi-trebalo-da-imam-i-razgovor-sa-zelenskim/k7bv9bd",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"DANAS POSLE PODNE BI TREBALO DA IMAM TELEFONSRAZGOVOR SA ZELENSKIM\"  Vučić u Palati Srbija na obeležavanju 15. godišnjice programa Svet u Srbiji: \"Narednih dana biće još diplomatskih aktivnosti\". Predsednik Srbije Aleksandar Vučić rekao je danas u Beogradu da do kraja mandata planira afričku i azijsku turneju.",
+        "zhSummary": "“今天下午我应该与泽连斯克通电话” 武契奇在塞尔维亚宫庆祝“世界在塞尔维亚”计划 15 周年：“未来几天将会有更多外交活动”。塞尔维亚总统亚历山大·武契奇今天在贝尔格莱德表示，他计划在任期结束前进行非洲和亚洲之行。",
+        "sentiment": "Neutral",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"TODAY AFTERNOON I SHOULD HAVE A PHONE CONVERSATION WITH ZELENSK\" Vučić in the P...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/biznis/vesti/gotovo-48-hiljada-samsungovih-radnika-krece-u-strajk/vj878y9",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Gotovo 48 hiljada Samsungovih radnika kreće u štrajk: Ceo svet strepi zbog nestašice jednog proizvoda. Sindikat kompanije Samsung Electronics planira da 48.000 radnika u četvrtak stupi u štrajk nakon što su propali pregovori o dogovoru oko isplate bonusa, što preti ekonomiji South Korea i globalnom snabdevanju poluprovodnicima.",
+        "zhSummary": "近4.8万名三星员工罢工：全世界都在担心一种产品短缺奖金协议谈判破裂后，三星电子工会计划周四对 48,000 名工人进行罢工，威胁韩国经济和全球半导体供应。",
+        "sentiment": "Negative",
+        "category": "Finance",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Almost 48 thousand Samsung workers are going on strike: The whole world is worri...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/it/otkriveno-vise-od-92000-napada-malvera-maskiranih-u-ai-agente-rezultat-predstavljen/by9h24p",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Talas sajber napada: Hakeri pod maskom AI alata kao što su ChatGPT i Gemini kradu podatke: Otkriveno više od 92.000 slučajeva. Od januara do početka maja detektovano je više 92.000 napada malvera i potencijalno neželjenih aplikacija širom sveta, koji su bili maskirani kao popularni AI servisi i AI agenti. Sajber-kriminalci su zloupotrebljavali poverenje u poznate brendove kako bi naveli žrtve da preuzmu zlonamerne fajlove, pri čemu su lažne ChatGPT aplikacije činile 49% svih detektovanih napada, dok su Claude i Gemini svaka činila po 18%. I to su samo napadi koje je zabeležio Kaspersky.",
+        "zhSummary": "网络攻击浪潮：黑客打着 ChatGPT 和 Gemini 等人工智能工具的幌子窃取数据：已发现超过 92,000 起案件。从 1 月到 5 月初，全球检测到超过 92,000 起恶意软件攻击和潜在有害应用程序，这些攻击和潜在有害应用程序伪装成流行的 AI 服务和 AI 代理。网络犯罪分子滥用对知名品牌的信任，诱骗受害者下载恶意文件，假冒 ChatGPT 应用程序占所有检测到的攻击的 49%，而 Claude 和 Gemini 各占 18%。这些只是卡巴斯基记录的攻击。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Wave of cyber attacks: Hackers under the guise of AI tools like ChatGPT and Gemi...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/aleksi-jelicu-ugradjen-stent-pevac-morao-na-hitnu-operaciju/3c0zvqh",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "SAZNAJEMO Aleksi Jeliću ugrađen stent: Pevač morao na hitnu operaciju. Srpskom pop pevaču i plesaču Aleksi Jeliću je prema saznanjima \"Blica\" ugrađen stent. Nakon tegoba koje je osetio, obratio se stručnim licima a tada je konstatovano da je neophodna interencija. Pevač je poslušao sve savete doktora, izvršena je intervencija, a danas se uspešno oporavlja.",
+        "zhSummary": "我们发现 Aleksi Jelic 植入了支架：这位歌手必须接受紧急手术。据《Blic》报道，塞尔维亚流行歌手兼舞者阿列克西·耶利奇已经植入了支架。在感到不适后，他向专家求助，然后确定需要进行干预。这位歌手听从了医生的所有建议，进行了干预，今天他已经成功康复。",
+        "sentiment": "Neutral",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'WE FIND OUT Aleksi Jelic had a stent implanted: the singer had to undergo emerge...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zdravlje/aktuelnosti/inovativna-terapija-za-rak-besike-na-listi-rfzo-sta-donosi-novi-standard-lecenja/055ntnm",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Nova nada za obolele od agresivnog raka bešike: Inovativna terapija stiže na listu RFZO. Četvrtina obolelih od raka bešike suočava se sa njegovom posebno agresivnom formom – mišićno-invazivnim karcinomom, koji lako probija tkivo i metastazira. Pošto sama operacija često nije dovoljna, novi standard lečenja postaje imunoterapija koja se primenjuje pre hirurškog zahvata.",
+        "zhSummary": "侵袭性膀胱癌患者的新希望：创新疗法登上 RFZO 名单。四分之一的膀胱癌患者面临着其特别具有侵袭性的形式——肌肉浸润性癌症，它很容易穿透组织并转移。由于仅手术通常是不够的，新的治疗标准是在手术前应用的免疫疗法。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'New hope for patients with aggressive bladder cancer: Innovative therapy arrives...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/pevacica-31-priznala-bila-bih-sa-muskarcem-koji-zaradjuje-30000-dinara/1q5zz90",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"BILA BIH SA MUŠKARCEM KOJI ZARAĐUJE 30.000 DINARA\" Pevačica (31) važi za najfatalniju, javno priznala: \"Volela bih da se zaglavim u liftu sa Čedom Jovanovićem\". Pevačica Ivana Boom Nikolić (31), koja važi za jednu od najfatalnijih dama na javnoj sceni, svojevremeno je otvoreno govorila o svom ukusu kada su muškarci u pitanju. Ona je tom prilikom otkrila da Čedomira Jovanovića smatra vrhunskim frajerom.",
+        "zhSummary": "“我愿意和一个赚了 30,000 第纳尔的男人在一起” 这位歌手（31 岁）被认为是最致命的，她公开承认：“我想和 Cedo Jovanović 一起被困在电梯里”。歌手伊万娜·布姆·尼科利奇（Ivana Boom Nikolić，31 岁）被认为是公共舞台上最致命的女性之一，她曾公开谈论过自己对男性的品味。在那次场合，她透露她认为塞多米尔·约万诺维奇是一个顶级人物。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"I WOULD BE WITH A MAN WHO EARNED 30,000 DINAR\" The singer (31) is considered th...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Tech",
+        "url": "https://www.blic.rs/it/otkriveno-vise-od-92000-napada-malvera-maskiranih-u-ai-agente-rezultat-predstavljen/by9h24p",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Talas sajber napada: Hakeri pod maskom AI alata kao što su ChatGPT i Gemini kradu podatke: Otkriveno više od 92.000 slučajeva. Od januara do početka maja detektovano je više 92.000 napada malvera i potencijalno neželjenih aplikacija širom sveta, koji su bili maskirani kao popularni AI servisi i AI agenti. Sajber-kriminalci su zloupotrebljavali poverenje u poznate brendove kako bi naveli žrtve da preuzmu zlonamerne fajlove, pri čemu su lažne ChatGPT aplikacije činile 49% svih detektovanih napada, dok su Claude i Gemini svaka činila po 18%. I to su samo napadi koje je zabeležio Kaspersky.",
+        "zhSummary": "网络攻击浪潮：黑客打着 ChatGPT 和 Gemini 等人工智能工具的幌子窃取数据：已发现超过 92,000 起案件。从 1 月到 5 月初，全球检测到超过 92,000 起恶意软件攻击和潜在有害应用程序，这些攻击和潜在有害应用程序伪装成流行的 AI 服务和 AI 代理。网络犯罪分子滥用对知名品牌的信任，诱骗受害者下载恶意文件，假冒 ChatGPT 应用程序占所有检测到的攻击的 49%，而 Claude 和 Gemini 各占 18%。这些只是卡巴斯基记录的攻击。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Wave of cyber attacks: Hackers under the guise of AI tools like ChatGPT and Gemi...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Tech",
@@ -214,7 +225,7 @@
         "lang": "塞尔维亚语",
         "targetLang": "sr",
         "original": "\"BLIC TEST\" Honor 600 Pro:  \"Zver\" od baterije, AI magija i vrlo zanimljiva kamera. Honor polako ali sigurno širi svoju porodicu telefona, ali oni sa brojčanim oznakama u svom imenu, njihova srednja klasa, i dalje je najjači adut. I ove godine oni u ovoj seriji nude jake telefone koji su midlerange, ali više po nekim brojkama, nego performansama koje su prilično jake. Ništa drugačije nije ni sa Honor 600 Pro.",
-        "zhSummary": "“闪光测试”荣耀600 Pro：电池“野兽”、AI魔法和非常有趣的相机。荣耀正在缓慢但坚定地扩大其手机系列，但那些名字中有数字的中端手机仍然是最强大的资产。今年，他们在该系列中提供了强大的中端手机，但在某些数字方面，性能相当强劲。荣耀600 Pro也不例外。",
+        "zhSummary": "“闪光测试”荣耀600 Pro：电池“野兽”、AI魔法和非常有趣的相机。荣耀正在缓慢但坚定地扩大其手机系列，但那些名字中有数字的中端手机仍然是最强大的资产。今年，他们在该系列中提供了强大的中档手机，但就某些数字而言，性能相当强劲。荣耀600 Pro也不例外。",
         "sentiment": "Positive",
         "category": "Tech",
         "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"FLASH TEST\" Honor 600 Pro: Battery \"beast\", AI magic and a very interesting cam...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
@@ -247,20 +258,9 @@
         "lang": "塞尔维亚语",
         "targetLang": "sr",
         "original": "WhatsApp ukida nepopularnu funkciju. WhatsApp više nije samo aplikacija za dopisivanje, već potpuno razvijena društvena mreža koja omogućava korisnicima da se izraze na različite načine. Jedan od tih načina bili su avatari, ali izgleda da će uskoro nestati iz aplikacije.",
-        "zhSummary": "WhatsApp is ending an unpopular feature. WhatsApp 不再只是一个消息应用程序，而是一个成熟的社交网络，允许用户以不同的方式表达自己。其中一种方式是头像，但看起来它们很快就会从应用程序中消失。",
+        "zhSummary": "WhatsApp 正在终止一项不受欢迎的功能。 WhatsApp 不再只是一个消息应用程序，而是一个成熟的社交网络，允许用户以不同的方式表达自己。其中一种方式是头像，但看起来它们很快就会从应用程序中消失。",
         "sentiment": "Positive",
         "category": "Tech",
         "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'WhatsApp is ending an unpopular feature. WhatsApp is no longer just a messaging ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Tech",
-        "url": "https://www.blic.rs/it/iphone-17-ce-dugo-ostati-sa-nama-ovo-je-rezultat-apple-ovih-promena/83tc31q",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Apple je prvi put napravio promenu koja će uticati na njihov trenutno najjači telefon iPhone 17. Postoje naznake da će proizvodnja osnovnog modela iz porodice iPhone 17 trajati znatno duže nego obično. To je najverovatnije posledica promena u Apple ciklusu predstavljanja pametnih telefona.",
-        "zhSummary": "苹果首次做出了一项影响其当前旗舰手机 iPhone 17 的改变。有迹象表明，iPhone 17 系列基本型号的生产时间将比平时显着延长。这很可能是由于苹果智能手机展示周期的变化所致。",
-        "sentiment": "Neutral",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'For the first time, Apple has made a change that will affect their current flags...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     }
 ]
