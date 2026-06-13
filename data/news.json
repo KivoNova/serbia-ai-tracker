@@ -1,135 +1,135 @@
 [
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/canin-sin-dosao-na-koncert-kod-majke-na-ruci-nosi-debeli-zlatni-sat/6wbnbb1",
+        "url": "https://www.blic.rs/zabava/sanja-vucic-otkrila-sta-joj-je-rekla-snezana-djurisic-posramila-sam-se/4c44ce6",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "PRVI STIGAO DA PODRŽI MAJKU, A SVI GLEDAJU SAMO U NJEGA! Sin pevačice Ćane uslikan na Tašmajdanu: Na ruci MU SIJA DEBELI ZLATNI SAT, luksuz pršti na sve strane (Video). Sve je spremno za večerašnji spektakl na Tašmajdanu gde će folk zvezda Ćana održati koncert za pamćenje, a njen sin je prvi stigao. Luka je na stadion ušao vidno raspoložen i nasmejan, spreman da podrži majku u ovom velikom danu.",
-        "zhSummary": "第一个到达支持母亲的人，每个人都只看着他！歌手 Ćana 的儿子在 Tašmajdan 上被拍到：一块厚厚的金表在他的手上闪闪发光，奢华四面八方爆发（视频）。今晚在塔什马丹 (Tašmajdan) 举行的盛大演出一切都已准备就绪，民谣明星 Ćana 将在那里举办一场令人难忘的音乐会，而她的儿子首先抵达。卢卡走进体育场时显得很高兴，面带微笑，准备在这个重要的日子里支持他的母亲。",
+        "original": "\"PLAŠIM SE SNEŽANE ĐURIŠIĆ\" Sanja Vučić otkrila šta joj je starija koleginica rekla: \"Posramila sam se dosta\" (Video). Sanja Vučić rekla je da je oberučke prihvatila Ćanin poziv da bude gost na njenom koncertu. Ona je progovorila i o \"Zvezdama Granda\" kao i trudnoj koleginici Kseniji Knežević sa kojom je nekada bila članica grupe \"Hurricane\".",
+        "zhSummary": "“我害怕 SNEŽana ĐURIŠIĆ”Sanja Vučić 透露了一位年长同事告诉她的话：“我感到非常尴尬”（视频）。 Sanja Vučić表示，她全心全意地接受了Ćana的邀请，作为她演唱会的嘉宾。她还谈到了“Zvezda Granda”以及她怀孕的同事克塞尼亚·克内泽维奇（Ksenia Knežević），她曾经是“飓风”乐队的成员。",
+        "sentiment": "Neutral",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"I'M AFRAID OF SNEŽANA ĐURIŠIĆ\" Sanja Vučić revealed what an older colleague tol...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/svet/zelenski-ukrajina-spremna-da-otvori-sest-klastera-za-integraciju-u-eu/vxh0vs3",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Zelenski: \"Ukrajina spremna da otvori šest klastera za integraciju u EU\". Ukrajinski predsednik Volodimir Zelenski izjavio je večeras da je Ukrajina spremna da otvori šest klastera za integraciju u EU i da očekuje da će ovog leta postići više rezultata u tom procesu.",
+        "zhSummary": "泽伦斯基：“乌克兰准备为欧盟一体化开放六个集群”。乌克兰总统泽连斯基今晚表示，乌克兰准备开放六个欧盟一体化集群，并预计今年夏天在此过程中取得更多成果。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Zelensky: \"Ukraine is ready to open six clusters for EU integration\". Ukrainian ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/kristina-spalevic-nakon-razvoda-zivi-punim-plucima-na-koncertu-u-cipki/89pb8wd",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "KRISTINA SPALEVIĆ U ČIPKANOM KORSETU SA DEKOLTEOM Nakon razvoda od Kristijana živi punim plućima: Tu je i Jelena Radanović. Drugi gost na Ćaninom koncertu je Sloba Radanović koji je večeras na Tašmajdan došao sa suprugom Jelenom. Ona je muža bodrila iz prvog reda, a pored nje je bila i bivša rijaliti učesnica Kristina Spalević.",
+        "zhSummary": "克里斯蒂娜·斯帕莱维 (KRISTINA SPALEVIĆ) 穿着蕾丝紧身胸衣，与克里斯蒂安 (Kristijan) 离婚后，她过着充实的生活：耶琳娜·拉达诺维奇 (Jelena Radanović) 也在其中。 Ćana 音乐会的另一位嘉宾是斯洛巴·拉达诺维奇 (Sloba Radanović)，他今晚与妻子耶莱娜 (Jelena) 一起来到塔什马伊丹。她在前排为丈夫加油，前真人秀节目参与者克里斯蒂娜·斯帕莱维奇就在她旁边。",
         "sentiment": "Positive",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THE FIRST TO ARRIVE TO SUPPORT MOTHER, AND EVERYONE LOOKS ONLY AT HIM! Singer Ća...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 All 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'KRISTINA SPALEVIĆ IN A LACE CORSET WITH DECOLUTION After her divorce from Kristi...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 All 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/drustvo/crne-zmije-se-pojavile-medju-kupacima-na-plazi-na-kipru-ljudi-bezali-sa-obale-video/351jkj6",
+        "url": "https://www.blic.rs/vesti/svet/rubio-porucio-indiji-svi-brodovi-u-ormuskom-moreuzu-moraju-da-slede-naredbe-sad/pss4963",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "(VIDEO) PANIKA NA PLAŽI! Kad su je videli kako se uvija na pesku... BEŽANIJA! Crne zmije prestravile kupače. Pojava crnih zmija na jednoj manjoj plaži u Protarasu na Kipru izazvala je uznemirenost među kupačima, koji su se ubrzo udaljili od kamenitog dela obale.",
-        "zhSummary": "（视频）海滩上的恐慌！当他们看到她在沙滩上扭动时……逃跑！黑蛇让沐浴者感到害怕。塞浦路斯普罗塔拉斯的一个小海滩上出现的黑蛇引起了游泳者的焦虑，他们很快就离开了海岸的岩石部分。",
-        "sentiment": "Negative",
+        "original": "Rubio poručio Indiji: \"Svi brodovi u Ormuskom moreuzu moraju da slede naredbe SAD\". Državni sekretar Sjedinjenih Američkih Država Marko Rubio poručio je svom indijskom kolegi Subramanjamu Džaišankaru da svi trgovački brodovi u Ormuskom moreuzu moraju odmah da poštuju naređenja američkih snaga, saopštio je danas američki Stejt department.",
+        "zhSummary": "卢比奥告诉印度：“霍尔木兹海峡的所有船只都必须遵守美国的命令。”美国国务院今天宣布，美国国务卿马可·卢比奥告诉印度外长苏杰生，霍尔木兹海峡的所有商船必须立即服从美军的命令。",
+        "sentiment": "Positive",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(VIDEO) PANIC ON THE BEACH! When they saw her writhing on the sand... RUNAWAY! B...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Rubio told India: \"All ships in the Strait of Hormuz must follow US orders.\" Uni...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/hronika/drama-u-novom-sadu-muskarac-pronadjen-u-podnozju-petrovaradinske-tvrdjave/cbqph43",
+        "url": "https://www.blic.rs/biznis/moj-novac/zasto-su-na-poznatoj-plazi-zabranjeni-suncobrani/bydytzl",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "(FOTO) DRAMA U NOVOM SADU Muškarac pronađen u podnožju Petrovaradinske tvrđave: Vatrogasci ga IZVUKLI IZ TUNELA, hitno prevezen u bolnicu. Jedan muškarac pronađen je danas u podnožju Petrovaradinske tvrđave",
-        "zhSummary": "（照片）诺维萨德的戏剧 在彼得罗瓦拉丁要塞脚下发现了一名男子：消防员将他从隧道中拉出，然后将他送往医院。今天在彼得罗瓦拉丁要塞脚下发现了一名男子",
+        "original": "Turisti ostali u šoku, spremaju bojkot: Zašto su na poznatoj plaži zabranjeni suncobrani i koji su izuzeci. Jedna od najpoznatijih plaža na Sardiniji postala je viralna preko noći, ali ne zbog lepote mora ili tirkiznih zalazaka, već zbog pravila koja su izazvala lavinu besa i neverice. Na Punta Molentisu je uvedena zabrana suncobrana za većinu posetilaca, što je otvorilo raspravu o zaštiti životne sredine, ali i o osnovnoj zaštiti od sunca. Odluka lokalnih vlasti odmah je podelila javnost i izazvala burne reakcije na društvenim mrežama.",
+        "zhSummary": "震惊的游客正在准备抵制：为什么在著名的海滩上禁止带雨伞，以及有哪些例外情况。撒丁岛最著名的海滩之一一夜之间走红，但这并不是因为美丽的大海或碧绿的日落，而是因为这些规则引起了人们的愤怒和怀疑。在蓬塔莫伦蒂斯，大多数游客禁止携带雨伞，这引发了一场关于环境保护以及基本防晒保护的讨论。地方当局的决定立即引起公众分歧，并在社交网络上引起强烈反响。",
         "sentiment": "Negative",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(PHOTO) DRAMA IN NOVI SAD A man was found at the foot of the Petrovaradin fortre...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Tourists left in shock, are preparing a boycott: Why are umbrellas prohibited on...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/stanija-se-slomila-u-eliti-zbog-ove-ucesnice-zlo-ne-moze-da-me-gleda/j9sy0jj",
+        "url": "https://www.blic.rs/zabava/dragica-zlatic-o-svadji-sa-koleginicama-spomenula-i-tucu-indi-mi-pise-fuj/r0wfzsq",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "STANIJA SE SKROZ SLOMILA! Ne može da veruje šta doživljava od OVE UČESNICE ELITE: \"Ovo je zlo, ne može da me gleda\" (VIDEO). Stanija Dobrojević je u razgovoru sa Dačom Virijevićem u \"Eliti\" otvoreno analizirala ponašanje Milene Kačavende, tvrdeći da netrpeljivost sa njene strane traje već duže vreme. Stanija smatra da su Milenini postupci isključivo motivisani željom za pažnjom i ličnim animozitetom.",
-        "zhSummary": "斯坦尼娅完全崩溃了！他不敢相信这位精英参与者的经历：“这很邪恶，他不能看着我”（视频）。斯坦尼娅·多布罗耶维奇 (Stanija Dobrojević) 在《艾丽塔》中接受达查·维里耶维奇 (Dača Virijević) 采访时公开分析了米莱娜·卡恰文达 (Milena Kačavenda) 的行为，声称她的不宽容行为已经持续了很长时间。斯塔尼娅认为米莱娜的行为完全是出于对关注的渴望和个人仇恨。",
+        "original": "\"SUDIJA NAS MOLI DA SE POMIRIMO, A INDI MI PIŠE 'FUJ'\" Dragica Zlatić o svađi sa koleginicama, spomenula i TUČU: \"Ispada kao da sam ja neka konfliktna ličnost\" (Video). Pevačica Dragica Zlatić pojavila se na Ćaninom koncertu, pa javno progovorila o žestokim sukobima sa koleginicama zbog kojih je nastao opšti haos. Dragica je prvo otkrila detalje sa suđenja sa Biljanom Marković, priznavši da ih je čak i sudija molila da zakopaju ratne sekire, a onda se dotakla i Indi Aradinović koja ju je zbog Mine Kostić napala.",
+        "zhSummary": "“法官恳求我们和解，而印迪‘年轻’地给我写信”，德拉吉卡·兹拉蒂奇 (Dragica Zlatić) 提到了与同事的争吵和打斗：“看起来我是一个矛盾的人”（视频）。歌手德拉吉卡·兹拉蒂奇 (Dragica Zlatić) 出现在 Ćana 的音乐会上，并公开谈论与同事的激烈冲突，这引起了普遍的混乱。德拉吉察首先向比利亚娜·马尔科维奇透露了审判的细节，承认连法官都要求他们冰释前嫌，然后她谈到了因米娜·科斯蒂奇而攻击她的印迪·阿拉迪诺维奇。",
         "sentiment": "Negative",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'STANIJA COMPLETELY BROKEN! He can't believe what he's experiencing from THIS ELI...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"THE JUDGE IS BEGGING US TO RECONCILE, AND INDI WRITES TO ME 'YOUGH'\" Dragica Zl...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/drustvo/oglasila-se-majka-decaka-kog-su-navodno-vrsnjaci-seksualno-uznemiravali-u-skoli-kod/elt2btx",
+        "url": "https://www.blic.rs/vesti/svet/demonstranti-srusili-ogradu-oko-gradilista-odmaralista-dzareda-kusnera-u-albaniji/7ynk7j5",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "\"DETE MI JE U TEŠKOM STANJU\" Oglasila se majka učenika koga su vršnjaci navodno seksualno uznemiravali i snimali telefonom u školi kod Čačka: \"Na lečenju je u bolnici\". Nakon navodnog incidenta vršnjačkog nasilja koji se dogodio u jednoj školi kod Čačka, a koji je prema navodima porodice imao elemente teškog seksualnog uznemiravanja, oglasila se majka učenika koji je tom prilikom povređen.",
-        "zhSummary": "“我的孩子情况严重” 一名学生的母亲据称在查查克附近的学校遭到同龄人的性骚扰并拍摄到她的视频，她宣布：“她正在医院接受治疗”。查查克附近的一所学校发生了据称存在严重性骚扰成分的同侪暴力事件后，受伤学生的母亲挺身而出。",
+        "original": "\"FLAMINGO REVOLUCIJA\" TRESE ALBANIJU Demonstranti srušili ograde oko gradilišta na kom Trampov zet planira izgradnju luksuznog odmarališta (VIDEO). Oko 200 demonstranata srušilo je danas metalne ograde i prepreke od bodljikave žice oko lokacije za izgradnju na albanskoj obali Jadranskog mora u nastavku masovnog nezadovoljstva zbog najavljene izgradnje luksuznog odmarališta koje planira zet američkog predsednika Donalda Trampa, Džared Kušner.",
+        "zhSummary": "“火烈鸟革命”震撼阿尔巴尼亚 示威者拆除了特朗普女婿计划建造豪华度假村的建筑工地周围的围栏（视频）。今天，约 200 名抗议者拆毁了亚得里亚海阿尔巴尼亚海岸一处建筑工地周围的金属栅栏和铁丝网，抗议美国总统唐纳德·特朗普的女婿贾里德·库什纳宣布计划建造一座豪华度假村，引发大规模不满。",
+        "sentiment": "Negative",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"FLAMINGO REVOLUTION\" SHAKES ALBANIA Demonstrators tore down fences around the c...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/slobodno-vreme/migrant-osvojio-500000-evra-i-resio-boravisni-status/20v1609",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Osvojio 500.000 evra na greb-greb srećki, ali nije mogao da podigne novac: Ceo slučaj završio na sudu, a on prošao još bolje nego što se nadao. Nigerijski državljanin koji je u Italiji boravio bez dozvole za boravak osvojio je 500.000 evra na greb-greb srećki, što je pokrenulo neobičnu pravnu i životnu borbu koja je sada dobila epilog sudskom odlukom u Ankoni, prenosi Gardijan.",
+        "zhSummary": "刮刮乐中了50万欧元，却无法提取钱：整个案件在法庭上结束，他的表现甚至比他希望的还要好。据《卫报》报道，一名身在意大利、没有居留证的尼日利亚公民赢得了一张刮刮乐彩票，赢得了 50 万欧元，由此引发了一场不同寻常的法律和生活斗争，目前已在安科纳法院的判决中落下帷幕。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Won 500,000 euros on the scratch-off lottery ticket, but could not withdraw the ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/zestoka-svadja-viki-miljkovic-i-zorice-brunclik-zeno-ispod-mog-nivoa-si/tfpwjjc",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"ŽENO, TI SI ISPOD MOG NIVOA\" Žestoka svađa Viki Miljković i Zorice Brunclik: \"Ja smem da te vređam jer mogu majka da ti budem, sram te bilo!\". U emisiji \"Pinkove zvede\" došlo je do sukoba članica žirija - Viki Miljković i Zorice Brunclik. Nakon nastupa takmičarke Ane Jokić strasti su uzavrele i njih dve su ušle u prepirku",
+        "zhSummary": "“女人，你的水平低于我” Viki Miljković 和 Zorica Brunclik 之间的暴力争吵：“我可以侮辱你，因为我可以成为你的母亲，为你感到羞耻！”。在《粉红之星》节目中，评审团成员 Viki Miljković 和 Zorica Brunclik 之间发生了冲突。选手安娜·约基奇（Ana Jokić）表演后，激情沸腾，两人发生争执",
+        "sentiment": "Negative",
+        "category": "Energy",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"WOMAN, YOU ARE BELOW MY LEVEL\" Violent argument between Viki Miljković and Zori...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/reziser-o-ceci-i-zeljku-samardzicu-bio-na-korak-do-razvoda-zena-je-pobesnela/gp2klmn",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"SAMARDŽIĆ JE BIO NA KORAK DO RAZVODA, ŽENA MU JE POBESNELA\" Režiser otkrio sve, progovorio i o Ceci: \"Ovaj njen spot je emitovao CNN\" (VIDEO). Režiser mnogih domaćih spotova Dejan Milićević došao je večeras na koncert Ćane u srpskoj prestonici. Njemu je društvo pravio pevač Bojan Bijelić, a Dejan se na licu mesta dotakao mnogih detalja iz prošlosti poznatih ličnosti.",
+        "zhSummary": "“萨玛尔齐快要离婚了，他的妻子吓坏了”导演透露了一切，他还谈到了塞西：“她的这段视频被CNN播出了”（视频）。多部国内视频的导演德扬·米利切维奇今晚来到了塞尔维亚首都Ćana的演唱会。歌手博扬·比耶利奇 (Bojan Bijelić) 陪同他，德扬在现场谈到了许多名人过去的细节。",
         "sentiment": "Negative",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"MY CHILD IS IN A SERIOUS CONDITION\" The mother of a student who was allegedly s...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"SAMARDŽIĆ WAS CLOSE TO DIVORCE, HIS WIFE FREAKED OUT\" The director revealed eve...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/nasa-pevacica-nakon-koncerta-otisla-da-bere-tresnje-tako-male-stvari/bfwctw3",
+        "url": "https://www.blic.rs/biznis/saveti/ako-zelite-sezonski-posao-na-jadranu-ovu-proceduru-morate-znati/3pkqpj3",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "SA BINE PRAVO U VOĆNJAK Naša pevačica nakon koncerta otišla da bere trešnje sa mužem: \"Tako male stvari\". Natalija i Sani Trik FX nakon koncerta koji su održali u Nišu, otišli su da uživaju u prirodi. Na Instagramu su podelili fotografije nastale u voćnjaku.",
-        "zhSummary": "从舞台直奔果园 演唱会结束后，我们的歌手和她的丈夫一起去摘樱桃：“这么小的东西”。 Natalija 和 Sunny Trick FX 在尼什举办音乐会后，前往享受大自然。他们在 Instagram 上分享了在果园拍摄的照片。",
+        "original": "Ako želite sezonski posao na Jadranu, još nije kasno: Ovo je detaljna procedura. Iako nema zvaničnih podataka, nezvanične procene pokazuju da Hrvatskoj tokom letnje sezone nedostaje između 50.000 i 70.000 radnika, dok Crnoj Gori nedostaje oko 25.000 radnika na Jadranu. Najveća potražnja je za kuvarima, konobarima, baristima, pomoćnim radnicima, recepcionerima, sobaricama i drugim sezonskim radnicima u turizmu i ugostiteljstvu.",
+        "zhSummary": "如果您想在亚得里亚海找到一份季节性工作，现在还不算太晚：这是一个详细的程序。尽管没有官方数据，但非官方估计显示，克罗地亚在夏季缺少 50,000 至 70,000 名工人，而黑山在亚得里亚海缺少约 25,000 名工人。需求量最大的是旅游业和餐饮业的厨师、服务员、咖啡师、辅助工、接待员、女佣和其他季节工。",
         "sentiment": "Positive",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'FROM THE STAGE STRAIGHT TO THE ORCHARD After the concert, our singer went to pic...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'If you want a seasonal job on the Adriatic, it's not too late: This is a detaile...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/donald-tramp-otkrio-kada-iran-i-amerika-potpisuju-sporazum-o-primirju/nrc6g2m",
+        "url": "https://www.blic.rs/zabava/olja-karleusa-sa-bogatim-suprugom-na-caninom-koncertu-maja-marijana-u-belom/knegzzc",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "TRAMP OTKRIO KADA IRAN I AMERIKA POTPISUJU SPORAZUM Najavio i prvi korak nakon sklapanja dogovora: \"To ćemo ODMAH da uradimo\". Donald Tramp, predsednik Sjedinjenih Američkih Država, oglasio se na društvenoj mreži Truth Social i najavio potpisivanje sporazuma sa Iranom.",
-        "zhSummary": "特朗普透露伊朗和美国何时签署协议 他还宣布了协议签订后的第一步：“我们将立即这样做”。美国总统唐纳德·特朗普在社交网络Truth Social上宣布与伊朗签署协议。",
+        "original": "OLJA KARLEUŠA SA BOGATIM SUPRUGOM NA ĆANINOM KONCERTU Podržala Minu Kostić: \"Osuđujem sve kolege\" - Maja Marijana došla sva u belom: \"JA SAM FACA\" (Video). Pevačica Ćana večeras će održati koncert na Tašmajdanu, a veliki broj poznatih ličnosti doašo je da podrži pevačicu. Pevačica Maja Marijana nije krila koliko je ponosna na koleginicu, dok je pevačica Olja Karleuša došla u pratnji bogatog supruga biznismena.",
+        "zhSummary": "OLJA KARLEUSA 与富有的丈夫在 ĆANA 的音乐会上支持 Mina Kostić：“我谴责我所有的同事” - Maja Marijana 身穿白色衣服：“我是一张脸”（视频）。歌手Ćana今晚将在Tašmajdan举办演唱会，众多明星到场支持。歌手 Maja Marijana 毫不掩饰她对同事的骄傲，而歌手 Olja Karleuša 则在她富有的商人丈夫的陪同下前来。",
         "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'TRUMP REVEALED WHEN IRAN AND AMERICA SIGN THE AGREEMENT He also announced the fi...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/pevacica-iskreno-o-karijeri-nisam-imala-nikog-da-me-gura/7n1b7pc",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "\"NISAM IMALA NIKOG DA ME GURA, A UMEM DA BUDEM I BEZOBRAZNA\" Pevačica iskreno o karijeri i nepravdama: \"Tu je moj problem\". Jedan od najmoćnijih vokala naše muzičke scene, Ivana Peters, odlučila je da potpuno otvori dušu i iskreno progovori o trnovitom putu do uspeha. Pevačica je otkrila da iza nje nikada nisu stajali estradni moćnici, već da se kroz život borila isključivo svojim raskošnim talentom, ne želeći da gazi preko drugih.",
-        "zhSummary": "“我没有人逼我，我可以很粗鲁”这位歌手诚实地对待她的职业生涯和不公正现象：“这是我的问题”。我们乐坛最有实力的歌手之一伊万娜·彼得斯 (Ivana Peters) 决定完全敞开自己的灵魂，诚实地讲述通往成功的荆棘之路。这位歌手透露，她从未得到过流行歌星的支持，但她只靠自己的才华奋斗一生，不想超越别人。",
-        "sentiment": "Positive",
-        "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"I HAD NO ONE TO PUSH ME, AND I CAN BE RUDE\" The singer is honest about her care...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Energy 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/slobodno-vreme/nikada-ne-sadite-ove-biljke-pored-bosiljka/rj3k2f8",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Nikаdа ne sаdite ove biljke pored bosiljkа: Cvetaće samo ako mu izaberete pravo društvo. Bosiljak je apsolutni kralj letnjih jela, ali da bi vam prozor ili bašta blistali od njegovih zelenih listova, morate mu izabrati pravo društvo. Baštovanski stručnjaci upozoravaju da je najveća greška saditi bosiljak direktno pored začina koji vole suvo tlo, poput ruzmarina ili žalfije. Saznajte kako da pravilno kombinujete biljke i obezbedite večnu zalihu ovog mirisnog začina.",
-        "zhSummary": "切勿将这些植物种植在罗勒旁边：只有为它们选择合适的陪伴，它们才会开花。罗勒是夏季菜肴中绝对的王者，但要让您的窗户或花园绿叶熠熠生辉，您必须为其选择合适的伴侣。园艺专家警告说，最大的错误是将罗勒直接种植在喜欢干燥土壤的草本植物旁边，例如迷迭香或鼠尾草。了解如何正确组合药草并确保这种芳香香料的永恒供应。",
-        "sentiment": "Positive",
-        "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Never plant these plants next to basil: They will only bloom if you choose the r...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Energy 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/sin-dragane-mirkovic-otisao-u-mamino-rodno-mesto-marko-sokirao-potezom/mj0t1yt",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "KOKOŠINJAC, STARE KUĆE I ZARĐALA VRATA Sin Dragane Mirković otišao u mamino rodno mesto, pa ŠOKIRAO POTEZOM: Evo kako je reagovao na prizor u Kasidolu (FOTO). Marko Bijelić, sin pevačice Dragane Mirković, voli da dođe iz Austrije, gde ceo život živi, u rodnu zemlju svoje majke. Marko je dugo u žiži interesovanja javnosti, a on je iznenadio mnoge odlukom da se povuče sa društvenih mreža, na kojima je delio mnoge slike i snimke.",
-        "zhSummary": "科科辛贾克、老房子和生锈的门 Dragana Mirković 的儿子去了他母亲的出生地，并对此举感到震惊：以下是他对卡西多洛场景的反应（照片）。歌手 Dragana Mirković 的儿子 Marko Bijelić 喜欢从他一生居住的奥地利来到他母亲的祖国。马科长期以来一直受到公众关注，他退出社交网络的决定令许多人感到惊讶，他在社交网络上分享了许多照片和视频。",
-        "sentiment": "Positive",
-        "category": "Finance",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'KOKOŠINJAC, OLD HOUSES AND RUSTY DOORS Dragana Mirković's son went to his mother...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Finance 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/tech/startap-peitho-kako-ai-menja-turizam-i-bankarstvo/8n5p17r",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Kako je crnogorski startap \"spakovao\" moć globalnih lanaca u hotele od 50 soba i zašto im veruju banke: Razvili AI platformu koja iz analitike izvlači \"informaciju više\". U eri kada svi govore o poslovanju zasnovanom na podacima, većina kompanija se pri donošenju ključnih odluka i dalje oslanja isključivo na osećaj. Tim iz startapa Peitho, inovativna analitička AI platforma nastala u Crnoj Gori, odlučio je da to promeni. Njihova tehnologija omogućava biznisima da tačno razumeju pravi kontekst onoga što klijenti o njima govore na internet platformama. O tome kako veštačka inteligencija menja pravila igre u turizmu, bankarstvu i esportu, te kako zahvaljujući njima danas jedan hotel sa samo 50 soba može dobiti istu analitičku moć kao veliki svetski lanci, za \"Blic Biznis\" otkrivaju kreatori ovog regionalnog startapa.",
-        "zhSummary": "一家黑山初创公司如何将全球连锁店的力量“打包”到拥有 50 间客房的酒店以及银行信任它们的原因：他们开发了一个人工智能平台，可以从分析中提取“更多信息”。在每个人都在谈论数据驱动业务的时代，大多数公司仍然仅仅依靠直觉来做出关键决策。 Peitho 是一家在黑山创建的创新分析人工智能平台，其团队决定改变这种状况。他们的技术使企业能够准确了解客户在在线平台上对他们的评价的真实背景。这家地区初创公司的创始人向《Blic Business》透露了人工智能如何改变旅游、银行和电子竞技领域的游戏规则，以及如何借助它们，一家只有 50 间客房的酒店能够获得与大型全球连锁酒店相同的分析能力。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'How a Montenegrin startup \"packaged\" the power of global chains into 50-room hot...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/piksi-u-crnoj-gori-ima-nekretninu-od-dva-milione-evra-glumice-su-mu-komsinice/d5xm19c",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "PIKSI U CRNOJ GORI IMA NEKRETNINU OD DVA MILIONA EVRA Kupio imanje za paprenu cifru, a komšinice su mu ove poznate glumice. Selektor fudbalske reprezentacije Srbije, Dragan Stojković Piksi, vlasnik je brojnih nekretnina širom sveta,a jedna od njih je i u Crnoj Gori. On je pre tri godine kupio luksuzno imanje u Rosama u Crnoj Gori gde obožava da provodi vreme i često ide.",
-        "zhSummary": "PIXY在黑山拥有价值200万欧元的房产，他花一分钱就买下了房产，而他的邻居都是这些著名的女演员。塞尔维亚国家足球队教练德拉甘·斯托伊科维奇·皮西 (Dragan Stojković Pixi) 在世界各地拥有众多房产，其中之一位于黑山。三年前，他在黑山罗莎购买了一处豪宅，他喜欢在那里消磨时光，经常去那里。",
-        "sentiment": "Positive",
-        "category": "Finance",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'PIXY HAS A REAL ESTATE OF TWO MILLION EUROS IN MONTENEGRO He bought a property f...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Finance 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'OLJA KARLEUŠA WITH RICH HUSBAND AT ĆANA'S CONCERT Supported Mina Kostić: \"I cond...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 All 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Tech",
@@ -181,7 +181,7 @@
         "lang": "塞尔维亚语",
         "targetLang": "sr",
         "original": "Mislite da neko pretražuje vaše ime na internetu - evo da li šta zaista možete da saznate ko vas gugla. Mnogi se pitaju da li postoji način da otkriju ko je ukucao njihovo ime u Google pretragu. Kratak odgovor je – ne. Google ne otkriva identitet korisnika koji pretražuju određeno ime ili pojam, pa ne postoji alat koji može da vam pokaže ko vas je konkretno tražio na internetu.",
-        "zhSummary": "您认为有人在互联网上搜索您的名字 - 您可以通过以下方法真正找出谁在谷歌上搜索您。许多人想知道是否有办法找出谁在谷歌搜索中输入了自己的名字。简短的回答是——不。 Google 不会透露搜索特定名称或术语的用户的身份，因此没有任何工具可以显示谁在互联网上专门搜索过您。",
+        "zhSummary": "您认为有人在互联网上搜索您的名字 - 您可以通过以下方法真正找出谁在谷歌上搜索您。许多人想知道是否有办法找出谁在谷歌搜索中输入了自己的名字。简短的回答是——不。 Google 不会透露搜索特定名称或术语的用户的身份，因此没有任何工具可以显示谁在互联网上专门搜索了您。",
         "sentiment": "Negative",
         "category": "Tech",
         "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'You think someone is searching your name on the Internet - here's what you can r...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
