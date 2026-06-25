@@ -1,135 +1,135 @@
 [
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/slobodno-vreme/kako-da-pacovi-zaobidju-vase-dvoriste/4gw7kw2",
+        "url": "https://www.blic.rs/zabava/devojka-sa-krilima-uci-da-surfuje-odusevila-snimko-nezaustavljuiva/t9g4cek",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "Zaboravite na otrove i zamke: Stručnjaci tvrde da pacove možete odbiti za samo nekoliko sekundi dnevno. Sa dolaskom toplijih dana mnogi više vremena provode u dvorištu, ali leto donosi i jedan neprijatan problem - pacove. Upravo početkom leta oni se intenzivnije razmnožavaju, a mladi primerci u junu i julu počinju da traže nova mesta za skrovište, često baš u baštama, šupama i uz ograde.",
-        "zhSummary": "忘记毒药和陷阱：专家声称，每天只需几秒钟即可驱除老鼠。随着天气转暖，很多人在院子里待的时间越来越多，但夏天也带来了一个令人不快的问题——老鼠。夏初，它们的繁殖更加密集，六月和七月的幼虫开始寻找新的藏身之处，通常就在花园、棚屋和栅栏旁。",
-        "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Forget about poisons and traps: Experts claim that you can repel rats in just a ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/vesti/hrvati-pisu-hrana-iz-srbije-nas-hrani-podaci-alarmantni/scb62nf",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Hrvati pišu: \"Hrana iz Srbije nas hrani, podaci alarmantni\". Uvoz brašna iz susedne Srbije eksplodirao je 2025. godine i udvostručen je za samo godinu dana. Uvoz je povećan sa 10.393 tone u 2024. godini na čak 22.110 tona, što je porast od gotovo 113 odsto. Poređenja radi, celokupan hrvatski izvoz brašna prošle godine iznosio je tek 9.422 tone, više nego dvostruko manje od uvoza samo iz Srbije.",
-        "zhSummary": "克罗地亚人写道：“来自塞尔维亚的食物养活了我们，数据令人震惊”。 2025 年，来自邻国塞尔维亚的面粉进口量激增，短短一年内就翻了一番。进口量从2024年的10,393吨增加到22,110吨之多，增幅近113%。相比之下，去年克罗地亚面粉出口总量仅为9,422吨，比仅从塞尔维亚进口的面粉量少两倍多。",
-        "sentiment": "Positive",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Croats write: \"Food from Serbia feeds us, the data is alarming\". Flour imports f...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 All 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/nasa-pevacica-bila-zvezda-pa-otisla-u-ameriku-i-zivot-joj-se-promenio-iz-korena/873pdz6",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "\"ZNAŠ LI TI KOLIKO ŽENA VOZI KAMIONE?\" Naša pevačica bila zvezda, pa otišla u Ameriku i život joj se promenio iz korena: Evo čime se bavila. Pevačica Anica Milenković, koja je najveću popularnost uživala tokom devedesetih i dvehiljaditih godina, vratila se u Beograd iz Sjedinjenih Američkih Država povodom velikog koncerta \"Južnog vetra\". Iako je njen let trajao više od 20 sati, uzbuđenje zbog susreta sa publikom nije izostalo. Tom prilikom, pevačica je podelila emotivna sećanja na svoje početke, otkrila anegdotu o nastanku svog najvećeg hita i otvoreno progovorila o potpuno drugačijem poslu i životu preko okeana.",
-        "zhSummary": "“你知道有多少女性开卡车吗？”我们的歌手是一位明星，然后她去了美国，她的生活完全改变了：这就是她所做的。 20世纪90年代和2000年代最受欢迎的歌手阿尼卡·米伦科维奇(Anica Milenković)趁着“南风”大型演唱会从美国回到贝尔格莱德。尽管她的飞行持续了20多个小时，但与观众见面的兴奋感并不缺乏。在那次场合，这位歌手分享了她开始的情感回忆，透露了她创作最热门歌曲的轶事，并公开谈论了大洋彼岸完全不同的工作和生活。",
+        "original": "DEVOJKA SA KRILIMA UČI DA SURFUJE Snimkom oduševila sve i još jednom pokazala zašto je inspiracija: \"Nezaustavljiva\"  (Video). Dejana Bačko, poznata kao 'Devojka sa krilima', još jednom je oduševila javnost i pokazala zbog čega je godinama unazad mnogima inspiracija. Ona je nedavno prošla kroz težak period nakon gubitka bebe, ali trudi se da njena ćerka ništa ne oseti, te sa njom uživa na letovanju.",
+        "zhSummary": "一个有翅膀的女孩学习冲浪 该视频让每个人都兴奋不已，并再次展示了为什么她是一个灵感：“势不可挡”（视频）。 Dejana Bačko，被称为“长着翅膀的女孩”，再次让公众感到高兴，并展示了为什么她多年来一直激励着许多人。她最近经历了失去孩子后的一段艰难时期，但她尽量不让女儿有任何感觉，并和她一起享受假期。",
         "sentiment": "Positive",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"DO YOU KNOW HOW MANY WOMEN DRIVE TRUCKS?\" Our singer was a star, then she went ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'A GIRL WITH WINGS LEARNS TO SURF The video thrilled everyone and once again show...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/amerika-ubila-visokog-lidera-isis-u-siriji/s68813s",
+        "url": "https://www.blic.rs/vesti/beograd/saobracajna-nesreca-u-centru-beograda-motociklista-tesko-povredjen-u-pariskoj-ulici/nbw0ljs",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "TRAMP DIGAO AVIONE, UBIJEN JE VISOKI LIDER ISIS! Oglasila se Centralna komanda: \"Planirao je napade na naše državljane\". Snage Centralne komande Sjedinjenih Američkih Država (CENTCOM) izvele su 19. juna vazdušni udar na severozapadu Sirije, u kojem je ubijen visoki lider Islamske države (ISIS).",
-        "zhSummary": "特朗普举起飞机，伊斯兰国最高领导人被杀！中央司令部宣布：“他计划袭击我们的公民。” 6月19日，美国中央司令部部队对叙利亚西北部发动空袭，击毙“伊斯兰国”组织一名高级头目。",
-        "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'TRUMP RAISED PLANES, THE HIGH LEADER OF ISIS WAS KILLED! The Central Command ann...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/ava-karabatic-zakazala-vencanje-nakon-sto-je-verenika-prijavila-za-nasilje/ycf7840",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "\"UDAJEM SE SLEDEĆI PETAK\" Prijavila verenika za nasilje, sve mu oprostila, pa zakazala venčanje: Ava Karabatić šokirala odlukom!. Ava Karabatić nedavno je verenika optužila za nasilje, a sada je šokirala javnost i podelila njihovu zajedničku fotografiju. Ona je otkrila da su zakazali venčanje za deset dana.",
-        "zhSummary": "“我下周五就要结婚”她举报了未婚夫的暴力行为，原谅了他的一切，然后安排了婚礼：艾娃·卡拉巴蒂奇对这个决定感到震惊！艾娃·卡拉巴蒂奇最近指责她的未婚夫实施暴力，现在她分享了一张他们在一起的照片，震惊了公众。她透露，他们已经安排了十天后举行婚礼。",
+        "original": "MOTOCIKLISTA (32) TEŠKO POVREĐEN Žestok udes u srcu Beograda! Muškarac odmah prevezen na VMA. Muškarac star 32 godine teško je povređen kada je kao motociklista oboren u nesreći u Beogradu, rečeno je Tanjugu u Hitnoj pomoći.",
+        "zhSummary": "摩托车 (32) 重伤 贝尔格莱德市中心发生暴力事故！该男子立即被送往VMA。坦朱格在紧急服务部门获悉，一名 32 岁男子在贝尔格莱德骑摩托车时被撞倒，受重伤。",
         "sentiment": "Negative",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"I'M MARRYING NEXT FRIDAY\" She reported her fiance for violence, forgave him eve...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'MOTORCYCLE (32) SEVERELY INJURED Violent accident in the heart of Belgrade! The ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/popularni-pirinac-se-hitno-povlaci-iz-prodaje-pronadjen-otrovni-gas/9tcche2",
+        "url": "https://www.blic.rs/zabava/uros-zivkovic-potkacio-kolegedodju-na-15-minuta-da-se-slikaju-i-iskoriste-to/9q35lbd",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "Popularni pirinač se hitno povlači iz prodaje: Pronađen otrovni gas. Državni inspektorat Hrvatske obavestio je potrošače o povlačenju proizvoda Soul Food BIO integralni basmati pirinač, 500 grama, zbog prisustva etilen oksida u proizvodu, saopštila je danas Hrvatska agencija za poljoprivredu i hranu.",
-        "zhSummary": "热门大米紧急下架：发现有毒气体克罗地亚农业和食品局今天宣布，克罗地亚国家监察局通知消费者，由于产品中存在环氧乙烷，Soul Food BIO 整体印度香米 500 克已被召回。",
+        "original": "\"DOĐU NA 15 MINUTA DA SE SLIKAJU I ODU KUĆI\" Uroš Živković potkačio kolege: \"Dešava se da žele da iskoriste marketing, ja to ne radim\" (Video). Pevač Uroš Živković iskreno je govorio o situaciji na estradi, ali i novoj pesmi koju je objavio. On je prvi put izašao iz zone komfora i opustio se u spotu u čemu ga je najviše podržala supruga.",
+        "zhSummary": "“他们来了 15 分钟拍照然后回家”Uroš Živković 戏弄他的同事：“碰巧他们想利用营销手段，我不会这么做”（视频）。歌手乌罗什·日夫科维奇（Uroš Živković）坦诚地谈到了节目中的情况，也谈到了他发布的新歌。他第一次走出自己的舒适区，在MV中放松下来，其中他的妻子最支持他。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"THEY COME FOR 15 MINUTES TO TAKE PICTURES AND GO HOME\" Uroš Živković teased his...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/slobodno-vreme/stavite-ovaj-predmet-u-dzep-pre-nego-sto-izadjete-iz-kuce-krpelji-ga-ne-podnose/v18zld3",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Pre nego što izađete iz kuće, stavite ovo u džep: Deluje kao štit protiv krpelja. Krpelji su među najopasnijim parazitima koji se mogu sresti u prirodi, a njihov ubod često prođe neprimetno. Ipak, posledice mogu biti ozbiljne, zbog čega stručnjaci i dalje upozoravaju na oprez tokom boravka na otvorenom, posebno u toplijim mesecima kada su najaktivniji.",
+        "zhSummary": "离开家之前，将其放入口袋中：它可以起到抵御蜱虫的作用。蜱虫是自然界中最危险的寄生虫之一，它们的叮咬常常被忽视。然而，后果可能很严重，这就是为什么专家仍然警告在户外时要小心，尤其是在它们最活跃的温暖月份。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Before you leave the house, put this in your pocket: It acts as a shield against...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vremenska-prognoza/poceo-prvi-zestoki-toplotni-talas-rhmz-popalio-alarme-noci-ce-biti-neizdrzive/pkbv1ek",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "SRBIJA U ŽARIŠTU TOPLOTNE KUPOLE Danas zvanično kreće prvi, ali žestoki toplotni talas: U celoj zemlji \"gore\" meteoalarmi, noći će biti NEIZDRŽIVE. Danas prvi tropski talas zvanično stiže u Srbiju! Ulazimo u period stabilnog, ali izuzetno toplog vremena, uz sunčane dane i porast temperature koji će se već krajem nedelje približiti 37. stepenu. Meteorolozi upozoravaju da bi kraj juna mogao doneti jači toplotni talas pod uticajem takozvane \"toplotne kupole\" koja se pozicionirala direktno nad Balkanom, a noći bi u urbanim sredinama mogle postati tropske, sa temperaturama iznad 20 stepeni.",
+        "zhSummary": "热穹焦点中的塞尔维亚 今天，第一波猛烈热浪正式开始：全国各地的天气警报“拉响”，夜晚将难以忍受。今天，第一波热带浪潮正式抵达塞尔维亚！我们正在进入一个稳定但极其温暖的天气时期，天气晴朗，到本周末气温将接近 37 度。气象学家警告说，在直接位于巴尔干半岛上空的所谓“热穹”的影响下，6月底可能会带来更强的热浪，城市地区的夜晚可能会变得热带，气温超过20度。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'SERBIA IN THE FOCUS OF THE HEAT DOME Today, the first but fierce heat wave is of...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/hronika/pretucen-decak-13-u-krusevcu-zbog-slicica-ocuh-tvrdi-da-je-ovo-pokusaj-ubistva/l8vq7n4",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"HTEO JE DA UBIJE DETE\" Dečak (13) kojeg je pretukao ODRASLI MUŠKARAC (50) ZBOG SLIČICA zadobio STRAŠNE POVREDE, otkriveni novi detalji: \"Samo ga je u glavu udarao\". M.A, očuh dečaka (13) koga je 22. juna u Kruševcu, kako se sumnja, pretukao otac drugog dečaka, rekao je za \"Blic\" da bi napad trebalo da se kvalifikuje kao pokušaj ubistva. On je naveo da je dečak udaran isključivo po glavi i da je zadobio više hematoma.",
+        "zhSummary": "“他想杀死一个孩子” 一名男孩（13 岁）因照片而被一名成年男子（50 岁）殴打，受了重伤，新的细节显示：“他只是打了他的头部”。 M.A 是一名男孩（13 岁）的继父，据称该男孩 6 月 22 日在克鲁舍瓦茨被另一名男孩的父亲殴打，他告诉《Blic》，这次袭击应该被视为谋杀未遂。他说，男孩只头部被击中，身上多处血肿。",
         "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"HE WANTED TO KILL A CHILD\" A boy (13) who was beaten by an ADULT MAN (50) BECAU...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/nikola-rokvic-spava-na-jahti-evo-sa-kim-se-on-baskari-u-grckoj/gjbm5lx",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "(VIDEO) NIKOLA ROKVIĆ SPAVA NA JAHTI Žena mu proslavila rođendan, a evo sa kim se on baškari u Grčkoj. Nikola Rokvić, poznati pevač, uzeo je vreme za sebe i prepustio se potpunom uživanju. Nikola Rokvić snimao se na jednoj jahti u Grčkoj, a mnogi su pisali da mu zavide.",
+        "zhSummary": "（视频）尼古拉·洛克维 (NIKOLA ROKVIĆ) 睡在游艇上 他的妻子为他庆祝了生日，这是他在希腊与谁调情。著名歌手尼古拉·洛克维奇 (Nikola Rokvić) 为自己腾出时间，尽情享受。尼古拉·洛克维奇在希腊的一艘游艇上拍摄，许多人写道他们羡慕他。",
+        "sentiment": "Positive",
         "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Popular rice is urgently withdrawn from sale: Poisonous gas found. The Croatian ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(VIDEO) NIKOLA ROKVIĆ SLEEPS ON A YACHT His wife celebrated his birthday, and he...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Energy 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/hronika/tragedija-u-sutomoru-muskarac-pao-sa-zida-i-poginuo/2fj8952",
+        "url": "https://www.blic.rs/vesti/politika/madjarska-stopirala-ukrajinu-na-putu-ka-eu-glavni-razlog-je-srbija-i-zapadni-balkan/enw20zy",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "MUŠKARAC PAO SA ZIDA I POGINUO Tragedija u Sutomoru: Policija istražuje okolnosti nesreće. Pod još nerazriješenim okolnostima večeras je u Sutomoru poginuo muškarac, piše Primorski portal.",
-        "zhSummary": "一名男子从墙上坠落身亡 苏托莫雷悲剧：警方正在调查事故情况。 Primorski 门户网站写道，在尚未解决的情况下，一名男子今晚在苏托莫雷死亡。",
+        "original": "\"POGREŠNA PORUKA SRBIJI\" Mađarska stopirala Ukrajinu i Moldaviju na putu ka EU, glavni razlog je Zapadni Balkan: Peter Mađar pokazao ČVRST STAV. Evropski put Ukrajine preko \"brze trake\" naišao je na ozbiljnu prepreku, i to upravo zbog Srbije i zemalja Zapadnog Balkana. Mađarska prekjuče nije dala saglasnost za ključni proceduralni korak neophodan da se ubrzaju pristupni pregovori sa Ukrajinom i Moldavijom. Dok Kijev želi da otvori svih šest pregovaračkih klastera do sredine jula, Budimpešta je poručila da tako nešto ne dolazi u obzir jer šalje pogrešnu poruku zemljama našeg regiona koje decenijama čekaju pred vratima Evropske unije (EU). Pitanje koje se nameće je da li ovakva otvorena podrška može suštinski da ubrza evropski put Srbije i otvaranje novih klastera, ili će se ovaj diplomatski \"rat\" svesti isključivo na usporavanje Ukrajine?",
+        "zhSummary": "“向塞尔维亚传达错误信息” 匈牙利在通往欧盟的路上拦住了乌克兰和摩尔多瓦，主要原因是西巴尔干地区：匈牙利彼得大帝表现出了强硬态度。乌克兰的欧洲“快车道”之路遭遇严重障碍，正是因为塞尔维亚和西巴尔干国家。前天，匈牙利未同意加快与乌克兰和摩尔多瓦入盟谈判所需的关键程序步骤。虽然基辅希望在七月中旬之前开放所有六个谈判小组，但布达佩斯表示，这样的事情是不可能的，因为这向我们地区几十年来一直在欧盟门口等待的国家发出了错误的信息。出现的问题是，这种公开的支持是否能够从本质上加速塞尔维亚的欧洲之路和新集群的开放，或者这场外交“战争”是否会仅仅减少到减缓乌克兰的速度？",
         "sentiment": "Negative",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'A MAN FELL FROM A WALL AND DIED Tragedy in Sutomore: Police are investigating th...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"THE WRONG MESSAGE TO SERBIA\" Hungary stopped Ukraine and Moldova on the way to ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/politika/milo-djukanovic-sakrio-citav-arsenal-oruzja-oglasila-se-agencija-za-sprecavanje/hgd19ks",
+        "url": "https://www.blic.rs/vesti/svet/putin-je-ovo-izgovorio-prvi-put-a-ukrajina-sprema-zavrsni-udarac/n9nhpeb",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "MILO ĐUKANOVIĆ \"SAKRIO\" ČITAV ARSENAL ORUŽJA! Oglasila se Agencija za sprečavanje korupcije: Evo šta sve nije prijavio bivši predsednik Crne Gore. Bivši predsednik Crne Gore Milo Đukanović prekršio je odredbe Zakona o sprečavanju korupcije jer u redovnom godišnjem Izveštaju o prihodima i imovini za 2022. godinu nije prijavio vlasništvo nad 11 komada vatrenog oružja, utvrdila je Agencija za sprečavanje korupcije Crne Gore (ASK).",
-        "zhSummary": "米洛·丘卡诺维奇隐藏了整个武器库！预防腐败机构宣布：以下是黑山前总统没有报告的内容。黑山预防腐败局（ASK）发现，黑山前总统米洛·久卡诺维奇因未在2022年收入和资产定期年度报告中报告11支枪支的拥有情况，违反了《预防腐败法》的规定。",
+        "original": "CRVENA LINIJA PUCA POD RAKETAMA! Putin je ovo izgovorio PRVI PUT, a Ukrajina sprema završni udarac: Rat na ivici neviđene eksplozije (FOTO, VIDEO). Predsednik Rusije Vladimir Putin prekinuo je ćutanje i prvi put se javno oglasio povodom masovnih, višednevnih napada ukrajinskih snaga na ilegalno anektirano poluostrvo Krim. Dok poluostrvo gori pod naletima raketa i dronova, iz Kijeva stižu nikada jasniji signali o tome šta je sledeći korak ukrajinske vojske, a taj plan uključuje i teritoriju duboko unutar same Rusije.",
+        "zhSummary": "红线正在火箭下发射！普京第一次这么说，乌克兰正在准备最后一击：战争处于前所未有的爆炸边缘（照片、视频）。俄罗斯总统弗拉基米尔·普京打破沉默，首次就乌克兰军队对非法吞并的克里米亚半岛发动多日大规模袭击发表公开讲话。随着半岛在火箭和无人机的猛烈攻击下燃烧，基辅发出了关于乌克兰军队下一步行动的更清晰信号，该计划包括俄罗斯境内深处的领土。",
         "sentiment": "Negative",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'MILO ĐUKANOVIĆ HID THE ENTIRE ARSENAL OF WEAPONS! The Agency for the Prevention ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THE RED LINE IS FIRING UNDER THE ROCKETS! Putin said this for the FIRST TIME, an...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/ovo-je-sestra-mie-borisavljevic-svi-kazu-da-su-identicne-ne-zivi-u-srbiji/kvx5hzr",
+        "url": "https://www.blic.rs/biznis/nekretnine/organski-vocnjak-u-punom-rodu-za-12000-evra/9hmtjrr",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "OVO JE SESTRA MIE BORISAVLJEVIĆ Kažu da su iste, a zbog nje je pevačica odbijala hranu mesecima: \"Lekari su bili nemoćni\" (Foto). Mia Borisavljević važi za jednu od najzgodnijih pevačica na našoj estradnoj sceni, a mnogi ne znaju da ima sestru koja neverovatno liči na nju. Mia je jako vezana za sestru koja ne živi u Srbiji, a nedavno je podelila zajedničke fotografije.",
-        "zhSummary": "这是 MIE BORISAVLJEVIĆ 的妹妹 他们说她们是一样的，因为她，这位歌手几个月都拒绝进食：“医生无能为力”（照片）。米娅·鲍里萨夫耶维奇 (Mia Borisavljević) 被认为是我们流行音乐界最美丽的歌手之一，许多人不知道她有一个与她长得非常像的妹妹。米娅（Mia）非常依恋她不住在塞尔维亚的姐姐，她最近分享了一起的照片。",
+        "original": "Organski voćnjak u punom rodu za 12.000 evra! 130 stabala i letnjikovac: Zarada zagarantovana (FOTO). Na Fejsbuk grupi „Kuće i placevi na selu, planinama, rekama i jezerima – Prodaja i kupovina“ pažnju je privukao oglas koji je objavila Nadežda, a koji nudi sređen voćnjak u punom rodu po ceni od svega 12.000 evra.",
+        "zhSummary": "作物成熟的有机果园只需 12,000 欧元！ 130 棵树和一座避暑别墅：保证收入（照片）。在 Facebook 群组“乡村、山区、河流和湖泊的房屋和土地 - 买卖”上，Nadežda 发布的一则广告引起了人们的注意，该广告以仅 12,000 欧元的价格提供了一个精心打理、果实饱满的果园。",
         "sentiment": "Neutral",
-        "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THIS IS MIE BORISAVLJEVIĆ'S SISTER They say they are the same, and because of he...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/hronika/detalji-uzasa-na-adi-ciganliji-mladicu-27-pozlilo-u-vodi-kad-je-izasao-srusio-se/0ggvx7l",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "MLADIĆU (27) POZLILO, KAD JE IZAŠAO IZ VODE SRUŠIO SE I UMRO NA MESTU? Detalji užasa na Adi Ciganliji: Lekari mogli samo da konstatuju smrt. Na Adi Ciganliji večeras je došlo do tragedije kada je preminuo mladić (27).",
-        "zhSummary": "一名27岁的年轻人生病了，从水中出来后就倒地当场死亡？ Ada Ciganlija 的恐怖细节：医生只能宣布死亡。今晚，阿达西甘利亚岛发生了一起悲剧，一名年轻男子（27 岁）死亡。",
-        "sentiment": "Negative",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'A YOUNG MAN (27) GOT SICK, WHEN HE CAME OUT OF THE WATER HE COLLAPSED AND DIED O...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Organic orchard in full crop for 12,000 euros! 130 trees and a summer house: Gua...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/poznata-srpkinja-volela-kolegu-zbog-njega-se-nije-udala-i-imala-decu/f7sv43q",
+        "url": "https://www.blic.rs/vesti/drustvo/kako-da-izbegnete-kilometarske-kolone-na-granicama-uz-3-besplatna-digitalna-alata/nqerjhj",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "NIKADA SE NIJE UDALA, NITI IMALA DECU Poznata Srpkinja volela kolegu, pisma svedoče njihovoj strasti: On umro u 38. godini. Olja Ivanjicki i Leonid Šejka, dvoje umetnika čija je ljubav ostala zabeležena u pismima, živeli su priču koja je spojila umetnost, strast i tugu. Njihova veza, koja je trajala od 1956. do 1961. godine, bila je ispunjena stvaralaštvom, ali i nemogućnošću da se održi. Iako su se razišli, njihova priča i danas inspiriše.",
-        "zhSummary": "她从未结婚或生过孩子 一位著名的塞尔维亚妇女深爱着她的同事，这些信件证明了她们的激情：他在 38 岁时去世。奥利亚·伊万吉基 (Olja Ivanjicki) 和列昂尼德·谢伊卡 (Leonid Shejka) 这两位艺术家的爱情被记录在信件中，他们的故事结合了艺术、激情和悲伤。他们的关系从 1956 年持续到 1961 年，充满了创造力，但也难以维持。尽管他们分道扬镳，但他们的故事至今仍然鼓舞人心。",
+        "original": "PAKAO NA GRANICAMA MOŽE DA SE IZBEGNE! Skriveni prelazi i tri BESPLATNA digitalna alata uštedeće vam SATE čekanja na putu do mora. Bilo da putujete ka Grčkoj, Crnoj Gori, Hrvatskoj ili Bugarskoj, stanje na granicama može da vam pokvari početak odmora. Srećom, postoje alati koji u realnom vremenu pokazuju dužinu kolona, vreme čekanja i alternativne prelaze koji mogu da vam uštede sate na putu.",
+        "zhSummary": "边境地狱是可以避免的！隐藏的十字路口和三个免费的数字工具将为您节省出海途中等待的时间。无论您是前往希腊、黑山、克罗地亚还是保加利亚旅行，边境的情况都会破坏您假期的开始。幸运的是，有一些工具可以显示实时队列长度、等待时间和备用交叉路口，可以节省您在路上的时间。",
         "sentiment": "Positive",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'SHE NEVER MARRIED OR HAD CHILDREN A famous Serbian woman loved her colleague, th...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'HELL AT THE BORDER CAN BE AVOIDED! Hidden crossings and three FREE digital tools...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/panika-na-jadranu-temperatura-mora-naglo-skocila-upozorenje-strucnjaka-ledi-krv-a-jos/gkc6jqh",
+        "url": "https://www.blic.rs/vesti/drustvo/sta-su-konacni-rezultati-male-mature-pokazali-preokret-u-odnosu-na-proslu-godinu/dhj659x",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "PANIKA NA JADRANU! Temperatura mora naglo SKOČILA, upozorenje stručnjaka ledi krv, a još strašnije je ono što se dešava ispod površine. More je početkom ove nedelje na pojedinim lokacijama na Jadranu dostiglo temperature karakteristične za vrhunac leta. Prema merenjima Državnog hidrometeorološkog zavoda, u Malom jezeru na Mljetu izmereno je čak 28,8 stepeni, dok je u Puli ujutru zabeleženo 26,5 stepeni.",
-        "zhSummary": "亚得里亚海陷入恐慌！海水温度骤升，专家的警告令人毛骨悚然，更可怕的是海面以下正在发生的事情。本周初，亚得里亚海部分地区的海水温度达到了盛夏的典型温度。根据国家水文气象研究所的测量，姆列特岛小湖早上测得气温为28.8度，普拉则为26.5度。",
-        "sentiment": "Negative",
+        "original": "OSMACI RAZBILI FIZIKU I MATEMATIKU, ALI OVO IM JE ZADALO OZBILJNE MUKE! Šta su konačni rezultati male mature pokazali: Preokret u odnosu na prošlu godinu. Konačni rezultati završnog ispita su stigli ranije nego što je predviđeno, a brojke pokazuju neočekivane preokrete! Dok su se prethodnih generacija znojili nad jednačinama, ovogodišnji osmaci su \"oduvali\" matematiku, ali ih je maternji jezik neprijatno iznenadio i koštao dragocenih bodova za upis u željene srednje škole. Donosimo vam detaljnu uporednu analizu rezultata sa male mature iz 2025. i 2026. godine.",
+        "zhSummary": "八年级破坏了物理和数学，但这给他们带来了严重的麻烦！初中毕业的最终成绩表明：与去年相比出现了好转。期末考试成绩比预期提前出炉，数字出现意想不到的变化！虽然前几代人都在为方程式而苦恼，但今年的八年级学生却在数学上“大吃一惊”，但他们的母语却让他们大吃一惊，并让他们失去了进入理想中学的宝贵分数。我们为您带来2025年和2026年初中毕业成绩的详细对比分析。",
+        "sentiment": "Positive",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'PANIC ON THE ADRIATIC! The temperature of the sea has suddenly JUMPED, the warni...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '8TH GRADES BREAK PHYSICS AND MATH, BUT THIS GAVE THEM SERIOUS TROUBLE! What the ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Tech",
