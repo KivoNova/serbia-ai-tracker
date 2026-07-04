@@ -2,135 +2,135 @@
 const realNewsData = [
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/slobodno-vreme/crvena-tacka-na-sredini-tiganja-svi-je-vide-a-malo-ko-zna-sta-znaci/wen4x1q",
+        "url": "https://www.blic.rs/vesti/drustvo/more-u-jadranu-i-sredozemnom-moru-rekordno-toplo-evo-kolike-su-temperature-sada/xk7fcfq",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "Crvena tačka na sredini tiganja: Svi je vide, a malo ko zna šta znači. Sigurno ste je primetili - prepoznatljiva crvena tačka nalazi se na dnu većine modernih tiganja. I dok mnogi misle da je reč o običnom ukrasu ili estetskom detalju dizajnera, istina je potpuno drugačija. Ova tačka je zapravo tajno oružje profesionalnih kuvara i ključni pokazatelj koji vam pomaže da hrana uvek bude savršeno pripremljena.",
-        "zhSummary": "锅中间的红点：每个人都看到它，但很少有人知道它意味着什么。您一定已经注意到了 - 独特的红点位于大多数现代煎锅的底部。虽然很多人认为这是一个普通的装饰或设计师的审美细节，但事实完全不同。这一点实际上是专业厨师的秘密武器，也是帮助您确保食物始终完美准备的关键指标。",
+        "original": "NIKAD TOPLIJE JADRANSKO MORE, OBORENI SVI REKORDI! U ovom mestu temperatura vode dostigla 29 STEPENI: \"Kao u bazenu je\". Žestoke vrućine koje su pogodile zapadnu i centralnu Evropu krajem juna nisu samo zagrejale kopno, već i okolna mora. Voda je na površini i za preko 5 stepeni toplija nego što je to inače slučaj za ovo doba godine, pokazuju podaci pomorske službe Kopernikus, a evo kako se trenutno kreću temperature Jadrana i Sredozemnog mora.",
+        "zhSummary": "亚得里亚海从未变暖，所有记录都被打破！这里的水温达到了29度：“就像在游泳池里一样”。六月底袭击西欧和中欧的酷热不仅使陆地变暖，也使周围的海洋变暖。根据哥白尼海事局的数据，海面的水温比一年中这个时候的通常温度高出 5 度以上，以下是亚得里亚海和地中海的温度目前的变化情况。",
         "sentiment": "Positive",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'The red dot in the middle of the pan: Everyone sees it, but few know what it mea...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'ADRIATIC SEA NEVER WARMER, ALL RECORDS BROKEN! In this place, the water temperat...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/desingerica-o-odlasku-iz-pinkovih-zvezda-zao-mi-je/lg0e6dg",
+        "url": "https://www.blic.rs/zabava/smuvala-mladjeg-rodila-sina-a-kad-se-skine-prava-je-bomba-obline-za-deset/rgwmq5f",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "SVI GLEDAJU U MINIĆ DESINGERICINE ŽENE Došli u besnoj mašini, pa on otkrio da li napušta Pinkove zvezde: \"Žao mi je\" (Video). Kontroverzni muzičar Dragomir Despić Desingerica na finalu \"Pinkovih zveda\" pojavio se u pratnji supruge Nevene. Ona ne voli često da se pojavljuje u javnosti, a sada je došla da podrži supruga koji je prethodnih meseci bio deo stručnog žirija, a njegovi kandidati plasirali su se u finale.",
-        "zhSummary": "每个人都在看 DESINGERICA 妻子的微缩模型 他们开着一辆愤怒的汽车而来，他透露了他是否要离开 Pink 的明星们：“我很抱歉”（视频）。有争议的音乐家 Dragomir Despić Desingerica 在妻子 Nevena 的陪同下出现在“Pink Stars”的结局中。她不喜欢经常出现在公众面前，现在她来支持前几个月担任专家评审团成员的丈夫，他的候选人进入了决赛。",
-        "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'EVERYONE LOOKS AT DESINGERICA'S WIFE'S MINIATURE They came in a furious car, and...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/moj-novac/proizvodnja-lubenica-u-srbiji-raste-zarada-zavisi-od-ove-3-stvari/ewk9h8s",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Proizvodnja lubenica u Srbiji raste, ali raste i rirzik: Zarada zavisi od ove 3 stvari. Proizvodnja lubenica u Srbiji poslednjih godina beleži stabilan rast, ali dobra berba ne znači automatski i sigurnu zaradu.",
-        "zhSummary": "塞尔维亚的西瓜产量在增长，但风险也在增长：收入取决于这三件事。近年来，塞尔维亚西瓜产量稳定增长，但丰收并不意味着收入有保障。",
-        "sentiment": "Positive",
-        "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'The production of watermelons in Serbia is growing, but so is the risk: Earnings...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Energy 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/pevac-otkrio-sta-misli-o-vezi-dzejle-i-jakova-kao-brat-i-sestra-su-mi/pxlvn8e",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "\"DŽEJLA I JAKOV SU MI KAO BRAT I SESTRA\" Pevač otkrio šta misli o novopečenom paru: \"LIČE MI, BAŠ SU NEŽNI\" (Video). Pevač Emir Brunčević pojavio se večeras na finalu \"Pinkovih zvezda\". On je zajedno sa suprugom, došao da pruži podršku bratu od sestre, Mervanu Memedoviću, koji se večeras takmiči, pa prokomentarisao i vezu Džejle Ramović i Jakova Jozinovića.",
-        "zhSummary": "“JAILA 和 JAKOV 对我来说就像兄弟姐妹” 这位歌手透露了他对这对新婚夫妇的看法：“他们看起来像我，他们非常温柔”（视频）。歌手埃米尔·布鲁切维奇今晚出现在“粉红星星”的结局中。他与妻子一起前来支持今晚参加比赛的同父异母的妹妹梅尔万·梅梅多维奇，并评论了杰拉·拉莫维奇和雅科夫·约齐诺维奇之间的关系。",
+        "original": "SMUVALA MLAĐEG, RODILA SINA, A KAD SE SKINE PRAVA JE BOMBA Vatrena brineta se naslonila na drvo i provocira samo tako: Ima obline za desetku. Ena Čolić ponovo je podigla temperaturu na društvenim mrežama i dokazala zašto važi za jednu od najzgodnijih bivših zadrugarki. Ona je pozirala u provokativnom bikiniju, naslonjena na drvo u prirodnom ambijentu, dok je u prvi plan istakla svoju savršeno izvajanu figuru i trbušnjake.",
+        "zhSummary": "她生了一个小孩子，生了一个儿子，当把它取下来时，它是一个真正的炸弹。埃娜·科利奇在社交网络上再次引起热议，并证明了为什么她被认为是最热门的前合作社成员之一。她穿着挑衅的比基尼，靠在自然环境中的树上，同时凸显了她完美雕塑的身材和腹肌。",
         "sentiment": "Positive",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"JAILA AND JAKOV ARE LIKE BROTHER AND SISTER TO ME\" The singer revealed what he ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'SHE BROUGHT A YOUNGER ONE, GAVE BIRTH TO A SON, AND WHEN TAKES IT OFF, IT'S A RE...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/hronika/ubijen-aleksandar-lazic-u-rumi-uhapsena-dvojica-osumnjicenih-mucili-ga-u-stanu-i/3c7tklz",
+        "url": "https://www.blic.rs/zabava/era-ojdanic-je-zbog-ovoga-izbacio-sina-i-snaju-iz-kuce-dobili-su-pedalu/5q1t7lg",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "(FOTO) MUČILI GA U STANU, PA GA TUKLI DO SMRTI I ZAKOPALI U DVORIŠTU Aleksandar Lazić brutalno ubijen u Rumi: Uhapšena dvojica osumnjičenih. Pripadnici Ministarstva unutrašnjih poslova, UKP, Službe za suzbijanje kriminala, Službe za borbu protiv korupcije, Uprave za tehniku i PU Sremska Mitrovica, po nalogu Višeg javnog tužilaštva u Sremskoj Mitrovici, uhapsili su P. J. (1982) i P. J. (2007) iz Rume, zbog postojanja osnova sumnje da su izvršili krivično delo teško ubistvo nad Aleksandrom Lazićem (1986) iz Stare Pazove.",
-        "zhSummary": "（照片）他们在公寓里折磨他，然后将他打死，并将他埋在院子里。亚历山大·拉齐奇 (Aleksandar Lazić) 在鲁马被残忍杀害：两名嫌疑人被捕。内政部、联合王国共产党、打击犯罪局、反腐败局、技术管理局和斯雷姆斯卡·米特罗维察市检察长办公室的成员根据斯雷姆斯卡·米特罗维察高级检察官办公室的命令，从鲁马逮捕了 P.J. (1982 年) 和 P.J. (2007 年)，因为有理由怀疑他们犯有针对亚历山大的严重谋杀罪拉齐奇 (1986)，出自旧帕佐瓦。",
+        "original": "\"IZBACIO SAM IH IZ KUĆE\" Era Ojdanić potresen zbog vesti da mu se unuk predozirao, a evo zbog čega je zabranio sinu i snaji ulazak u porodični dom: \"Dobili su pedalu\". Pevač Era Ojdanić bio je vidno potresen kada je u medijima pročitao vest da se njegov unuk Andrija predozirao. Pevač se za \"Blic\" tim povodom oglasio i rekao da ne zna šta je istina, a ovo nije prvi put da se našao u centru skandala zbog porodične drame.",
+        "zhSummary": "“我把他们赶出了家门” 埃拉·奥伊达尼奇（Era Ojdanić）对他的孙子吸毒过量的消息感到震惊，这就是为什么他禁止儿子和儿媳进入家中：“他们踩了踏板”。当歌手埃拉·奥伊达尼奇 (Era Ojdanić) 在媒体上读到他的孙子安德里亚 (Andrija) 吸毒过量的消息时，他明显感到震惊。这位歌手当时接受《Blic》采访时表示，他不知道真相是什么，这并不是他第一次发现自己因家庭剧而陷入丑闻的中心。",
         "sentiment": "Negative",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(PHOTO) THEY TORTURED HIM IN THE APARTMENT, THEN BEAT HIM TO DEATH AND BURIED HI...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"I KICKED THEM OUT OF THE HOUSE\" Era Ojdanić was shaken by the news that his gra...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/ovi-takmicari-su-ispali-iz-finala-pinkovih-zvezda-nakon-prvog-preseka-glasova/xjk5gvc",
+        "url": "https://www.blic.rs/vesti/beograd/pojavio-se-lazni-maticar-u-srbiji-vencava-ljude-bez-papira-ali-samo-u-ovim/xs5k14z",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "PRVI PRESEK GLASANJA! Ovi takmičari su ispali iz finala \"Pinkovih zvezda\": Njih 12 se bori za pobedu. Večeras se održava finale \"Pinkovih zvezda\", a 19 takmičara se bori za pobedu. Nakon što su se svi takmičari predstavili, publika je glasala za favorita, a sada je napravljen prvi presek glasanja.",
-        "zhSummary": "第一次投票！这些选手在“粉红之星”决赛中被淘汰：其中12人正在为胜利而战。 《粉红之星》决赛今晚举行，19位选手为胜利而战。所有选手自我介绍完毕后，观众投票选出最喜欢的选手，现在投票的第一轮已经完成。",
-        "sentiment": "Negative",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'FIRST CUT OF VOTING! These contestants were eliminated from the \"Pink Stars\" fin...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/viki-miljkovic-o-zvezdama-granda-konkurencija-me-pokrece-da-budem-jos-jaca/qd8npl0",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "\"KONKURENCIJA ME POKREĆE DA BUDEM JOŠ JAČA\" Viki Miljković o \"Zvezdama Granda\", otkrila i da li ostaje sledeće sezone u \"Pinkovim zvezdama\" (Video). Članica stručnog žirija Viki Miljković stigla je na spektakularno finale \"Pinkovih zvezda\" vidno raspoložena i spremna za završnu borbu muzičkih talenata. Pevačica nije krila uzbuđenje pred sam početak emisije, ističući da se uvek raduje finalnim večerima, ali se i osvrnula na dosadašnje uspehe u svojoj karijeri mentora.",
-        "zhSummary": "“竞争让我变得更加坚强” 关于“Zvezda Granda”的 Viki Miljković 透露了她是否会留在下一季的“Pink Stars”（视频）。专家评审团成员维基·米尔科维奇 (Viki Miljković) 来到《粉红之星》的精彩结局时，显得精神抖擞，准备迎接音乐天才的最后一战。这位歌手在演出开始前并没有掩饰自己的兴奋，强调她总是期待着最后的夜晚，但她也回顾了自己过去作为导师职业生涯的成功。",
-        "sentiment": "Positive",
-        "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"COMPETITION MOVES ME TO BE EVEN STRONGER\" Viki Miljković about \"Zvezda Granda\",...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Energy 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/hronika/uzas-na-groblju-u-beogradu-isekli-35-metalnih-sanduka-otvarali-grobna-mesta/n617h2m",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "OTVORILI 35 GROBNICA, SEKLI METALNE SANDUKE Užas na groblju u Beogradu: Policija traga za grupom lopova. Na Mokroluškom groblju večeras se dogodio težak slučaj skrnavljenja grobova, kada su za sada nepoznati počinioci, prema prvim informacijama, uništili oko 35 grobnica.",
-        "zhSummary": "THEY OPENED 35 GRAVES, CUT METAL CRATES Horror at the cemetery in Belgrade: Police are looking for a group of thieves.今晚，Mokroluška 公墓发生了一起严重的坟墓亵渎事件，根据初步信息，大约有 35 个坟墓被身份不明的肇事者毁坏。",
-        "sentiment": "Negative",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THEY OPENED 35 GRAVES, CUT METAL CRATES Horror at the cemetery in Belgrade: Poli...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/haos-u-finalu-pinkovih-zvezda-takmicar-na-konju-usao-u-pinkov-studio/93w920k",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "TAKMIČAR NA KONJU UŠAO U STUDIO PINKA Haos u finalu Pinkovih zvezda: Publika i žiri ne veruju šta vide, ovo se još nije desilo na televiziji. Večeras se 19 finalista bori za pobedu u muzičkom takmičenju \"Pinkove zvezde\", a tokom emisije dolazi do nepredviđenih situacija. Dok je njegova koleginica rasplakala publiku emotivnom pesmom, Džan Imamović je u studio došao na konju.",
-        "zhSummary": "一位骑着马的参赛者进入平克的工作室 平克明星决赛中一片混乱：观众和评审团都不敢相信他们所看到的，这在电视上从未发生过。今晚，19位入围选手正在“粉红之星”音乐比赛中争夺胜利，演出过程中却出现了意想不到的情况。当他的同事用一首感人的歌曲让观众落泪时，扎恩·伊莫维奇则骑着马来到录音室。",
+        "original": "SRBI SADA ANGAŽUJU I LAŽNE MATIČARE! Na prvi pogled, ideja da se prekrstiš, ali kada malo bolje razmisliš... Evo ko i zašto ih angažuje. Nakon organizovanja lažnih svadbi u Novom Sadu na kojima je apsolutno sve lažno, od mladenaca, kumova, muzike, plesa, romantike i gde se tu zapravo niko stvarno ne udaje niti ženi, sada je apsolutnu pažnju privukao lažni matičar.",
+        "zhSummary": "塞尔维亚人现在正在雇用假注册员！乍一看，你有一种与自己交叉的想法，但当你再想一想时......这就是谁雇用他们以及为什么雇用他们。在诺维萨德组织假婚礼后，从新婚夫妇、伴郎、音乐、舞蹈、浪漫到没有人真正结婚或没有女人，一切都是假的，现在假登记员引起了绝对的关注。",
         "sentiment": "Negative",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'A CONTESTANT ON A HORSE ENTERED PINK'S STUDIO Chaos in the final of Pink's stars...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'SERBIANS ARE NOW HIRING FAKE REGISTRARS! At first glance, the idea of ​​crossing...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/objavljen-ukupan-broj-stradalih-rusa-izvestaj-americkih-strucnjaka-otkriva-pravu-uzas/g7shjl1",
+        "url": "https://www.blic.rs/zabava/evo-ko-je-stefan-cekic-pobednik-pinkovih-zvezda-u-braku-je-sa-pevacicom/ltd7qjs",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "\"OVO JE PREMAŠILO I STALJINGRAD!\" Objavljen izveštaj o broju poginulih Rusa u ratu sa Ukrajinom: Podaci su zapanjujući. Odluka Rusije, odnosno njenog lidera Vladimira Putina, da pokrene sveobuhvatnu invaziju na Ukrajinu koštala je zemlju oko 450.000 života, prema novoj studiji koja procenjuje da je ukupan broj stradalih u ratu premašio 2 miliona.",
-        "zhSummary": "“这已经超过了斯大林格勒！”公布的关于俄罗斯在与乌克兰的战争中丧生的人数的报告：数据令人震惊。俄罗斯领导人弗拉基米尔·普京决定对乌克兰发动全面入侵，导致该国约 45 万人丧生，根据一项新研究估计，战争受害者总数超过 200 万。",
-        "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"THIS HAS EXCEEDED STALINGRAD!\" Published report on the number of Russians kille...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/najmladja-ucesnica-pinkovih-zvezda-otpevala-pretuznu-pesmu-u-finalu/cbhzcw1",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "VAŽI ZA VELIKOG FAVORITA! Najmlađa učesnica \"Pinkovih zvezda\" otpevala PRETUŽNU PESMU U FINALU: Naterala suze na oči milionima gledalaca. Veliko finale muzičkog šou programa \"Pinkove zvezde\" večeras donosi neverovatna uzbuđenja, a scenu je potpuno pokorila najmlađa učesnica koja ujedno važi i za glavnog favorita ove sezone. Kao ponosna predstavnica tima Dragana Stojkovića Bosanca, ova talentovana devojčica izašla je na scenu u balskoj beloj haljini i izvela zahtevnu numeru „Ne dam ovo malo duše“.",
-        "zhSummary": "非常受欢迎！ 《粉红之星》最年轻的参与者在决赛中演唱了悲伤的歌曲：让数百万观众热泪盈眶。今晚音乐秀节目《Pink Stars》的压轴戏带来了令人难以置信的兴奋，舞台完全被最年轻的参与者完全征服，他也被认为是本季的主要宠儿。作为 Dragan Stojković Bosanc 团队的骄傲代表，这位才华横溢的女孩穿着白色舞会礼服登上舞台，表演了要求很高的曲目“Ne dam ovo malo duše”。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'CONSIDERS A BIG FAVORITE! The youngest participant of \"Pink Stars\" sang the SAD ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/sudbine/umro-najistaknutiji-hrvatski-reditelj-zrinko-ogresta/2wn4k5j",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "UMRO NAJISTAKNUTIJI HRVATSKI REDITELJ (68) Osvojio brojne nagrade, a evo po kojim delima će ga pamtiti. Hrvatski filmski reditelj i scenarista Zrinko Ogresta umro je danas u 68. godini. On je bio jedan od najistaknutijih i nagrađivanijih hrvatskih scenarista nakon raspada Jugoslavije.",
-        "zhSummary": "克罗地亚最著名的导演去世 (68) 荣获无数奖项，以下是他将被铭记的作品。克罗地亚电影导演兼编剧兹林科·奥格雷斯塔 (Zrinko Ogresta) 今天去世，享年 68 岁。他是南斯拉夫解体后最杰出、获奖无数的克罗地亚编剧之一。",
+        "original": "EVO KO JE STEFAN CEKIĆ, POBEDNIK PINKOVIH ZVEZDA U braku je sa atraktivnom pevačicom, a tokom takmičenja su ga osporavali. Stefan Cekić dobio je najviše glasova publike i postao pobednik \"Pinkovih zvezda\". O njegovom životu ne zna se previše, a tokom takmičenja mu je najveća podrška bila supruga Jovana.",
+        "zhSummary": "这是粉红之星奖得主斯蒂芬·切基 (STEFAN CEKIĆ)。他嫁给了一位迷人的歌手，在比赛期间他受到了挑战。斯特凡·切基奇 (Stefan Cekić) 获得观众投票最多，成为“粉红之星”奖得主。人们对他的生活知之甚少，他的妻子乔瓦娜是他比赛期间最大的支持者。",
         "sentiment": "Positive",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THE MOST PROMINENT CROATIAN DIRECTOR DIED (68) Won numerous awards, and here are...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 All 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'HERE IS STEFAN CEKIĆ, WINNER OF THE PINK STARS. He is married to an attractive s...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 All 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/stefan-cekic-je-pobednik-pinkovih-zvezda-u-finalu-doslo-do-preokreta/tg0nxnw",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "STEFAN CEKIĆ JE POBEDNIK \"PINKOVIH ZVEZDA\" On je imao najviše glasova publike: U finalu došlo do preokreta. Stefan Cekić je pobednik Pinkovih Zvezda. Njegov mentor bio je Dragomir Despić Desingerica, a on se takmičio pod rednim brojem 11.",
+        "zhSummary": "斯特凡·切基 (STEFAN CEKIĆ) 是“粉红之星”的获胜者 他获得了观众最多的选票：决赛出现了逆转。 Stefan Cekić 是粉红之星奖的获胜者。他的导师是 Dragomir Despić Desingerica，他身穿常规 11 号球衣参加比赛。",
+        "sentiment": "Positive",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'STEFAN CEKIĆ IS THE WINNER OF \"PINK STARS\" He had the most votes from the audien...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 All 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/svet/toplotni-talas-poremetio-proslavu-250-godina-amerike/f01ddfc",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"TOPLOTNA KUPOLA\" POREMETILA PROSLAVU 250 GODINA AMERIKE Otkazano desetine parada, koncerata i vatrometa, upozorenje dobilo 185 MILIONA LJUDI. Opasni toplotni talas danas je poremetio manifestacije proslave američkog nacionalnog praznika, Četvrtog jula, širom centralnog i istočnog dela SAD, primoravajući zvaničnike u glavnom gradu i drugde da otkažu ili odlože desetine parada, koncerata i vatrometa.",
+        "zhSummary": "“热穹”扰乱了美国 250 周年庆典数十场游行、音乐会和烟花被取消，1.85 亿人收到警告。今天，一场危险的热浪扰乱了美国中部和东部地区的国庆节庆祝活动，迫使首都和其他地方的官员取消或推迟了数十场游行、音乐会和烟花表演。",
+        "sentiment": "Negative",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"HEAT DOME\" DISRUPTED AMERICA'S 250 YEARS CELEBRATION Dozens of parades, concert...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/slobodno-vreme/pogledajte-sta-radite-motoru-svaki-put-kada-zurite-navika-zbog-koje-automehanicari/mneg8md",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Fatalna navika koja skraćuje vek vašem automobilu: Postoji razlog zašto nikada ne treba da krenete odmah nakon paljenja. Upalite auto i odmah krećete? Ako je ovo vaša svakodnevna rutina, stručnjaci upozoravaju da tako značajno skraćujete životni vek motora i rizikujete visoke troškove popravke.",
+        "zhSummary": "缩短汽车寿命的致命习惯：启动点火后千万不要立即上路，这是有原因的。发动汽车就马上走吗？如果这是您的日常工作，专家警告说，您将大大缩短发动机的使用寿命，并面临高昂的维修成本。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Fatal habit that shortens the life of your car: There's a reason why you should ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/nasa-najzgodnija-pevacica-prozvala-dzej-lo-celava-je-ja-imam-bolju-zadnjicu/0jcvnge",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"ONA JE ĆELAVA, JA IMAM I BOLJU KOSU I ZADNJICU OD NJE\" Naša najzgodnija pevačica prozvala Džej Lo: \"Nisam usamljena\". Marina Visković sa razlogom nosi titulu jedne od naših najzgodnijih pevačica. Ona redovno trenira i vodi računa o ishrani kako bi održala formu, a sada je \"potkačila\" inostranu koleginicu Džej Lo.",
+        "zhSummary": "“她秃了，我的头发和屁股都比她好”我们最红的歌手喊道：“我并不孤独。”玛丽娜·维斯科维奇 (Marina Visković) 拥有我们最美丽歌手之一的称号是有原因的。为了保持身材，她定期训练并注意饮食，现在她已经“踢”了她的外国同事J. Lo。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"SHE'S BALD, I HAVE BETTER HAIR AND ASS THAN HER\" Our hottest singer called out ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/biznis/moj-novac/vlasnici-kuca-najvise-grese-zbog-ovoga-steta-na-krovu-i-do-10000-evra/vwdpkle",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Vlasnici kuća najviše greše zbog ovih 5 stvari: Šteta na krovu i do 10.000 evra! Stručnjaci savetuju kako sačuvati i novac i kuću. Krov je kruna svake kuće i njena prva, a ujedno i najvažnija linija odbrane od surovih vremenskih uslova. Bilo da gradite novi dom ili renovirate stari, radovi na krovu predstavljaju jednu od najvećih i najozbiljnijih finansijskih investicija. Nažalost, u želji da uštede novac ili usled nepoznavanja osnovnih građevinskih pravila, vlasnici objekata veoma često prave kardinalne greške. Te greške se retko pokazuju odmah, ali kada voda jednom pronađe svoj put, šteta se meri u hiljadama evra.",
+        "zhSummary": "房主最容易犯的错误是因为这 5 件事： 屋顶损坏高达 10,000 欧元！专家建议如何既省钱又省钱。屋顶是每栋房屋的顶部，也是抵御恶劣天气条件的第一道也是最重要的防线。无论您是建造新房还是翻新旧房，屋顶工程都是最大、最重要的财务投资之一。不幸的是，出于省钱的目的或由于对基本施工规则的无知，业主经常犯下严重的错误。这些错误很少会立即显现出来，但一旦水流进来，损失将达到数千欧元。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Homeowners make the most mistakes because of these 5 things: Damage to the roof ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/oni-su-se-plasirali-u-top-3-finalista-pinkovih-zvezda/7x9xhjf",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "ONI SU SE PLASIRALI U TOP 3! Muškarci prošli u superfinale Pinkovih zvezda, a samo jedan će odneti pobedu. Elsan Pilica, Džan Imamović i Stefan Cekić plasirali su se u naredni krug takmičenja i top tri finalista. U finale se plasiralo 19 takmičara, a od toga će samo jedan moći da osvoji titulu Pinkove zvezde 2026.",
+        "zhSummary": "他们进入了前三名！男子队晋级粉红之星超级决赛，只有一人获胜。 Elsan Pilica、Džan Imamović 和 Stefan Cekić 晋级下一轮比赛，并成为决赛前三名。 19名选手进入决赛，只有其中一名选手能够获得2026年粉红之星的称号。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THEY PLACED IN THE TOP 3! The men advanced to the superfinal of Pink Stars, and ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/print/naslovna-strana-za-47/jjwxfn5",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Naslovna strana za 4.7.. Naslovna strana za 4.7.",
+        "zhSummary": "4.7 的首页。4.7 的首页。",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Front page for 4.7.. Front page for 4.7....'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Tech",
