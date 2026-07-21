@@ -2,135 +2,135 @@
 const realNewsData = [
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/drustvo/opasna-riba-lav-ciji-ubod-moze-biti-smrtonosan-ponovo-snimljena-u-crnoj-gori-foto/brqvmtw",
+        "url": "https://www.blic.rs/vremenska-prognoza/mape-rhmz-upozorava-od-utorka-nagle-promene-vrucina-pa-oluje-u-srbiji/srnqp1n",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "(FOTO) OTROVNA RIBA PONOVO UHVAĆENA U CRNOJ GORI! Upozorenje za sve turiste: Ako je vidite, OVO nikako ne radite. Invazivna vrsta ponovo јe uočena u crnogorskom delu Јadrana, a stručnjaci upozoravaјu na oprez јer njene otrovne bodlje mogu izazvati јak bol i ozbiljne reakciјe.",
-        "zhSummary": "（图）黑山再次捕获毒鱼！警告所有游客：如果您看到她，请不要这样做。这种入侵物种在亚得里亚海的黑山部分再次被发现，专家警告要小心，因为它的有毒刺会引起剧烈疼痛和严重反应。",
+        "original": "(MAPE) SPREMITE SE, KREĆE VREMENSKA VRTEŠKA! RHMZ izdao hitno upozorenje, popodne nas čeka TOTALNI PREOKRET: Prvo tropska 33 stepena, a onda TOTALNI HAOS. Pred nama je period koji će obeležiti prava vremenska vrteška, a stručnjaci koje angažuje Republički hidrometeorološki zavod (RHMZ) upozoravaju na nagle promene koje nas očekuju već od utorka ujutru. Iako smo zakoračili u srce leta, atmosfera nad našim podnebljem postaje izuzetno nestabilna, pa će se u narednim danima smenjivati vreli talasi, pljuskovi i opasne grmljavinske nepogode.",
+        "zhSummary": "（地图）准备好，时间旋转木马即将开始！ RHMZ 发出紧急警告，下午，一场全面逆转正在等待着我们：首先是热带 33 度，然后是全面混乱。我们面前的一段时期将以真实的天气旋转木马为标志，共和国水文气象研究所 (RHMZ) 聘请的专家警告说，最早在周二早上等待我们的将是突然的变化。虽然我们已经进入盛夏，但我们的气候正变得极其不稳定，因此未来几天将会出现交替出现的热浪、阵雨和危险的雷暴。",
         "sentiment": "Negative",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(PHOTO) POISONOUS FISH CAUGHT AGAIN IN MONTENEGRO! Warning to all tourists: If y...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(MAPS) GET READY, THE TIME CAROUSEL IS GOING! RHMZ issued an urgent warning, in ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/uskoro-otvaranje-prve-deonice-obilaznice-oko-kragujevca/7h4xlch",
+        "url": "https://www.blic.rs/biznis/after-hour/kupio-napusteno-ostrvo-i-stvorio-zivot-iz-bajke/48pm6zd",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "Uskoro otvaranje prve deonice obilaznice oko Kragujevca. Prva deonica obilaznice oko Kragujevca gotovo je završena i uskoro bi trebalo da bude pušteno u saobraćaj prvih pet kilometara - od petlje Jovanovac do petlje Petrovac.",
-        "zhSummary": "克拉古耶瓦茨周围环路第一段即将开通。克拉古耶瓦茨周围绕行路的第一段已接近完工，前五公里应该很快就会通车——从约万诺瓦茨立交桥到彼得罗瓦茨立交桥。",
-        "sentiment": "Neutral",
-        "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Opening of the first section of the ring road around Kragujevac soon. The first ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "original": "Ispraznio bankovni račun da bi kupio napušteno ostrvo i stvorio raj! Danas živi na -35 °C bez struje i vode. Dok većina ljudi sanja o kući uz more ili vikendici u prirodi, Finac Klaus odlučio je da ostvari mnogo neobičniji san: kupio je napušteno ostrvo i tamo izgradio novi život. Na ostrvu, koje je više od 40 godina bilo bez stanovnika, danas sa svojom partnerkom Johanom živi potpuno izvan komunalne infrastrukture. Nemaju priključak na električnu mrežu ni vodovod, a zime provode na temperaturama koje se spuštaju i do -35 Celzijusovih stepeni.",
+        "zhSummary": "清空银行账户购买荒岛，打造天堂！如今，它生活在-35°C 的环境中，没有电或水。当大多数人梦想在海边的房子或大自然中的小屋时，芬兰人克劳斯决定实现一个更不寻常的梦想：他购买了一座废弃的岛屿并在那里建立了新的生活。岛上已有 40 多年无人居住，如今他和伴侣约翰娜完全生活在公共基础设施之外。它们没有与电网或供水系统的连接，并且在气温降至-35摄氏度的情况下过冬。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Empty the bank account to buy a deserted island and create a paradise! Today it ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/asmin-nece-da-se-izvini-stanijinoj-majci-u-finalu-elite-9-slavica-ga-ne-zanima/sjjqnz3",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "ASMIN NEĆE DA SE IZVINI STANIJINOJ MAJCI Slavica ga ne zanima: Evo od koga se Durdžić sve vreme ne odvaja u finalu Elite 9 (VIDEO). Asmin Durdžić je, po napuštanju \"Elite\", poleteo Mevlidi i Mustafi u zagrljaj, a potom je prišao i sestri Minki. Alibaba je odbio da se obrati Stanijoj majci Slavici na licu mesta.",
+        "zhSummary": "ASMIN 不会向 STANIJA 的母亲道歉 他对 Slavica 不感兴趣：这是 Durdžić 在 Elite 9 决赛中一直与他分离的人（视频）。阿斯明·杜尔季奇离开“精英”后，飞进了梅夫利达和穆斯塔法的怀里，然后接近了他的妹妹敏卡。阿里巴巴当场拒绝与斯塔尼娅的母亲斯拉维察交谈。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'ASMIN WILL NOT APOLOGIZE TO STANIJA'S MOTHER He is not interested in Slavica: Th...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/hronika/ubistvo-filipa-knezevica-razbuktalo-rat-skaljarskog-i-kavackog-klana-sad-su-osvanule/9y2sxfm",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "ČEKAO DA FILIP UĐE U ZGRADU, PA SASUO 8 METAKA! Ovo ubistvo je razbuktalo rat najopasnijih klanova, MILIONI DATI za osvetu, osvanule MISTERIOZNE čitulje: \"Hermano...\". U centru Barselone, 15. jula prošle godine, ubijen je Filip Knežević koji bio označen kao plaćeni ubica kavačkog klana. Napadač je sačekao da Knežević uđe u zgradu u kojoj je živeo, odnosno u kojoj se krio, i upucao ga je sa najmanje osam metaka. Crnogorska policija je ovo ubistvo označila kao \"inicijalnu kapislu\" za obračune koji su usledili u narednom periodu, a španska policija i dalje traga za pucačem. Kneževićevi najbliži su, povodm godišnjice njegovog ubistva, objavili čitulje.",
+        "zhSummary": "他正在等待菲利普进入大楼，所以他发射了 8 颗子弹！这起谋杀案引发了最危险部族的战争，数以百万计的人为了复仇，神秘的讣告揭晓：“埃尔马诺……”。去年7月15日，在巴塞罗那市中心，被指定为卡瓦查茨家族雇佣杀手的菲利普·克内泽维奇被杀。袭击者等待克内泽维奇进入他居住的大楼，也就是他藏身的地方，向他开了至少八颗子弹。黑山警方将这起谋杀案标记为随后一段时间内发生的对抗的“初始上限”，西班牙警方仍在寻找枪手。与克内泽维奇最亲近的人在他被谋杀周年纪念日发表了讣告。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'HE WAS WAITING FOR FILIP TO ENTER THE BUILDING, SO HE FIRED 8 BULLETS! This murd...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
         "url": "https://www.blic.rs/zabava/elita-9-uzivo-finale-ovo-su-takmicari-koji-se-bore-za-100-hiljada-evra/xy7z2bt",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "SUPERFINALE ELITE 9 Luka i Sofija ispali među prvima! Bebicu napala Teodorina majka čim je došao u studio: \"Nek bije svoje ćerke, ne moju!\". Večeras se održava superfinale \"Elite 9\", a za glavnu nagradu bori se 20 takmičara. Nedeljama unazad se priča o favoritima, pa se pojedini dugo spominju kao glavni kandidati za pobedu, poput Stanije Dobrojević, Aneli Ahmić, Maje Marinković i Anđela Rankovića.",
-        "zhSummary": "SUPERFINALS ELITE 9 Luka 和 Sofia 名列第一！宝宝一来到工作室就遭到泰奥多拉妈妈的攻击：“让他打他的女儿，不要打我的女儿！”。 《精英9》超级决赛今晚开打，20位选手争夺大奖。热门球队已经被讨论了数周，因此一些人作为胜利的主要候选人被长期提及，例如斯坦尼娅·多布罗耶维奇（Stanija Dobrojević）、阿内拉·阿赫米奇（Anela Ahmić）、玛雅·马林科维奇（Maja Marinković）和安德尔·兰科维奇（Anđel Ranković）。",
+        "original": "SUPERFINALE ELITE 9 Kraj glasanja! Anita ispala, ostale samo STANIJA I ANELI: Maja se izvinjavala Alibabinoj porodici, MUSTAFA PLAKAO. Večeras se održava superfinale \"Elite 9\", a za glavnu nagradu bori se 20 takmičara. Nedeljama unazad se priča o favoritima, pa se pojedini dugo spominju kao glavni kandidati za pobedu, poput Stanije Dobrojević, Aneli Ahmić, Maje Marinković i Anđela Rankovića.",
+        "zhSummary": "SUPERFINALE ELITE 9 投票结束！安妮塔被淘汰，只剩下斯坦尼娅和阿内利：马哈向阿里巴巴家人道歉，穆斯塔法哭了。 《精英9》超级决赛今晚开打，20位选手争夺大奖。热门球队已经被讨论了数周，因此一些人作为胜利的主要候选人被长期提及，例如斯坦尼娅·多布罗耶维奇（Stanija Dobrojević）、阿内拉·阿赫米奇（Anela Ahmić）、玛雅·马林科维奇（Maja Marinković）和安德尔·兰科维奇（Anđel Ranković）。",
         "sentiment": "Positive",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'SUPERFINALS ELITE 9 Luka and Sofia finished among the first! The baby was attack...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'SUPERFINALE ELITE 9 End of voting! Anita was eliminated, only STANIJA AND ANELI ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/da-li-je-moguce-evo-ko-je-izbacen-iz-superfinala-elite-9/6lr8fs2",
+        "url": "https://www.blic.rs/vesti/svet/zasto-je-americi-toliko-tesko-da-dobija-ratove/ekld1x0",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "MA DA LI JE MOGUĆE? Novi presek glasova napravio haos među učesnicima: Evo ko je izbačen iz superfinale Elite 9. Luka Vujović zauzeo je 18. mesto u Eliti 9. On je nakon trećeg preseka imao najmanji broj glasova.",
-        "zhSummary": "是否可以？新的投票划分在参与者中造成了混乱：以下是被踢出精英 9 超级决赛的人。卢卡·武约维奇（Luka Vujović）在精英9中排名第18位。他在第三组之后得票数最少。",
+        "original": "\"Iran im je KOST U GRLU, ne mogu ni da je progutaju ni da je ispljunu\": Zašto je Americi toliko TEŠKO DA DOBIJA RATOVE?. Konflikt na Bliskom istoku sve više eskalira, a nakon pogibije američkih vojnika u iranskim napadima strahovi da će se rat još više razbuktati se umnožavaju. Otvoreno je pitanje kuda vodi ovaj sukob i šta će da uradi američki predsednik Donald Tramp, nakon još jedne uzastopne noći udara na Iran, dok analitičari ukazuju da SAD imaju ograničene opcije.",
+        "zhSummary": "“伊朗是他们的喉咙里的骨头，他们咽不下也吐不出来”：为什么美国打赢战争这么难？中东冲突愈演愈烈，美国士兵在伊朗袭击中丧生后，人们对战争进一步爆发的担忧与日俱增。这场冲突的走向以及美国总统唐纳德·特朗普在伊朗连续一夜遭到袭击后将采取什么行动都是一个悬而未决的问题，而分析人士表示，美国的选择有限。",
         "sentiment": "Negative",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'IS IT POSSIBLE? The new division of votes created chaos among the participants: ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"Iran is a BONE IN THEIR THROAT, they can neither swallow it nor spit it out\": W...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/filip-car-u-beogradu-stize-na-finale-elite-9-zbog-stanije-maji-nece-biti-dobro/3ysylbr",
+        "url": "https://www.blic.rs/zabava/stanija-dobrojevic-i-aneli-se-bore-za-pobedu-u-eliti-9-anita-trece-mesto/8267zyy",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "(Foto) FILIP CAR STIGAO U BEOGRAD USRED FINALA ELITE 9! Maji neće biti dobro, sprema se haos - došao da podrži Staniju: \"Večeras slavimo prvo mesto\". Bivši rijaliti učesnik Filip Car napravio je pravu pometnju na društvenim mrežama kada je usred spektakularnog superfinala \"Zadruge 9 Elite\" zvanično potvrdio da je stigao u Beograd. On se oglasio direktno iz automobila sa lokacijom iz prestonice Srbije, a njegova neočekivana pojava odmah je podgrejala priče da se njegovoj bivšoj partnerki Maji Marinković večeras uopšte ne piše dobro.",
-        "zhSummary": "（图）精英9决赛中途飞利浦赛车抵达贝尔格莱德！玛雅不会好起来，混乱正在酝酿——他来支持斯塔尼娅：“今晚我们庆祝第一名”。前真人秀选手 Filip Car 在壮观的“Zadruge 9 Elite”超级决赛中正式确认自己已抵达贝尔格莱德，在社交媒体上引起了轰动。他在塞尔维亚首都的车上直接发表讲话，他的意外出现立即引发了有关他的前搭档马贾·马林科维奇今晚表现不佳的谣言。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(Photo) PHILIP CAR ARRIVED IN BELGRADE IN THE MIDDLE OF THE ELITE 9 FINAL! Maya ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/hronika/decak-4-se-utopio-u-akva-parku-u-smederevu/jrjn36e",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "DEČAK (4) SE UTOPIO U AKVA-PARKU U SMEDEREVU! Užasna tragedija na bazenu: Lekari bezuspešno pokušavali da ga reanimiraju. U akva-parku \"Jugovo\" u Smederevu danas se dogodila teška tragedija u kojoj se utopio dečak starosti oko 4 godine.",
-        "zhSummary": "一名男孩 (4) 在斯梅代列夫的水上公园溺水身亡！泳池里发生了可怕的悲剧：医生试图让他苏醒，但没有成功。今天，斯梅代雷沃的“Jugovo”水上公园发生了一起严重悲剧，一名约4岁的男孩溺水身亡。",
+        "original": "STANIJA I ANELI SE BORE ZA POBEDU U ELITI 9 Trudna Anita zauzela treće mesto. Anita Stanojlović zauzela je treće mesto u Eliti 9. Za prvo mesto se bore Aneli Ahmić i Stanija Dobrojević.",
+        "zhSummary": "STANIJA 和 ANELI 在 ELITE 9 中争夺胜利 怀孕的 Anita 获得了第三名。 Anita Stanojlović 在 Elite 9 中获得第三名。Aneli Ahmić 和 Stanija Dobrojević 正在争夺第一名。",
         "sentiment": "Negative",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'A BOY (4) DROWNED IN THE WATER PARK IN SMEDEREV! Terrible tragedy at the pool: D...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'STANIJA AND ANELI FIGHT FOR VICTORY IN ELITE 9 Pregnant Anita took third place. ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/nezapamceno-nevreme-pogodilo-granicni-prelaz-popadala-stabla-nema-struje-video/z5cvh4n",
+        "url": "https://www.blic.rs/vesti/drustvo/leto-i-pozar-na-kolima-zasto-se-auto-zapali-usred-voznje/ssdd7gl",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "(VIDEO) NEZAPAMĆENO NEVREME NAPRAVILO KOLAPS NA GRANIČNOM PRELAZU! Popadala stabla, voda teče po putu, nema ni STRUJE: Vozila se jedva kreću. Nezapamćeno nevreme večeras je zahvatilo naselje Dojran u Severnoj Makedoniji.",
-        "zhSummary": "（视频）一场不为人知的风暴导致边境口岸倒塌！树木倒下，路上有水流，没有电：车辆几乎无法移动。今天晚上，一场史无前例的风暴袭击了北马其顿的多伊兰村。",
+        "original": "AUTO LETI MOŽE DA SE PRETVORI U BUKTINJU ZA SAMO PAR MINUTA! Dve greške su dovoljne da izbije požar, stručnjaci otkrivaju kako da ih sprečite. Tokom letnjih vrućina, kada su motori pod većim opterećenjem, a veliki broj građana kreće na duže puteve, raste i rizik od požara na automobilima. Stručnjaci upozoravaju da se vozila najčešće zapale zbog kombinacije električnih kvarova, curenja goriva ili ulja, nestručnih prepravki i lošeg održavanja.",
+        "zhSummary": "飞行汽车只需几分钟即可变成 BUKTINJA！两个错误就足以引发火灾，专家揭示如何预防它们。夏季炎热，发动机负荷较大，大量市民长途出行，汽车起火的风险也随之增加。专家警告说，车辆起火最常见的原因是电气故障、燃油或机油泄漏、不专业的改装和维护不善。",
         "sentiment": "Negative",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(VIDEO) AN UNREMEMBERED STORM CAUSED A COLLAPSE AT THE BORDER CROSSING! Fallen t...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'A FLYING CAR CAN TURN INTO A BUKTINJA IN JUST A FEW MINUTES! Two mistakes are en...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vremenska-prognoza/nova-tura-nevremena-juri-ka-srbiji-orkanski-vetar-ce-raznositi-grad/xpyth4d",
+        "url": "https://www.blic.rs/zabava/one-su-se-plasirale-u-top-3-u-finalu-zadruge-9-elite-neizvesno-do-kraja/6mje3tn",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "\"OLUJA ĆE BITI NA VRHUNCU SNAGE, DUVAĆE ORKANSKI VETAR I RAZNOSITI GRAD!\" Nova tura nevremena juri ka Srbiji, izdavaće se HITNA upozorenja: \"Imaće 4 niza\". Jaka oluja pogodila je delove jugozapadne Srbije i Kosova i Metohije, a kako najavljuje Republički hidrometeorološki zavod, slična situacija čeka nas i sutra, ali i u noći između utorka i srede.",
-        "zhSummary": "“风暴将达到最强度，刮起飓风并炸毁城市！”新一轮风暴正向塞尔维亚袭来，紧急警报将发出：“将有4场”。一场强风暴袭击了塞尔维亚西南部、科索沃和梅托希亚的部分地区，正如共和国水文气象研究所所宣布的那样，明天以及周二至周三的夜间也会出现类似的情况。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"THE STORM WILL BE AT PEAK STRENGTH, BLOWING HURRICANE WINDS AND BLOWING UP THE ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/milan-milosevic-sokiran-saopstio-rezultate-ona-je-izbacena-iz-elite-9/bbyl0kl",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "MILAN MILOŠEVIĆ NE VERUJE KO JE IZBAČEN IZ ELITE 9 Šokirao saopštio rezultate: \"Ona ispada iz borbe za prvo mesto\". Sofija Janićijević napustila je Elitu 9 nakon drugog preseka glasova i zauzela 19. mesto. Mnogi su ostali u šoku da je upravo ona među prvima napustila superfinale, a među njima je i voditelj Milan Milošević.",
-        "zhSummary": "米兰·米洛舍维奇不相信谁被踢出了精英九人组。他震惊地宣布了结果：“她退出了第一名的争夺”。 Sofija Janićijević 在第二轮投票后退出 Elite 9，获得第 19 位。许多人都对她是最先离开超级决赛的人之一感到震惊，其中包括东道主米兰·米洛舍维奇。",
+        "original": "TRI ŽENE SE BORE ZA PRVO MESTO Ivan Marinković ispao iz finala Elite 9: Napeto do samog kraja. Ivan Marinković je zauzeo 4. mesto u Eliti 9. U top 3 su se plasirale: Stanija Dobrojević, Anita Stanojlović i Aneli Ahmić.",
+        "zhSummary": "三名女子争夺第一名 伊万·马林科维奇 (Ivan Marinković) 在精英 9 决赛中被淘汰：气氛一直紧张到最后。 Ivan Marinković 在 Elite 9 中获得第四名。Stanija Dobrojević、Anita Stanojlović 和 Aneli Ahmić 进入前三名。",
         "sentiment": "Negative",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'MILAN MILOSEVIC DOESN'T BELIEVE WHO HAS BEEN KICKED OUT OF THE ELITE 9 He was sh...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THREE WOMEN ARE FIGHTING FOR THE FIRST PLACE Ivan Marinković was eliminated from...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/rada-todorovic-na-finalu-elite-9-asmin-i-ivan-marinkovic-su-najveci-olosi/c9mh77q",
+        "url": "https://www.blic.rs/biznis/moj-novcanik/kako-ustedeti-na-letovanju-i-izbeci-ovih-7-gresaka/zcwxkzs",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "\"ASMIN I IVAN MARINKOVIĆ SU NAJVEĆI OLOŠI\" Rada Todorović oplela samo tako, pa otkrila ko zaslužuje pobedu: \"To je veliki blam\" (Video). Večeras se na finalu rijalitija \"Zadruga 9 Elita\" pojavila se i bivša učesnica Rada Todorović, koja je na finale stigla u pratnji oca svog nekadašnjeg cimera Dače Virijevića, ističući da je on prezadovoljan njegovim učešćem. Rada je odmah bez dlake na jeziku oštro oplela po glavnim akterima ove sezone, ne birajući reči za muški deo ekipe.",
-        "zhSummary": "“阿斯明和伊万·马林科维奇是最大的渣男”拉达·托多罗维奇这样调侃，然后透露谁应该获得胜利：“这是一个很大的耻辱”（视频）。今晚，前参赛者拉达·托多罗维奇出现在真人秀《Zadruga 9 Elita》的决赛中，她在前室友达查·维里杰维奇的父亲的陪同下抵达决赛，并强调他对自己的参赛感到非常满意。拉达立即无话可说地对本季的主要演员进行了严厉的抨击，没有为团队中的男性部分选择言语。",
+        "original": "7 grešaka koje vas ovog leta mogu koštati stotine evra: Evo kako da ne bacite novac na odmoru (VIDEO). Visoke cene u restoranima, skriveni troškovi smeštaja, nepažljivo čitanje programa putovanja i odlaganje reklamacija samo su neke od grešaka koje građane svake godine mogu da koštaju i nekoliko stotina evra više nego što su planirali. Stručnjaci za zaštitu potrošača i turizam poručuju da se najveći deo tih troškova može izbeći ukoliko se pre puta obrati pažnja na nekoliko važnih detalja, ali i ako se na eventualne nepravilnosti reaguje odmah, a ne tek po povratku sa odmora.",
+        "zhSummary": "今年夏天可能让您损失数百欧元的 7 个错误：以下是如何在度假时不浪费钱（视频）。高昂的餐馆价格、隐藏的住宿费用、粗心地阅读旅行计划以及拖延投诉等等，这些错误只是导致公民每年比计划多花费数百欧元的一些错误。消费者保护和旅游专家表示，如果您在旅行前注意一些重要细节，而且如果您立即对任何违规行为做出反应，而不是在度假回来后才做出反应，那么大部分费用都是可以避免的。",
         "sentiment": "Negative",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"ASMIN AND IVAN MARINKOVIĆ ARE THE BIGGEST Scumbags\" Rada Todorović teased just ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '7 mistakes that can cost you hundreds of euros this summer: Here's how not to wa...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/bbc/spanija-docekala-svetske-prvake-fijesta-za-pamcenje-u-madridu-u-fotografijama/e3g4tb8",
+        "url": "https://www.blic.rs/vesti/drustvo/deda-sele-ziva-legenda-srbije-skoro-pola-veka-besplatno-cuva-svetinju/ptyrf0q",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "Španija dočekala svetske prvake: Fijesta za pamćenje u Madridu - u fotografijama. Novi svetski šampioni, fudbaleri Španije, proslavili su u Madridu osvajanje trofeja na paradi kojoj su prisustvovale desetine hiljada oduševljenih navijača.",
-        "zhSummary": "西班牙迎来了世界冠军：在马德里度过了难忘的节日 - 照片中。新的世界冠军西班牙足球运动员在马德里庆祝赢得奖杯，数以万计的热情球迷参加了游行。",
+        "original": "(FOTO, VIDEO) ON JE ŽIVA LEGENDA SRBIJE! Deda Sele (81) već skoro 40 godina BEZ DINARA čuva svetinju: \"Sneg bude do grudi, ali ja idem da vojvodi upalim sveću!\". Na brdu Čegar, mestu gde se odigrala jedna od najkrvavijih i najslavnijih bitaka srpske istorije, jedan čovek već decenijama ne dozvoljava da sećanje na vojvodu Stevana Sinđelića izbledi. Selomir Marković, poznatiji kao Sele (81), svakodnevno, skoro 40 godina, bez ijednog dinara naknade, dočekuje turiste i prenosi im priču o neviđenom herojstvu resavskih junaka u Prvom srpskom ustanku. Njegova ljubav prema istoriji i precima jača je od oštrih zima i olujnih vetrova, a njegova energija u devetoj deceniji ostavlja bez daha.",
+        "zhSummary": "（照片、视频）他是塞尔维亚活着的传奇！祖父塞拉（Sela）（81 岁）在没有第纳尔的情况下守护了神社近 40 年：“雪将深至我的胸口，但我要为公爵点燃一支蜡烛！”。在塞加山，塞尔维亚历史上最血腥、最著名的战役之一发生的地方，几十年来，一个人一直没有让斯特万·辛杰利奇公爵的记忆消失。塞洛米尔·马尔科维奇（Selomir Marković），更广为人知的名字是“塞勒”（Sele，81 岁），近 40 年来，每天都欢迎游客，不收取任何第纳尔费用，并向他们讲述第一次塞尔维亚起义中雷萨瓦英雄们前所未有的英雄主义故事。他对历史和祖先的热爱比严冬和狂风更强烈，他在九十岁时的精力让你喘不过气来。",
         "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Spain welcomed the world champions: a memorable fiesta in Madrid - in photos. Th...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "category": "Energy",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(PHOTO, VIDEO) HE IS THE LIVING LEGEND OF SERBIA! Grandfather Sela (81) has been...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Energy 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/slobodno-vreme/resite-se-neprijatnog-mirisa-iz-kupatila-za-200-dinara-trik-koji-provereno-radi/2m0f3qe",
+        "url": "https://www.blic.rs/zabava/hana-o-neriovoj-prevari-sa-transrodnom-osobom-najavila-i-tuzbe/pq1yphh",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "Rešite se neprijatnog mirisa iz kupatila za 200 dinara: Trik koji provereno radi obožavaće sve domaćice. Osveživači prostora i automatski sprejevi za kupatilo često znaju da budu prilično skupi, a njihov miris neretko ume da bude prejak, sintetički i pun hemikalija. Međutim, ljubitelji jednostavnih kućnih trikova pronašli su genijalno i potpuno prirodno rešenje koje obezbeđuje da vaše kupatilo miriše sveže 24 sata dnevno – bez ijednog kupljenog osveživača!",
-        "zhSummary": "只需 200 第纳尔即可消除浴室难闻的气味：这是所有家庭主妇都会喜欢的行之有效的技巧。空气清新剂和自动浴室喷雾剂通常非常昂贵，而且它们的气味往往太浓、合成且充满化学物质。然而，喜欢简单家居技巧的人发现了一种巧妙且纯天然的解决方案，可确保您的浴室每天 24 小时闻起来清新 - 无需购买任何空气清新剂！",
-        "sentiment": "Positive",
+        "original": "PROGOVORILI O AFERI SA TRANSRODNOM OSOBOM Hana otkrila Neriovu prevaru i najavila tužbe: \"Razočarani smo\" (Video). Nerio Ružanji i Hana Duvnjak u Eliti 9 su izneli skandalozne detalje o svom braku. Oni su se pokajali i sada progovorili o aferama koje su ih pratile.",
+        "zhSummary": "他们谈论与跨性别者的风流韵事哈娜揭露了内里奥的欺诈行为并宣布提起诉讼：“我们很失望”（视频）。内里奥·鲁赞吉 (Nerio Ruzanji) 和哈娜·杜夫尼亚克 (Hana Duvnjak) 在《Elita 9》中透露了有关他们婚姻的丑闻细节。他们悔改了，现在谈论了随后发生的事情。",
+        "sentiment": "Negative",
         "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Get rid of the unpleasant smell from the bathroom for 200 dinars: A proven trick...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THEY SPOKE ABOUT THE AFFAIR WITH A TRANSGENDER PERSON Hana revealed Nerio's frau...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Tech",
