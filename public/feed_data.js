@@ -2,6 +2,105 @@
 const realNewsData = [
     {
         "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/hronika/policija-otkrila-put-krvavih-11000-evra-koji-su-nestali-iz-sefa-ubijenog-pekara-73-na/lt70tcf",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "UBILE PEKARA (73) I ODMAH KUPILE AUTO Policija otkrila put krvavih 11.000 evra koji su nestali iz sefa na Karaburmi: Ovako su podelili plen. Sef poznatog pekara Radivoja G. (73) na Karaburmi bio je primarna meta tročlane bande koja je 2. avgusta izvršila jedan od najbrutalnijih zločina ove godine. Detalji iz istrage otkrivaju putanju ukradenih 11.000 evra i dinara - od trenutka kada su podeljeni, preko bizarne kupovine automobila, pa sve do skrivanja ostatka plena u običnoj zelenoj kesi u Subotici.",
+        "zhSummary": "他们杀了一名面包师（73 岁）并立即买了一辆车。警方透露了卡拉布尔马保险箱中血腥的11,000欧元消失的轨迹：这就是他们如何分配赃物的。卡拉布尔马著名面包师 Radivoj G.（73 岁）的老板是一个三人团伙的主要目标，该团伙于 8 月 2 日实施了今年最残酷的犯罪之一。调查的细节揭示了 11,000 欧元和第纳尔被盗的路径 - 从分发它们的那一刻起，到购买一辆奇怪的汽车，再到将其余赃物藏在苏博蒂察的一个普通绿色袋子中。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THEY KILLED A BAKER (73) AND IMMEDIATELY BUY A CAR. The police revealed the path...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vremenska-prognoza/detaljna-prognoza-dan-po-dan-oblacne-struje-se-ubrzavaju-i-donose-jake-udare/hn9mlkk",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"OBLAČNE STRUJE SE UBRZAVAJU I DONOSE JAKE UDARE\" Detaljna prognoza dan po dan, meteorolog RHMZ sve objasnio: Sa ekstremnim vremenom JOŠ NIJE GOTOVO. Srbiju je zahvatio izuzetno jak i dugotrajan toplotni talas koji je počeo još krajem jula, a Republički hidrometeorološki zavod (RHMZ) izdao je niz dramatičnih upozorenja na ekstremno visoke temperature i opasne meteorološke pojave. Iako će tokom predstojećeg vikenda intenzitet vrućina blago oslabiti, već od početka naredne sedmice očekuje nas novi porast temperatura i nastavak vrelog talasa sa tropskim noćima u urbanim sredinama.",
+        "zhSummary": "“云流正在加速并带来强烈影响” RHMZ 气象学家逐日详细预报，解释了一切：极端天气还没有结束。 7月底开始，塞尔维亚遭受了一场极其强烈且持久的热浪影响，共和国水文气象研究所（RHMZ）发布了一系列关于极端高温和危险气象现象的严重警告。尽管炎热的强度在即将到来的周末将略有减弱，但从下周开始，我们预计气温将出现新的上升，并且热浪将持续存在于城市地区的热带夜晚。",
+        "sentiment": "Neutral",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"CLUD CURRENTS ARE SPEEDING UP AND BRINGING STRONG IMPACTS\" Detailed forecast da...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/slobodno-vreme/lepe-ljubicaste-cvetove-mnogi-ostavljaju-u-dvoristu-a-ne-znaju-da-mogu-da-uniste/f73jsdq",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Lepe ljubičaste cvetove mnogi ostavljaju u dvorištu, a ne znaju da mogu da unište travnjak: Otporni su na većinu preparata, evo kako da ih se rešite. Ljubičice koje rastu samoniklo često izgledaju kao lep ukras travnjaka, zbog čega ih mnogi vlasnici dvorišta ostavljaju da cvetaju. Međutim, stručnjaci upozoravaju da ove biljke mogu brzo da se pretvore u ozbiljan problem i potisnu travu, a kada se jednom prošire, veoma ih je teško iskoreniti.",
+        "zhSummary": "许多人把美丽的紫色花朵留在院子里，却不知道它们会破坏草坪：它们对大多数准备工作都有抵抗力，以下是摆脱它们的方法。野紫罗兰通常看起来像漂亮的草坪装饰品，这就是为什么许多庭院主人让它们开花的原因。然而，专家警告说，这些植物很快就会成为严重的问题和杂草，一旦蔓延，就很难根除。",
+        "sentiment": "Negative",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Many people leave beautiful purple flowers in the yard without knowing that they...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/zena-naseg-pevaca-se-nakon-tri-porodjaja-otisla-na-operaciju-zatezanja-stomaka/ddjx0rk",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "IŠLA NA OPERACIJU ZATEZANJA STOMAKA Žena našeg pevača se nakon tri porođaja odlučila na hirurški zahvat: \"To mi je jedna od najboljih odluka\". Aleksandra Vasković, supruga Bojana Vaskovića, imala je operaciju zatezanja stomaka o čemu je sada govorila. Ona je otkrila detalje procedure i istakla da se ne kaje što je donela odluku da \"ode pod nož\".",
+        "zhSummary": "进行收腹手术 在生完三胎后，我们歌手的妻子决定接受手术：“这是我做过的最好的决定之一。”博扬·瓦斯科维奇的妻子亚历山大·瓦斯科维奇接受了腹部除皱手术，她现在正在谈论这件事。她透露了手术细节，并强调她并不后悔做出“接受手术”的决定。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'WENT FOR TUMMY TIGHTENING SURGERY After three births, the wife of our singer dec...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/svet/pan-am-103-kako-je-bomba-srusila-avion-iznad-lokerbija-i-ubila-270-ljudi/0p6w36l",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "AVION EKSPLODIRAO USRED LETA! Delovi letelice padali po kućama i sravnili grad, niko od 270 ljudi NIJE PREŽIVEO: Noć kada je nebo gorelo. Manje od sat vremena po poletanju iz Londona 1988. godine, putnički avion kompanije \"Pan Am\" - u kojem se nalazilo 259 putnika i članova posade, uključujući zvaničnika Ujedinjenih nacija (UN) Brenta Karlsona i muzičara Pola Džefrisa - eksplodirao je u vazduhu na visini od 9.000 metara, a delovi letelice pali su pali na gradić u Škotskoj. Ova nesreća, upisana crnim slovima u istoriju avijacije, dobila je svoju ekranizaciju u vidu potresne Netfliksove mini-serije.",
+        "zhSummary": "飞机在飞行途中爆炸！飞机的一部分落在房屋上，将小镇夷为平地，270人无一生还：天空着火的夜晚。 1988年，一架泛美客机从伦敦起飞后不到一个小时，载有259名乘客和机组人员，其中包括联合国官员布伦特·卡尔森和音乐家保罗·杰弗里斯，在9000米高空爆炸，飞机部分飞机坠落在苏格兰的一个小镇上。这场用黑字写在航空史上的事故，以令人心酸的Netflix迷你剧的形式搬上银幕。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THE PLANE EXPLODED IN THE MIDDLE OF FLIGHT! Parts of the aircraft fell on houses...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/biznis/evo-gde-je-povrce-i-voce-najskuplje-a-gde-najjeftinije-u-srbiji/xxdtn0m",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "“PIJAČNI BAROMETAR” ZA POČETAK AVGUSTA: Veliki pad cena paradajza i breskvi, poskupeli šaran i svinjska krmenadla. Na pijacama i u trgovinama širom Srbije tokom proteklih mesec dana zabeležene su primetne promene cena pojedinih poljoprivrednih proizvoda. Najveće pojeftinjenje među povrćem beleži paradajz, među voćem najviše su pale cene breskvi, dok su istovremeno poskupeli šaran, svinjska krmenadla, a u pojedinim gradovima pasulj i crni luk.",
+        "zhSummary": "八月初的“市场晴雨表”：西红柿、桃子价格大幅下跌，鲤鱼、猪肉育肥价格上涨。过去一个月，塞尔维亚各地市场和商店的某些农产品价格出现明显变化。蔬菜中西红柿价格跌幅最大，水果中桃子价格跌幅最大，鲤鱼、猪油以及部分城市豆类、洋葱价格上涨。",
+        "sentiment": "Neutral",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"MARKET BAROMETER\" FOR THE BEGINNING OF AUGUST: Big drop in the prices of tomato...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/najlepsa-srpska-voditeljka-marija-kilibarda-pokazala-lice-bez-sminke-zumira/md32szb",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "NAJLEPŠA SRPSKA VODITELJKA POKAZALA LICE BEZ TRUNKE ŠMINKE Marija Kilibarda zumira svaki detalj, neće da ulepšava stvarnost: \"Tretman mi je preko potreban\" (FOTO). Marija Kilibarda godinama važi za jednu od najlepših i najharizmatičnijih voditeljki na našim prostorima, a u javnosti je mahom viđamo ful sređenu. Ona se sad snimila za društvene mreže u prirodnom izdanju, te je zumirala lice, u želji da pokaže kako izgleda.",
+        "zhSummary": "最美丽的塞尔维亚主持人展示了她没有化妆的脸 Marija Kilibarda 放大了每一个细节，她不会修饰现实：“我真的需要治疗”（照片）。多年来，玛丽亚·基利巴达 (Marija Kilibarda) 一直被认为是我们地区最美丽、最有魅力的主持人之一，在公共场合我们大多看到她盛装打扮。她现在在社交网络上以自然版本拍摄自己的照片，并放大了自己的脸部，想展示自己的样子。",
+        "sentiment": "Positive",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THE MOST BEAUTIFUL SERBIAN PRESENTER SHOWS HER FACE WITHOUT A SPOT OF MAKEUP Mar...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/svet/volodimir-zelenski-biografija-porodica-politicki-uspon-i-uloga-u-ratu-u-ukrajini/f762yle",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "ŽIVOTNI PUT VOLODIMIRA ZELENSKOG Od televizijske zvezde do lidera koji vodi Ukrajinu kroz rat. Kada je u proleće 2019. stupio na predsedničku dužnost, Volodimir Zelenski bio je politički eksperiment. Bivši komičar i televizijski producent iz Krivog Roga, koji je karijeru krunisao glumeći poštenog nastavnika istorije u seriji Sluga naroda, doneo je u Kijev mešavinu populizma, medijske spretnosti i neiskustva. Danas, nakon više od četiri godine rata sa Ruskom Federacijom, Zelenski više nije politički naturščik. Postao je jedan od najprepoznatljivijih ratnih lidera 21. veka - čovek čija je sudbina neodvojiva od sudbine Ukrajine.",
+        "zhSummary": "沃洛德米尔·泽伦斯基的人生轨迹 从电视明星到领导乌克兰度过战争的领导人。弗拉基米尔·泽伦斯基 (Volodymyr Zelensky) 于 2019 年春天就任总统时，他是一个政治实验者。这位来自克里沃罗格的前喜剧演员和电视制片人，在电视剧《人民公仆》中饰演一位诚实的历史老师，为自己的职业生涯画上了圆满的句号，他给基辅带来了民粹主义、媒体灵巧和缺乏经验的混合体。如今，在与俄罗斯联邦进行了四年多的战争之后，泽连斯基不再是一个政治博物学家。他成为 21 世纪最知名的战争领导人之一，他的命运与乌克兰的命运密不可分。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'THE LIFE PATH OF VOLODYMIR ZELENSKY From a television star to a leader leading U...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/poznata-srpkinja-se-unistila-estetskim-korekcijama-izgubila-sam-posao/q7scrh1",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"ZBOG DOKTORKE SAM IZGUBILA POSAO\" Poznata Srpkinja se uništila estetskim zahvatima, pa vratila prirodan izgled: Sada isplivala stara fotka. Poznata srpska manekenka Dejana Živković  priznala je da se pokajala zbog estetskih korekcija koje su je koštale karijere. Ona je kasnije istopila filere kako bi imala što prirodniji izgled, a sada se pojavila njena stara fotografija.",
+        "zhSummary": "“因为医生我失去了工作” 一位著名的塞尔维亚妇女通过整容手术摧毁了自己，然后又恢复了自然的样子：一张旧照片现已浮出水面。著名塞尔维亚模特 Dejana Živković 承认，她对毁掉自己职业生涯的整容手术感到遗憾。后来她融化了填充物，使其看起来更自然，现在她的一张旧照片浮出水面。",
+        "sentiment": "Negative",
+        "category": "Tech",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"I LOST MY JOB BECAUSE OF THE DOCTOR\" A famous Serbian woman destroyed herself w...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
         "url": "https://www.blic.rs/biznis/moj-novac/ovo-je-5-znakova-da-dolazi-ekonomska-kriza/kbp38xs",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
@@ -32,105 +131,6 @@ const realNewsData = [
         "sentiment": "Negative",
         "category": "Tech",
         "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Never throw leftover oil in the sink after frying! Experts discovered why. Many ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/vesti/mobilne-kuce-prvi-put-regulisane-propisima-hrvati-menjaju-gradjevinska-pravila/kqjm3kf",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Mobilne kuće prvi put regulisane građevinskim propisima! Hrvati menjaju pravila gradnje, ovo je novi pravilnik. Ministarstvo za prostorno planiranje, građevinarstvo i državnu imovinu podnelo je na javnu raspravu predlog nove Uredbe o zgradama i radovima za koje nije potrebna građevinska dozvola. Nova uredba trebalo bi da zameni važeću Uredbu o jednostavnim i drugim zgradama i radovima iz 2017. godine i uvodi niz izmena u postupke za izgradnju, rekonstrukciju i energetsku obnovu, piše Lider.",
-        "zhSummary": "活动房屋首次受建筑法规监管！克罗地亚人正在改变建筑规则，这是新的规则手册。空间规划、建设和国有财产部提交了关于无需建筑许可证的建筑物和工程的新条例的提案，供公众讨论。 Lider 写道，新法规应取代 2017 年起有效的简单及其他建筑和工程法规，并对建设、重建和能源更新程序进行了一些修改。",
-        "sentiment": "Positive",
-        "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Mobile homes regulated by construction regulations for the first time! Croats ar...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Energy 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/print/naslovna-strana-za-88/h76qf0n",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Naslovna strana za 8.8.. Naslovna strana za 8.8.",
-        "zhSummary": "8.8 的首页。8.8 的首页。",
-        "sentiment": "Neutral",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Front page for 8.8.. Front page for 8.8....'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/slobodno-vreme/sipajte-casu-vode-na-prag-prozora-genijalan-i-brz-test-koji-stedi-stotine-evra/73yvqyr",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Sipajte čašu vode na donji ram prozora: Genijalan i brz test koji štedi stotine evra. Sipanje čaše vode na donji prag otvorenog PVC prozora nije neobičan eksperiment, već proveren i brz način da dijagnostikujete stanje odvodnog sistema. Dovoljna je mala količina tečnosti da odmah proverite da li otvori za odvod funkcionišu besprekorno. Ako voda ne otiče slobodno napolje ili se vraća unutra, to je jasan znak da je sistem zapušen. Zanemarivanje ovog jednostavnog trika može vas koštati mnogo više od samog čišćenja.",
-        "zhSummary": "将一杯水倒在窗户的下框上：这是一个巧妙而快速的测试，可以节省数百欧元。将一杯水倒在打开的 PVC 窗户的下门槛上并不是一个不寻常的实验，而是一种经过验证的快速诊断排水系统状况的方法。少量液体足以立即检查排水孔是否正常工作。如果水不能自由流出或回流，则表明系统已堵塞。忽视这个简单的技巧可能会比清洁本身付出更多的代价。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Pour a glass of water on the lower frame of the window: An ingenious and quick t...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/nekretnine/koliki-je-vek-trajanja-solarnih-panela/6k9b4wh",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Ističe garancija, ali ne i proizvodnja struje: Evo koliko dugo solarni paneli zaista ostaju efikasni. Fotonaponski paneli poslednjih godina postali su jedno od najpopularnijih rešenja za proizvodnju električne energije, ali mnogi vlasnici se pitaju šta se dešava kada istekne njihov radni vek i da li tada prestaju da proizvode struju.",
-        "zhSummary": "保修期满，但发电量不变：以下是太阳能电池板真正保持高效的时间。光伏板已成为近年来最受欢迎的发电解决方案之一，但许多业主想知道当他们的工作寿命结束并且停止发电时会发生什么。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Warranty expires, but not electricity production: Here's how long solar panels r...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/abelardo-de-la-esprijelja-polozio-zakletvu-kao-novi-predsednik-kolumbije/8tel03y",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Abelardo de la Esprijelja položio zakletvu kao novi predsednik Kolumbije (FOTO). Desničarski advokat Abelardo de la Esprijelja položio je danas zakletvu kao novi predsednik Kolumbije, nakon što je pobedio u drugom krugu predsedničkih izbora u junu obećavajući obračun sa naoružanim grupama, smanjenje državnog aparata za čak 40 odsto i obnovu sektora nafte i gasa.",
-        "zhSummary": "阿韦拉多·德拉埃斯普里埃拉宣誓就任哥伦比亚新​​总统（图）。右翼律师阿韦拉多·德拉埃斯普里埃拉 (Abelardo de la Espriella) 今天宣誓就任哥伦比亚新​​总统，他在 6 月的总统选举中赢得决选，承诺打击武装团体、削减多达 40% 的国家机构并重建石油和天然气行业。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Abelardo de la Espriella sworn in as the new president of Colombia (PHOTO). Righ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/slobodno-vreme/psihijatri-otkrili-mocnu-metodu-4-7-8-koja-trenutno-smiruje-organizam/ghjzst9",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "KRAJ NESANICI I NAPADIMA PANIKE! Primenite pravilo \"4-7-8\" i zaspaćete kao beba dok trepnete - MOZAK SE MOMENTALNO GASI. U svetu brzeg tempa, svakodnevnih obaveza i neprekidnog pritiska, anksioznost i hronični stres postali su vodeći zdravstveni izazovi modernog doba. Napadi panike, osećaj grča u stomaku i ubrzan rad srca često nas zateknu nespremne, ali stručnjaci ističu da postoji jednostavan, bezbedan i potpuno besplatan alat koji svi nosimo sa sobom - svesno disanje.",
-        "zhSummary": "结束失眠和恐慌！应用“4-7-8”规则，眨眼间你就会像婴儿一样睡着——大脑立即关闭。在快节奏的世界中，日常责任和持续的压力、焦虑和慢性压力已成为现代主要的健康挑战。惊恐发作、胃痉挛和心跳加速常常让我们措手不及，但专家指出，我们都随身携带一个简单、安全且完全免费的工具——有意识的呼吸。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'END INSOMNIA AND PANIC ATTACKS! Apply the \"4-7-8\" rule and you'll be asleep like...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/jaka-oluja-pracena-pljuskovima-pogodila-zapadne-i-centralne-delove-rumunije/fc53ch9",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "NEVREME PARALISALO RUMUNIJU Oluja čupala drveće, nosila krovove i izazvala poplave. Jaka oluja praćena pljuskovima pogodila je danas zapadne i centralne delove Rumunije, čupajući drveće i noseći krovove, javili su rumunski mediji.",
-        "zhSummary": "风暴使罗马尼亚陷入瘫痪 风暴将树木连根拔起，冲走屋顶并引发洪水。据罗马尼亚媒体报道，今天，一场强风暴伴随着倾盆大雨袭击了罗马尼亚西部和中部地区，导致树木连根拔起，屋顶被掀翻。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'STORM PARALYZED ROMANIA The storm uprooted trees, carried away roofs and caused ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/oko-50-vatrogasaca-gasi-ogroman-pozar-u-slovackoj-vetar-otezava-intervenciju/v5kb5qx",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "BORBA SA VATRENOM STIHIJOM Oko 50 vatrogasaca gasi ogroman požar u Slovačkoj: Vetar otežava akciju. Gotovo 50 vatrogasaca angažovano je na gašenju šumskog požara u mestu Trstin, u Trnavskom regionu, na zapadu Slovačke, saopštila je danas Vatrogasno-spasilačka služba.",
-        "zhSummary": "扑灭火灾 大约 50 名消防员正在斯洛伐克扑灭一场大火：大风使行动变得困难。消防和救援局今天宣布，近 50 名消防员正在扑灭斯洛伐克西部特尔纳瓦地区特尔斯坦镇的森林火灾。",
-        "sentiment": "Negative",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'FIGHTING THE ELEMENT OF FIRE Around 50 firefighters are putting out a huge fire ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/politika/zelenski-se-oglasio-nakon-vecere-s-vucicem-objavio-fotografiju/4jxnpfc",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "\"POČELI SMO\" Zelenski se oglasio nakon večere s Vučićem: Objavio autentičnu fotografiju s važnom porukom (FOTO). Predsednik Ukrajine Volodimir Zelenski objavio je večeras fotografiju sa predsednikom Srbije Aleksandrom Vučićem i poručio da su bilateralni razgovori počeli.",
-        "zhSummary": "“我们开始了”泽连斯基在与武契奇共进晚餐后宣布：他发布了一张带有重要信息的真实照片（照片）。乌克兰总统弗拉基米尔·泽连斯基发表了与塞尔维亚总统亚历山大·武契奇的合影，并宣布双边会谈已经开始。",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"WE STARTED\" Zelenski announced after the dinner with Vučić: He published an aut...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Tech",
@@ -391,9 +391,9 @@ const realNewsData = [
         "lang": "塞尔维亚语",
         "targetLang": "sr",
         "original": "Gotovo svaki četvrti evro BDP-a dolazi iz jedne zemlje: Nemačka nosi ekonomiju EU. Vrednost bruto domaćeg proizvoda (BDP) Evropske unije dostigla je 18,8 biliona evra u 2025. godini, a najveća ekonomija Unije je Nemačka, čiji je BDP iznosio 4,5 biliona evra, odnosno 23,8 odsto ukupne ekonomije EU, pokazali su novi podaci Evrostata.",
-        "zhSummary": "几乎四分之一欧元的国内生产总值都来自一个国家：德国承载着欧盟经济。欧盟统计局最新数据显示，2025年欧盟国内生产总值（GDP）达到18.8万亿欧元，其中欧盟最大经济体是德国，GDP为4.5万亿欧元，占欧盟经济总量的23.8%。",
+        "zhSummary": "几乎四分之一欧元的国内生产总值都来自一个国家：德国承载着欧盟的经济。欧盟统计局最新数据显示，2025年欧盟国内生产总值（GDP）达到18.8万亿欧元，其中欧盟最大经济体是德国，GDP为4.5万亿欧元，占欧盟经济总量的23.8%。",
         "sentiment": "Neutral",
         "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Almost every fourth euro of GDP comes from one country: Germany carries the EU e...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Almost every fourth euro of GDP comes from one country: Germany carries the EU's...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     }
 ];
