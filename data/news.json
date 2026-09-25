@@ -1,135 +1,135 @@
 [
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/drustvo/od-jedne-inicijative-do-vise-od-43000-zivota-goran-samolovac-iz-maxbet-a-proglasen-za/z4ltrdl",
+        "url": "https://www.blic.rs/biznis/cuvajmo-prirodu/da-li-bi-solarni-paneli-u-sahari-resili-svetski-problem-energije-evo-prave-istine/zekmqxh",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "Od jedne inicijative do više od 43.000 života: Goran Samolovac iz MaxBet-a proglašen za CSR menadžera godine. Dugogodišnji rad na projektu „Život je krv”, koji je do danas prerastao u jednu od najznačajnijih društveno odgovornih inicijativa kompanije MaxBet, doneo je Goranu Samolovcu priznanje CSR menadžer godine na DIGITAL Awards 2026.",
-        "zhSummary": "Od jedne inicijative do više od 43.000 života: Goran Samolovac iz MaxBet-a proglašen za CSR menadžera godine. Dugogodišnji rad na projektu „Život je krv”, koji je do danas prerastao u jednu od najznačajnijih društveno odgovornih inicijativa kompanije MaxBet, doneo je Goranu Samolovcu priznanje CSR menadžer godine na DIGITAL Awards 2026.",
-        "sentiment": "Positive",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Od jedne inicijative do više od 43.000 života: Goran Samolovac iz MaxBet-a progl...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/stefani-grujic-se-oglasila-nakon-hapsenja-muza-evo-gde-trenutno-pronalazi-mir/wdzwnej",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "OGLASILA SE STEFANI GRUJIĆ NAKON HAPŠENJA MUŽA DOK JE BEŽAO OD POLICIJE Na ovom mestu jedino nalazi spas u jeku skandala (FOTO). Vest da je španska policija uhapsila sedmoricu državljana Srbije zbog sumnje u otmicu odjeknula je u domaćoj javnosti. Među uhapšenima je i Zoran N., suprug bivše rijaliti učesnice Stefani Grujić, koja se sada oglasila na društvenim mrežama i otkrila gde se nalazi.",
-        "zhSummary": "OGLASILA SE STEFANI GRUJIĆ NAKON HAPŠENJA MUŽA DOK JE BEŽAO OD POLICIJE Na ovom mestu jedino nalazi spas u jeku skandala (FOTO). Vest da je španska policija uhapsila sedmoricu državljana Srbije zbog sumnje u otmicu odjeknula je u domaćoj javnosti. Među uhapšenima je i Zoran N., suprug bivše rijaliti učesnice Stefani Grujić, koja se sada oglasila na društvenim mrežama i otkrila gde se nalazi.",
-        "sentiment": "Neutral",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'OGLASILA SE STEFANI GRUJIĆ NAKON HAPŠENJA MUŽA DOK JE BEŽAO OD POLICIJE Na ovom ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vremenska-prognoza/ekstremne-suse-u-srbiji-trecu-godinu-zaredom-evo-sta-kaze-nauka/ppvxgzg",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "\"Ovo je nova normala i BIĆE JOŠ GORE ako ne uradimo jednu stvar\": Surova predviđanja našeg naučnika koja se tiču svih nas. U svetlu klimatskih promena, trend jakih suša u Srbiji se nastavlja: sva tri protekla leta - 2024, 2025. i ove, 2026. godine - bila su ekstremno sušna na gotovo celoj teritoriji zemlje, pokazuje analiza sa Instituta za meteorologiju u Beogradu.",
-        "zhSummary": "\"Ovo je nova normala i BIĆE JOŠ GORE ako ne uradimo jednu stvar\": Surova predviđanja našeg naučnika koja se tiču svih nas. U svetlu klimatskih promena, trend jakih suša u Srbiji se nastavlja: sva tri protekla leta - 2024, 2025. i ove, 2026. godine - bila su ekstremno sušna na gotovo celoj teritoriji zemlje, pokazuje analiza sa Instituta za meteorologiju u Beogradu.",
-        "sentiment": "Neutral",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"Ovo je nova normala i BIĆE JOŠ GORE ako ne uradimo jednu stvar\": Surova predviđ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/autobus-sleteo-s-puta-kod-tetova-nije-bilo-putnika-policija-traga-za-vozacem/jywrmyv",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "AUTOBUS SLETEO SA PUTA, VOZAČA NEMA Policija traga za njim nakon nezgode kod Tetova (VIDEO). Autobus je u danas sleteo s puta u blizini sela Stenče kod Tetova, objavio je Tetovo Info. Prema prvim, nezvaničnim informacijama, u vozilu u trenutku nesreće nije bilo putnika, dok vozač nije pronađen.",
-        "zhSummary": "AUTOBUS SLETEO SA PUTA, VOZAČA NEMA Policija traga za njim nakon nezgode kod Tetova (VIDEO). Autobus je u danas sleteo s puta u blizini sela Stenče kod Tetova, objavio je Tetovo Info. Prema prvim, nezvaničnim informacijama, u vozilu u trenutku nesreće nije bilo putnika, dok vozač nije pronađen.",
+        "original": "Šta bi se desilo kada bi cela Sahara bila u solarnim panelima: San naučnika koji verovatno nikad neće biti ostvaren. Pustinja Sahara prostire se na više od devet miliona kvadratnih kilometara. Kada bismo tamo instalirali solarne panele, teoretski bismo mogli da proizvedemo više od 20 teravata energije - tačno onoliko koliko godišnje potroši čitava planeta.",
+        "zhSummary": "Šta bi se desilo kada bi cela Sahara bila u solarnim panelima: San naučnika koji verovatno nikad neće biti ostvaren. Pustinja Sahara prostire se na više od devet miliona kvadratnih kilometara. Kada bismo tamo instalirali solarne panele, teoretski bismo mogli da proizvedemo više od 20 teravata energije - tačno onoliko koliko godišnje potroši čitava planeta.",
         "sentiment": "Neutral",
         "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'AUTOBUS SLETEO SA PUTA, VOZAČA NEMA Policija traga za njim nakon nezgode kod Tet...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Šta bi se desilo kada bi cela Sahara bila u solarnim panelima: San naučnika koji...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/ko-je-stefani-grujic-ciji-je-muz-uhapsen-u-kuci-strave-nizala-skandale-u-eliti/y29rs0j",
+        "url": "https://www.blic.rs/slobodno-vreme/definitivno-ne-u-kupatilu-evo-gde-je-najbolje-cuvati-toalet-papir/9qkjb15",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "KRILA TRUDNOĆU OD OCA DETETA, PA SE SMUVALA SA ŽENOM Ko je Stefani Grujić čiji je muž uhapšen u kući strave: U Eliti nizala skandale. Bivša učesnica rijaliti formata \"Elita\" ponovo se našla u žiži javnosti, ali ovoga puta zbog skandala međunarodnih razmera. Iako je publika pamti po burnim vezama i šokantnim detaljima iz privatnog života, mnogi su ostali iznenađeni zbog vesti o hapšenju njenog izabranika u Španiji.",
-        "zhSummary": "KRILA TRUDNOĆU OD OCA DETETA, PA SE SMUVALA SA ŽENOM Ko je Stefani Grujić čiji je muž uhapšen u kući strave: U Eliti nizala skandale. Bivša učesnica rijaliti formata \"Elita\" ponovo se našla u žiži javnosti, ali ovoga puta zbog skandala međunarodnih razmera. Iako je publika pamti po burnim vezama i šokantnim detaljima iz privatnog života, mnogi su ostali iznenađeni zbog vesti o hapšenju njenog izabranika u Španiji.",
-        "sentiment": "Negative",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'KRILA TRUDNOĆU OD OCA DETETA, PA SE SMUVALA SA ŽENOM Ko je Stefani Grujić čiji j...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/kljucne-poruke-sa-samita-trampa-i-si-djinpinga-u-vasingtonu-resenih-problema-nula/00lt80e",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Svečani doček, osmesi i brancin, a rešenih problema - NULA: Si Đinping tokom posete Trampu opet pomenuo ZASTRAŠUJUĆU TEORIJU. Američki predsednik Donald Tramp ugostio je juče svog kineskog kolegu Si Đinpinga u Beloj kući, u okviru raskošne državničke posete. Iako se očekivalo da centralne teme budu veštačka inteligencija (AI), trgovina i sve veće strateško rivalstvo Sjedinjenih Američkih Država (SAD) i Kine, kritičari ocenjuju da je susret doneo mnogo pompe, a malo suštine. Drugim rečima, nije bilo konkretnih rezultata.",
-        "zhSummary": "Svečani doček, osmesi i brancin, a rešenih problema - NULA: Si Đinping tokom posete Trampu opet pomenuo ZASTRAŠUJUĆU TEORIJU. Američki predsednik Donald Tramp ugostio je juče svog kineskog kolegu Si Đinpinga u Beloj kući, u okviru raskošne državničke posete. Iako se očekivalo da centralne teme budu veštačka inteligencija (AI), trgovina i sve veće strateško rivalstvo Sjedinjenih Američkih Država (SAD) i Kine, kritičari ocenjuju da je susret doneo mnogo pompe, a malo suštine. Drugim rečima, nije bilo konkretnih rezultata.",
-        "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Svečani doček, osmesi i brancin, a rešenih problema - NULA: Si Đinping tokom pos...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/hronika/uhapsen-drzavljanin-srbije-26-u-herceg-novom-osumnjicen-da-je-izazvao-saobracajnu/h0physm",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "IZAZVAO UDES, PA POBEGAO Uhapšen državljanin Srbije (26) u Herceg Novom. Policija u Herceg Novom uhapsila je U. B. (26), državljanina Srbije, koji je osumnjičen da je izazvao saobraćajnu nezgodu u Igalu, u kojoj su dve osobe lakše povređene, a zatim pobegao sa lica mesta.",
-        "zhSummary": "IZAZVAO UDES, PA POBEGAO Uhapšen državljanin Srbije (26) u Herceg Novom. Policija u Herceg Novom uhapsila je U. B. (26), državljanina Srbije, koji je osumnjičen da je izazvao saobraćajnu nezgodu u Igalu, u kojoj su dve osobe lakše povređene, a zatim pobegao sa lica mesta.",
+        "original": "Toalet papir svi čuvaju u kupatilu - a to je velika greška: Evo gde bi zapravo trebalo da stoji. Toalet papir je jedan od proizvoda koji gotovo svako domaćinstvo ima pri ruci, pa ga mnogi zbog praktičnosti drže upravo u kupatilu. Ipak, mesto koje deluje najlogičnije za njegovo odlaganje nije ujedno i najbolje.",
+        "zhSummary": "Toalet papir svi čuvaju u kupatilu - a to je velika greška: Evo gde bi zapravo trebalo da stoji. Toalet papir je jedan od proizvoda koji gotovo svako domaćinstvo ima pri ruci, pa ga mnogi zbog praktičnosti drže upravo u kupatilu. Ipak, mesto koje deluje najlogičnije za njegovo odlaganje nije ujedno i najbolje.",
         "sentiment": "Neutral",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'IZAZVAO UDES, PA POBEGAO Uhapšen državljanin Srbije (26) u Herceg Novom. Policij...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Toalet papir svi čuvaju u kupatilu - a to je velika greška: Evo gde bi zapravo t...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/gori-studio-idj-pepsi-show-seka-i-natasa-u-zestokom-klincu-u-emisiji/519l9ys",
+        "url": "https://www.blic.rs/biznis/vesti/ako-kupujete-gume-za-sve-sezone-ovih-5-modela-nikako-ne-stavljajte-na-auto/ltbnl09",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "GORI STUDIO IDJ PEPSI SHOW-A! Seka i Nataša u žestokom klinču na samom početku emisije: \"Čekaj, zašto je frustriraš?!\". Druga epizoda pete sezone popularnog muzičkog takmičenja IDJ PEPSI SHOW, koja se emituje na kanalu Blic televizije, donosi pravu dramu i još žustrije rasprave čuvenog trija koji čine Nataša Bekvalac, Relja Popović i Seka Aleksić.",
-        "zhSummary": "GORI STUDIO IDJ PEPSI SHOW-A! Seka i Nataša u žestokom klinču na samom početku emisije: \"Čekaj, zašto je frustriraš?!\". Druga epizoda pete sezone popularnog muzičkog takmičenja IDJ PEPSI SHOW, koja se emituje na kanalu Blic televizije, donosi pravu dramu i još žustrije rasprave čuvenog trija koji čine Nataša Bekvalac, Relja Popović i Seka Aleksić.",
+        "original": "VELIKI TEST GUMA ZA SVE SEZONE: Čak pet modela doživelo debakl! Samo jedan pneumatik prošao bez greške. Švajcarski automobilski klub (TCS) testirao je 16 guma za sve sezone - sa prilično otrežnjujućim rezultatom: Samo jedan model dobio je ocenu \"veoma preporučljivo\". Više pneumatika pokazalo je ozbiljne nedostatke, naročito na zimskim putevima",
+        "zhSummary": "VELIKI TEST GUMA ZA SVE SEZONE: Čak pet modela doživelo debakl! Samo jedan pneumatik prošao bez greške. Švajcarski automobilski klub (TCS) testirao je 16 guma za sve sezone - sa prilično otrežnjujućim rezultatom: Samo jedan model dobio je ocenu \"veoma preporučljivo\". Više pneumatika pokazalo je ozbiljne nedostatke, naročito na zimskim putevima",
         "sentiment": "Neutral",
         "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'GORI STUDIO IDJ PEPSI SHOW-A! Seka i Nataša u žestokom klinču na samom početku e...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'VELIKI TEST GUMA ZA SVE SEZONE: Čak pet modela doživelo debakl! Samo jedan pneum...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/slobodno-vreme/hrvatica-oplela-po-letovanju-u-svojoj-zemlji-zasto-bi-neko-dosao-ovde/t5277zy",
+        "url": "https://www.blic.rs/slobodno-vreme/da-li-su-led-sijalice-opasne-po-zdravlje-evo-sta-kazu-strucnjaci/5r96wsg",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "\"Da sam stranac, zaobilazila bih nas u širokom luku\" Hrvatica ogorčena letovanjem u svojoj zemlji: \"Zašto bi neko došao ovde?\" (VIDEO). Turistička sezona polako se približava kraju, ali utisci sa Jadrana još se sabiraju. Među temama koje ni nakon glavnog dela leta ne prestaju da izazivaju rasprave svakako su cene. Upravo njima pozabavila se hrvatska tiktokerka Veronika Barišić, čiji je video izazvao brojne reakcije na društvenim mrežama.",
-        "zhSummary": "\"Da sam stranac, zaobilazila bih nas u širokom luku\" Hrvatica ogorčena letovanjem u svojoj zemlji: \"Zašto bi neko došao ovde?\" (VIDEO). Turistička sezona polako se približava kraju, ali utisci sa Jadrana još se sabiraju. Među temama koje ni nakon glavnog dela leta ne prestaju da izazivaju rasprave svakako su cene. Upravo njima pozabavila se hrvatska tiktokerka Veronika Barišić, čiji je video izazvao brojne reakcije na društvenim mrežama.",
+        "original": "Naučnici izneli alarmantno upozorenje na predmet koji svi imamo u kući: \"Ovo bi mogao biti novi azbest\". LED sijalice su za samo nekoliko decenija gotovo potpuno promenile način na koji osvetljavamo svet oko sebe. Nalaze se u stanovima, kancelarijama, školama, bolnicama, prodavnicama i uličnoj rasveti, a njihov uspon imao je vrlo racionalno objašnjenje: troše neuporedivo manje električne energije od nekadašnjih sijalica sa užarenim vlaknom, traju mnogo duže i veći deo energije pretvaraju u vidljivu svetlost umesto u toplotu.",
+        "zhSummary": "Naučnici izneli alarmantno upozorenje na predmet koji svi imamo u kući: \"Ovo bi mogao biti novi azbest\". LED sijalice su za samo nekoliko decenija gotovo potpuno promenile način na koji osvetljavamo svet oko sebe. Nalaze se u stanovima, kancelarijama, školama, bolnicama, prodavnicama i uličnoj rasveti, a njihov uspon imao je vrlo racionalno objašnjenje: troše neuporedivo manje električne energije od nekadašnjih sijalica sa užarenim vlaknom, traju mnogo duže i veći deo energije pretvaraju u vidljivu svetlost umesto u toplotu.",
         "sentiment": "Neutral",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"Da sam stranac, zaobilazila bih nas u širokom luku\" Hrvatica ogorčena letovanje...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Naučnici izneli alarmantno upozorenje na predmet koji svi imamo u kući: \"Ovo bi ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/hronika/posle-svadje-izvukao-noz-pa-posekao-mladica-muskarac-37-uhapsen-u-lazarevcu/pt6128x",
+        "url": "https://www.blic.rs/print/naslovna-strana-za-269/dqgmpbq",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "POSLE SVAĐE IZVUKAO NOŽ I POSEKAO MLADIĆA Drama u Lazarevcu: Uhapšen osumnjičeni. Policija u Lazarevcu u četvrtak je uhapsila S. M. (37) i odredila zadržavanje do 48 sati. Njemu je napisana prijava za nanošenje lakih telesnih povreda.",
-        "zhSummary": "POSLE SVAĐE IZVUKAO NOŽ I POSEKAO MLADIĆA Drama u Lazarevcu: Uhapšen osumnjičeni. Policija u Lazarevcu u četvrtak je uhapsila S. M. (37) i odredila zadržavanje do 48 sati. Njemu je napisana prijava za nanošenje lakih telesnih povreda.",
+        "original": "Naslovna strana za 26.9.. Naslovna strana za 26.9.",
+        "zhSummary": "Naslovna strana za 26.9.. Naslovna strana za 26.9.",
         "sentiment": "Neutral",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'POSLE SVAĐE IZVUKAO NOŽ I POSEKAO MLADIĆA Drama u Lazarevcu: Uhapšen osumnjičeni...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Naslovna strana za 26.9.. Naslovna strana za 26.9....'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/moj-novcanik/rast-euribora-i-stambeni-krediti-nbs-procenjuje-povecanje-rata-do-sest-odsto/095vrk2",
+        "url": "https://www.blic.rs/vesti/politika/preminuo-milan-panic-nekadasnji-premijer-sr-jugoslavije/f61081y",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "Rast euribora ponovo preti ratama za stan, ali građani u Srbiji sad biraju samo jednu stvar: Evo koliko bi krediti mogli da da poskupe. Rast euribora mogao bi da poveća rate stambenih kredita sa promenljivom kamatnom stopom. Darko Stamenković, generalni direktor Sektora za kontrolu poslovanja banaka u Narodnoj banci Srbije, rekao je za \"Blic Biznis\" da bi povećanje rate, prema konzervativnoj proceni zasnovanoj na kretanju euribora u poslednjih šest meseci, moglo da bude oko šest odsto.",
-        "zhSummary": "Rast euribora ponovo preti ratama za stan, ali građani u Srbiji sad biraju samo jednu stvar: Evo koliko bi krediti mogli da da poskupe. Rast euribora mogao bi da poveća rate stambenih kredita sa promenljivom kamatnom stopom. Darko Stamenković, generalni direktor Sektora za kontrolu poslovanja banaka u Narodnoj banci Srbije, rekao je za \"Blic Biznis\" da bi povećanje rate, prema konzervativnoj proceni zasnovanoj na kretanju euribora u poslednjih šest meseci, moglo da bude oko šest odsto.",
-        "sentiment": "Negative",
+        "original": "Preminuo Milan Panić - nekadašnji premijer SR Jugoslavije. Bivši premijer SR Jugoslavije Milan Panić preminuo je 24. septembra u 97. godini.",
+        "zhSummary": "Preminuo Milan Panić - nekadašnji premijer SR Jugoslavije. Bivši premijer SR Jugoslavije Milan Panić preminuo je 24. septembra u 97. godini.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Preminuo Milan Panić - nekadašnji premijer SR Jugoslavije. Bivši premijer SR Jug...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/biznis/after-hour/bez-i-siva-vise-nisu-trend-ovo-je-novi-hit-boja-koja-je-osvojila-prostor/9drkh8l",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Bež i siva su skroz aut, ovo je novi hit: Boja koja je osvojila prostor od zidova do prekrivača, svi je žele u domu. Bež, boja slonovače i sivi tonovi već dugo su siguran izbor za uređenje doma. Pouzdani i neutralni, ovi tonovi su godinama činili osnovu mirnih i svedenih enterijera, iako dizajneri odavno upozoravaju da je ovakva paleta postala prilično dosadna.",
+        "zhSummary": "Bež i siva su skroz aut, ovo je novi hit: Boja koja je osvojila prostor od zidova do prekrivača, svi je žele u domu. Bež, boja slonovače i sivi tonovi već dugo su siguran izbor za uređenje doma. Pouzdani i neutralni, ovi tonovi su godinama činili osnovu mirnih i svedenih enterijera, iako dizajneri odavno upozoravaju da je ovakva paleta postala prilično dosadna.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Bež i siva su skroz aut, ovo je novi hit: Boja koja je osvojila prostor od zidov...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/seka-aleksic-joj-je-bila-podrska-a-andjela-sada-besna-kao-ris-muka-mi-je/r5p904f",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "NAKON GOSTOVANJA U IDJ AFTER SHOW Seka Aleksić joj je bila podrška, a Anđela sada besna kao ris: \"Muka mi je od osuda, imala sam težak život!\". Anđela Stojković bila je jedan od favorita za pobedu u IDJ PEPSI SHOW muzičkom projektu tokom četvrte sezone. Veliku podršku dobijala je od svoje mentorke Seke Aleksić, kako tokom takmičenja tako i kasnije. Ipak, pobeda joj je izmakla, a glavnu nagradu osvojila je Taša Krunić.",
+        "zhSummary": "NAKON GOSTOVANJA U IDJ AFTER SHOW Seka Aleksić joj je bila podrška, a Anđela sada besna kao ris: \"Muka mi je od osuda, imala sam težak život!\". Anđela Stojković bila je jedan od favorita za pobedu u IDJ PEPSI SHOW muzičkom projektu tokom četvrte sezone. Veliku podršku dobijala je od svoje mentorke Seke Aleksić, kako tokom takmičenja tako i kasnije. Ipak, pobeda joj je izmakla, a glavnu nagradu osvojila je Taša Krunić.",
+        "sentiment": "Neutral",
         "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Rast euribora ponovo preti ratama za stan, ali građani u Srbiji sad biraju samo ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'NAKON GOSTOVANJA U IDJ AFTER SHOW Seka Aleksić joj je bila podrška, a Anđela sad...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/hronika/otkrivamo-za-sta-se-sve-terete-srbi-uhapseni-u-esteponi-i-sta-ih-ceka/9jj7k5n",
+        "url": "https://www.blic.rs/biznis/moj-novac/auto-mehanicar-iskren-bezite-od-ovih-polovnjaka-popravke-ce-vas-unistiti/21l9g2q",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "\"OTETI SMO, ŽELE DA NAS UBIJU\" Otkriveno za šta se sve terete Srbi iz \"sobe za mučenje\": Preti im do 25 GODINA ROBIJE!. Sedmorica srpskih državljana uhapšenih u Esteponi, dovedena su iste noći u zatvor Alaurin de la Tore po sudskom nalogu. Svi su povezani sa istragom organizovanog kriminala, na videlo su izašli detalji optužnice koja ih tereti za neke od najtežih zločina iz oblasti organizovanog kriminala. Špansko pravosuđe priprema obiman predmet.",
-        "zhSummary": "\"OTETI SMO, ŽELE DA NAS UBIJU\" Otkriveno za šta se sve terete Srbi iz \"sobe za mučenje\": Preti im do 25 GODINA ROBIJE!. Sedmorica srpskih državljana uhapšenih u Esteponi, dovedena su iste noći u zatvor Alaurin de la Tore po sudskom nalogu. Svi su povezani sa istragom organizovanog kriminala, na videlo su izašli detalji optužnice koja ih tereti za neke od najtežih zločina iz oblasti organizovanog kriminala. Špansko pravosuđe priprema obiman predmet.",
-        "sentiment": "Negative",
+        "original": "Auto-mehaničar otvorio dušu i šokirao vozače: \"Ne kupujte ova stara luksuzna smeća, poješće vam sve pare!\". Stariji automobili iz premium klase danas se prodaju za delić svoje prvobitne cene, ali troškovi održavanja i popravki ostaju podjednako visoki. Jedan španski automehaničar upozorava da pojedini modeli mogu postati ozbiljan finansijski teret i savetuje kupcima da se dobro informišu pre nego što se odluče za kupovinu.",
+        "zhSummary": "Auto-mehaničar otvorio dušu i šokirao vozače: \"Ne kupujte ova stara luksuzna smeća, poješće vam sve pare!\". Stariji automobili iz premium klase danas se prodaju za delić svoje prvobitne cene, ali troškovi održavanja i popravki ostaju podjednako visoki. Jedan španski automehaničar upozorava da pojedini modeli mogu postati ozbiljan finansijski teret i savetuje kupcima da se dobro informišu pre nego što se odluče za kupovinu.",
+        "sentiment": "Neutral",
+        "category": "Energy",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Auto-mehaničar otvorio dušu i šokirao vozače: \"Ne kupujte ova stara luksuzna sme...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/hronika/maloletnik-pretucen-u-novom-pazaru-zadobio-teske-povrede/hkqb73c",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "MALOLETNIK PRETUČEN U NOVOM PAZARU Napalo ga nekoliko osoba, ima više preloma. Maloletnik je povređen u tuči koja se dogodila u Prvomajskoj ulici, u blizini Altun-alem džamije u Novom Pazaru. Prema informacijama, više osoba napalo je mladića, koji je potom zbrinut u Opštoj bolnici Novi Pazar.",
+        "zhSummary": "MALOLETNIK PRETUČEN U NOVOM PAZARU Napalo ga nekoliko osoba, ima više preloma. Maloletnik je povređen u tuči koja se dogodila u Prvomajskoj ulici, u blizini Altun-alem džamije u Novom Pazaru. Prema informacijama, više osoba napalo je mladića, koji je potom zbrinut u Opštoj bolnici Novi Pazar.",
+        "sentiment": "Neutral",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"OTETI SMO, ŽELE DA NAS UBIJU\" Otkriveno za šta se sve terete Srbi iz \"sobe za m...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'MALOLETNIK PRETUČEN U NOVOM PAZARU Napalo ga nekoliko osoba, ima više preloma. M...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/jovana-jeremic-i-tigar-organizuju-tajno-vencanje-pod-ostrogom/h6vr674",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"NA SVADBI ĆE BITI OGRANIČEN BROJ LJUDI\" Jovana Jeremić i Tigar organizuju tajno venčanje: \"Ići ćemo pod Ostrog\". Voditeljka Jovana Jeremić uskoro planira da napravi gala venčanje sa bokserom Milošem Stojanovićem Tigrom. Ona je sada otkrila detalje i kako teku pripreme.",
+        "zhSummary": "\"NA SVADBI ĆE BITI OGRANIČEN BROJ LJUDI\" Jovana Jeremić i Tigar organizuju tajno venčanje: \"Ići ćemo pod Ostrog\". Voditeljka Jovana Jeremić uskoro planira da napravi gala venčanje sa bokserom Milošem Stojanovićem Tigrom. Ona je sada otkrila detalje i kako teku pripreme.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"NA SVADBI ĆE BITI OGRANIČEN BROJ LJUDI\" Jovana Jeremić i Tigar organizuju tajno...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/svet/kremlj-pomno-pratimo-koje-zemlje-daju-oruzje-kijevu/bk1enny",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"MOSKVA POMNO PRATI KOJE ZEMLJE DAJU ORUŽJE KIJEVU\" Oglasio se Peskov: ''Rešenje mora da bude kompleksno''. Rusija pomno prati koje naoružanje ili licence za oružje dobija kijevski režim, izjavio je danas portparol Kremlja Dmitrij Peskov povodom tvrdnji ukrajinskog predsednika Vladimira Zelenskog da je američki predsednik Donald Tramp navodno obećao Kijevu licencu za proizvodnju raketa za sisteme patriot.",
+        "zhSummary": "\"MOSKVA POMNO PRATI KOJE ZEMLJE DAJU ORUŽJE KIJEVU\" Oglasio se Peskov: ''Rešenje mora da bude kompleksno''. Rusija pomno prati koje naoružanje ili licence za oružje dobija kijevski režim, izjavio je danas portparol Kremlja Dmitrij Peskov povodom tvrdnji ukrajinskog predsednika Vladimira Zelenskog da je američki predsednik Donald Tramp navodno obećao Kijevu licencu za proizvodnju raketa za sisteme patriot.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"MOSKVA POMNO PRATI KOJE ZEMLJE DAJU ORUŽJE KIJEVU\" Oglasio se Peskov: ''Rešenje...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Tech",
