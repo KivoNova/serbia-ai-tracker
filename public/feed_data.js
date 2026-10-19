@@ -1,6 +1,149 @@
 // GitHub Actions Auto Generated Data
 const realNewsData = [
     {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/drustvo/sanja-jovanovic-pobedila-rak-5-puta-muzu-priznala-da-nosi-periku-odgovor-odusevio/6zk8bjh",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "SANJA PET PUTA POBEDILA KARCINOM! Dobila titanijumska rebra, ostala bez kose, pa budućem mužu priznala da nosi periku: Njegov odgovor rasplakao je Srbiju. Sanja Jovanović pet puta se suočila sa karcinomom i prošla kroz operacije, hemioterapije i gubitak kose. Na jednoj svadbi upoznala je budućeg supruga, a kada mu je otkrila da nosi periku i da je bolesna, njegov odgovor nije zaboravila.",
+        "zhSummary": "SANJA PET PUTA POBEDILA KARCINOM! Dobila titanijumska rebra, ostala bez kose, pa budućem mužu priznala da nosi periku: Njegov odgovor rasplakao je Srbiju. Sanja Jovanović pet puta se suočila sa karcinomom i prošla kroz operacije, hemioterapije i gubitak kose. Na jednoj svadbi upoznala je budućeg supruga, a kada mu je otkrila da nosi periku i da je bolesna, njegov odgovor nije zaboravila.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'SANJA PET PUTA POBEDILA KARCINOM! Dobila titanijumska rebra, ostala bez kose, pa...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/biznis/vesti/ovo-je-danasnji-kurs-dinara-prema-evru/wdb06j7",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Ovo je današnji kurs dinara prema evru. Zvanični srednji kurs dinara za evro danas iznosi 117,4109 dinara, što je neznatna promena u odnosu na petak, objavila je danas Narodna banka Srbije (NBS).",
+        "zhSummary": "Ovo je današnji kurs dinara prema evru. Zvanični srednji kurs dinara za evro danas iznosi 117,4109 dinara, što je neznatna promena u odnosu na petak, objavila je danas Narodna banka Srbije (NBS).",
+        "sentiment": "Neutral",
+        "category": "Finance",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Ovo je današnji kurs dinara prema evru. Zvanični srednji kurs dinara za evro dan...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/slobodno-vreme/saudijski-princ-imao-neobican-plan-za-nestasicu-vode-dovezao-ledeni-blok-sa-aljaske/qqbzy5h",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Saudijski princ je naredio da mu se donesu dve tone ledenog bloka sa Aljaske starog dva milenijuma: Na kraju je sve završilo u koktrlima. Saudijski princ Mohamed al-Fajsal imao je 1977. godine ambicioznu ideju – ogromne ledene bregove sa Antarktika trebalo je dovući do Bliskog istoka i tako obezbediti velike količine pijaće vode. Da bi pokazao da njegova zamisao nije nemoguća, organizovao je neobičan eksperiment.",
+        "zhSummary": "Saudijski princ je naredio da mu se donesu dve tone ledenog bloka sa Aljaske starog dva milenijuma: Na kraju je sve završilo u koktrlima. Saudijski princ Mohamed al-Fajsal imao je 1977. godine ambicioznu ideju – ogromne ledene bregove sa Antarktika trebalo je dovući do Bliskog istoka i tako obezbediti velike količine pijaće vode. Da bi pokazao da njegova zamisao nije nemoguća, organizovao je neobičan eksperiment.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Saudijski princ je naredio da mu se donesu dve tone ledenog bloka sa Aljaske sta...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/svet/meteorolozi-saopstili-jezive-vesti-djavolji-pipci-iz-dubina-okovace-evropu/4z5cm4d",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "ĐAVOLJI PIPCI IZ DUBINA OKOVAĆE EVROPU! Nezaustavljiva neman se PODELILA NA DVA DELA i divlja okeanom: Niko nije verovao da je ovako nešto uopšte moguće. Rekordne temperature u Tihom okeanu - u Pacifiku se, tokom najjačeg ikada izmerenog El Ninja, po svemu sudeći širi drugi krak tople vode. Šta to znači za evropsku zimu još uvek je otvoreno pitanje - moguće su blage i vlažne faze, ali i nagli prodori ledenog vazduha.",
+        "zhSummary": "ĐAVOLJI PIPCI IZ DUBINA OKOVAĆE EVROPU! Nezaustavljiva neman se PODELILA NA DVA DELA i divlja okeanom: Niko nije verovao da je ovako nešto uopšte moguće. Rekordne temperature u Tihom okeanu - u Pacifiku se, tokom najjačeg ikada izmerenog El Ninja, po svemu sudeći širi drugi krak tople vode. Šta to znači za evropsku zimu još uvek je otvoreno pitanje - moguće su blage i vlažne faze, ali i nagli prodori ledenog vazduha.",
+        "sentiment": "Negative",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'ĐAVOLJI PIPCI IZ DUBINA OKOVAĆE EVROPU! Nezaustavljiva neman se PODELILA NA DVA ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/drustvo/guzve-na-granicnom-prelazu-batrovcima-za-teretna-vozila-ceka-se-9-sati/7we0gqc",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "NA OVOM GRANIČNOM PRELAZU KAMIONDŽIJE ČEKAJU I PO 9 SATI! AMSS upozorava: Ako ovde prelazite granicu NAORUŽAJTE SE STRPLJENJEM. Prema informacijama Uprave granične policije dobijenim u 5.15 časova, nema zadržavanja na putničkim terminalima naših graničnih prelaza, dok se na teretnim terminalima, na izlazu, beleže višesatna zadržavanja, a najduže se čeka na Batrovcima.",
+        "zhSummary": "NA OVOM GRANIČNOM PRELAZU KAMIONDŽIJE ČEKAJU I PO 9 SATI! AMSS upozorava: Ako ovde prelazite granicu NAORUŽAJTE SE STRPLJENJEM. Prema informacijama Uprave granične policije dobijenim u 5.15 časova, nema zadržavanja na putničkim terminalima naših graničnih prelaza, dok se na teretnim terminalima, na izlazu, beleže višesatna zadržavanja, a najduže se čeka na Batrovcima.",
+        "sentiment": "Negative",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'NA OVOM GRANIČNOM PRELAZU KAMIONDŽIJE ČEKAJU I PO 9 SATI! AMSS upozorava: Ako ov...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/beograd/teska-noc-za-hitnu-pomoc-u-beogradu-pet-povredjenih-u-udesima-mnogo-pijanih/fy7kt3f",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "PET LJUDI POVREĐENO U PET UDESA Još jedna veoma teška noć za lekare u Beogradu: Građani masovno tražili pomoć zbog OVIH tegoba, Hitna intervenisala i zbog pijanih. U Beogradu se protekle noći dogodilo pet saobraćajnih nezgoda, u kojima je lakše povređeno petoro ljudi, a sve nezgode su se dogodile pre ponoći.",
+        "zhSummary": "PET LJUDI POVREĐENO U PET UDESA Još jedna veoma teška noć za lekare u Beogradu: Građani masovno tražili pomoć zbog OVIH tegoba, Hitna intervenisala i zbog pijanih. U Beogradu se protekle noći dogodilo pet saobraćajnih nezgoda, u kojima je lakše povređeno petoro ljudi, a sve nezgode su se dogodile pre ponoći.",
+        "sentiment": "Neutral",
+        "category": "Energy",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'PET LJUDI POVREĐENO U PET UDESA Još jedna veoma teška noć za lekare u Beogradu: ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/it/nevidljiva-mreza-koja-spaja-svet-kako-je-opticka-revolucija-promenila-nasu/0trl9zf",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "NEVIDLJIVA MREŽA KOJA SPAJA SVET: Kako je optička revolucija promenila našu svakodnevicu. Život savremenog čoveka bio bi potpuno nezamisliv bez interneta i televizije. Zahvaljujući savremenoj tehnologiji koja napreduje iz dana u dan, živimo u svetu u kom nas samo jedan klik deli od „boravka“ na egzotičnim plažama Balija, na vrhu Mont Everesta, u večnom Rimu ili romantičnoj Veneciju. Sve ove mogućnosti ostvarive su zahvaljujući činjenici da u pozadini postoji dobro razvijena mreža kablovske i optičke povezanosti. Ova nevidljiva infrastruktura omogućuje nam da i u Srbiji pristupimo sadržajima sa drugog kraja planete za svega nekoliko milisekundi. U tom svetu brzine, tehnologija povezivanja optičkim kablovima predstavlja trenutno najsavremeniji način povezivanja na internet i omogućava korišćenje najnaprednijih servisa koji su danas dostupni.",
+        "zhSummary": "NEVIDLJIVA MREŽA KOJA SPAJA SVET: Kako je optička revolucija promenila našu svakodnevicu. Život savremenog čoveka bio bi potpuno nezamisliv bez interneta i televizije. Zahvaljujući savremenoj tehnologiji koja napreduje iz dana u dan, živimo u svetu u kom nas samo jedan klik deli od „boravka“ na egzotičnim plažama Balija, na vrhu Mont Everesta, u večnom Rimu ili romantičnoj Veneciju. Sve ove mogućnosti ostvarive su zahvaljujući činjenici da u pozadini postoji dobro razvijena mreža kablovske i optičke povezanosti. Ova nevidljiva infrastruktura omogućuje nam da i u Srbiji pristupimo sadržajima sa drugog kraja planete za svega nekoliko milisekundi. U tom svetu brzine, tehnologija povezivanja optičkim kablovima predstavlja trenutno najsavremeniji način povezivanja na internet i omogućava korišćenje najnaprednijih servisa koji su danas dostupni.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'NEVIDLJIVA MREŽA KOJA SPAJA SVET: Kako je optička revolucija promenila našu svak...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/nasa-pevacica-saznala-da-je-muz-ljubavnici-napravio-dete-i-predala-za-razvod/yd8dlhc",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "SAZNALA DA JE MUŽ NAPRAVIO DETE LJUBAVNICI I PODNELA PAPIRE ZA RAZVOD Pevačici se život promenio preko noći: \"Posustala sam\". Pevačica Goga Gačić prošla je kroz najteži životni period nedavno kada je suprugu Marku pronašla poruke u telefonu i saznala da je vara, da bi nedugo zatim otkrila i da čeka dete sa ljubavnicom. Brzo je usledio i razvod, kao i njeno kompletno menjanje dotadašnjeg života s obzirom da je ostala da živi sama sa dvoje male dece.",
+        "zhSummary": "SAZNALA DA JE MUŽ NAPRAVIO DETE LJUBAVNICI I PODNELA PAPIRE ZA RAZVOD Pevačici se život promenio preko noći: \"Posustala sam\". Pevačica Goga Gačić prošla je kroz najteži životni period nedavno kada je suprugu Marku pronašla poruke u telefonu i saznala da je vara, da bi nedugo zatim otkrila i da čeka dete sa ljubavnicom. Brzo je usledio i razvod, kao i njeno kompletno menjanje dotadašnjeg života s obzirom da je ostala da živi sama sa dvoje male dece.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'SAZNALA DA JE MUŽ NAPRAVIO DETE LJUBAVNICI I PODNELA PAPIRE ZA RAZVOD Pevačici s...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/drustvo/vucic-najavio-povratak-besplatne-zdravstvene-usluge-ukinute-pre-20-godina/g49lxzf",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "VUČIĆ NAJAVIO POVRATAK ZDRAVSTVENE USLUGE UKINUTE PRE ČAK 20 GODINA! Biće potpuno besplatna, a stižu i najbolji svetski lekovi za nekoliko vrsta kancera. Aleksandar Vučić, nosilac liste \"Ujedinjena Srbija\", juče je na skupu te liste u Kruševcu najavio povratak besplatnih stomatoloških usluga za građane, koje su ukinute pre čak 20 godina, ukoliko dobije podršku građana na predstojećim izborima i postane premijer. Kako je objasnio, one ne podrazumevaju samo hitne intervencije, već i sve druge stomatološke usluge.",
+        "zhSummary": "VUČIĆ NAJAVIO POVRATAK ZDRAVSTVENE USLUGE UKINUTE PRE ČAK 20 GODINA! Biće potpuno besplatna, a stižu i najbolji svetski lekovi za nekoliko vrsta kancera. Aleksandar Vučić, nosilac liste \"Ujedinjena Srbija\", juče je na skupu te liste u Kruševcu najavio povratak besplatnih stomatoloških usluga za građane, koje su ukinute pre čak 20 godina, ukoliko dobije podršku građana na predstojećim izborima i postane premijer. Kako je objasnio, one ne podrazumevaju samo hitne intervencije, već i sve druge stomatološke usluge.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'VUČIĆ NAJAVIO POVRATAK ZDRAVSTVENE USLUGE UKINUTE PRE ČAK 20 GODINA! Biće potpun...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/svet/ovo-je-datum-kada-ce-cela-evropa-goreti-stigla-najava-protesta-u-svim-velikim/d48jpj7",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "OVO JE DATUM KAD ĆE CELA EVROPA GORETI Stigla zastrašujuća najava organizovanog protesta širom EU, planiraju se MASOVNI NEREDI. Sudeći po najavama, 20. novembra Evropi se sprema haos. Tog datuma se priprema prava \"revolucija\", međunarodni dan protesta i akcija, koji će - pod sloganom \"Borimo se za svoju budućnost a ne za njihove ratove\" - obuhvatiti štrajkove na univerzitetima, demonstracije i druge aktivnosti. Na društvenim mrežama objavljen je plakat sa popisom 48 zemalja i prestonica u kojima bi 20. novembra u 10 sati trebali da počnu štrajkovi i akcije, a na spisku su zemlje poput Francuske, Italije, Nemačke i Španije, kao i naši susedi Hrvatska i Slovenija.",
+        "zhSummary": "OVO JE DATUM KAD ĆE CELA EVROPA GORETI Stigla zastrašujuća najava organizovanog protesta širom EU, planiraju se MASOVNI NEREDI. Sudeći po najavama, 20. novembra Evropi se sprema haos. Tog datuma se priprema prava \"revolucija\", međunarodni dan protesta i akcija, koji će - pod sloganom \"Borimo se za svoju budućnost a ne za njihove ratove\" - obuhvatiti štrajkove na univerzitetima, demonstracije i druge aktivnosti. Na društvenim mrežama objavljen je plakat sa popisom 48 zemalja i prestonica u kojima bi 20. novembra u 10 sati trebali da počnu štrajkovi i akcije, a na spisku su zemlje poput Francuske, Italije, Nemačke i Španije, kao i naši susedi Hrvatska i Slovenija.",
+        "sentiment": "Negative",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'OVO JE DATUM KAD ĆE CELA EVROPA GORETI Stigla zastrašujuća najava organizovanog ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/politika/za-koga-ce-neopredeljeni-glasati-25-oktobra/l08q3qf",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "ZABLUDA OPOZICIJE ILI SKRIVENI ADUT VLASTI Ko su zapravo neopredeljeni birači i koga će zaokružiti 25. oktobra?. Oko 16 odsto ljudi u Srbiji čine neodlučni birači, pokazalo je istraživanje javnog mnjenja, a dok stranke ulaze finiš kampanje, stručnjaci upozoravaju da se u poslednjim nedeljama kampanje bitka vodi baš za \"duše\" tih neopredeljenih. Takođe, kažu i da je zabluda da će svi oni automatski zaokružiti one koji nisu na vlasti. Za koga će i da li će neopredeljeni glasati 25. oktobra?",
+        "zhSummary": "ZABLUDA OPOZICIJE ILI SKRIVENI ADUT VLASTI Ko su zapravo neopredeljeni birači i koga će zaokružiti 25. oktobra?. Oko 16 odsto ljudi u Srbiji čine neodlučni birači, pokazalo je istraživanje javnog mnjenja, a dok stranke ulaze finiš kampanje, stručnjaci upozoravaju da se u poslednjim nedeljama kampanje bitka vodi baš za \"duše\" tih neopredeljenih. Takođe, kažu i da je zabluda da će svi oni automatski zaokružiti one koji nisu na vlasti. Za koga će i da li će neopredeljeni glasati 25. oktobra?",
+        "sentiment": "Neutral",
+        "category": "Energy",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'ZABLUDA OPOZICIJE ILI SKRIVENI ADUT VLASTI Ko su zapravo neopredeljeni birači i ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/edita-sa-pumpicama-na-grudima-odbrusila-imam-viska-mleka-pa-te-mogu-podojiti/30w8k1v",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"IMAM VIŠKA MLEKA, PA TE MOGU PODOJITI DA SE UMIRIŠ\" Edita Aradinović sa pumpicama na grudima odbrusila na negativan komentar i dobila preko 8.000 lajkova. Pevačica Edita Aradinović, koja se nedavno porodila, privukla je veliku pažnju na mrežama objavivši fotografiju iz kupatila na kojoj pozira sa pumpicama za mleko na grudima. Iako je želela da bez ulepšavanja prikaže realnu svakodnevicu novopečene majke, ispod objave ubrzo su usledili i podrugljivi komentari pojedinih pratilaca.",
+        "zhSummary": "\"IMAM VIŠKA MLEKA, PA TE MOGU PODOJITI DA SE UMIRIŠ\" Edita Aradinović sa pumpicama na grudima odbrusila na negativan komentar i dobila preko 8.000 lajkova. Pevačica Edita Aradinović, koja se nedavno porodila, privukla je veliku pažnju na mrežama objavivši fotografiju iz kupatila na kojoj pozira sa pumpicama za mleko na grudima. Iako je želela da bez ulepšavanja prikaže realnu svakodnevicu novopečene majke, ispod objave ubrzo su usledili i podrugljivi komentari pojedinih pratilaca.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"IMAM VIŠKA MLEKA, PA TE MOGU PODOJITI DA SE UMIRIŠ\" Edita Aradinović sa pumpica...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Tech",
+        "url": "https://www.blic.rs/it/nevidljiva-mreza-koja-spaja-svet-kako-je-opticka-revolucija-promenila-nasu/0trl9zf",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "NEVIDLJIVA MREŽA KOJA SPAJA SVET: Kako je optička revolucija promenila našu svakodnevicu. Život savremenog čoveka bio bi potpuno nezamisliv bez interneta i televizije. Zahvaljujući savremenoj tehnologiji koja napreduje iz dana u dan, živimo u svetu u kom nas samo jedan klik deli od „boravka“ na egzotičnim plažama Balija, na vrhu Mont Everesta, u večnom Rimu ili romantičnoj Veneciju. Sve ove mogućnosti ostvarive su zahvaljujući činjenici da u pozadini postoji dobro razvijena mreža kablovske i optičke povezanosti. Ova nevidljiva infrastruktura omogućuje nam da i u Srbiji pristupimo sadržajima sa drugog kraja planete za svega nekoliko milisekundi. U tom svetu brzine, tehnologija povezivanja optičkim kablovima predstavlja trenutno najsavremeniji način povezivanja na internet i omogućava korišćenje najnaprednijih servisa koji su danas dostupni.",
+        "zhSummary": "NEVIDLJIVA MREŽA KOJA SPAJA SVET: Kako je optička revolucija promenila našu svakodnevicu. Život savremenog čoveka bio bi potpuno nezamisliv bez interneta i televizije. Zahvaljujući savremenoj tehnologiji koja napreduje iz dana u dan, živimo u svetu u kom nas samo jedan klik deli od „boravka“ na egzotičnim plažama Balija, na vrhu Mont Everesta, u večnom Rimu ili romantičnoj Veneciju. Sve ove mogućnosti ostvarive su zahvaljujući činjenici da u pozadini postoji dobro razvijena mreža kablovske i optičke povezanosti. Ova nevidljiva infrastruktura omogućuje nam da i u Srbiji pristupimo sadržajima sa drugog kraja planete za svega nekoliko milisekundi. U tom svetu brzine, tehnologija povezivanja optičkim kablovima predstavlja trenutno najsavremeniji način povezivanja na internet i omogućava korišćenje najnaprednijih servisa koji su danas dostupni.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'NEVIDLJIVA MREŽA KOJA SPAJA SVET: Kako je optička revolucija promenila našu svak...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
         "source": "Blic Tech",
         "url": "https://www.blic.rs/it/qualcomm-odgovorio-na-glasine-o-pregrevanju-novog-snapdragon-cipa/cz5mj6r",
         "lang": "塞尔维亚语",
@@ -120,17 +263,6 @@ const realNewsData = [
         "sentiment": "Neutral",
         "category": "Tech",
         "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Rastavili novi Apple Watch do poslednjeg šrafa: Baterija je veća, ali popravka i...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Tech",
-        "url": "https://www.blic.rs/it/iphone-air-2-bice-jos-tanji-ali-apple-navodno-sprema-vazna-poboljsanja/sqv8p1s",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Stigle prve informacije: iPhone Air 2 biće još tanji, ali Apple navodno sprema važna poboljšanja. Apple navodno priprema drugu generaciju iPhone Air modela, a prve informacije ukazuju na još tanje kućište. Ipak, smanjenje debljine ovog puta ne bi trebalo da znači i kompromise kada su u pitanju baterija i kamere.",
-        "zhSummary": "Stigle prve informacije: iPhone Air 2 biće još tanji, ali Apple navodno sprema važna poboljšanja. Apple navodno priprema drugu generaciju iPhone Air modela, a prve informacije ukazuju na još tanje kućište. Ipak, smanjenje debljine ovog puta ne bi trebalo da znači i kompromise kada su u pitanju baterija i kamere.",
-        "sentiment": "Neutral",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Stigle prve informacije: iPhone Air 2 biće još tanji, ali Apple navodno sprema v...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "B92 Economy",
