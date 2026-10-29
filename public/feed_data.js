@@ -2,135 +2,135 @@
 const realNewsData = [
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/lepa-brena-samo-jednom-govorila-o-borbi-sa-zdravstvenim-problemom/8vkm1s9",
+        "url": "https://www.blic.rs/slobodno-vreme/strucnjaci-upozoravaju-ovih-5-stvari-u-kupatilu-su-leglo-bakterija/fwkb3z5",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "\"MORALA SAM NA HITNU OPERACIJU, PLAŠILA SAM SE DA ĆU UMRETI\" Lepa Brena je samo jednom govorila o borbi sa zdravstvenim problemom: \"Ćutala sam godinama\". Lepa Brena svojevremeno je iznela detalje o teškoj zdravstvenoj borbi kroz koju je prošla 2010. godine, kada se suočila sa ozbiljnim problemom i hitnom operacijom. Pevačica je godinama ćutala o ovim detaljima, sve dok u javnosti nije podelila iskustvo sa zloglasnim testom i strahom za sopstveni život.",
-        "zhSummary": "\"MORALA SAM NA HITNU OPERACIJU, PLAŠILA SAM SE DA ĆU UMRETI\" Lepa Brena je samo jednom govorila o borbi sa zdravstvenim problemom: \"Ćutala sam godinama\". Lepa Brena svojevremeno je iznela detalje o teškoj zdravstvenoj borbi kroz koju je prošla 2010. godine, kada se suočila sa ozbiljnim problemom i hitnom operacijom. Pevačica je godinama ćutala o ovim detaljima, sve dok u javnosti nije podelila iskustvo sa zloglasnim testom i strahom za sopstveni život.",
+        "original": "Ovih 5 stvari pod hitno bacite iz svog kupatila, pre nego što se od njih razbolite! Leglo su bakterija i parazita. Mnogi od nas doživljavaju kupatilo kao jedno od najčistijih mesta u domu, to je prostor gde se tuširamo, umivamo, peremo zube, održavamo sanitarije čistim... Međutim, stručnjaci upozoravaju da se u ovom prostoru krije mnogo predmeta koji su često prava i veoma opasna legla bakterija i nečistoća, što može ozbiljno ugroziti naše zdravlje.",
+        "zhSummary": "Ovih 5 stvari pod hitno bacite iz svog kupatila, pre nego što se od njih razbolite! Leglo su bakterija i parazita. Mnogi od nas doživljavaju kupatilo kao jedno od najčistijih mesta u domu, to je prostor gde se tuširamo, umivamo, peremo zube, održavamo sanitarije čistim... Međutim, stručnjaci upozoravaju da se u ovom prostoru krije mnogo predmeta koji su često prava i veoma opasna legla bakterija i nečistoća, što može ozbiljno ugroziti naše zdravlje.",
         "sentiment": "Neutral",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"MORALA SAM NA HITNU OPERACIJU, PLAŠILA SAM SE DA ĆU UMRETI\" Lepa Brena je samo ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Ovih 5 stvari pod hitno bacite iz svog kupatila, pre nego što se od njih razboli...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/izbori-u-izraelu-netanjahu-bez-vecine-ali-i-dalje-vuce-konce/9l90dd7",
+        "url": "https://www.blic.rs/zabava/najbogatija-folkerka-uvela-strogo-pravilo-kod-mene-u-kuci-nema-slikanja/hmz447e",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "I dalje nema jasnog pobednika izbora u Izraelu: Netanjahu bez većine - ali I DALJE VUČE KONCE. Parlamentarni izbori u Izraelu nisu doneli jasnog pobednika. Bivši načelnik Generalštaba Gadi Ajzenkot i saveznici izašli su na izbore s ciljem da smene Benjamina Netanjahua i njegovu vladu, koju delom čine krajnje desničarske i ultrareligijske stranke.",
-        "zhSummary": "I dalje nema jasnog pobednika izbora u Izraelu: Netanjahu bez većine - ali I DALJE VUČE KONCE. Parlamentarni izbori u Izraelu nisu doneli jasnog pobednika. Bivši načelnik Generalštaba Gadi Ajzenkot i saveznici izašli su na izbore s ciljem da smene Benjamina Netanjahua i njegovu vladu, koju delom čine krajnje desničarske i ultrareligijske stranke.",
+        "original": "\"KOD MENE U KUĆI NEMA SLIKANJA\" Najbogatija folkerka uvela strogo pravilo: \"Oduzimam telefone gostima\" (Video). Pevačica Vera Matović pojavila se večeras na koncertu svoje koleginice Goce Lazarević kako bi joj pružila podršku i priredila pravo iznenađenje. Na događaj je stigla u potpuno opuštenom izdanju, u farmerkama i patikama, i to čak dva sata ranije iz poštovanja prema svojoj prijateljici.",
+        "zhSummary": "\"KOD MENE U KUĆI NEMA SLIKANJA\" Najbogatija folkerka uvela strogo pravilo: \"Oduzimam telefone gostima\" (Video). Pevačica Vera Matović pojavila se večeras na koncertu svoje koleginice Goce Lazarević kako bi joj pružila podršku i priredila pravo iznenađenje. Na događaj je stigla u potpuno opuštenom izdanju, u farmerkama i patikama, i to čak dva sata ranije iz poštovanja prema svojoj prijateljici.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"KOD MENE U KUĆI NEMA SLIKANJA\" Najbogatija folkerka uvela strogo pravilo: \"Oduz...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/drustvo/krajnja-nuzda-na-putu-da-li-je-i-kada-dozvoljeno-prekoracenje-brzine/s5fbsbp",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "KRAJNJA NUŽDA NA PUTU Da li je i kada prekoračenje brzine opravdano? Čak ni HITNA ŽURBA U BOLNICU često nije dovoljna pred sudom. Vozači često smatraju da postoje situacije u kojima je opravdano pritisnuti gas jače nego što dozvoljava saobraćajni znak, bilo da žure u bolnicu, pokušavaju da završe preticanje ili izbegavaju opasnost na putu. Međutim, zakon ne daje vozačima opštu dozvolu da sami procenjuju kada pravila mogu da se prekrše. Postoje li ipak izuzeci i gde je granica između prekršaja i krajnje nužde?",
+        "zhSummary": "KRAJNJA NUŽDA NA PUTU Da li je i kada prekoračenje brzine opravdano? Čak ni HITNA ŽURBA U BOLNICU često nije dovoljna pred sudom. Vozači često smatraju da postoje situacije u kojima je opravdano pritisnuti gas jače nego što dozvoljava saobraćajni znak, bilo da žure u bolnicu, pokušavaju da završe preticanje ili izbegavaju opasnost na putu. Međutim, zakon ne daje vozačima opštu dozvolu da sami procenjuju kada pravila mogu da se prekrše. Postoje li ipak izuzeci i gde je granica između prekršaja i krajnje nužde?",
         "sentiment": "Neutral",
         "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'I dalje nema jasnog pobednika izbora u Izraelu: Netanjahu bez većine - ali I DAL...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'KRAJNJA NUŽDA NA PUTU Da li je i kada prekoračenje brzine opravdano? Čak ni HITN...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/hronika/misterija-nestanka-filipa-urumovica-oglasila-se-njegova-porodica/3tvrgmz",
+        "url": "https://www.blic.rs/vesti/politika/srdanovic-o-odnosima-srbije-i-crne-gore/wmx20bb",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "MISTERIJA NESTANKA FILIPA URUMOVIĆA Pre tačno 3 godine rekao porodici da ide da kupi cigare, ubrzo pronađen njegov auto zaključan ispod mosta: Sada se oglasila njegova porodica. Porodica mladog Filipa Urumovića iz sela Klenak već tri godine ne zna šta se s njim desilo. Njegov deda Branko Jankovski kaže da se, uprkos svemu, nadaju da će jednog dana Filip ući na vrata svoje porodične kuće.",
-        "zhSummary": "MISTERIJA NESTANKA FILIPA URUMOVIĆA Pre tačno 3 godine rekao porodici da ide da kupi cigare, ubrzo pronađen njegov auto zaključan ispod mosta: Sada se oglasila njegova porodica. Porodica mladog Filipa Urumovića iz sela Klenak već tri godine ne zna šta se s njim desilo. Njegov deda Branko Jankovski kaže da se, uprkos svemu, nadaju da će jednog dana Filip ući na vrata svoje porodične kuće.",
+        "original": "Srdanović: \"Nadam se da će odnosi Srbije i Crne Gore biti iskreni i plodonosni\". Predstavnik Studentske liste Ilija Srdanović istakao je u emisiji \"Argumenti\" na RTCG da je uspeh u Srbiji uspeh nadahnut studentima, a iznela ga je nacija, odnosno građani Srbije.",
+        "zhSummary": "Srdanović: \"Nadam se da će odnosi Srbije i Crne Gore biti iskreni i plodonosni\". Predstavnik Studentske liste Ilija Srdanović istakao je u emisiji \"Argumenti\" na RTCG da je uspeh u Srbiji uspeh nadahnut studentima, a iznela ga je nacija, odnosno građani Srbije.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Srdanović: \"Nadam se da će odnosi Srbije i Crne Gore biti iskreni i plodonosni\"....'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/edita-se-utegla-u-crno-od-glave-do-pete-ko-hoce-nek-cestita-odoh-na-rodjendan/bt5ptfr",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"KO HOĆE NEK ČESTITA, ODOH NA ROĐENDAN\" Edita se utegla u crno od glave do pete, grmi UBITAČAN DEKOLTE: \"Mogu da prođem\" (FOTO). Pevačica Edita Aradinović ponovo je uspela da privuče pažnju svojih pratilaca na društvenim mrežama nesvakidašnjim i duhovitim objavama. Ona se oglasila na Instagram storiju dok se u automobilu vozila na jedno rođendansko slavlje, ne skrivajući svoje raspoloženje.",
+        "zhSummary": "\"KO HOĆE NEK ČESTITA, ODOH NA ROĐENDAN\" Edita se utegla u crno od glave do pete, grmi UBITAČAN DEKOLTE: \"Mogu da prođem\" (FOTO). Pevačica Edita Aradinović ponovo je uspela da privuče pažnju svojih pratilaca na društvenim mrežama nesvakidašnjim i duhovitim objavama. Ona se oglasila na Instagram storiju dok se u automobilu vozila na jedno rođendansko slavlje, ne skrivajući svoje raspoloženje.",
         "sentiment": "Neutral",
         "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'MISTERIJA NESTANKA FILIPA URUMOVIĆA Pre tačno 3 godine rekao porodici da ide da ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"KO HOĆE NEK ČESTITA, ODOH NA ROĐENDAN\" Edita se utegla u crno od glave do pete,...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/hronika/oglasilo-se-osnovno-javno-tuzilastvo-u-novom-sadu-gradjani-u-dva-navrata-prijavili/v69k9xt",
+        "url": "https://www.blic.rs/vesti/hronika/dodik-cvijanovic-i-stevandic-uputili-saucesce-porodicama-stradalih-u-padu-helikoptera/lfljq0t",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "Oglasilo se Osnovno javno tužilaštvo u Novom Sadu: \"Građani u dva navrata prijavili iznošenje dokumentacije, izdati hitni nalozi\". Osnovno javno tužilaštvo u Novom Sadu obaveštava javnost da je dana 29.10.2026. godine povodom dobijenih dojava od strane PU Novi Sad, da je više građana u dva navrata prijavilo iznošenje dokumentacije iz određene državne institucije i organa lokalne samouprave, izdalo hitne naloge u cilju obezbeđivanja dokaza i utvrđivanja postojanja krivičnog dela oduzimanje i uništenje službenog pečata i službenog spisa iz člana 328. stav 1. Krivičnog zakonika.",
-        "zhSummary": "Oglasilo se Osnovno javno tužilaštvo u Novom Sadu: \"Građani u dva navrata prijavili iznošenje dokumentacije, izdati hitni nalozi\". Osnovno javno tužilaštvo u Novom Sadu obaveštava javnost da je dana 29.10.2026. godine povodom dobijenih dojava od strane PU Novi Sad, da je više građana u dva navrata prijavilo iznošenje dokumentacije iz određene državne institucije i organa lokalne samouprave, izdalo hitne naloge u cilju obezbeđivanja dokaza i utvrđivanja postojanja krivičnog dela oduzimanje i uništenje službenog pečata i službenog spisa iz člana 328. stav 1. Krivičnog zakonika.",
-        "sentiment": "Negative",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Oglasilo se Osnovno javno tužilaštvo u Novom Sadu: \"Građani u dva navrata prijav...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/meloni-ne-kajem-se-sto-sam-bila-bliska-sa-trampom-branila-sam-nacionalne-interese/xv1p69k",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Meloni se brani: \"Ne kajem se što sam bila bliska sa Trampom, branila sam nacionalne interese, OPET BIH ISTO\". Italijanska premijerka Đorđa Meloni izjavila je danas da se ne kaje što je na početku drugog mandata američkog predsednika Donalda Trampa bila bliska sa njim, ističući da je time branila nacionalne interese Italije.",
-        "zhSummary": "Meloni se brani: \"Ne kajem se što sam bila bliska sa Trampom, branila sam nacionalne interese, OPET BIH ISTO\". Italijanska premijerka Đorđa Meloni izjavila je danas da se ne kaje što je na početku drugog mandata američkog predsednika Donalda Trampa bila bliska sa njim, ističući da je time branila nacionalne interese Italije.",
+        "original": "DODIK, CVIJANOVIĆ I STEVANDIĆ UPUTILI SAUČEŠĆE! Potresne poruke nakon pada helikoptera EUFOR-a kod Brčkog. Saučešće porodicima stradalih u padu helikoptera EUFOR-a danas kod Brčkog uputili su lider SNSD Milorad Dodik, srpski član Predsedništva BiH Željka Cvijanović i predsednik Narodne skupštine Republike Srpske Nenad Stevandić.",
+        "zhSummary": "DODIK, CVIJANOVIĆ I STEVANDIĆ UPUTILI SAUČEŠĆE! Potresne poruke nakon pada helikoptera EUFOR-a kod Brčkog. Saučešće porodicima stradalih u padu helikoptera EUFOR-a danas kod Brčkog uputili su lider SNSD Milorad Dodik, srpski član Predsedništva BiH Željka Cvijanović i predsednik Narodne skupštine Republike Srpske Nenad Stevandić.",
         "sentiment": "Neutral",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Meloni se brani: \"Ne kajem se što sam bila bliska sa Trampom, branila sam nacion...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'DODIK, CVIJANOVIĆ I STEVANDIĆ UPUTILI SAUČEŠĆE! Potresne poruke nakon pada helik...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/drustvo/apel-mup-a-zbog-pozara-tokom-grejne-sezone-ovo-su-najvece-opasnosti/030lc7g",
+        "url": "https://www.blic.rs/vesti/politika/vucic-u-teskom-trenucima-najglasniji-su-oni-koji-vas-napustaju-gade-mi-se-takvi-ljudi/2rczchp",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "\"NE OSTAVLJAJUTE DECU SAMU U KUĆI!\" MUP upozorava  na opasnosti tokom ZIME: Odmah pozovite 193 i slušajte savete vatrogasaca - spasilaca. Period od početka pa sve do kraja grejne sezone, karakteriše povećanje broj požara na građevinskim objektima.",
-        "zhSummary": "\"NE OSTAVLJAJUTE DECU SAMU U KUĆI!\" MUP upozorava  na opasnosti tokom ZIME: Odmah pozovite 193 i slušajte savete vatrogasaca - spasilaca. Period od početka pa sve do kraja grejne sezone, karakteriše povećanje broj požara na građevinskim objektima.",
-        "sentiment": "Neutral",
-        "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"NE OSTAVLJAJUTE DECU SAMU U KUĆI!\" MUP upozorava  na opasnosti tokom ZIME: Odma...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/tea-bilanovic-sve-priznala-ovo-su-detalji-odnosa-sa-lukom-doncicem/tnh8sjl",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "\"NJEGOV TATA VOLI MOJE PESME\" Tea Bilanović sve priznala: Ovo su detalji njenog odnosa sa Lukom Dončićem. Pevačica Tea Bilanović privukla je veliku pažnju javnosti kada se na promociji njenog albuma pojavio otac slavnog košarkaša Luke Dončića, što je pokrenulo brojne spekulacije. Pevačica je sada otkrila u kakvom je zapravo odnosu sa porodicom Dončić, kako je došlo do njihovog poznanstva, ali i kako se NBA zvezda provodi na privatnim slavljima.",
-        "zhSummary": "\"NJEGOV TATA VOLI MOJE PESME\" Tea Bilanović sve priznala: Ovo su detalji njenog odnosa sa Lukom Dončićem. Pevačica Tea Bilanović privukla je veliku pažnju javnosti kada se na promociji njenog albuma pojavio otac slavnog košarkaša Luke Dončića, što je pokrenulo brojne spekulacije. Pevačica je sada otkrila u kakvom je zapravo odnosu sa porodicom Dončić, kako je došlo do njihovog poznanstva, ali i kako se NBA zvezda provodi na privatnim slavljima.",
-        "sentiment": "Neutral",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"NJEGOV TATA VOLI MOJE PESME\" Tea Bilanović sve priznala: Ovo su detalji njenog ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/kultura/carli-xcx-snima-sa-skorsezeom-otkrivena-nova-postava-filma/58bfrpb",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Čarli XCX glumi u novom filmu Martina Skorsezea sa Leonardom Dikapriom i Dženifer Lorens. Čarli XCX će se pridružiti Leonardu Dikapriju i Dženifer Lorens u filmu Martina Skorsezea \"Šta se dešava noću\".",
-        "zhSummary": "Čarli XCX glumi u novom filmu Martina Skorsezea sa Leonardom Dikapriom i Dženifer Lorens. Čarli XCX će se pridružiti Leonardu Dikapriju i Dženifer Lorens u filmu Martina Skorsezea \"Šta se dešava noću\".",
-        "sentiment": "Neutral",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Čarli XCX glumi u novom filmu Martina Skorsezea sa Leonardom Dikapriom i Dženife...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/vesti/putin-tvrdi-da-je-u-bliskom-kontaktu-sa-maskom-rusija-razvija-alternativu-starlinku/14pyrlz",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "\"Ilon Mask je genije\": Putin otkrio da su u bliskom kontaktu dok Rusija gradi svoj satelitski internet. Predsednik Rusije Vladimir Putin nazvao je Ilona Maska genijem i izjavio da je Moskva u bliskom kontaktu sa američkim partnerima, uključujući vlasnika kompanije SpaceX, dok razvija sopstvenu satelitsku internet mrežu Rasvet, prenosi CNBC.",
-        "zhSummary": "\"Ilon Mask je genije\": Putin otkrio da su u bliskom kontaktu dok Rusija gradi svoj satelitski internet. Predsednik Rusije Vladimir Putin nazvao je Ilona Maska genijem i izjavio da je Moskva u bliskom kontaktu sa američkim partnerima, uključujući vlasnika kompanije SpaceX, dok razvija sopstvenu satelitsku internet mrežu Rasvet, prenosi CNBC.",
-        "sentiment": "Neutral",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"Ilon Mask je genije\": Putin otkrio da su u bliskom kontaktu dok Rusija gradi sv...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/marija-kilibarda-ima-principe-u-odgajanju-cerke-senje-bakama-je-ovo-zabranjeno/kq61sz3",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "\"NE MORA DA IDE U VRTIĆ DO 3. GODINE\" Marija Kilibarda ima jasne principe u odgajanju ćerke Senje, bakama i dekama jedno je zabranjeno. Voditeljka Marija Kilibarda otkrila je svojevremeno detalje o vaspitavanju ćerke Senje, koju je dobila sa partnerom Branislavom Vučelićem. Voditeljka je ispričala kako je izgledala njena teška borba za majčinstvo, zbog čega striktno zabranjuje ekrane i industrijske šećere, zašto ne prihvata savete baka i deka, ali i kako je njen partner postao njen najbolji prijatelj i najveći oslonac u životu.",
-        "zhSummary": "\"NE MORA DA IDE U VRTIĆ DO 3. GODINE\" Marija Kilibarda ima jasne principe u odgajanju ćerke Senje, bakama i dekama jedno je zabranjeno. Voditeljka Marija Kilibarda otkrila je svojevremeno detalje o vaspitavanju ćerke Senje, koju je dobila sa partnerom Branislavom Vučelićem. Voditeljka je ispričala kako je izgledala njena teška borba za majčinstvo, zbog čega striktno zabranjuje ekrane i industrijske šećere, zašto ne prihvata savete baka i deka, ali i kako je njen partner postao njen najbolji prijatelj i najveći oslonac u životu.",
-        "sentiment": "Neutral",
-        "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"NE MORA DA IDE U VRTIĆ DO 3. GODINE\" Marija Kilibarda ima jasne principe u odga...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/slobodno-vreme/tinejdzerka-15-dobila-vise-od-15000-evra-odstete-zbog-zlostavljanja-na-radu/qp8bm3e",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Konobarica dobila OGROMNU sumu novca jer ju je šef ponizio pred svima: Slučajno ispustila kolač, on osuo paljbu po njoj. Petnaestogodišnja radnica dobila je na sudu odštetu od 13.048 britanskih funti (oko 15.000 evra) nakon što je dokazala da je bila izložena nizu verbalnih napada, zastrašivanju i višestrukoj diskriminaciji na radnom mestu u jednom hotelu u Škotskoj.",
-        "zhSummary": "Konobarica dobila OGROMNU sumu novca jer ju je šef ponizio pred svima: Slučajno ispustila kolač, on osuo paljbu po njoj. Petnaestogodišnja radnica dobila je na sudu odštetu od 13.048 britanskih funti (oko 15.000 evra) nakon što je dokazala da je bila izložena nizu verbalnih napada, zastrašivanju i višestrukoj diskriminaciji na radnom mestu u jednom hotelu u Škotskoj.",
-        "sentiment": "Negative",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Konobarica dobila OGROMNU sumu novca jer ju je šef ponizio pred svima: Slučajno ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/drustvo/tunel-iz-filma-lepa-sela-lepo-gore-evo-gde-se-nalazi-i-kako-danas-izgleda/n6keyq4",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "SABLASNO JE PRAZAN I KROZ NJEGA ODAVNO NE PROLAZE VOZOVI Ovako danas izgleda tunel iz \"Lepa sela, lepo gore\": Nalazi se u blizini svetinje. Retki su oni koji nisu pustili po neku suzu dok su gledali kultni film \"Lepa sela, lepo gore\" i scene koje su na specifičan način prikazale propast jedne zajedničke države i drugove koji su preko noći postali neprijatelji na dve suprotne zaraćene strane. Većina radnje tog filma smeštena je u jednom tunelu, a malo ljudi zna da se taj objekat nalazi u blizini manastira Mileševa kod Prijepolja.",
-        "zhSummary": "SABLASNO JE PRAZAN I KROZ NJEGA ODAVNO NE PROLAZE VOZOVI Ovako danas izgleda tunel iz \"Lepa sela, lepo gore\": Nalazi se u blizini svetinje. Retki su oni koji nisu pustili po neku suzu dok su gledali kultni film \"Lepa sela, lepo gore\" i scene koje su na specifičan način prikazale propast jedne zajedničke države i drugove koji su preko noći postali neprijatelji na dve suprotne zaraćene strane. Većina radnje tog filma smeštena je u jednom tunelu, a malo ljudi zna da se taj objekat nalazi u blizini manastira Mileševa kod Prijepolja.",
+        "original": "(VIDEO) \"U PRVIM TEŠKIM TRENUCIMA, NAJGLASNIJI SU ONI KOJI VAS NAPUŠTAJU\" Vučić: \"14 godina nisu odlazili, sad baš moraju, GADE MI SE TAKVI LJUDI\". Aleksandar Vučić, bivši predsednik Srbije, oglasio se na svom Instagram profilu i poručio da se priprema za naredne dane, ističući da svako teško podnese poraz, ali da je on naučio da gubi i pobeđuje na dostojanstven način",
+        "zhSummary": "(VIDEO) \"U PRVIM TEŠKIM TRENUCIMA, NAJGLASNIJI SU ONI KOJI VAS NAPUŠTAJU\" Vučić: \"14 godina nisu odlazili, sad baš moraju, GADE MI SE TAKVI LJUDI\". Aleksandar Vučić, bivši predsednik Srbije, oglasio se na svom Instagram profilu i poručio da se priprema za naredne dane, ističući da svako teško podnese poraz, ali da je on naučio da gubi i pobeđuje na dostojanstven način",
         "sentiment": "Negative",
         "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'SABLASNO JE PRAZAN I KROZ NJEGA ODAVNO NE PROLAZE VOZOVI Ovako danas izgleda tun...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(VIDEO) \"U PRVIM TEŠKIM TRENUCIMA, NAJGLASNIJI SU ONI KOJI VAS NAPUŠTAJU\" Vučić:...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/pevacica-o-kolegama-ja-nastupam-koliko-zelim-kod-mene-nema-krize/xn35pmp",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"JA NASTUPAM KOLIKO ŽELIM, KOD MENE NEMA KRIZE\" Pevačica o kolegama i vaspitanju dece: \"Uvek možemo da se snađemo, samo neko ne želi\" (Video). Na koncertu Goce Lazarević su se večeras pojavile brojne kolege kako bi joj pružile podršku. Među njima se našla i Jelena Kostov koja kaže da je i privatno ljubitelj njenih pesama, ali je izuzetno ceni i kao stariju koleginicu.",
+        "zhSummary": "\"JA NASTUPAM KOLIKO ŽELIM, KOD MENE NEMA KRIZE\" Pevačica o kolegama i vaspitanju dece: \"Uvek možemo da se snađemo, samo neko ne želi\" (Video). Na koncertu Goce Lazarević su se večeras pojavile brojne kolege kako bi joj pružile podršku. Među njima se našla i Jelena Kostov koja kaže da je i privatno ljubitelj njenih pesama, ali je izuzetno ceni i kao stariju koleginicu.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"JA NASTUPAM KOLIKO ŽELIM, KOD MENE NEMA KRIZE\" Pevačica o kolegama i vaspitanju...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/hronika/odredjen-pritvor-nacelniku-gradske-uprave-za-privredu-novog-sada/xsz01e8",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Određen pritvor načelniku Gradske uprave za privredu Novog Sada. Viši sud u Novom Sadu odredio je pritvor do 30 dana načelniku Gradske uprave za privredu Grada Novog Sada, S.B, osumnjičenom za nesavestan rad u službi na koji način je budžet grada oštećen za više od 83 miliona dinara, rečeno je danas za Tanjug u tom sudu.",
+        "zhSummary": "Određen pritvor načelniku Gradske uprave za privredu Novog Sada. Viši sud u Novom Sadu odredio je pritvor do 30 dana načelniku Gradske uprave za privredu Grada Novog Sada, S.B, osumnjičenom za nesavestan rad u službi na koji način je budžet grada oštećen za više od 83 miliona dinara, rečeno je danas za Tanjug u tom sudu.",
+        "sentiment": "Neutral",
+        "category": "Finance",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Određen pritvor načelniku Gradske uprave za privredu Novog Sada. Viši sud u Novo...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/otkazan-nastup-vesne-zmijanac-u-beogradu-pevacici-naruseno-zdravstveno-stanje/z40weqs",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "OTKAZAN NASTUP VESNE ZMIJANAC U BEOGRADU Pevačici narušeno zdravstveno stanje, oglasila se: \"Nisam u mogućnosti da nastupam\". Muzička legenda Vesna Zmijanac bila je prinuđena da u poslednji čas otkaže svoj večerašnji nastup u Beogradu. Vest je rastužila brojne obožavaoce koji su sa nestrpljenjem iščekivali druženje uz njene vanvremenske hitove.",
+        "zhSummary": "OTKAZAN NASTUP VESNE ZMIJANAC U BEOGRADU Pevačici narušeno zdravstveno stanje, oglasila se: \"Nisam u mogućnosti da nastupam\". Muzička legenda Vesna Zmijanac bila je prinuđena da u poslednji čas otkaže svoj večerašnji nastup u Beogradu. Vest je rastužila brojne obožavaoce koji su sa nestrpljenjem iščekivali druženje uz njene vanvremenske hitove.",
+        "sentiment": "Neutral",
+        "category": "Energy",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'OTKAZAN NASTUP VESNE ZMIJANAC U BEOGRADU Pevačici narušeno zdravstveno stanje, o...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/nenad-manojlovic-o-odlasku-iz-granda-i-sestri-sa-radom-se-ne-okupljam-privatno/mdlp39g",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"SA RADOM RADIM, ALI SE NE OKUPLJAMO PRIVATNO\" Nenad Manojlović otkrio golu istinu o sestri i svom napuštanju Granda: \"Nisam hteo TAKVE USLOVE RADA\" (VIDEO). Pevač Nenad Manojlović pojavio se večeras na koncertu Goce Lazarević u srpskoj prestonici. Nenad je za \"Blic\" progovorio o planovima, odnosu sa sestrom i koleginicom Radom Manojlović, te izlasku iz \"Grand\" produkcije.",
+        "zhSummary": "\"SA RADOM RADIM, ALI SE NE OKUPLJAMO PRIVATNO\" Nenad Manojlović otkrio golu istinu o sestri i svom napuštanju Granda: \"Nisam hteo TAKVE USLOVE RADA\" (VIDEO). Pevač Nenad Manojlović pojavio se večeras na koncertu Goce Lazarević u srpskoj prestonici. Nenad je za \"Blic\" progovorio o planovima, odnosu sa sestrom i koleginicom Radom Manojlović, te izlasku iz \"Grand\" produkcije.",
+        "sentiment": "Positive",
+        "category": "Energy",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"SA RADOM RADIM, ALI SE NE OKUPLJAMO PRIVATNO\" Nenad Manojlović otkrio golu isti...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Energy 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/slobodno-vreme/slovenija-ostaje-bez-simobla-triglav-je-najnovija-zrtva-vrelog-leta-u-evropi/3l4j982",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Slovenija ostaje bez simobla: Triglav je najnovija žrtva vrelog leta u Evropi. Nekada moćna ledena masa izgubila je između 1983. i 2003. godine čak 93 odsto svoje površine. Svela se na manje od jednog hektara prekrivenog ledom, okruženog golim stenama, ali je ipak iznenadila istraživače koji su očekivali da će nestati znatno ranije. Na planini se održala još dve decenije.",
+        "zhSummary": "Slovenija ostaje bez simobla: Triglav je najnovija žrtva vrelog leta u Evropi. Nekada moćna ledena masa izgubila je između 1983. i 2003. godine čak 93 odsto svoje površine. Svela se na manje od jednog hektara prekrivenog ledom, okruženog golim stenama, ali je ipak iznenadila istraživače koji su očekivali da će nestati znatno ranije. Na planini se održala još dve decenije.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Slovenija ostaje bez simobla: Triglav je najnovija žrtva vrelog leta u Evropi. N...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Tech",
@@ -266,6 +266,61 @@ const realNewsData = [
     },
     {
         "source": "B92 Economy",
+        "url": "https://www.b92.net/biz/svet/vesti/280619/upozorenje-za-kupce-povlace-se-smrznute-maline-sadrze-komadice-stakla/vest",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Upozorenje za kupce: Povlače se smrznute maline; Sadrže komadiće stakla. Kupci koji su u prodavnicama Edeka i Marktkauf kupili smrznute maline robne marke Gut & Günstig trebalo bi odmah da provere rok trajanja na pakovanju.",
+        "zhSummary": "Upozorenje za kupce: Povlače se smrznute maline; Sadrže komadiće stakla. Kupci koji su u prodavnicama Edeka i Marktkauf kupili smrznute maline robne marke Gut & Günstig trebalo bi odmah da provere rok trajanja na pakovanju.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Upozorenje za kupce: Povlače se smrznute maline; Sadrže komadiće stakla. Kupci k...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "B92 Economy",
+        "url": "https://www.b92.net/biz/srbija/vesti/280613/sutra-istice-rok-za-prijavu-prihoda-frilensera-i-za-placanje-poreza-za-pomorce/vest",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Sutra ističe rok za prijavu prihoda frilensera i za plaćanje poreza za pomorce. Sutra, 30. oktobra ističe rok za podnošenje prijave prihoda frilensera za treći kvartal ove godine, kao i za podnošenje poreske prijave i plaćanje obračunatih obaveza za prihode ostvarene u 2025. godini za pomorce.",
+        "zhSummary": "Sutra ističe rok za prijavu prihoda frilensera i za plaćanje poreza za pomorce. Sutra, 30. oktobra ističe rok za podnošenje prijave prihoda frilensera za treći kvartal ove godine, kao i za podnošenje poreske prijave i plaćanje obračunatih obaveza za prihode ostvarene u 2025. godini za pomorce.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Sutra ističe rok za prijavu prihoda frilensera i za plaćanje poreza za pomorce. ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "B92 Economy",
+        "url": "https://www.b92.net/biz/svet/vesti/280538/kraj-za-omiljeno-posudje-u-srbiji-prepuno-vecnih-hemikalija/vest",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Kraj za omiljeno posuđe u Srbiji: Prepuno \"večnih hemikalija\". Iako potpuna i trenutna zabrana još uvek nije stupila na snagu, zakonodavni proces je u toku, a veliki proizvođači (poput Tefala / SEB grupe) već se suočavaju sa pritiskom javnosti i potencijalnim tužbama pred sudovima u Evropi zbog korišćenja ovih jedinjenja.",
+        "zhSummary": "Kraj za omiljeno posuđe u Srbiji: Prepuno \"večnih hemikalija\". Iako potpuna i trenutna zabrana još uvek nije stupila na snagu, zakonodavni proces je u toku, a veliki proizvođači (poput Tefala / SEB grupe) već se suočavaju sa pritiskom javnosti i potencijalnim tužbama pred sudovima u Evropi zbog korišćenja ovih jedinjenja.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Kraj za omiljeno posuđe u Srbiji: Prepuno \"večnih hemikalija\". Iako potpuna i tr...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "B92 Economy",
+        "url": "https://www.b92.net/biz/srbija/vesti/280572/evropska-centralna-banka-bi-mogla-da-podigne-kamate-u-decembru/vest",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "ECB sprema novo povećanje kamata: Poznato kada bi moglo da usledi. Zvaničnici Evropske centralne banke (ECB) očekuju da će banka u decembru ponovo povećati kamatne stope kako bi suzbila inflaciju podstaknutu visokim cenama energenata, nakon čega bi mogla da pauzira sa daljim zaoštravanjem monetarne politike.",
+        "zhSummary": "ECB sprema novo povećanje kamata: Poznato kada bi moglo da usledi. Zvaničnici Evropske centralne banke (ECB) očekuju da će banka u decembru ponovo povećati kamatne stope kako bi suzbila inflaciju podstaknutu visokim cenama energenata, nakon čega bi mogla da pauzira sa daljim zaoštravanjem monetarne politike.",
+        "sentiment": "Neutral",
+        "category": "Finance",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'ECB sprema novo povećanje kamata: Poznato kada bi moglo da usledi. Zvaničnici Ev...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "B92 Economy",
+        "url": "https://www.b92.net/biz/srbija/vesti/280540/srpski-pcelari-izvezli-gotovo-tri-tone-meda-u-kinu/vest",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Srpski pčelari izvezli gotovo tri tone meda u Kinu: Očekuje se još više sledeće godine. Srpski pčelari izvezli su gotovo tri tone meda u Kinu.",
+        "zhSummary": "Srpski pčelari izvezli gotovo tri tone meda u Kinu: Očekuje se još više sledeće godine. Srpski pčelari izvezli su gotovo tri tone meda u Kinu.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Srpski pčelari izvezli gotovo tri tone meda u Kinu: Očekuje se još više sledeće ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "B92 Economy",
         "url": "https://www.b92.net/biz/svet/vesti/280505/svajcarska-berza-oborila-rekord-zahvaljujuci-rastu-akcija-farmaceutskih-kompanija/vest",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
@@ -340,60 +395,5 @@ const realNewsData = [
         "sentiment": "Positive",
         "category": "Tech",
         "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Šel udvostručio kvartalni profit. Britanska naftna kompanija Šel objavila je dan...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 Tech 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
-    },
-    {
-        "source": "B92 Economy",
-        "url": "https://www.b92.net/biz/srbija/vesti/280387/za-dve-godine-broj-malih-i-srednjih-preduzeca-i-preduzetnika-porastao-za-oko-25000/vest",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Porastao broj malih i srednjih preduzeća i preduzetnika u Srbiji. Broj mikro, malih i srednjih preduzeća i preduzetnika (MSPP) u Srbiji porastao je sa 339.450 koliko ih je bilo 2022. na 368.893 u 2024. godini.",
-        "zhSummary": "Porastao broj malih i srednjih preduzeća i preduzetnika u Srbiji. Broj mikro, malih i srednjih preduzeća i preduzetnika (MSPP) u Srbiji porastao je sa 339.450 koliko ih je bilo 2022. na 368.893 u 2024. godini.",
-        "sentiment": "Neutral",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Porastao broj malih i srednjih preduzeća i preduzetnika u Srbiji. Broj mikro, ma...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "B92 Economy",
-        "url": "https://www.b92.net/biz/svet/vesti/280391/britanija-i-rols-rojs-postigli-sporazum-od-25-milijardi-funti-za-razvoj-avionskih-motora/vest",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Velika Britanija i Rols-Rojs postigli sporazum vredan 2,5 milijardi. Britanska vlada i kompanija Rols-Rojs postigle su danas okvirni sporazum o programu vrednom 2,5 milijardi funti (oko 2,9 milijardi evra) za razvoj nove generacije avionskih motora.",
-        "zhSummary": "Velika Britanija i Rols-Rojs postigli sporazum vredan 2,5 milijardi. Britanska vlada i kompanija Rols-Rojs postigle su danas okvirni sporazum o programu vrednom 2,5 milijardi funti (oko 2,9 milijardi evra) za razvoj nove generacije avionskih motora.",
-        "sentiment": "Neutral",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Velika Britanija i Rols-Rojs postigli sporazum vredan 2,5 milijardi. Britanska v...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "B92 Economy",
-        "url": "https://www.b92.net/biz/svet/vesti/280385/vors-ne-podrzava-najavljivanje-buduceg-kretanja-kamatnih-stopa-fed-a/vest",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "FED menja pristup kamatama: Vorš najavljuje promene. Predsednik američkih Federalnih rezervi (FED) Kevin Vorš ponovio je danas da ne podržava praksu unapred najavljenog usmeravanja tržišta o budućem kretanju kamatnih stopa i monetarne politike, poznatu kao \"forward guidance\".",
-        "zhSummary": "FED menja pristup kamatama: Vorš najavljuje promene. Predsednik američkih Federalnih rezervi (FED) Kevin Vorš ponovio je danas da ne podržava praksu unapred najavljenog usmeravanja tržišta o budućem kretanju kamatnih stopa i monetarne politike, poznatu kao \"forward guidance\".",
-        "sentiment": "Neutral",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'FED menja pristup kamatama: Vorš najavljuje promene. Predsednik američkih Federa...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "B92 Economy",
-        "url": "https://www.b92.net/biz/svet/vesti/280138/sad-proglasile-helijum-strateski-vaznim-resursom/vest",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "SAD proglasile helijum strateški važnim resursom. Američki ministar energetike Kris Rajt proglasio je helijum strateški važnim resursom zbog njegove ključne uloge u proizvodnji poluprovodnika i sve većih rizika u snabdevanju.",
-        "zhSummary": "SAD proglasile helijum strateški važnim resursom. Američki ministar energetike Kris Rajt proglasio je helijum strateški važnim resursom zbog njegove ključne uloge u proizvodnji poluprovodnika i sve većih rizika u snabdevanju.",
-        "sentiment": "Negative",
-        "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'SAD proglasile helijum strateški važnim resursom. Američki ministar energetike K...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "B92 Economy",
-        "url": "https://www.b92.net/biz/svet/vesti/280136/skelet-dinosaurusa-prodat-za-473-miliona-dolara/vest",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "Očekivali šest miliona, a dobili 47: Skelet dinosaurusa premašio očekivanja. Skelet malog dinosaurusa koji liči na T-reksa prodat je na aukciji u Njujorku za 47,3 miliona dolara kupcu čiji identitet nije objavljen, saopštila je aukcijska kuća \"Sotbi\".",
-        "zhSummary": "Očekivali šest miliona, a dobili 47: Skelet dinosaurusa premašio očekivanja. Skelet malog dinosaurusa koji liči na T-reksa prodat je na aukciji u Njujorku za 47,3 miliona dolara kupcu čiji identitet nije objavljen, saopštila je aukcijska kuća \"Sotbi\".",
-        "sentiment": "Neutral",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Očekivali šest miliona, a dobili 47: Skelet dinosaurusa premašio očekivanja. Ske...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     }
 ];
