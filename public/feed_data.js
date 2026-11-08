@@ -2,135 +2,135 @@
 const realNewsData = [
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/zelenski-najavio-obracun-sa-korupcijom-slede-kadrovske-promene/r3x6ydt",
+        "url": "https://www.blic.rs/vesti/hronika/jeziva-nesreca-na-lekinom-brdu-zakucala-se-u-drvo-muskarac-izleteo-kroz-soferku/ksb4el1",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "RAZREŠENJA U SLUŽBI BEZBEDNOSTI Zelenski najavio žestoku borbu protiv korupcije:  Posle hapšenja visokih zvaničnika slede kadrovske promene. Predsednik Ukrajine Volodimir Zelenski obećao je danas nove \"kadrovske odluke\" u Službi bezbednosti Ukrajine (SBU), nakon korupcionaškog skandala koji je izazvao gnev javnosti zbog nekažnjivosti zvaničnika, javlja Rojters.",
-        "zhSummary": "RAZREŠENJA U SLUŽBI BEZBEDNOSTI Zelenski najavio žestoku borbu protiv korupcije:  Posle hapšenja visokih zvaničnika slede kadrovske promene. Predsednik Ukrajine Volodimir Zelenski obećao je danas nove \"kadrovske odluke\" u Službi bezbednosti Ukrajine (SBU), nakon korupcionaškog skandala koji je izazvao gnev javnosti zbog nekažnjivosti zvaničnika, javlja Rojters.",
-        "sentiment": "Neutral",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'RAZREŠENJA U SLUŽBI BEZBEDNOSTI Zelenski najavio žestoku borbu protiv korupcije:...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/sudbine/pevacica-pokazala-modrice-i-sokirala-imam-dokaze-da-sam-bila-zlostavljana/kjjlzfq",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "\"Imam dovoljno snimaka na kojima se vidi GDE SAM BILA ZLOSTAVLJANA\" Pevačica objavila slike sa modricama, šokirala tvrdnjama: \"Polako ću iznositi dokaz po dokaz\". Pevačica iz Zenice Aldina Bajić šokirala je javnost dramatičnim tvrdnjama na društvenim mrežama, gde je obelodanila da je bila žrtva navodnog fizičkog i psihičkog zlostavljanja, pretnji i ucena. Na svom Instagram profilu podelila je uznemirujuću fotografiju sa modricama na licu, poručivši da prekida ćutnju o torturi kroz koju je navodno prolazila.",
-        "zhSummary": "\"Imam dovoljno snimaka na kojima se vidi GDE SAM BILA ZLOSTAVLJANA\" Pevačica objavila slike sa modricama, šokirala tvrdnjama: \"Polako ću iznositi dokaz po dokaz\". Pevačica iz Zenice Aldina Bajić šokirala je javnost dramatičnim tvrdnjama na društvenim mrežama, gde je obelodanila da je bila žrtva navodnog fizičkog i psihičkog zlostavljanja, pretnji i ucena. Na svom Instagram profilu podelila je uznemirujuću fotografiju sa modricama na licu, poručivši da prekida ćutnju o torturi kroz koju je navodno prolazila.",
-        "sentiment": "Negative",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"Imam dovoljno snimaka na kojima se vidi GDE SAM BILA ZLOSTAVLJANA\" Pevačica obj...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/sin-ubio-oca-pa-ga-isekao-na-delove-uzas-u-holandiji-godinama-skrivao-ubistvo/krzsghk",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "SIN UBIO OCA, PA GA ISEKAO NA 238 DELOVA Godinama iskasapljeno telo krio u zamrzivaču: Holandsko tužilaštvo traži kaznu od 12 godina zatvora. Holandsko tužilaštvo zatražilo je kaznu od 12 godina zatvora za muškarca koji je ubio svog oca, a potom isekao njegovo telo na 238 delova.",
-        "zhSummary": "SIN UBIO OCA, PA GA ISEKAO NA 238 DELOVA Godinama iskasapljeno telo krio u zamrzivaču: Holandsko tužilaštvo traži kaznu od 12 godina zatvora. Holandsko tužilaštvo zatražilo je kaznu od 12 godina zatvora za muškarca koji je ubio svog oca, a potom isekao njegovo telo na 238 delova.",
-        "sentiment": "Negative",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'SIN UBIO OCA, PA GA ISEKAO NA 238 DELOVA Godinama iskasapljeno telo krio u zamrz...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/hronika/u-beranama-uhapsen-vozac-sa-179-promila-u-pljevljima-mladic-odbio-testiranje/95fj0fe",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "PIJANI I DROGIRANI SEDAJU ZA VOLAN U Beranama uhapšen vozač sa 1,79 promila, u Pljevljima mladić odbio testiranje na narkotike. Beranska policija uhapsila je R.N. (42) iz tog grada zbog vožnje pod dejstvom alkohola.",
-        "zhSummary": "PIJANI I DROGIRANI SEDAJU ZA VOLAN U Beranama uhapšen vozač sa 1,79 promila, u Pljevljima mladić odbio testiranje na narkotike. Beranska policija uhapsila je R.N. (42) iz tog grada zbog vožnje pod dejstvom alkohola.",
-        "sentiment": "Neutral",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'PIJANI I DROGIRANI SEDAJU ZA VOLAN U Beranama uhapšen vozač sa 1,79 promila, u P...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/slobodno-vreme/koliko-dugo-pas-sme-biti-sam-u-stanu-strucnjaci-upozoravaju-na-granicu/mvxqllz",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "STRUČNJACI OTKRIVAJU Koliko zaista vaš pas može biti sam kod kuće pre nego što doživi stres i opasnost po zdravlje?. Za zdravog odraslog psa preporučeni maksimum je šest do osam sati bez izlaska napolje, iako neki veterinari savetuju da ljubimac ne bude sam duže od šest sati. Ako imate štene mlađe od 10 nedelja, smernice American Kennel Cluba (AKC) kažu da je granica samo jedan sat.",
-        "zhSummary": "STRUČNJACI OTKRIVAJU Koliko zaista vaš pas može biti sam kod kuće pre nego što doživi stres i opasnost po zdravlje?. Za zdravog odraslog psa preporučeni maksimum je šest do osam sati bez izlaska napolje, iako neki veterinari savetuju da ljubimac ne bude sam duže od šest sati. Ako imate štene mlađe od 10 nedelja, smernice American Kennel Cluba (AKC) kažu da je granica samo jedan sat.",
-        "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'STRUČNJACI OTKRIVAJU Koliko zaista vaš pas može biti sam kod kuće pre nego što d...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/gost-pobesneo-pa-napravio-haos-u-restoranu-u-becu-pretio-smrcu-konobaru/wsbfqm7",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "PRETIO SMRĆU KONOBARU JER NIJE BILO JELA KOJE JE ŽELEO Gost pobesneo, pa napravio haos u restoranu: Gađao ga metalnim novcem, pa završio iza rešetaka. Tridesetogodišnji državljanin Sirije priveden je u Beču nakon što je u restoranu brze hrane u okrugu Margareten gađao zaposlenog metalnim novčićima i pretio mu smrću jer jelo koje je želeo da naruči nije bilo dostupno, prenosi austrijski list Hojte.",
-        "zhSummary": "PRETIO SMRĆU KONOBARU JER NIJE BILO JELA KOJE JE ŽELEO Gost pobesneo, pa napravio haos u restoranu: Gađao ga metalnim novcem, pa završio iza rešetaka. Tridesetogodišnji državljanin Sirije priveden je u Beču nakon što je u restoranu brze hrane u okrugu Margareten gađao zaposlenog metalnim novčićima i pretio mu smrću jer jelo koje je želeo da naruči nije bilo dostupno, prenosi austrijski list Hojte.",
-        "sentiment": "Neutral",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'PRETIO SMRĆU KONOBARU JER NIJE BILO JELA KOJE JE ŽELEO Gost pobesneo, pa napravi...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/isplivao-uznemirujuci-snimak-pucnjave-u-krakovu-napadac-imao-oruzani-obracun-s/kynqscw",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "(UZNEMIRUJUĆI VIDEO)  PUCAO U VOŽNJI, UDARIO U DRUGI AUTO, PA KRENUO U OBRAČUN S POLICIJOM! Novi snimak masakra u Krakovu: Ovako su savladali napadača (25). Šest osoba je ubijeno, a više povređeno u napadu u centru Krakova, dok su u stanu osumnjičenog pronađena tela još tri osobe, za koje se veruje da su članovi njegove porodice. U međuvremenu, društvenim mrežama proširio se snimak policijske intervencije i hapšenja napadača.",
-        "zhSummary": "(UZNEMIRUJUĆI VIDEO)  PUCAO U VOŽNJI, UDARIO U DRUGI AUTO, PA KRENUO U OBRAČUN S POLICIJOM! Novi snimak masakra u Krakovu: Ovako su savladali napadača (25). Šest osoba je ubijeno, a više povređeno u napadu u centru Krakova, dok su u stanu osumnjičenog pronađena tela još tri osobe, za koje se veruje da su članovi njegove porodice. U međuvremenu, društvenim mrežama proširio se snimak policijske intervencije i hapšenja napadača.",
+        "original": "JEZIVA NESREĆA NA LEKINOM BRDU! Autom se zakucala u drvo, muškarac od siline udara izleteo kroz šoferku: Odmah su prevezeni u Urgentni. U saobraćajnoj nesreći koja se tokom protekle noći u 1.10 sati dogodila u Ulici Gospodara Vučića na Lekinom brdu teško su povređene dve osobe, rečeno je agenciji Tanjug iz službe hitne pomoći.",
+        "zhSummary": "JEZIVA NESREĆA NA LEKINOM BRDU! Autom se zakucala u drvo, muškarac od siline udara izleteo kroz šoferku: Odmah su prevezeni u Urgentni. U saobraćajnoj nesreći koja se tokom protekle noći u 1.10 sati dogodila u Ulici Gospodara Vučića na Lekinom brdu teško su povređene dve osobe, rečeno je agenciji Tanjug iz službe hitne pomoći.",
         "sentiment": "Neutral",
         "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(UZNEMIRUJUĆI VIDEO)  PUCAO U VOŽNJI, UDARIO U DRUGI AUTO, PA KRENUO U OBRAČUN S...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'JEZIVA NESREĆA NA LEKINOM BRDU! Autom se zakucala u drvo, muškarac od siline uda...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/ivan-marinkovic-tuzi-miljanu-kulic-za-starateljstvo-nad-zeljkom/fyc3fgh",
+        "url": "https://www.blic.rs/zabava/ovde-je-odrastao-aleksandar-sofronijevic-spavao-sam-sa-bakom-do-18-godine/j0560l9",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "\"150.000 JE IZGUBILA NA KOCKI\" Ivan Marinković tuži Miljanu za starateljstvo nad Željkom: \"Ostvariću svoja prava\". Iako su na kratko izgladili odnose, Ivan Marinković i Miljana Kulić ponovo su se sukobili. On je rekao da je sada odlučan da pokrene sudski postupak za starateljstvo nad detetom tvrdeći da je Miljana nepodobna majka koja nad sinom nema starateljstvo, već ga ima njena majka Marija.",
-        "zhSummary": "\"150.000 JE IZGUBILA NA KOCKI\" Ivan Marinković tuži Miljanu za starateljstvo nad Željkom: \"Ostvariću svoja prava\". Iako su na kratko izgladili odnose, Ivan Marinković i Miljana Kulić ponovo su se sukobili. On je rekao da je sada odlučan da pokrene sudski postupak za starateljstvo nad detetom tvrdeći da je Miljana nepodobna majka koja nad sinom nema starateljstvo, već ga ima njena majka Marija.",
+        "original": "\"DO 18. GODINE SAM SPAVAO SA BAKOM U SOBI\" Danas živi u suvom luksuzu, a ovde je odrastao Aleksandar Sofronijević: \"Svega je falilo\". Jedan od naših najuspešnijih harmonikaša Aleksandar Sofronijević, danas živi u luksuznom stanu na Beogradu, a oduvek je isticao da je ponosan na skromne početke i odrastanje u Kraljevu. On je jednom prilikom otkrio da je do punoletstva delio sobu sa bakom Živkom.",
+        "zhSummary": "\"DO 18. GODINE SAM SPAVAO SA BAKOM U SOBI\" Danas živi u suvom luksuzu, a ovde je odrastao Aleksandar Sofronijević: \"Svega je falilo\". Jedan od naših najuspešnijih harmonikaša Aleksandar Sofronijević, danas živi u luksuznom stanu na Beogradu, a oduvek je isticao da je ponosan na skromne početke i odrastanje u Kraljevu. On je jednom prilikom otkrio da je do punoletstva delio sobu sa bakom Živkom.",
         "sentiment": "Neutral",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"150.000 JE IZGUBILA NA KOCKI\" Ivan Marinković tuži Miljanu za starateljstvo nad...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"DO 18. GODINE SAM SPAVAO SA BAKOM U SOBI\" Danas živi u suvom luksuzu, a ovde je...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/biznis/privreda/manjak-frizera-u-srbiji-plate-i-konkursi-za-posao/scr4t5r",
+        "url": "https://www.blic.rs/slobodno-vreme/evo-kako-da-sprecite-da-se-ivice-tepiha-saviju-5-brzih-trikova/zk636le",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "Na druge oglase se javi 50 ljudi, a za ovaj posao jedva četvoro: U Srbiji otvoreno 1.400 novih lokala, cene divljaju, a radnika nema. Frizerska industrija u Srbiji poslednjih godina prolazi kroz značajne promene. Broj salona se povećava, cene usluga rastu, a vlasnici sve češće nailaze na problem pronalaženja iskusnih i kvalitetnih radnika.",
-        "zhSummary": "Na druge oglase se javi 50 ljudi, a za ovaj posao jedva četvoro: U Srbiji otvoreno 1.400 novih lokala, cene divljaju, a radnika nema. Frizerska industrija u Srbiji poslednjih godina prolazi kroz značajne promene. Broj salona se povećava, cene usluga rastu, a vlasnici sve češće nailaze na problem pronalaženja iskusnih i kvalitetnih radnika.",
+        "original": "Evo kako da sprečite da se ivice tepiha saviju: 5 brzih trikova koji provereno rade. Podignuti i savijeni uglovi tepiha ne samo da kvare estetiku prostorije, već predstavljaju i stalnu opasnost od saplitanja i padova. Ovaj problem je najčešći kod novih tepiha koji su dugo bili urolani u magacinima, ali se često javlja i kod starijih usled promene vlažnosti vazduha ili grubog prelaska usisivačem.",
+        "zhSummary": "Evo kako da sprečite da se ivice tepiha saviju: 5 brzih trikova koji provereno rade. Podignuti i savijeni uglovi tepiha ne samo da kvare estetiku prostorije, već predstavljaju i stalnu opasnost od saplitanja i padova. Ovaj problem je najčešći kod novih tepiha koji su dugo bili urolani u magacinima, ali se često javlja i kod starijih usled promene vlažnosti vazduha ili grubog prelaska usisivačem.",
         "sentiment": "Negative",
-        "category": "Tech",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Na druge oglase se javi 50 ljudi, a za ovaj posao jedva četvoro: U Srbiji otvore...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Evo kako da sprečite da se ivice tepiha saviju: 5 brzih trikova koji provereno r...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/zeljko-vasic-ne-volim-da-vidim-decu-i-porodicu-na-svom-koncertu-to-mi-smeta/jgbsgt0",
+        "url": "https://www.blic.rs/vesti/politika/ovo-je-spoljnopoliticki-plan-studentske-liste/1p5xmrn",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "\"NE VOLIM DA VIDIM DECU I PORODICU NA SVOM KONCERTU, TO MI SMETA\" Željko Vasić otvorio dušu, ima čudno pravilo: \"Oni znaju za moju muku\" (Video). Pevač Željko Vasić održao je večeras koncert u Beogradu, gde je priredio veče ispunjeno snažnim emocijama i bezvremenskim hitovima. Nakon nastupa, vidno zadovoljan i pun utisaka, pevač je sumirao rezultate ovog projekta.",
-        "zhSummary": "\"NE VOLIM DA VIDIM DECU I PORODICU NA SVOM KONCERTU, TO MI SMETA\" Željko Vasić otvorio dušu, ima čudno pravilo: \"Oni znaju za moju muku\" (Video). Pevač Željko Vasić održao je večeras koncert u Beogradu, gde je priredio veče ispunjeno snažnim emocijama i bezvremenskim hitovima. Nakon nastupa, vidno zadovoljan i pun utisaka, pevač je sumirao rezultate ovog projekta.",
+        "original": "O RUSIJI REFERENDUM, ZA KOSOVO \"PREGOVORI\" Ovo je spoljnopolitički plan Studentske liste: Delegacije pakuju kofere za ove 2 zemlje. \"Srbija ostaje na putu evropskih integracija\", \"dijalog o Kosovu će biti nastavljen\", \"o sankcijama Rusiji odlučivaće građani na referendumu\", a \"delegacije će putovati u Moskvu i Vašington radi ugovaranja dugoročnijih aranžmana\". Ovako, ukratko, izgleda plan Studentske liste za vođenje spoljne politike. Otkako je postalo jasno da će Studentska lista preuzeti vlast u Srbiji, postavlja se pitanje hoće li zadržati politiku \"četiri stuba diplomatije\" - Rusiju, Evropsku uniju (EU), Ameriku i Kinu, ili će doći do promena?",
+        "zhSummary": "O RUSIJI REFERENDUM, ZA KOSOVO \"PREGOVORI\" Ovo je spoljnopolitički plan Studentske liste: Delegacije pakuju kofere za ove 2 zemlje. \"Srbija ostaje na putu evropskih integracija\", \"dijalog o Kosovu će biti nastavljen\", \"o sankcijama Rusiji odlučivaće građani na referendumu\", a \"delegacije će putovati u Moskvu i Vašington radi ugovaranja dugoročnijih aranžmana\". Ovako, ukratko, izgleda plan Studentske liste za vođenje spoljne politike. Otkako je postalo jasno da će Studentska lista preuzeti vlast u Srbiji, postavlja se pitanje hoće li zadržati politiku \"četiri stuba diplomatije\" - Rusiju, Evropsku uniju (EU), Ameriku i Kinu, ili će doći do promena?",
         "sentiment": "Neutral",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"NE VOLIM DA VIDIM DECU I PORODICU NA SVOM KONCERTU, TO MI SMETA\" Željko Vasić o...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'O RUSIJI REFERENDUM, ZA KOSOVO \"PREGOVORI\" Ovo je spoljnopolitički plan Students...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/politika/ekonomski-analiticar-kritikovao-plan-studentske-liste-za-vojsku-srbije/1t1h2e7",
+        "url": "https://www.blic.rs/vesti/svet/ko-je-stiven-miler-novi-sef-kabineta-bele-kuce-izbor-coveka-koji-izaziva-strah-i-bes/dnpblt7",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "\"TOLIKO NOVCA DAJU ZEMLJE U STALNOM RIZIKU OD SUKOBA\" Ekonomski analitičar kritikovao plan Studentske liste za Vojsku Srbije: \"Izdvajali smo ubedljivo najviše od svih susednih zemalja\". Vasko Kelić, istraživač saradnik na Institutu društvenih nauka i doktorand na Ekonomskom fakultetu u Beogradu rekao je danas da \"nema zemlje u okruženju Srbije koja izdvaja 5% BDP-a za vojsku\", nakon što je predstavnik Studentske liste Luka Ponorac predstavljajući plan te liste za sistem odbrane rekao da će se težiti ka takvom budžetu.",
-        "zhSummary": "\"TOLIKO NOVCA DAJU ZEMLJE U STALNOM RIZIKU OD SUKOBA\" Ekonomski analitičar kritikovao plan Studentske liste za Vojsku Srbije: \"Izdvajali smo ubedljivo najviše od svih susednih zemalja\". Vasko Kelić, istraživač saradnik na Institutu društvenih nauka i doktorand na Ekonomskom fakultetu u Beogradu rekao je danas da \"nema zemlje u okruženju Srbije koja izdvaja 5% BDP-a za vojsku\", nakon što je predstavnik Studentske liste Luka Ponorac predstavljajući plan te liste za sistem odbrane rekao da će se težiti ka takvom budžetu.",
-        "sentiment": "Neutral",
+        "original": "\"ARHITEKTA TERORA\" Njegovo ime izaziva bes u Americi, a Tramp mu je sada dao još veću moć: Izabrao je NAJOPASNIJEG čoveka za desnu ruku. Predsednik Sjedinjenih Američkih Država Donald Tramp imenovao je svog dugogodišnjeg savetnika Stivena Milera za šefa kabineta Bele kuće. Ovaj potez, smatraju mediji, predstavlja dodatno učvršćivanje Trampovih najkontroverznijih politika, nakon što je Republikanska stranka pretrpela težak poraz na međuizborima početkom ove nedelje. Miler je u javnosti poznat po ulozi u kreiranju Trampove imigracione politike, uključujući masovne deportacije i razdvajanje migrantskih porodica.",
+        "zhSummary": "\"ARHITEKTA TERORA\" Njegovo ime izaziva bes u Americi, a Tramp mu je sada dao još veću moć: Izabrao je NAJOPASNIJEG čoveka za desnu ruku. Predsednik Sjedinjenih Američkih Država Donald Tramp imenovao je svog dugogodišnjeg savetnika Stivena Milera za šefa kabineta Bele kuće. Ovaj potez, smatraju mediji, predstavlja dodatno učvršćivanje Trampovih najkontroverznijih politika, nakon što je Republikanska stranka pretrpela težak poraz na međuizborima početkom ove nedelje. Miler je u javnosti poznat po ulozi u kreiranju Trampove imigracione politike, uključujući masovne deportacije i razdvajanje migrantskih porodica.",
+        "sentiment": "Negative",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"TOLIKO NOVCA DAJU ZEMLJE U STALNOM RIZIKU OD SUKOBA\" Ekonomski analitičar kriti...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"ARHITEKTA TERORA\" Njegovo ime izaziva bes u Americi, a Tramp mu je sada dao još...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/drustvo/boleo-je-zub-15-godina-izvadili-ga-i-nasli-iglu-u-desni/yp479b1",
+        "url": "https://www.blic.rs/vremenska-prognoza/prognoza-do-decembra-drasticni-skokovi-temperature-evo-sta-sledi/511p7rx",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "LESKOVČANKU 15 GODINA BOLEO ZUB, A LEKA NIJE BILO Stomatolog ostao u šoku kada je otkrio razlog: Izvadio joj je šesticu, pa zatekao JEZIV PRIZOR. Punih 15 godina M. D. (39) iz Leskovca trpela je bolove u jednoj \"šestici\". Zub je bio pod plombom još iz vremena kada je studirala, ali plomba je bila čvrsta, desni zdrave, bez upale i infekcije. Ništa nije objašnjavalo bol koji se uporno vraćao.",
-        "zhSummary": "LESKOVČANKU 15 GODINA BOLEO ZUB, A LEKA NIJE BILO Stomatolog ostao u šoku kada je otkrio razlog: Izvadio joj je šesticu, pa zatekao JEZIV PRIZOR. Punih 15 godina M. D. (39) iz Leskovca trpela je bolove u jednoj \"šestici\". Zub je bio pod plombom još iz vremena kada je studirala, ali plomba je bila čvrsta, desni zdrave, bez upale i infekcije. Ništa nije objašnjavalo bol koji se uporno vraćao.",
+        "original": "ALARM I DRAMATIČAN PREOKRET! RHMZ najavio jak mraz, a onda stižu kiša i udari košave od kojih će sve da se TRESE: Prognoza iz dana u dan. Hladna jutra sa gustim maglama i mrazom, iznenadni skokovi temperature, prolazni pljuskovi i olujni udari košave obeležiće vremenske prilike u narednom periodu. Pred nama je izuzetno dinamična jesenja vremenska situacija sa čestim promenama vazdušnih masa i padavinama.",
+        "zhSummary": "ALARM I DRAMATIČAN PREOKRET! RHMZ najavio jak mraz, a onda stižu kiša i udari košave od kojih će sve da se TRESE: Prognoza iz dana u dan. Hladna jutra sa gustim maglama i mrazom, iznenadni skokovi temperature, prolazni pljuskovi i olujni udari košave obeležiće vremenske prilike u narednom periodu. Pred nama je izuzetno dinamična jesenja vremenska situacija sa čestim promenama vazdušnih masa i padavinama.",
+        "sentiment": "Negative",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'ALARM I DRAMATIČAN PREOKRET! RHMZ najavio jak mraz, a onda stižu kiša i udari ko...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/ivana-sa-25-godina-izgubila-nevinost-sa-ovim-40-godina-starijim-poznatim-covekom/0nk5nfh",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"IZGUBILA SAM NEVINOST SA 40 GODINA STARIJIM\" Ivana je bila devica do 25. godine, pa se predala OVOM POZNATOM MUŠKARCU: \"Došla je kod mene u stan\". Nekadašnja Mis Balkana i bivša učesnica rijaliti šoua \"Parovi\", Ivana Mitrović, obelodanila je javnosti da uživa u emotivnom odnosu sa fotoreporterom Zoranom Buđićem Kobrom, koji je od nje stariji čitave četiri decenije. Ona je istakla da je upravo sa njim prvi put osetila intimnu bliskost po napuštanju pomenutog TV formata.",
+        "zhSummary": "\"IZGUBILA SAM NEVINOST SA 40 GODINA STARIJIM\" Ivana je bila devica do 25. godine, pa se predala OVOM POZNATOM MUŠKARCU: \"Došla je kod mene u stan\". Nekadašnja Mis Balkana i bivša učesnica rijaliti šoua \"Parovi\", Ivana Mitrović, obelodanila je javnosti da uživa u emotivnom odnosu sa fotoreporterom Zoranom Buđićem Kobrom, koji je od nje stariji čitave četiri decenije. Ona je istakla da je upravo sa njim prvi put osetila intimnu bliskost po napuštanju pomenutog TV formata.",
+        "sentiment": "Negative",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"IZGUBILA SAM NEVINOST SA 40 GODINA STARIJIM\" Ivana je bila devica do 25. godine...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/hronika/za-nedelju-dana-u-srbiji-uhapseno-19-visokih-funkcionera-prali-pare-kupovali/qjvt6jm",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "PRALI PARE, KUPOVALI NEKRETNINE PO SRBIJI I INOSTRANSTVU... U nedelju dana uhapšeno 19 FUNKCIONERA: Otkrivamo za koja se krivična dela sumnjiče. Od 1. novembra do danas uhapšeno je više visokih policijskih funkcionera, među kojima su direktor Republičkog hidrometeorološkog zavoda Jugoslav Nikolić, vlasnik Alta banke Davor Macura i pokrajinski sekretar Predrag Vuletić. Hapšenja su sprovedena u okviru različitih istraga zbog sumnje na zloupotrebe službenog položaja, pranje novca i druga krivična dela.",
+        "zhSummary": "PRALI PARE, KUPOVALI NEKRETNINE PO SRBIJI I INOSTRANSTVU... U nedelju dana uhapšeno 19 FUNKCIONERA: Otkrivamo za koja se krivična dela sumnjiče. Od 1. novembra do danas uhapšeno je više visokih policijskih funkcionera, među kojima su direktor Republičkog hidrometeorološkog zavoda Jugoslav Nikolić, vlasnik Alta banke Davor Macura i pokrajinski sekretar Predrag Vuletić. Hapšenja su sprovedena u okviru različitih istraga zbog sumnje na zloupotrebe službenog položaja, pranje novca i druga krivična dela.",
+        "sentiment": "Negative",
+        "category": "Finance",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'PRALI PARE, KUPOVALI NEKRETNINE PO SRBIJI I INOSTRANSTVU... U nedelju dana uhapš...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/drustvo/video-prica-o-sonji-cije-ruke-prave-cuda-uprkos-dijagnozi-cerebralne-paralize/5eg51ly",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "(VIDEO) Kasnije je krenula u školu, zbog bolesti nije imala razvijenu motoriku, ali NJENE RUKE SADA STVARAJU ČUDA!  Sonja nije dozvolila da joj dijagnoza kroji život. Kada mozgu i telu dijagnoza od rođenja izdiktira drugačiji pokret, život postane poligon u kom se granice testiraju svakodnevno. Sonja Simeonović živi sa posledicama cerebralne paralize, ali je kroz decenije rada, strasti i nepristajanja na kalupe, izrasla u prepoznatljivu modistkinju i autentičnu umetnicu čiji šeširi osvajaju poglede. Njen put – od devojčice koja je mrzela fizikalne vežbe do žene koja ponosno nosi titulu \"Šeširdžija\" – predstavlja inspirativnu hroniku pobede kreativnosti nad fizičkim ograničenjima.",
+        "zhSummary": "(VIDEO) Kasnije je krenula u školu, zbog bolesti nije imala razvijenu motoriku, ali NJENE RUKE SADA STVARAJU ČUDA!  Sonja nije dozvolila da joj dijagnoza kroji život. Kada mozgu i telu dijagnoza od rođenja izdiktira drugačiji pokret, život postane poligon u kom se granice testiraju svakodnevno. Sonja Simeonović živi sa posledicama cerebralne paralize, ali je kroz decenije rada, strasti i nepristajanja na kalupe, izrasla u prepoznatljivu modistkinju i autentičnu umetnicu čiji šeširi osvajaju poglede. Njen put – od devojčice koja je mrzela fizikalne vežbe do žene koja ponosno nosi titulu \"Šeširdžija\" – predstavlja inspirativnu hroniku pobede kreativnosti nad fizičkim ograničenjima.",
         "sentiment": "Neutral",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'LESKOVČANKU 15 GODINA BOLEO ZUB, A LEKA NIJE BILO Stomatolog ostao u šoku kada j...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(VIDEO) Kasnije je krenula u školu, zbog bolesti nije imala razvijenu motoriku, ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/slobodno-vreme/zasto-vam-je-spavaca-soba-uvek-u-haosu-strucnjaci-otkrivaju-pravi-razlog/ddy897r",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "Dnevni boravak i kuhinja nam blistaju, ali ormari kriju haos?Psiholozi otkrivaju istinu o našim navikama i neredu koji skrivamo. Svima nam se dešava: dođe poseta, neočekivana ili ne, i za nekoliko minuta nestanu sudovi iz sudopere, jastuci na sofi se nameste, a sto u dnevnoj sobi ponovo bude čist. Sve izgleda uredno. Dok neko ne pita da li može da ostavi kaput u spavaćoj sobi. Tu počinje problem.",
+        "zhSummary": "Dnevni boravak i kuhinja nam blistaju, ali ormari kriju haos?Psiholozi otkrivaju istinu o našim navikama i neredu koji skrivamo. Svima nam se dešava: dođe poseta, neočekivana ili ne, i za nekoliko minuta nestanu sudovi iz sudopere, jastuci na sofi se nameste, a sto u dnevnoj sobi ponovo bude čist. Sve izgleda uredno. Dok neko ne pita da li može da ostavi kaput u spavaćoj sobi. Tu počinje problem.",
+        "sentiment": "Negative",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Dnevni boravak i kuhinja nam blistaju, ali ormari kriju haos?Psiholozi otkrivaju...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/jeleni-nakon-operacije-tumora-stigli-rezultati-odbijala-sam-zracenja/3gtxtp4",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "\"ODBILA SAM ZRAČENJA\" Jeleni nakon operacije tumora stigli rezultati: \"Išla sam na rizik, majka je plakala\". Bivša rijaliti učesnica Jelena Batos nedavno je operisala tumor, a sada su joj stigle prve analize nakon operacije. Ona je rekla da ne želi prerano da se raduje, dok biopsija ne bude gotova, ali da su za sada rezultati dobri.",
+        "zhSummary": "\"ODBILA SAM ZRAČENJA\" Jeleni nakon operacije tumora stigli rezultati: \"Išla sam na rizik, majka je plakala\". Bivša rijaliti učesnica Jelena Batos nedavno je operisala tumor, a sada su joj stigle prve analize nakon operacije. Ona je rekla da ne želi prerano da se raduje, dok biopsija ne bude gotova, ali da su za sada rezultati dobri.",
+        "sentiment": "Negative",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"ODBILA SAM ZRAČENJA\" Jeleni nakon operacije tumora stigli rezultati: \"Išla sam ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/svet/ko-je-baka-helen-75-prva-bela-gradonacelnica-johanesburga-posle-aparthejda/ez2hekv",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "(VIDEO) Driftuje u BMW-u, roni po krateru: Baka (75) prkosi godinama, ruši sve prepreke i sprema se za NAJVEĆI POLITIČKI USPEH. U predizbornom spotu kojim je želela da privuče mlađe birače u Južnoj Africi vozila je BMW na stazi i driftovala praveći oštre krugove uz škripu guma. Potom je ronila u ogromnoj, poplavljenoj rupi na asfaltu kako bi svima pokazala u kakvom su stanju uništene ulice Johanesburga. Sada je Helen Zil (75) na pragu svog najvećeg političkog poduhvata - mogla bi da postane prva belkinja gradonačelnica Johanesburga posle aparthejda.",
+        "zhSummary": "(VIDEO) Driftuje u BMW-u, roni po krateru: Baka (75) prkosi godinama, ruši sve prepreke i sprema se za NAJVEĆI POLITIČKI USPEH. U predizbornom spotu kojim je želela da privuče mlađe birače u Južnoj Africi vozila je BMW na stazi i driftovala praveći oštre krugove uz škripu guma. Potom je ronila u ogromnoj, poplavljenoj rupi na asfaltu kako bi svima pokazala u kakvom su stanju uništene ulice Johanesburga. Sada je Helen Zil (75) na pragu svog najvećeg političkog poduhvata - mogla bi da postane prva belkinja gradonačelnica Johanesburga posle aparthejda.",
+        "sentiment": "Negative",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(VIDEO) Driftuje u BMW-u, roni po krateru: Baka (75) prkosi godinama, ruši sve p...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
     },
     {
         "source": "Blic Tech",
