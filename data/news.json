@@ -1,135 +1,135 @@
 [
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/dete-2-nestalo-na-aerodromu-ben-gurion-pronadjeno-na-pokretnoj-traci-za-prtljag/zctl43h",
+        "url": "https://www.blic.rs/vesti/beograd/u-beogradu-tri-saobracajne-nezgode-tokom-noci-petoro-povredjeno/bhzg0xr",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "Dete (2) nestalo na aerodromu: Pronađeno na pokretnoj traci za prtljag. Dvogodišnje dete nakratko je nestalo na međunarodnom aerodromu Ben Gurion u Izraelu, nakon što se popelo na pokretnu traku za prtljag i njome prešlo nekoliko metara do dela gde se koferi razvrstavaju pre utovara u avione.",
-        "zhSummary": "Dete (2) nestalo na aerodromu: Pronađeno na pokretnoj traci za prtljag. Dvogodišnje dete nakratko je nestalo na međunarodnom aerodromu Ben Gurion u Izraelu, nakon što se popelo na pokretnu traku za prtljag i njome prešlo nekoliko metara do dela gde se koferi razvrstavaju pre utovara u avione.",
+        "original": "TRI NESREĆE SINOĆ U BEOGRADU! Petoro povređenih,  Hitna pomoć nije stala: Noć PIJANSTAVA, TUČA I PADOVA. Tokom protekle noći u Beogradu su se dogodile tri saobraćajne nezgode u kojima je pet osoba lakše povređeno, rečeno je jutros agenciji Tanjug iz službe hitne pomoći.",
+        "zhSummary": "TRI NESREĆE SINOĆ U BEOGRADU! Petoro povređenih,  Hitna pomoć nije stala: Noć PIJANSTAVA, TUČA I PADOVA. Tokom protekle noći u Beogradu su se dogodile tri saobraćajne nezgode u kojima je pet osoba lakše povređeno, rečeno je jutros agenciji Tanjug iz službe hitne pomoći.",
         "sentiment": "Neutral",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Dete (2) nestalo na aerodromu: Pronađeno na pokretnoj traci za prtljag. Dvogodiš...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'TRI NESREĆE SINOĆ U BEOGRADU! Petoro povređenih,  Hitna pomoć nije stala: Noć PI...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/makron-ovo-je-recept-za-sledeci-rat/b6rxft1",
+        "url": "https://www.blic.rs/vesti/svet/potpuni-kolaps-u-americi-910-letova-otkazano-sistem-jos-ne-radi-ovo-je-uzrok/d9pdq8m",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "\"OVO JE RECEPT ZA SLEDEĆI RAT\" Makron upozorio Evropu: Uskraćivanje pomoći Ukrajini predstavlja pretnju za čitav evropski kontinent. Francuski predsednik Emanuel Makron izjavio je danas da oni koji žele da ograniče sredstva namenjena Ukrajini nastoje da primoraju Kijev da prihvati nepravedan mir.",
-        "zhSummary": "\"OVO JE RECEPT ZA SLEDEĆI RAT\" Makron upozorio Evropu: Uskraćivanje pomoći Ukrajini predstavlja pretnju za čitav evropski kontinent. Francuski predsednik Emanuel Makron izjavio je danas da oni koji žele da ograniče sredstva namenjena Ukrajini nastoje da primoraju Kijev da prihvati nepravedan mir.",
+        "original": "POTPUNI KOLAPS U AMERICI! I danas otkazano više od 900 letova, putnici zaglavljeni i BESNI, cela zemlja u haosu: Tramp hitno ga SMENI!. U Sjedinjenim Američkim Državama za danas je, zbog poremećaja koje je izazvao kvar opreme u sistemu kontrole letenja, otkazano 910 letova, a prema podacima paltforme za praćenje letova i vazdušnog saobraćaja FlightAware, broj otkazanih letova nastavlja da raste.",
+        "zhSummary": "POTPUNI KOLAPS U AMERICI! I danas otkazano više od 900 letova, putnici zaglavljeni i BESNI, cela zemlja u haosu: Tramp hitno ga SMENI!. U Sjedinjenim Američkim Državama za danas je, zbog poremećaja koje je izazvao kvar opreme u sistemu kontrole letenja, otkazano 910 letova, a prema podacima paltforme za praćenje letova i vazdušnog saobraćaja FlightAware, broj otkazanih letova nastavlja da raste.",
         "sentiment": "Neutral",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"OVO JE RECEPT ZA SLEDEĆI RAT\" Makron upozorio Evropu: Uskraćivanje pomoći Ukraj...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'POTPUNI KOLAPS U AMERICI! I danas otkazano više od 900 letova, putnici zaglavlje...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/ajzenkot-odbacio-ponudu-netanjahua-za-formiranje-vlade-nacionalnog-jedinstva/56essw6",
+        "url": "https://www.blic.rs/zabava/goca-trzan-skace-u-prvom-redu-na-aleksandrinom-koncertu-grli-kneza-pred-muzem/h69qkmh",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "NIŠTA OD VLADE NACIONALNOG JEDINSTVA Ajzenkot ŽESTOKO odbio Netanjahua: Evo šta traži. Lider izraelske stranke Jašar i mandatar za sastav nove vlade Gadi Ajzenkot odbacio je danas ponudu premijera Izraela u tehničkom mandatu Benjamina Netanjahua da se pregovara o vladi nacionalnog jedinstva.",
-        "zhSummary": "NIŠTA OD VLADE NACIONALNOG JEDINSTVA Ajzenkot ŽESTOKO odbio Netanjahua: Evo šta traži. Lider izraelske stranke Jašar i mandatar za sastav nove vlade Gadi Ajzenkot odbacio je danas ponudu premijera Izraela u tehničkom mandatu Benjamina Netanjahua da se pregovara o vladi nacionalnog jedinstva.",
+        "original": "(VIDEO) SVE OČI UPRTE U GOCU TRŽAN NA KONCERTU ALEKSANDRE RADOVIĆ Igra i skače u prvom redu kao da sutra ne postoji - Knez je grli pred njenim mužem Rašom. Poznata pevačica Aleksandra Radović održala je sinoć veliki koncert u Sava Centru. U prvim redovima su bile njene kolege, a među njima se našla i Goca Tržan.",
+        "zhSummary": "(VIDEO) SVE OČI UPRTE U GOCU TRŽAN NA KONCERTU ALEKSANDRE RADOVIĆ Igra i skače u prvom redu kao da sutra ne postoji - Knez je grli pred njenim mužem Rašom. Poznata pevačica Aleksandra Radović održala je sinoć veliki koncert u Sava Centru. U prvim redovima su bile njene kolege, a među njima se našla i Goca Tržan.",
         "sentiment": "Neutral",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'NIŠTA OD VLADE NACIONALNOG JEDINSTVA Ajzenkot ŽESTOKO odbio Netanjahua: Evo šta ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(VIDEO) SVE OČI UPRTE U GOCU TRŽAN NA KONCERTU ALEKSANDRE RADOVIĆ Igra i skače u...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/hronika/crnogorske-drzavljanke-uhapsene-u-kaliforniji-zbog-poslovanja-sa-drogom/b6xzjre",
+        "url": "https://www.blic.rs/vesti/svet/da-li-su-medjuizbori-promenili-izbornu-mapu-amerike/6bm4gqs",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "ŽENE SA BALKANA UHAPŠENE U AMERICI! Policija im našla 100.000 dolara stečenih putem poslova sa drogom. Tridesetdvogodišnja Katarina Keković i osam godina starija Margita Vukčević, obe sa prebivalištem u Irvajnu, uhapšene su u kalifornijskom okrugu Orindž, a svaka se sumnjiči za posedovanje više od 100.000 dolara povezanih sa nezakonitim poslovima sa drogom.",
-        "zhSummary": "ŽENE SA BALKANA UHAPŠENE U AMERICI! Policija im našla 100.000 dolara stečenih putem poslova sa drogom. Tridesetdvogodišnja Katarina Keković i osam godina starija Margita Vukčević, obe sa prebivalištem u Irvajnu, uhapšene su u kalifornijskom okrugu Orindž, a svaka se sumnjiči za posedovanje više od 100.000 dolara povezanih sa nezakonitim poslovima sa drogom.",
-        "sentiment": "Neutral",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'ŽENE SA BALKANA UHAPŠENE U AMERICI! Policija im našla 100.000 dolara stečenih pu...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/marijana-mateus-u-stajlingu-od-63500-evra-stranci-u-soku-kad-su-je-zaustavili/gt76twz",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "MARIJANA MATEUS U STAJLINGU OD 63.500 EVRA Stranci je zaustavili na ulici i ostali u ŠOKU: Otkrila i kako se neguje. Svojim besprekornim stilom i negovanim izgledom na ulici, kreatorka Marijana Mateus privukla je pažnju poznatih stranih influensera koji prolaznike ispituju o modnim kombinacijama. Na njihovo pitanje o garderobi, Marijana je rado otkrila šta nosi.",
-        "zhSummary": "MARIJANA MATEUS U STAJLINGU OD 63.500 EVRA Stranci je zaustavili na ulici i ostali u ŠOKU: Otkrila i kako se neguje. Svojim besprekornim stilom i negovanim izgledom na ulici, kreatorka Marijana Mateus privukla je pažnju poznatih stranih influensera koji prolaznike ispituju o modnim kombinacijama. Na njihovo pitanje o garderobi, Marijana je rado otkrila šta nosi.",
-        "sentiment": "Neutral",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'MARIJANA MATEUS U STAJLINGU OD 63.500 EVRA Stranci je zaustavili na ulici i osta...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/kusner-u-toku-konsultacije-rusije-ukrajine-i-evropskih-partnera-o-narednim-koracima/rkfxh1w",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "\"U TOKU KONSULTACIJE RUSIJE, UKRAJINE I EVROPSKIH PARTNERA\" Oglasio se Kušner: \"Neophodni praktični kompromisi da bi se okončao rat\". Jedan od izaslanika američkog predsednika Donalda Trampa u pregovorima o okončanju rata u Ukrajini, Džarred Kušner saopštio je da su nakon trilateralnih sastanaka i razgovora sa ruskim predsednikom Vladimirom Putinom i ukrajinskim predsednikom Volodimirom Zelenskim nastavljene konsultacije sa Moskvom, Kijevom i evropskim partnerima.",
-        "zhSummary": "\"U TOKU KONSULTACIJE RUSIJE, UKRAJINE I EVROPSKIH PARTNERA\" Oglasio se Kušner: \"Neophodni praktični kompromisi da bi se okončao rat\". Jedan od izaslanika američkog predsednika Donalda Trampa u pregovorima o okončanju rata u Ukrajini, Džarred Kušner saopštio je da su nakon trilateralnih sastanaka i razgovora sa ruskim predsednikom Vladimirom Putinom i ukrajinskim predsednikom Volodimirom Zelenskim nastavljene konsultacije sa Moskvom, Kijevom i evropskim partnerima.",
-        "sentiment": "Neutral",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"U TOKU KONSULTACIJE RUSIJE, UKRAJINE I EVROPSKIH PARTNERA\" Oglasio se Kušner: \"...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/svet/ostre-poruke-iz-moskve-zaharova-optuzila-nato-da-slabi-imuni-sistem-evrope/30k1wwe",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "\"NATO JE OSLABIO IMUNI SISTEM EVROPE\" Zaharova uporedila Alijansu sa bolnim zubom: Iznela oštre optužbe na račun Zapada. Evropa bi bila bezbednija bez NATO-a, izjavila je danas portparolka ruskog Ministarstva spoljnih poslova Marija Zaharova, uporedivši tu organizaciju sa bolnim zubom.",
-        "zhSummary": "\"NATO JE OSLABIO IMUNI SISTEM EVROPE\" Zaharova uporedila Alijansu sa bolnim zubom: Iznela oštre optužbe na račun Zapada. Evropa bi bila bezbednija bez NATO-a, izjavila je danas portparolka ruskog Ministarstva spoljnih poslova Marija Zaharova, uporedivši tu organizaciju sa bolnim zubom.",
+        "original": "Da li su međuizbori promenili izbornu mapu Amerike? Demokrate osvojile neosvojive republikanske tvrđave. “Da promenim izvor proteina? Radije ću da promenim svog senatora” rekao je glasač iz Misisipija u spotu demokrate i kandidata za senatora Skota Koloma, u video kadru roštiljajući burgere u dvorištu svoje kuće. Ovaj zanimljiv odgovor bio je reakcija na komentar republikanske kandidatkinje Sindi Hajd Smit, koja je na konstataciju novinara da su carine dovele do poskupljenja govedine izjavila da građani imaju i druge izvore proteina, ako im je govedina skupa. Iako rezultati još uvek nisu sigurni i očekuje se finalna potvrda, deluje da je poruka iz spota solidno pogodila jer demokrata Kolom trenutno vodi u trci i to u ovoj državi gde je pre samo dve godine Donald Tramp pobedio svoju demokratsku konkurentkinju sa 22% razlike!",
+        "zhSummary": "Da li su međuizbori promenili izbornu mapu Amerike? Demokrate osvojile neosvojive republikanske tvrđave. “Da promenim izvor proteina? Radije ću da promenim svog senatora” rekao je glasač iz Misisipija u spotu demokrate i kandidata za senatora Skota Koloma, u video kadru roštiljajući burgere u dvorištu svoje kuće. Ovaj zanimljiv odgovor bio je reakcija na komentar republikanske kandidatkinje Sindi Hajd Smit, koja je na konstataciju novinara da su carine dovele do poskupljenja govedine izjavila da građani imaju i druge izvore proteina, ako im je govedina skupa. Iako rezultati još uvek nisu sigurni i očekuje se finalna potvrda, deluje da je poruka iz spota solidno pogodila jer demokrata Kolom trenutno vodi u trci i to u ovoj državi gde je pre samo dve godine Donald Tramp pobedio svoju demokratsku konkurentkinju sa 22% razlike!",
         "sentiment": "Neutral",
         "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"NATO JE OSLABIO IMUNI SISTEM EVROPE\" Zaharova uporedila Alijansu sa bolnim zubo...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Da li su međuizbori promenili izbornu mapu Amerike? Demokrate osvojile neosvojiv...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/hronika/teska-saobracajna-nezgoda-kod-cacka-troje-turskih-drzavljana-povredjeno/jlxsv1w",
+        "url": "https://www.blic.rs/vesti/politika/ovo-ce-biti-kljucan-trenutak-za-studentsku-listu-mozemo-to-ocekivati-u-prvih-100-dana/8h5rksn",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "TEŠKA SAOBRAĆAJNA NEZGODA KOD ČAČKA Automobil sleteo sa puta: Troje turskih državljana povređeno. Na putu između Preljine i Šebeka, na teritoriji grada Čačka, dogodila se teža saobraćajna nezgoda u kojoj su povređena tri turska državljanina, nakon što je putnički automobil u kom su se nalazili sleteo sa kolovoza.",
-        "zhSummary": "TEŠKA SAOBRAĆAJNA NEZGODA KOD ČAČKA Automobil sleteo sa puta: Troje turskih državljana povređeno. Na putu između Preljine i Šebeka, na teritoriji grada Čačka, dogodila se teža saobraćajna nezgoda u kojoj su povređena tri turska državljanina, nakon što je putnički automobil u kom su se nalazili sleteo sa kolovoza.",
+        "original": "OVO ĆE BITI KLJUČNI TRENUTAK ZA STUDENTSKU LISTU? \"Možemo to očekivati u prvih 100 dana\": Tri velika izazova u fokusu nove Vlade i Skupštine Srbije. Dok se čeka konstituisanje i izbor predsednika skupštine, zadatke koji će biti pred poslanicima analizirali su Stefan Surlić, profesor Fakulteta političkih nauka, Aleksandar Lukić, naučni saradnik Instituta za političke studije i Radojka Nikolić, ekonomska novinarka i urednica magazina Biznis.",
+        "zhSummary": "OVO ĆE BITI KLJUČNI TRENUTAK ZA STUDENTSKU LISTU? \"Možemo to očekivati u prvih 100 dana\": Tri velika izazova u fokusu nove Vlade i Skupštine Srbije. Dok se čeka konstituisanje i izbor predsednika skupštine, zadatke koji će biti pred poslanicima analizirali su Stefan Surlić, profesor Fakulteta političkih nauka, Aleksandar Lukić, naučni saradnik Instituta za političke studije i Radojka Nikolić, ekonomska novinarka i urednica magazina Biznis.",
         "sentiment": "Neutral",
         "category": "Energy",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'TEŠKA SAOBRAĆAJNA NEZGODA KOD ČAČKA Automobil sleteo sa puta: Troje turskih drža...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'OVO ĆE BITI KLJUČNI TRENUTAK ZA STUDENTSKU LISTU? \"Možemo to očekivati u prvih 1...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/aleksandra-radovic-o-cerki-i-nikoliji-kojoj-daje-casove-pevanja-ne-vezba-dovoljno/njdhfkd",
+        "url": "https://www.blic.rs/zabava/ovo-je-mocni-muz-marije-petronijevic-sa-kojim-ima-troje-dece-milinka-je-krila/gmc5ms6",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "\"NIKOLIJA NE VEŽBA DOVOLJNO!\" Aleksandra Radović iskreno o koleginici kojoj drži časove pevanja, a o ćerki kaže: \"U kući mora da se zna KO KOSI, A KO VODU NOSI\" (VIDEO). Pevačica Aleksandra Radović održala je večeras veliki koncert u srpskoj prestonici, a malo posle istog osvrnula se na planove za naredni period, te spomenula i koleginice. Kritikovala je Nikoliju, kojoj daje časove pevanja, te spomenula i ćerku Ninu, koja joj je centar sveta.",
-        "zhSummary": "\"NIKOLIJA NE VEŽBA DOVOLJNO!\" Aleksandra Radović iskreno o koleginici kojoj drži časove pevanja, a o ćerki kaže: \"U kući mora da se zna KO KOSI, A KO VODU NOSI\" (VIDEO). Pevačica Aleksandra Radović održala je večeras veliki koncert u srpskoj prestonici, a malo posle istog osvrnula se na planove za naredni period, te spomenula i koleginice. Kritikovala je Nikoliju, kojoj daje časove pevanja, te spomenula i ćerku Ninu, koja joj je centar sveta.",
-        "sentiment": "Neutral",
+        "original": "OVO JE MOĆNI MUŽ MARIJE PETRONIJEVIĆ SA KOJIM IMA TROJE DECE Milinka je dugo krila od javnosti, a zajedno žive na selu: \"Kad god je neka kriza on je uvek tu\". Pre nekoliko godina glumica Marija Petronijević donela je hrabru odluku na koju bi se malo ko usudio – napustila je glumačku profesiju i prestonicu kako bi se vratila u rodno selo Visibabe. Gradsku vrevu zamenila je potpuno drugačijim, mirnim načinom života daleko od očiju javnosti.",
+        "zhSummary": "OVO JE MOĆNI MUŽ MARIJE PETRONIJEVIĆ SA KOJIM IMA TROJE DECE Milinka je dugo krila od javnosti, a zajedno žive na selu: \"Kad god je neka kriza on je uvek tu\". Pre nekoliko godina glumica Marija Petronijević donela je hrabru odluku na koju bi se malo ko usudio – napustila je glumačku profesiju i prestonicu kako bi se vratila u rodno selo Visibabe. Gradsku vrevu zamenila je potpuno drugačijim, mirnim načinom života daleko od očiju javnosti.",
+        "sentiment": "Positive",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '\"NIKOLIJA NE VEŽBA DOVOLJNO!\" Aleksandra Radović iskreno o koleginici kojoj drži...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'OVO JE MOĆNI MUŽ MARIJE PETRONIJEVIĆ SA KOJIM IMA TROJE DECE Milinka je dugo kri...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Positive 定点特征。\n3. [跨维量化结论] 这一信号客观上将提振 All 宏观赛道的存量热度，我们直接判定为做多【利好 (Positive)】。"
     },
     {
         "source": "Blic Biznis",
-        "url": "https://www.blic.rs/slobodno-vreme/ruzmarin-zimi-5-pravila-da-biljka-prezivi-minus-na-balkonu-i-u-basti/n2m08ht",
+        "url": "https://www.blic.rs/slobodno-vreme/prasina-se-vraca-cim-je-obrisete-mozda-pravite-jednu-gresku-sa-krpom/z6p1r3e",
         "lang": "塞尔维亚语",
         "targetLang": "sr",
-        "original": "Zaštitite svoj ruzmarin u novembru kako bi preživeo zimu: Postoji zlatnih 5 pravila, evo šta treba da znate. Ruzmarin je nezaobilazna biljka u mnogim baštama, na terasama i balkonima. Osim što svojim aromatičnim listovima obogaćuje mnoga jela, ovaj zimzeleni mediteranski žbun je lep ukras tokom cele godine. Iako je reč o relativno otpornom i nezahtjevnom biljci, zimski meseci mogu biti pravi izazov, posebno u kontinentalnim krajevima gde temperature često padaju ispod nule.",
-        "zhSummary": "Zaštitite svoj ruzmarin u novembru kako bi preživeo zimu: Postoji zlatnih 5 pravila, evo šta treba da znate. Ruzmarin je nezaobilazna biljka u mnogim baštama, na terasama i balkonima. Osim što svojim aromatičnim listovima obogaćuje mnoga jela, ovaj zimzeleni mediteranski žbun je lep ukras tokom cele godine. Iako je reč o relativno otpornom i nezahtjevnom biljci, zimski meseci mogu biti pravi izazov, posebno u kontinentalnim krajevima gde temperature često padaju ispod nule.",
-        "sentiment": "Neutral",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Zaštitite svoj ruzmarin u novembru kako bi preživeo zimu: Postoji zlatnih 5 prav...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/vesti/drustvo/video-ovakva-scena-jos-nije-vidjena-evo-sta-je-izneo-iz-zgrade-u-novom-sadu/wnwdk0c",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "(VIDEO) OVAKO NEŠTO JOŠ NIJE ZABELEŽENO! Nesvakidašnja scena zabeležena kamerama u Novom Sadu: Pogledajte šta je izneo iz zgrade. U Novom Sadu večeras je, kako se sumnja, došlo do nesvakidašnje krađe.",
-        "zhSummary": "(VIDEO) OVAKO NEŠTO JOŠ NIJE ZABELEŽENO! Nesvakidašnja scena zabeležena kamerama u Novom Sadu: Pogledajte šta je izneo iz zgrade. U Novom Sadu večeras je, kako se sumnja, došlo do nesvakidašnje krađe.",
-        "sentiment": "Neutral",
-        "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(VIDEO) OVAKO NEŠTO JOŠ NIJE ZABELEŽENO! Nesvakidašnja scena zabeležena kamerama...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
-    },
-    {
-        "source": "Blic Biznis",
-        "url": "https://www.blic.rs/zabava/cerka-lune-i-marka-visi-sa-sajle-mala-mia-pokazala-koliko-je-neustrasiva/vh61gkr",
-        "lang": "塞尔维亚语",
-        "targetLang": "sr",
-        "original": "ĆERKA LUNE I MARKA VISI SA SAJLE! Mala Mia pokazala koliko je neustrašiva: Penje se uz visoke stubove i prelazi prepreke kao od šale - fanovi u šoku. Luna Đogani podelila je na svom Instagram profilu snimke iz jednog avantura parka, gde je njena starija ćerka Mia pokazala koliko je neustrašiva. Malena Mija je, potpuno opremljena sigurnosnim pojasom i zaštitnom kacigom, bez trunke straha savladavala prepreke na velikoj visini.",
-        "zhSummary": "ĆERKA LUNE I MARKA VISI SA SAJLE! Mala Mia pokazala koliko je neustrašiva: Penje se uz visoke stubove i prelazi prepreke kao od šale - fanovi u šoku. Luna Đogani podelila je na svom Instagram profilu snimke iz jednog avantura parka, gde je njena starija ćerka Mia pokazala koliko je neustrašiva. Malena Mija je, potpuno opremljena sigurnosnim pojasom i zaštitnom kacigom, bez trunke straha savladavala prepreke na velikoj visini.",
+        "original": "Prašina se vraća čim je obrišete - razlog može da bude pogrešno izabrana krpa. Tek što ste obrisali police i stolove, na njima se ponovo vide sitne čestice prašine? Problem može da bude u načinu čišćenja, a mala promena dovoljna je da se tokom brisanja manje nečistoće razleti po prostoriji.",
+        "zhSummary": "Prašina se vraća čim je obrišete - razlog može da bude pogrešno izabrana krpa. Tek što ste obrisali police i stolove, na njima se ponovo vide sitne čestice prašine? Problem može da bude u načinu čišćenja, a mala promena dovoljna je da se tokom brisanja manje nečistoće razleti po prostoriji.",
         "sentiment": "Negative",
         "category": "All",
-        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'ĆERKA LUNE I MARKA VISI SA SAJLE! Mala Mia pokazala koliko je neustrašiva: Penje...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'Prašina se vraća čim je obrišete - razlog može da bude pogrešno izabrana krpa. T...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/svet/ako-bi-sutra-poceo-rat-sa-rusijom-evropa-bi-mogla-da-ostane-bez-avionskog-goriva/rbbf2je",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "DA LI JE OVO NAJVEĆA SLABOST NATO-a?! Ako bi sutra počeo rat sa Rusijom, Evropa bi imala JEDAN VELIKI PROBLEM. Snage NATO-a mogle bi da se suoče sa nestašicom kerozina - avionskog goriva - u budućem ratu, jer prelazak Evrope sa fosilnih goriva i smanjenje kapaciteta za preradu nafte stvaraju opasne ranjivosti, navodi se u novoj studiji.",
+        "zhSummary": "DA LI JE OVO NAJVEĆA SLABOST NATO-a?! Ako bi sutra počeo rat sa Rusijom, Evropa bi imala JEDAN VELIKI PROBLEM. Snage NATO-a mogle bi da se suoče sa nestašicom kerozina - avionskog goriva - u budućem ratu, jer prelazak Evrope sa fosilnih goriva i smanjenje kapaciteta za preradu nafte stvaraju opasne ranjivosti, navodi se u novoj studiji.",
+        "sentiment": "Negative",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'DA LI JE OVO NAJVEĆA SLABOST NATO-a?! Ako bi sutra počeo rat sa Rusijom, Evropa ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/hronika/potresna-ispovest-roditelja-malog-bogdana-7-iz-vlasotinca-kojem-je-komsija-kolima/nc8lg51",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "(VIDEO) \"UZMITE MOJE ORGANE, SAMO NJEGA SPASITE!\" Potresna ispovest roditelja malog Bogdana (7) iz Vlasotinca: Komšija mu točkom prešao preko glave, a onda je počela BORBA SA NEPRAVDOM!. Jedan bezbrižan septembarski dan, dečja igra i bicikl na samo stotinak metara od kućnog praga u mirnoj ulici u Vlasotincu, u sekundi su se pretvorili u nezapamćenu tragediju. Za sedmogodišnjeg Bogdana Gavrilovića to je trebalo da bude još jedno obično popodne ispunjeno smehom. Umesto toga, vozilo komšije prekinulo je dečakove snove i zauvek u crno zavilo porodicu Gavrilović, otvorivši ranu koja nikada neće zaceliti.",
+        "zhSummary": "(VIDEO) \"UZMITE MOJE ORGANE, SAMO NJEGA SPASITE!\" Potresna ispovest roditelja malog Bogdana (7) iz Vlasotinca: Komšija mu točkom prešao preko glave, a onda je počela BORBA SA NEPRAVDOM!. Jedan bezbrižan septembarski dan, dečja igra i bicikl na samo stotinak metara od kućnog praga u mirnoj ulici u Vlasotincu, u sekundi su se pretvorili u nezapamćenu tragediju. Za sedmogodišnjeg Bogdana Gavrilovića to je trebalo da bude još jedno obično popodne ispunjeno smehom. Umesto toga, vozilo komšije prekinulo je dečakove snove i zauvek u crno zavilo porodicu Gavrilović, otvorivši ranu koja nikada neće zaceliti.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(VIDEO) \"UZMITE MOJE ORGANE, SAMO NJEGA SPASITE!\" Potresna ispovest roditelja ma...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/zabava/kos-i-ceda-slave-posle-haosa-u-stanu-svi-komentarisu-prizor-na-acinom-telefonu/z0f0ey9",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "NAZDRAVLJANJE DO KASNO U NOĆ I INTIMNA ATMOSFERA Kos i Čeda slave posle haosa ispred stana: Svi komentarišu PRIZOR NA ACINOM TELEFONU (FOTO). Aca Kos, cimer bivšeg političara Čede Jovanovića, oglasio se nakon haosa ispred Čedomirovog stana, o kom ne prestaje da se priča. Kos je podelio kako uživa na jednom slavlju koje je bilo za odabrane, a u prvom planu bile su čaše kojima se nazdravljalo.",
+        "zhSummary": "NAZDRAVLJANJE DO KASNO U NOĆ I INTIMNA ATMOSFERA Kos i Čeda slave posle haosa ispred stana: Svi komentarišu PRIZOR NA ACINOM TELEFONU (FOTO). Aca Kos, cimer bivšeg političara Čede Jovanovića, oglasio se nakon haosa ispred Čedomirovog stana, o kom ne prestaje da se priča. Kos je podelio kako uživa na jednom slavlju koje je bilo za odabrane, a u prvom planu bile su čaše kojima se nazdravljalo.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'NAZDRAVLJANJE DO KASNO U NOĆ I INTIMNA ATMOSFERA Kos i Čeda slave posle haosa is...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vesti/svet/milioneri-u-svajcarskoj-drhte-od-straha-bande-terorisu-ljude-u-najskupljim-vilama/8wz0vly",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "MILIONERI DRHTE OD STRAHA! Bande terorišu ljude u najskupljim vilama: Upadaju u po bela dana, građani oružjem i porukama BRANE GOLI ŽIVOT. Posle serije provala i nasilnih upada u kuće u regionu Ter Sent u kantonu Vo, koji je posebno popularan među imućnim ljudima, građani su organizovali stražu preko \"Vocap\" grupe koja broji čak 800 ljudi. Očajni stanovnici zahtevaju veće prisustvo policije i strože kontrole na granici sa Francuskom.",
+        "zhSummary": "MILIONERI DRHTE OD STRAHA! Bande terorišu ljude u najskupljim vilama: Upadaju u po bela dana, građani oružjem i porukama BRANE GOLI ŽIVOT. Posle serije provala i nasilnih upada u kuće u regionu Ter Sent u kantonu Vo, koji je posebno popularan među imućnim ljudima, građani su organizovali stražu preko \"Vocap\" grupe koja broji čak 800 ljudi. Očajni stanovnici zahtevaju veće prisustvo policije i strože kontrole na granici sa Francuskom.",
+        "sentiment": "Negative",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> 'MILIONERI DRHTE OD STRAHA! Bande terorišu ljude u najskupljim vilama: Upadaju u ...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Negative 定点特征。\n3. [跨维量化结论] 探测到悲观情绪高频集聚预演体，严重构成了实体企业打击面映射，做空降级为【利空 (Negative)】。"
+    },
+    {
+        "source": "Blic Biznis",
+        "url": "https://www.blic.rs/vremenska-prognoza/mape-novi-talas-nevremena-u-srbiji-stize-obilna-kisa-pa-prava-zima-24-novembra/8rzr2wc",
+        "lang": "塞尔维亚语",
+        "targetLang": "sr",
+        "original": "(MAPE) BIĆE I DO 150 ODSTO VIŠE PADAVINA OD PROSEKA Stižu obilna kiša i prolećna toplina, a evo kog datuma zima pokazuje PRAVE ZUBE. Pred nama je period izraženih promena vremena koje donose prekid stabilnosti u atmosferi, učestale padavine i osetna temperaturna kolebanja. Nakon mirnijeg jutra, oblaci sa zapada postepeno preuzimaju dominaciju, donoseći kišu najpre jugozapadnim i zapadnim krajevima, a potom i ostatku regiona. Prvi deo predstojeće sedmice obeležiće natprosečno toplo i kišovito vreme uz pojačan južni vetar, dok se u drugom delu očekuje pad temperature, a prema kraju meseca i mogućnost prelaska kiše u sneg u pojedinim predelima.",
+        "zhSummary": "(MAPE) BIĆE I DO 150 ODSTO VIŠE PADAVINA OD PROSEKA Stižu obilna kiša i prolećna toplina, a evo kog datuma zima pokazuje PRAVE ZUBE. Pred nama je period izraženih promena vremena koje donose prekid stabilnosti u atmosferi, učestale padavine i osetna temperaturna kolebanja. Nakon mirnijeg jutra, oblaci sa zapada postepeno preuzimaju dominaciju, donoseći kišu najpre jugozapadnim i zapadnim krajevima, a potom i ostatku regiona. Prvi deo predstojeće sedmice obeležiće natprosečno toplo i kišovito vreme uz pojačan južni vetar, dok se u drugom delu očekuje pad temperature, a prema kraju meseca i mogućnost prelaska kiše u sneg u pojedinim predelima.",
+        "sentiment": "Neutral",
+        "category": "All",
+        "reasoning": "【VADER 离线统计算法引擎溯源 / 免除 LLM 外部调用】\n1. [赛道拦截提取词袋] 翻译提取英文原态语料 -> '(MAPE) BIĆE I DO 150 ODSTO VIŠE PADAVINA OD PROSEKA Stižu obilna kiša i prolećna...'\n2. [情绪定点测写] 模型计算其波动极值 Compound 判定该事件带有着显著的 Neutral 定点特征。\n3. [跨维量化结论] 正负向情绪对冲削减，且主词干极向模糊，预计走势不被其单一事件裹挟干扰，维持【横盘/中性 (Neutral)】。"
     },
     {
         "source": "Blic Tech",
